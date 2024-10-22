@@ -9,6 +9,7 @@ from apis_acdhch_default_settings.settings import *
 DEBUG = False
 
 INSTALLED_APPS += ["apis_core.history"]
+INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 
 # Application definition
 
