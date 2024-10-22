@@ -79,6 +79,50 @@ class Expression(TitlesMixin, BaseEntity):
         verbose_name_plural = _("Expressionen")
 
 
+class Manifestation(TitlesMixin, BaseEntity):
+    """
+    Products rendering one or more Expressions.
+
+    Often the outcome of a publication process during which Expressions are
+    prepared for public dissemination (with Manifestations typically
+    incorporating one or more Expressions). Different publishing formats,
+    e.g. hard-cover vs. paperback editions, equal distinct instances
+    of Manifestations.
+    Example: the publication "Murder on the Orient Express / Agatha Christie",
+    published by Collins Crime Club in 1934.
+
+    Based on LRMoo class F3 Manifestation:
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F3
+    """
+
+    class Meta:
+        verbose_name = _("Manifestation")
+        verbose_name_plural = _("Manifestationen")
+
+
+class Item(TitlesMixin, BaseEntity):
+    """
+    Physical objects which were produced by an industrial process
+    involving a specific Manifestation.
+
+    Items include printed books, sheet music, CDs, DVDs etc.
+    All instances of an Item associated with a particular Manifestation
+    are expected to be identical (leaving aside any defects resulting from
+    accidents during the production process or subsequent alterations
+    or degradations).
+    Example: the bronze statue of Auguste Rodin's "The Thinker", cast at the
+    Fonderie Alexis Rudier in 1904, held at the Musée Rodin in Paris, France,
+    since 1922.
+
+    Based on LRMoo class F5 Item:
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F5
+    """
+
+    class Meta:
+        verbose_name = _("Exemplar")
+        verbose_name_plural = _("Exemplare")
+
+
 class Person(BaseEntity, E21_Person):
     """
     Real persons who live or are assumed to have lived.
