@@ -201,6 +201,22 @@ class Event(BaseEntity):
     label = models.CharField(blank=True, default="", max_length=4096)
 
 
+class Poster(BaseEntity):
+    """
+    A physical object conveying information about an Event.
+
+    Typically used for a print product affixed to a vertical surface
+    which advertises an upcoming event which may be of interest to
+    viewers/readers/the general public.
+    """
+
+    label = models.CharField(blank=True, default="", max_length=4096)
+
+    class Meta:
+        verbose_name = _("Plakat")
+        verbose_name_plural = _("Plakate")
+
+
 class WorkIsRealisedInExpression(BaseRelation):
     """
     Work is realised in Expression.
