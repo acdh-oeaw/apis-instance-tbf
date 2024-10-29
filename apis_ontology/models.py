@@ -237,3 +237,28 @@ class ManifestationEmbodiesExpression(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "is embodied in"
+
+
+class ItemExemplifiesManifestation(BaseRelation):
+    """
+    Item exemplifies Manifestation relation.
+
+    Property which associate a Manifestation with an Item which is its
+    exemplar.
+    E.g. a particular book in a library with an inventory number
+    exemplifies a certain publication (Manifestation) of a written work.
+
+    Based on LRMoo property R7 exemplifies (is exemplified by):
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#R7
+    """
+
+    subj_model = Item
+    obj_model = Manifestation
+
+    @classmethod
+    def name(cls) -> str:
+        return "exemplifies"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "is exemplified by"
