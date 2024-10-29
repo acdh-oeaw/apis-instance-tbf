@@ -278,3 +278,20 @@ class ItemExemplifiesManifestation(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "is exemplified by"
+
+
+class PersonIsAuthorOfWork(BaseRelation):
+    """
+    Person is author of Work relation.
+    """
+
+    subj_model = Person
+    obj_model = Work
+
+    @classmethod
+    def name(cls) -> str:
+        return "is author of"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "has author"
