@@ -210,3 +210,30 @@ class WorkIsRealisedInExpression(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "realises"
+
+
+class ManifestationEmbodiesExpression(BaseRelation):
+    """
+    Manifestation embodies Expression.
+
+    Property which associates a Manifestation with one or more Expressions
+    which are rendered by the Manifestation.
+    E.g. a novel N published by publisher P in year YYYY embodies the
+    original text by author A. The German translation of the same novel, ND,
+    published by publisher PD in a different year embodies the German
+    translation by translator T.
+
+    Based on LRMoo property R4 embodies (is embodied in):
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#R4
+    """
+
+    subj_model = Manifestation
+    obj_model = Expression
+
+    @classmethod
+    def name(cls) -> str:
+        return "embodies"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "is embodied in"
