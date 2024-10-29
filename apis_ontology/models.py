@@ -1,6 +1,7 @@
 from apis_core.apis_entities.abc import E21_Person, E53_Place, E74_Group
 from apis_core.apis_entities.models import AbstractEntity
 from apis_core.history.models import VersionMixin
+from apis_core.relations.models import Relation
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -9,6 +10,18 @@ class BaseEntity(VersionMixin, AbstractEntity):
     """
     Base class for all entities.
     """
+
+    class Meta:
+        abstract = True
+
+
+class BaseRelation(VersionMixin, Relation):
+    """
+    Base class for all relations.
+    """
+
+    subj_model = None
+    obj_model = None
 
     class Meta:
         abstract = True
