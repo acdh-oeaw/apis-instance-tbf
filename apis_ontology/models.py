@@ -295,3 +295,20 @@ class PersonIsAuthorOfWork(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "has author"
+
+
+class GroupIsPublisherOfManifestation(BaseRelation):
+    """
+    Group is publisher of Manifestation relation.
+    """
+
+    subj_model = Group
+    obj_model = Manifestation
+
+    @classmethod
+    def name(cls) -> str:
+        return "is publisher of"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "has publisher"
