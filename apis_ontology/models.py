@@ -185,6 +185,22 @@ class Group(BaseEntity, E74_Group):
         verbose_name_plural = _("Körperschaften")
 
 
+class Event(BaseEntity):
+    """
+    Processes and interactions of a material nature, in cultural, social or
+    physical systems.
+
+    Typical examples are meetings, births, deaths, actions of decision taking,
+    making or inventing things, but also more complex and extended ones
+    such as conferences, elections, building of a castle, or battles.
+
+    Based on CIDOC CRM class E5 Event:
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
+    """
+
+    label = models.CharField(blank=True, default="", max_length=4096)
+
+
 class WorkIsRealisedInExpression(BaseRelation):
     """
     Work is realised in Expression.
