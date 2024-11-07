@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2024 K Kollmann
+# SPDX-License-Identifier: MIT
+
+name: Run djLint formatter
+
+on:
+  # runs when activity type is one of: opened, synchronize, reopened
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  djlint-formatter:
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.4.5
+    with:
+      src: "."
+      options: "--check"
