@@ -29,6 +29,7 @@ profile="django"
 extension="html"
 blank_line_before_tag="block,if"
 blank_line_after_tag="endif,endblock"
+ignore="H006"
 
 [tool.ruff]
 src = [".", "apis_ontology"]
