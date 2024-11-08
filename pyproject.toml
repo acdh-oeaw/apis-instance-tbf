@@ -17,7 +17,7 @@ optional = true
 [tool.poetry.group.dev.dependencies]
 deptry = "^0.20.0"
 django-debug-toolbar = "^4.4.6"
-djlint = "^1.36.0"
+djlint = "^1.36.1"
 pylint = "^3.3.1"
 ruff = "^0.7.2"
 
