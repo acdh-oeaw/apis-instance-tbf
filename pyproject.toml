@@ -19,7 +19,7 @@ deptry = "^0.21.0"
 django-debug-toolbar = "^4.4.6"
 djlint = "^1.36.1"
 pylint = "^3.3.1"
-ruff = "^0.7.2"
+ruff = "^0.7.3"
 
 
 [tool.djlint]
