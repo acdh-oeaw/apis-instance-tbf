@@ -8,7 +8,7 @@ authors = ["K Kollmann <dev-kk@oeaw.ac.at>"]
 [tool.poetry.dependencies]
 python = "^3.11"
 apis-acdhch-default-settings = "^1.5.0"
-apis-core-rdf = {git = "https://github.com/acdh-oeaw/apis-core-rdf", rev = "v0.29.0"}
+apis-core-rdf = {git = "https://github.com/acdh-oeaw/apis-core-rdf", rev = "v0.30.0"}
 psycopg = "^3.2.3"
 
 [tool.poetry.group.dev]
