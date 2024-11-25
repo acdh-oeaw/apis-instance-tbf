@@ -183,3 +183,30 @@ class Group(BaseEntity, E74_Group):
     class Meta:
         verbose_name = _("Körperschaft")
         verbose_name_plural = _("Körperschaften")
+
+
+class WorkIsRealisedInExpression(BaseRelation):
+    """
+    Work is realised in Expression.
+
+    Property for the association between a Work and an Expression which
+    conveys the Work.
+    E.g. Agatha Christie's work "Murder on the Orient Express" is realised
+    in the original text written by the author for the novel. The same work
+    is also realised in the German translation by Elisabeth van Bebber as well
+    as the narration of the English text by David Suchet.
+
+    Based on LRMoo property R3 is realised in (realises):
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#R3
+    """
+
+    subj_model = Work
+    obj_model = Expression
+
+    @classmethod
+    def name(cls) -> str:
+        return "is realised in"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "realises"
