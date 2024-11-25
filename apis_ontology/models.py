@@ -200,6 +200,10 @@ class Event(BaseEntity):
 
     label = models.CharField(blank=True, default="", max_length=4096)
 
+    class Meta:
+        verbose_name = _("Veranstaltung")
+        verbose_name_plural = _("Veranstaltungen")
+
 
 class Poster(BaseEntity):
     """
