@@ -32,7 +32,7 @@ blank_line_after_tag="endif,endblock"
 ignore="H006"
 
 [tool.ruff]
-src = [".", "apis_ontology"]
+src = ["apis_ontology"]
 
 [tool.ruff.format]
 line-ending = "lf"
