@@ -1,3 +1,4 @@
+from apis_core.apis_entities.abc import E21_Person, E53_Place, E74_Group
 from apis_core.apis_entities.models import AbstractEntity
 from apis_core.history.models import VersionMixin
 from django.db import models
@@ -76,3 +77,52 @@ class Expression(TitlesMixin, BaseEntity):
     class Meta:
         verbose_name = _("Expression")
         verbose_name_plural = _("Expressionen")
+
+
+class Person(BaseEntity, E21_Person):
+    """
+    Real persons who live or are assumed to have lived.
+
+    Based on CIDOC CRM class E21 Person:
+    https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E21
+    """
+
+    class Meta:
+        verbose_name = _("Person")
+        verbose_name_plural = _("Personen")
+
+
+class Place(BaseEntity, E53_Place):
+    """
+    Extents in the natural space where people live, in particular
+    on the surface of the Earth.
+
+    Usually determined by reference to the position of "immobile" objects
+    such as buildings, cities, mountains, rivers etc. or identifiable by
+    global coordinates or absolute reference systems.
+
+    Based on CIDOC CRM class E53 Place:
+    https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E53
+    """
+
+    class Meta:
+        verbose_name = _("Ort")
+        verbose_name_plural = _("Orte")
+
+
+class Group(BaseEntity, E74_Group):
+    """
+    Any gatherings or organizations of human individuals or groups that act
+    collectively or in a similar way.
+
+    A gathering of people becomes an instance of Group when it exhibits
+    organisational characteristics (e.g. ideas or beliefs held in common, or
+    actions performed together).
+
+    Based on CIDOC CRM class E74 Group:
+    https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E74
+    """
+
+    class Meta:
+        verbose_name = _("Körperschaft")
+        verbose_name_plural = _("Körperschaften")
