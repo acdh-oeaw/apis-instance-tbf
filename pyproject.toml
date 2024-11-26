@@ -3,7 +3,7 @@ name = "apis-instance-tbf"
 version = "0.1.0"
 description = "Thomas Bernhard online"
 authors = ["K Kollmann <dev-kk@oeaw.ac.at>"]
-
+packages = [{include = "apis_ontology"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
