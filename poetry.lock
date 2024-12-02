@@ -16,13 +16,13 @@ six = "*"
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "1.6.0"
+version = "1.6.1"
 description = "Default settings for APIS instances at the ACDH-CH"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "apis_acdhch_default_settings-1.6.0-py3-none-any.whl", hash = "sha256:aac91ca75b34987d74a01f94a3a3e97d4df3b24d5d48ac9d6edb7e475a7ae6d3"},
-    {file = "apis_acdhch_default_settings-1.6.0.tar.gz", hash = "sha256:7f9b0ebb78d1cdaa755c524fd34f2af47d5fb26ad342b90aca612d9c88d9d62a"},
+    {file = "apis_acdhch_default_settings-1.6.1-py3-none-any.whl", hash = "sha256:b70caceeadc79259e34c95d71e6771bc399f7c0931b43ee927c8301c040133be"},
+    {file = "apis_acdhch_default_settings-1.6.1.tar.gz", hash = "sha256:c366820c1a002d57b04f12fd3ca91303bb58f96c3c4de3785509dda5525f9c6a"},
 ]
 
 [package.dependencies]
@@ -2019,4 +2019,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d8fb255090b20b2f862563f37575bfe30a680f5cda7b8f8287f682c27014b543"
+content-hash = "1770b264b4bc967275bf2d9518bc991073a8c9be5bd00f8ae26b097cce081c2c"
