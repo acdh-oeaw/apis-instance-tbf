@@ -229,7 +229,12 @@ class Poster(BaseEntity):
     viewers/readers/the general public.
     """
 
-    label = models.CharField(blank=True, default="", max_length=4096)
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
 
     class Meta:
         verbose_name = _("Plakat")
