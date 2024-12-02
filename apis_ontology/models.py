@@ -205,6 +205,18 @@ class Event(BaseEntity):
         verbose_name=_("Titel"),
     )
 
+    date_start = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Datum Anfang"),
+    )
+
+    date_end = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Datum Ende"),
+    )
+
     class Meta:
         verbose_name = _("Veranstaltung")
         verbose_name_plural = _("Veranstaltungen")
