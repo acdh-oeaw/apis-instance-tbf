@@ -8,7 +8,7 @@ packages = [{include = "apis_ontology"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 apis-acdhch-default-settings = "^1.6.0"
-apis-core-rdf = {git = "https://github.com/acdh-oeaw/apis-core-rdf", rev = "v0.33.0"}
+apis-core-rdf = "0.33.0"
 psycopg = "^3.2.3"
 
 [tool.poetry.group.dev]
