@@ -231,7 +231,7 @@ class Poster(BaseEntity):
 
     Typically used for a print product affixed to a vertical surface
     which advertises an upcoming event which may be of interest to
-    viewers/readers/the general public.
+    viewers/readers/the public.
     """
 
     label = models.CharField(
