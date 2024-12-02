@@ -221,6 +221,51 @@ class Poster(BaseEntity):
         verbose_name=_("Titel"),
     )
 
+    storage_location = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Archivierung"),
+    )
+
+    status = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Status"),
+    )
+
+    year = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Jahr"),
+    )
+
+    notes = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Anmerkungen"),
+    )
+
+    height = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Länge"),
+    )
+
+    width = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Breite"),
+    )
+
+    quantity = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Anzahl"),
+    )
+
     class Meta:
         verbose_name = _("Plakat")
         verbose_name_plural = _("Plakate")
