@@ -1,0 +1,26 @@
+#########################################
+# Create an `apis_ontology.Institution` #
+# from a wikidata RDF endpoint          #
+#########################################
+superclass = "apis_ontology.models.Institution"
+regex = "http://www.wikidata.org.*"
+[[attributes]]
+# name
+sparql = """
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+SELECT ?name
+WHERE {
+  ?something schema:about ?institution .
+  OPTIONAL{
+  	?institution rdfs:label ?label_de .
+	FILTER(lang(?label_de) = "de")
+  }
+  OPTIONAL{
+  	?institution rdfs:label ?label_en .
+	FILTER(lang(?label_en) = "en")
+  }
+  ?institution rdfs:label ?label .
+  BIND(COALESCE(?label_de, ?label_en, ?label) AS ?name)
+}
+"""
