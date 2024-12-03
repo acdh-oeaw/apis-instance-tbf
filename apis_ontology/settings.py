@@ -10,6 +10,7 @@ DEBUG = False
 
 INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
+INSTALLED_APPS += ["apis_core.documentation"]
 
 # Application definition
 
