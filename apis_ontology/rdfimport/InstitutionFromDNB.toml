@@ -1,0 +1,32 @@
+#####################################################
+# Create an E74_Group from a d-nb.info RDF endpoint #
+#####################################################
+superclass = "apis_ontology.models.Institution"
+regex = "https://d-nb.info.*"
+[[attributes]]
+# name
+sparql = """
+PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
+SELECT ?name
+WHERE {
+  ?subject gndo:preferredNameForTheCorporateBody ?name
+}
+"""
+[[attributes]]
+# start_date_written
+sparql = """
+PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
+SELECT ?start_date_written
+WHERE {
+  ?subject gndo:dateOfEstablishment ?start_date_written
+}
+"""
+[[attributes]]
+# end_date_written
+sparql = """
+PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
+SELECT ?end_date_written
+WHERE {
+  ?subject gndo:dateOfTermination ?end_date_written
+}
+"""
