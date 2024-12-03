@@ -210,7 +210,12 @@ class Event(BaseEntity):
     https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
     """
 
-    label = models.CharField(blank=True, default="", max_length=4096)
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
 
     class Meta:
         verbose_name = _("Veranstaltung")
