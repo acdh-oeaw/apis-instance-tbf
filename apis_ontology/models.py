@@ -49,6 +49,9 @@ class TitlesMixin(models.Model):
     class Meta:
         abstract = True
 
+    def __str__(self):
+        return self.title
+
 
 class Work(TitlesMixin, BaseEntity):
     """
@@ -148,6 +151,9 @@ class Person(BaseEntity, E21_Person):
         verbose_name = _("Person")
         verbose_name_plural = _("Personen")
 
+    def __str__(self):
+        return f"{self.forename} {self.surname}"
+
 
 class Place(BaseEntity, E53_Place):
     """
@@ -166,6 +172,9 @@ class Place(BaseEntity, E53_Place):
         verbose_name = _("Ort")
         verbose_name_plural = _("Orte")
 
+    def __str__(self):
+        return self.label
+
 
 class Group(BaseEntity, E74_Group):
     """
@@ -183,6 +192,9 @@ class Group(BaseEntity, E74_Group):
     class Meta:
         verbose_name = _("Körperschaft")
         verbose_name_plural = _("Körperschaften")
+
+    def __str__(self):
+        return self.label
 
 
 class Event(BaseEntity):
@@ -204,6 +216,9 @@ class Event(BaseEntity):
         verbose_name = _("Veranstaltung")
         verbose_name_plural = _("Veranstaltungen")
 
+    def __str__(self):
+        return self.label
+
 
 class Poster(BaseEntity):
     """
@@ -219,6 +234,9 @@ class Poster(BaseEntity):
     class Meta:
         verbose_name = _("Plakat")
         verbose_name_plural = _("Plakate")
+
+    def __str__(self):
+        return self.label
 
 
 class WorkIsRealisedInExpression(BaseRelation):
