@@ -210,7 +210,24 @@ class Event(BaseEntity):
     https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
     """
 
-    label = models.CharField(blank=True, default="", max_length=4096)
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
+
+    date_start = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Datum Anfang"),
+    )
+
+    date_end = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Datum Ende"),
+    )
 
     class Meta:
         verbose_name = _("Veranstaltung")
@@ -226,10 +243,60 @@ class Poster(BaseEntity):
 
     Typically used for a print product affixed to a vertical surface
     which advertises an upcoming event which may be of interest to
-    viewers/readers/the general public.
+    viewers/readers/the public.
     """
 
-    label = models.CharField(blank=True, default="", max_length=4096)
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
+
+    storage_location = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Archivierung"),
+    )
+
+    status = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Status"),
+    )
+
+    year = models.DateField(
+        blank=True,
+        null=True,
+        verbose_name=_("Jahr"),
+    )
+
+    notes = models.CharField(
+        blank=True,
+        default="",
+        max_length=1024,
+        verbose_name=_("Anmerkungen"),
+    )
+
+    height = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Länge"),
+    )
+
+    width = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Breite"),
+    )
+
+    quantity = models.PositiveSmallIntegerField(
+        blank=True,
+        null=True,
+        verbose_name=_("Anzahl"),
+    )
 
     class Meta:
         verbose_name = _("Plakat")
