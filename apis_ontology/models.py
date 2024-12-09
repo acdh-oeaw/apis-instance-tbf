@@ -225,6 +225,42 @@ class Event(BaseEntity):
         return self.label
 
 
+class Performance(BaseEntity):
+    """
+    Activities presenting or communicating Works directly or indirectly
+    to an audience.
+
+    Performances include theatre plays, musical works, choreographic works etc.
+    They are always associated with a single Work, but may consist of other
+    Performances as parts (e.g. a piano concerto with multiple movements)
+    or cover a complete run of equivalent performances of the same work.
+    They may be based on specific Expressions (e,g. translations), be created
+    according to specific staging directions or be influenced by or include
+    elements of other works.
+
+    Example: the performance of Verdi's "La Traviata" at the Salzburg Festival
+    in 2005, staged by Willy Decker, directed by Brian Large and featuring
+    Anna Netrebko and Rolando Villazón.
+
+    Based on LRMoo property F31 Performance:
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F31
+    """
+
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
+
+    class Meta:
+        verbose_name = _("Aufführung")
+        verbose_name_plural = _("Aufführungen")
+
+    def __str__(self):
+        return self.label
+
+
 class Poster(BaseEntity):
     """
     A physical object conveying information about an Event.
