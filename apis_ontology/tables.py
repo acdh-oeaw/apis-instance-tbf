@@ -38,3 +38,8 @@ class BaseEntityTable(AbstractEntityTable):
             "delete",
             "noduplicate",
         )
+
+
+class TitleFieldsMixin(tables.Table):
+    class Meta:
+        fields = ["title", "subtitle"]
