@@ -210,6 +210,59 @@ class Event(BaseEntity):
     https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
     """
 
+    class EventTypes(models.TextChoices):
+        EXHIBITION = "Ausstellung", _("Ausstellung")
+        BOOK_LAUNCH = "Buchpräsentation", _("Buchpräsentation")
+        CONFERENCE = "Konferenz", _("Konferenz")
+        READING = "Lesung", _("Lesung")
+        SYMPOSIUM = "Symposium", _("Symposium")
+        SCREENING = "Videovorführung", _("Videovorführung")
+        WORK_IN_PROGRESS = "Vortrag", _("Vortrag")
+
+    label = models.CharField(
+        blank=True,
+        default="",
+        max_length=4096,
+        verbose_name=_("Titel"),
+    )
+
+    event_type = models.CharField(
+        max_length=1024,
+        choices=EventTypes.choices,
+        blank=True,
+        default="",
+        verbose_name=_("Eventtyp"),
+    )
+
+    class Meta:
+        verbose_name = _("Veranstaltung")
+        verbose_name_plural = _("Veranstaltungen")
+
+    def __str__(self):
+        return self.label
+
+
+class Performance(BaseEntity):
+    """
+    Activities presenting or communicating Works directly or indirectly
+    to an audience.
+
+    Performances include theatre plays, musical works, choreographic works etc.
+    They are always associated with a single Work, but may consist of other
+    Performances as parts (e.g. a piano concerto with multiple movements)
+    or cover a complete run of equivalent performances of the same work.
+    They may be based on specific Expressions (e,g. translations), be created
+    according to specific staging directions or be influenced by or include
+    elements of other works.
+
+    Example: the performance of Verdi's "La Traviata" at the Salzburg Festival
+    in 2005, staged by Willy Decker, directed by Brian Large and featuring
+    Anna Netrebko and Rolando Villazón.
+
+    Based on LRMoo property F31 Performance:
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F31
+    """
+
     label = models.CharField(
         blank=True,
         default="",
@@ -218,8 +271,8 @@ class Event(BaseEntity):
     )
 
     class Meta:
-        verbose_name = _("Veranstaltung")
-        verbose_name_plural = _("Veranstaltungen")
+        verbose_name = _("Aufführung")
+        verbose_name_plural = _("Aufführungen")
 
     def __str__(self):
         return self.label
@@ -399,3 +452,182 @@ class GroupIsPublisherOfManifestation(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "has publisher"
+
+
+class EventWasMotivatedByWork(BaseRelation):
+    """
+    Event was motivated by Work relation.
+
+    Describes Works regarded as reason for carrying out an Event.
+
+    Based on CIDOC CRM property P17 was motivated by (motivated):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P17
+    """
+
+    subj_model = Event
+    obj_model = Work
+
+    @classmethod
+    def name(cls) -> str:
+        return "was motivated by"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "motivated"
+
+
+class EventHadParticipantPerson(BaseRelation):
+    """
+    Event had (not further specified) participant Person relation.
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Event
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class EventHadParticipantGroup(BaseRelation):
+    """
+    Event had (not further specified) participant Group relation.
+
+    Group could be the host, an organizer, advertiser,...
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Event
+    obj_model = Group
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PerformancePerformedWork(BaseRelation):
+    """
+    Performance performed Work relation.
+
+    Based on LRMoo property R80 performed (is performed in):
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#R80
+    """
+
+    subj_model = Performance
+    obj_model = Work
+
+    @classmethod
+    def name(cls) -> str:
+        return "performed"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "is performed in"
+
+
+class PerformanceHadDirectorPerson(BaseRelation):
+    """
+    Performance had director Person relation.
+
+    Modelled after CIDOC CRM property P11 had participant.
+    """
+
+    subj_model = Performance
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had director"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "directed"
+
+
+class PerformanceHadParticipantPerson(BaseRelation):
+    """
+    Performance had (not further specified) participant Person relation.
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Performance
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PerformanceHadParticipantGroup(BaseRelation):
+    """
+    Performance had (not further specified) participant Group relation.
+
+    Group could be the host, an organizer, advertiser,...
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Performance
+    obj_model = Group
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PosterPromotedEvent(BaseRelation):
+    """
+    Poster promoted (advertised, announced,...) Event relation.
+    """
+
+    subj_model = Poster
+    obj_model = Event
+
+    @classmethod
+    def name(cls) -> str:
+        return "promoted"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "was promoted by"
+
+
+class PosterPromotedPerformance(BaseRelation):
+    """
+    Poster promoted (advertised, announced,...) Performance relation.
+    """
+
+    subj_model = Poster
+    obj_model = Performance
+
+    @classmethod
+    def name(cls) -> str:
+        return "promoted"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "was promoted by"
