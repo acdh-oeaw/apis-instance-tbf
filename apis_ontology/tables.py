@@ -10,6 +10,7 @@ from .models import (
     Group,
     Item,
     Manifestation,
+    Performance,
     Person,
     Place,
     Poster,
@@ -99,6 +100,12 @@ class GroupTable(BaseEntityTable):
 class EventTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Event
+        fields = ["label"]
+
+
+class PerformanceTable(BaseEntityTable):
+    class Meta(BaseEntityTable.Meta):
+        model = Performance
         fields = ["label"]
 
 
