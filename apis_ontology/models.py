@@ -451,3 +451,182 @@ class GroupIsPublisherOfManifestation(BaseRelation):
     @classmethod
     def reverse_name(cls) -> str:
         return "has publisher"
+
+
+class EventWasMotivatedByWork(BaseRelation):
+    """
+    Event was motivated by Work relation.
+
+    Describes Works regarded as reason for carrying out an Event.
+
+    Based on CIDOC CRM property P17 was motivated by (motivated):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P17
+    """
+
+    subj_model = Event
+    obj_model = Work
+
+    @classmethod
+    def name(cls) -> str:
+        return "was motivated by"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "motivated"
+
+
+class EventHadParticipantPerson(BaseRelation):
+    """
+    Event had (not further specified) participant Person relation.
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Event
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class EventHadParticipantGroup(BaseRelation):
+    """
+    Event had (not further specified) participant Group relation.
+
+    Group could be the host, an organizer, advertiser,...
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Event
+    obj_model = Group
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PerformancePerformedWork(BaseRelation):
+    """
+    Performance performed Work relation.
+
+    Based on LRMoo property R80 performed (is performed in):
+    https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#R80
+    """
+
+    subj_model = Performance
+    obj_model = Work
+
+    @classmethod
+    def name(cls) -> str:
+        return "performed"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "is performed in"
+
+
+class PerformanceHadDirectorPerson(BaseRelation):
+    """
+    Performance had director Person relation.
+
+    Modelled after CIDOC CRM property P11 had participant.
+    """
+
+    subj_model = Performance
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had director"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "directed"
+
+
+class PerformanceHadParticipantPerson(BaseRelation):
+    """
+    Performance had (not further specified) participant Person relation.
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Performance
+    obj_model = Person
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PerformanceHadParticipantGroup(BaseRelation):
+    """
+    Performance had (not further specified) participant Group relation.
+
+    Group could be the host, an organizer, advertiser,...
+
+    Based on CIDOC CRM property P11 had participant (participated in):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P11
+    """
+
+    subj_model = Performance
+    obj_model = Group
+
+    @classmethod
+    def name(cls) -> str:
+        return "had participant"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "participated in"
+
+
+class PosterPromotedEvent(BaseRelation):
+    """
+    Poster promoted (advertised, announced,...) Event relation.
+    """
+
+    subj_model = Poster
+    obj_model = Event
+
+    @classmethod
+    def name(cls) -> str:
+        return "promoted"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "was promoted by"
+
+
+class PosterPromotedPerformance(BaseRelation):
+    """
+    Poster promoted (advertised, announced,...) Performance relation.
+    """
+
+    subj_model = Poster
+    obj_model = Performance
+
+    @classmethod
+    def name(cls) -> str:
+        return "promoted"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "was promoted by"
