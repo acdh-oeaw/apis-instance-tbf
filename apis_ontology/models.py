@@ -210,11 +210,27 @@ class Event(BaseEntity):
     https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
     """
 
+    class EventTypes(models.TextChoices):
+        EXHIBITION = "Ausstellung", _("Ausstellung")
+        BOOK_PRESENTATION = "Buchpräsentation", _("Buchpräsentation")
+        CONFERENCE = "Konferenz", _("Konferenz")
+        BOOK_READING = "Lesung", _("Lesung")
+        SCREENING = "Videovorführung", _("Videovorführung")
+        WORK_IN_PROGRESS = "Vortrag", _("Vortrag")
+
     label = models.CharField(
         blank=True,
         default="",
         max_length=4096,
         verbose_name=_("Titel"),
+    )
+
+    event_type = models.CharField(
+        max_length=1024,
+        choices=EventTypes.choices,
+        blank=True,
+        default="",
+        verbose_name=_("Eventtyp"),
     )
 
     class Meta:
