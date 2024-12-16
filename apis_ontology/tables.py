@@ -20,7 +20,7 @@ from .models import (
 logger = logging.getLogger(__name__)
 
 
-class SortableColumn(tables.Column):
+class SortableLinkifyColumn(tables.Column):
     """
     Custom table column which allows sorting of objects
     in ascending/descending order and which turns the string
@@ -46,7 +46,7 @@ class BaseEntityTable(AbstractEntityTable):
     Base class for entity tables.
     """
 
-    id = SortableColumn()
+    id = SortableLinkifyColumn()
 
     class Meta(AbstractEntityTable.Meta):
         exclude = ["desc"]
