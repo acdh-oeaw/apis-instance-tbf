@@ -61,6 +61,8 @@ class BaseEntityTable(AbstractEntityTable):
 
 
 class TitleFieldsMixin(tables.Table):
+    title = SortableLinkifyColumn()
+
     class Meta:
         fields = ["title", "subtitle"]
 
@@ -86,6 +88,8 @@ class ItemTable(TitleFieldsMixin, BaseEntityTable):
 
 
 class PersonTable(BaseEntityTable):
+    surname = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Person
         fields = ["forename", "surname"]
@@ -93,30 +97,40 @@ class PersonTable(BaseEntityTable):
 
 
 class PlaceTable(BaseEntityTable):
+    label = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Place
         fields = ["label"]
 
 
 class GroupTable(BaseEntityTable):
+    label = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Group
         fields = ["label"]
 
 
 class EventTable(BaseEntityTable):
+    label = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Event
         fields = ["label"]
 
 
 class PerformanceTable(BaseEntityTable):
+    label = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Performance
         fields = ["label"]
 
 
 class PosterTable(BaseEntityTable):
+    label = SortableLinkifyColumn()
+
     class Meta(BaseEntityTable.Meta):
         model = Poster
         fields = ["label"]
