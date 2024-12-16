@@ -58,22 +58,22 @@ class TitleFieldsMixin(tables.Table):
         fields = ["title", "subtitle"]
 
 
-class WorkTable(BaseEntityTable):
+class WorkTable(TitleFieldsMixin, BaseEntityTable):
     class Meta(TitleFieldsMixin.Meta, BaseEntityTable.Meta):
         model = Work
 
 
-class ExpressionTable(BaseEntityTable):
+class ExpressionTable(TitleFieldsMixin, BaseEntityTable):
     class Meta(TitleFieldsMixin.Meta, BaseEntityTable.Meta):
         model = Expression
 
 
-class ManifestationTable(BaseEntityTable):
+class ManifestationTable(TitleFieldsMixin, BaseEntityTable):
     class Meta(TitleFieldsMixin.Meta, BaseEntityTable.Meta):
         model = Manifestation
 
 
-class ItemTable(BaseEntityTable):
+class ItemTable(TitleFieldsMixin, BaseEntityTable):
     class Meta(TitleFieldsMixin.Meta, BaseEntityTable.Meta):
         model = Item
 
