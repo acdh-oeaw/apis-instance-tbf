@@ -65,6 +65,7 @@ class TitleFieldsMixin(tables.Table):
 
     class Meta:
         fields = ["title", "subtitle"]
+        order_by = "title"
 
 
 class WorkTable(TitleFieldsMixin, BaseEntityTable):
@@ -102,6 +103,7 @@ class PlaceTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Place
         fields = ["label"]
+        order_by = "label"
 
 
 class GroupTable(BaseEntityTable):
@@ -110,6 +112,7 @@ class GroupTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Group
         fields = ["label"]
+        order_by = "label"
 
 
 class EventTable(BaseEntityTable):
@@ -118,6 +121,7 @@ class EventTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Event
         fields = ["label"]
+        order_by = "label"
 
 
 class PerformanceTable(BaseEntityTable):
@@ -126,6 +130,7 @@ class PerformanceTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Performance
         fields = ["label"]
+        order_by = "label"
 
 
 class PosterTable(BaseEntityTable):
@@ -134,3 +139,4 @@ class PosterTable(BaseEntityTable):
     class Meta(BaseEntityTable.Meta):
         model = Poster
         fields = ["label"]
+        order_by = "label"
