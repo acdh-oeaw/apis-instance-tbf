@@ -21,6 +21,13 @@ logger = logging.getLogger(__name__)
 
 
 class SortableColumn(tables.Column):
+    """
+    Custom table column which allows sorting of objects
+    in ascending/descending order and which turns the string
+    identifier for each individual object into a clickable
+    link to its detail view.
+    """
+
     linkify = {
         "viewname": "apis_core:generic:detail",
         "args": [A("self_contenttype"), A("pk")],
