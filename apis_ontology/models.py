@@ -230,7 +230,7 @@ class Event(BaseEntity):
         choices=EventTypes.choices,
         blank=True,
         default="",
-        verbose_name=_("Eventtyp"),
+        verbose_name=_("Veranstaltungstyp"),
     )
 
     class Meta:
