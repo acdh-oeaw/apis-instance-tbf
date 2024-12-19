@@ -307,7 +307,7 @@ class Poster(BaseEntity):
         verbose_name=_("Status"),
     )
 
-    notes = models.CharField(
+    notes = models.TextField(
         blank=True,
         default="",
         max_length=1024,
