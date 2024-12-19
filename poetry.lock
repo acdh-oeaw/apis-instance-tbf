@@ -2,13 +2,13 @@
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "1.7.0"
+version = "1.8.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "apis_acdhch_default_settings-1.7.0-py3-none-any.whl", hash = "sha256:6676e411218d9a68f6474d75696a7d215de5d1871d9692d5d0c2d71fad862c5e"},
-    {file = "apis_acdhch_default_settings-1.7.0.tar.gz", hash = "sha256:9275805ebc66b5bca84883d68c5df9e13e6b4ccdc07299406ecc4d3a07856229"},
+    {file = "apis_acdhch_default_settings-1.8.0-py3-none-any.whl", hash = "sha256:f85b60bd2ddddd583e5217fd5b365e1a1bdaa5f0dfd8e6c8e1858b16641126bb"},
+    {file = "apis_acdhch_default_settings-1.8.0.tar.gz", hash = "sha256:12b6c8bb16f09aa63a2cc4982c7cea77f5b1020a7b9e764ac9f793f6a772e471"},
 ]
 
 [package.dependencies]
@@ -16,6 +16,7 @@ dj-database-url = ">=2.0.0,<3.0.0"
 django-allow-cidr = ">=0.6.0,<0.7.0"
 django-auth-ldap = ">=4.6.0,<5.0.0"
 django-csp = ">=3.7,<4.0"
+django-removals = ">=1.0.5,<2.0.0"
 opentelemetry-distro = "*"
 opentelemetry-exporter-otlp = "*"
 opentelemetry-instrumentation-asgi = "*"
@@ -523,6 +524,23 @@ files = [
 
 [package.dependencies]
 Django = ">=3.2"
+
+[[package]]
+name = "django-removals"
+version = "1.0.5"
+description = "Tool for finding removed features in your Django project"
+optional = false
+python-versions = "*"
+files = [
+    {file = "django_removals-1.0.5-py2.py3-none-any.whl", hash = "sha256:794dc7be966549b2467c45da712b70bc804450591d10be98be52f644f1680cbe"},
+    {file = "django_removals-1.0.5.tar.gz", hash = "sha256:e838b23a82a5e82fd27935f18db21c7da1eb75ef7e00fce1903996c35bbc137f"},
+]
+
+[package.dependencies]
+Django = ">=4.2"
+
+[package.extras]
+dev = ["ambient-package-update", "coverage (>=7.6,<8.0)", "flit (>=3.9,<4.0)", "freezegun (>=1.5,<2.0)", "keyring (>=25.4,<26.0)", "m2r2 (==0.3.3.post2)", "mistune (<2.0.0)", "pre-commit (>=4.0,<5.0)", "pytest-django (>=4.9,<5.0)", "pytest-mock (>=3.14,<4.0)", "ruff (>=0.6,<1.0)", "sphinx (>=7.1,<8.0)", "sphinx-rtd-theme (>=2.0,<3.0)", "typer (>=0.12,<1.0)"]
 
 [[package]]
 name = "django-simple-history"
@@ -1984,4 +2002,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4053bf3945253010bd409b32f3062355638e8a7d172a0dd127aae3376e428ab4"
+content-hash = "3e20282f29c96c391db07a27f92d1a1f25639df67589a8d970582dcb13849ba7"
