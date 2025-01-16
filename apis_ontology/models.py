@@ -151,6 +151,14 @@ class Person(BaseEntity, E21_Person):
         verbose_name = _("Person")
         verbose_name_plural = _("Personen")
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._meta.get_field("forename").verbose_name = "Vorname"
+        self._meta.get_field("surname").verbose_name = "Nachname"
+        self._meta.get_field("gender").verbose_name = "Geschlecht"
+        self._meta.get_field("date_of_birth").verbose_name = "Geburtsdatum"
+        self._meta.get_field("date_of_death").verbose_name = "Sterbedatum"
+
     def __str__(self):
         return f"{self.forename} {self.surname}"
 
@@ -172,6 +180,12 @@ class Place(BaseEntity, E53_Place):
         verbose_name = _("Ort")
         verbose_name_plural = _("Orte")
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._meta.get_field("label").verbose_name = "Name"
+        self._meta.get_field("latitude").verbose_name = "Latitüde"
+        self._meta.get_field("longitude").verbose_name = "Longitüde"
+
     def __str__(self):
         return self.label
 
@@ -192,6 +206,10 @@ class Group(BaseEntity, E74_Group):
     class Meta:
         verbose_name = _("Körperschaft")
         verbose_name_plural = _("Körperschaften")
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._meta.get_field("label").verbose_name = "Name"
 
     def __str__(self):
         return self.label
