@@ -152,7 +152,30 @@ class Person(BaseEntity, E21_Person):
         verbose_name_plural = _("Personen")
 
     def __str__(self):
-        return f"{self.forename} {self.surname}"
+        return self.full_name()
+
+    def full_name(self):
+        """
+        Combine a Person's forename and surname (where available) into
+        their full name following the format "Forename Surname".
+
+        :return: a Person's full name
+        :rtype: str
+        """
+        full_name = ""
+        surname = self.surname
+        forename = self.forename
+
+        if forename != "" and surname != "":
+            full_name = f"{forename} {surname}"
+        elif surname != "":
+            full_name = surname
+        elif forename != "":
+            full_name = forename
+        else:
+            pass
+
+        return full_name
 
 
 class Place(BaseEntity, E53_Place):
