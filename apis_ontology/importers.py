@@ -4,8 +4,13 @@ from django.apps import apps
 
 
 class BaseEntityImporter(GenericModelImporter):
-    """Importer for all OEBL entities. Allows to define related objects directly in the RDF variable names.
-    Use `?something__RELATED_OBEJCT_CLASS__RELATION_CLASS` in your variables to auto create relations."""
+    """
+    Importer for entities.
+
+    Allows defining related objects directly in RDF variable names.
+    Use `?something__RELATED_OBEJCT_CLASS__RELATION_CLASS` in your variables
+    to auto-create relations.
+    """
 
     def create_instance(self):
         data = self.get_data(drop_unknown_fields=False)
