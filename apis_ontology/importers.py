@@ -9,19 +9,19 @@ class BaseEntityImporter(GenericModelImporter):
 
     def create_instance(self):
         data = self.get_data(drop_unknown_fields=False)
-        modelfields = [field.name for field in self.model._meta.fields]
-        data_croped = {key: data[key] for key in data if key in modelfields}
-        subj = self.model.objects.create(**data_croped)
+        model_fields = [field.name for field in self.model._meta.fields]
+        data_for_fields = {key: data[key] for key in data if key in model_fields}
+        subj = self.model.objects.create(**data_for_fields)
         related_keys = [
             (x, x.split("__")[1], x.split("__")[2]) for x in data.keys() if "__" in x
         ]
         for rk in related_keys:
             key, obj, rel = rk
-            RelatedModel = apps.get_model("apis_ontology", obj)
-            RelationType = apps.get_model("apis_ontology", rel)
+            related_model = apps.get_model("apis_ontology", obj)
+            relation_type = apps.get_model("apis_ontology", rel)
             if key in data:
-                related_obj = create_object_from_uri(data[key], RelatedModel)
-                RelationType.objects.create(subj=subj, obj=related_obj)
+                related_obj = create_object_from_uri(data[key], related_model)
+                relation_type.objects.create(subj=subj, obj=related_obj)
 
         return subj
 
