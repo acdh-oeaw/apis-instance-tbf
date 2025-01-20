@@ -38,4 +38,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
 
-CSP_FRAME_SRC = ("sennierer.github.io", "*.oeaw.ac.at")
+CSP_FRAME_SRC = ("sennierer.github.io", "https://*.pages.oeaw.ac.at/")
