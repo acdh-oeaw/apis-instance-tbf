@@ -10,7 +10,7 @@ on:
 
 jobs:
   ruff-linter:
-    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-ruff.yml@v0.4.6
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-ruff.yml@v0.4.7
     with:
       src: "."
       options: "check"

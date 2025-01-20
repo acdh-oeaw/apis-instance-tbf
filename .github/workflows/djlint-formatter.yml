@@ -10,7 +10,7 @@ on:
 
 jobs:
   djlint-formatter:
-    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.4.6
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.4.7
     with:
       src: "."
       options: "--check"
