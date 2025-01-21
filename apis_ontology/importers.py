@@ -30,7 +30,7 @@ class EventImporter(BaseEntityImporter):
     pass
 
 
-class PersonImporter(GenericModelImporter):
+class PersonImporter(BaseEntityImporter):
     def mangle_data(self, data):
         if "profession" in data:
             del data["profession"]
