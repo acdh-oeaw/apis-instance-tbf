@@ -54,4 +54,3 @@ MIDDLEWARE = [
     # this is used by the apis_core.history module:
     "simple_history.middleware.HistoryRequestMiddleware",
 ]
-
