@@ -15,7 +15,7 @@ psycopg = "^3.2.4"
 optional = true
 
 [tool.poetry.group.dev.dependencies]
-deptry = "^0.22.0"
+deptry = "^0.23.0"
 django-debug-toolbar = "^5.0.1"
 djlint = "^1.36.4"
 pylint = "^3.3.3"
