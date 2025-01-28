@@ -12,6 +12,12 @@ INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 INSTALLED_APPS += ["apis_core.documentation"]
 
+
+# Content Security Policy settings
+# TODO remove variable once it has been added to apis-acdhch-default-settings
+CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
+
+
 # Application definition
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
@@ -37,8 +43,6 @@ TIME_ZONE = "CET"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
-
-CSP_FRAME_SRC = ("sennierer.github.io", "https://*.pages.oeaw.ac.at/")
 
 MIDDLEWARE = [
     "allow_cidr.middleware.AllowCIDRMiddleware",
