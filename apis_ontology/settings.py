@@ -12,6 +12,15 @@ INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 INSTALLED_APPS += ["apis_core.documentation"]
 
+if "django.middleware.clickjacking.XFrameOptionsMiddleware" in MIDDLEWARE:
+    MIDDLEWARE.remove("django.middleware.clickjacking.XFrameOptionsMiddleware")
+
+
+# Content Security Policy settings
+# TODO remove variable once it has been updated in apis-acdhch-default-settings
+CSP_FRAME_SRC = ("https://*.pages.oeaw.ac.at/",)
+
+
 # Application definition
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
@@ -37,20 +46,3 @@ TIME_ZONE = "CET"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
-
-CSP_FRAME_SRC = ("sennierer.github.io", "https://*.pages.oeaw.ac.at/")
-
-MIDDLEWARE = [
-    "allow_cidr.middleware.AllowCIDRMiddleware",
-    "django.middleware.security.SecurityMiddleware",
-    "whitenoise.middleware.WhiteNoiseMiddleware",
-    "django.contrib.sessions.middleware.SessionMiddleware",
-    "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
-    "django.contrib.auth.middleware.AuthenticationMiddleware",
-    "django.contrib.messages.middleware.MessageMiddleware",
-    "csp.middleware.CSPMiddleware",
-    "crum.CurrentRequestUserMiddleware",
-    # this is used by the apis_core.history module:
-    "simple_history.middleware.HistoryRequestMiddleware",
-]
