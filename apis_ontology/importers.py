@@ -37,5 +37,5 @@ class PersonImporter(BaseEntityImporter):
         return data
 
 
-class InstitutionImporter(BaseEntityImporter):
+class GroupImporter(BaseEntityImporter):
     pass
