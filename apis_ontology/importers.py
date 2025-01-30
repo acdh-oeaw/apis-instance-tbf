@@ -39,3 +39,7 @@ class PersonImporter(BaseEntityImporter):
 
 class GroupImporter(BaseEntityImporter):
     pass
+
+
+class PlaceImporter(BaseEntityImporter):
+    pass
