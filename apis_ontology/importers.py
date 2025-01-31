@@ -60,6 +60,14 @@ class PersonImporter(BaseEntityImporter):
     def mangle_data(self, data):
         if "profession" in data:
             del data["profession"]
+        # sometimes, GND dates are incomplete, e.g. only the year is given
+        # but our date fields expect YYYY-MM-DD formatted strings
+        if "date_of_birth" in data:
+            if len(data["date_of_birth"][0]) < 10:
+                del data["date_of_birth"]
+        if "date_of_death" in data:
+            if len(data["date_of_death"][0]) < 10:
+                del data["date_of_death"]
         return data
 
 
