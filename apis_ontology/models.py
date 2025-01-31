@@ -314,6 +314,13 @@ class Poster(BaseEntity):
         verbose_name=_("Land"),
     )
 
+    year = models.CharField(
+        blank=True,
+        default="",
+        max_length=4,
+        verbose_name=_("Jahr"),
+    )
+
     notes = models.TextField(
         blank=True,
         default="",
