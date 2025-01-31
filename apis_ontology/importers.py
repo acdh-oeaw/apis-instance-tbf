@@ -75,3 +75,7 @@ class GroupImporter(BaseEntityImporter):
 
 class PlaceImporter(BaseEntityImporter):
     pass
+
+
+class WorkImporter(BaseEntityImporter):
+    pass
