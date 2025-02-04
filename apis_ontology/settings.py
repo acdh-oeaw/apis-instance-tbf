@@ -12,9 +12,6 @@ INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 INSTALLED_APPS += ["apis_core.documentation"]
 
-if "django.middleware.clickjacking.XFrameOptionsMiddleware" in MIDDLEWARE:
-    MIDDLEWARE.remove("django.middleware.clickjacking.XFrameOptionsMiddleware")
-
 
 # Content Security Policy settings
 # TODO remove variable once it has been added to apis-acdhch-default-settings
