@@ -2,6 +2,7 @@ import logging
 
 import django_tables2 as tables
 from apis_core.apis_entities.tables import AbstractEntityTable
+from django.utils.translation import gettext_lazy as _
 from django_tables2.utils import A
 
 from .models import (
@@ -89,11 +90,15 @@ class ItemTable(TitleFieldsMixin, BaseEntityTable):
 
 
 class PersonTable(BaseEntityTable):
-    surname = SortableLinkifyColumn()
+    full_name = SortableLinkifyColumn(
+        accessor="full_name",
+        verbose_name=_("Voller Name"),
+        order_by=("surname", "forename"),
+    )
 
     class Meta(BaseEntityTable.Meta):
         model = Person
-        fields = ["surname", "forename"]
+        fields = ["full_name", "surname", "forename"]
         order_by = "surname"
 
 
