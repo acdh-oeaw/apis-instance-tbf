@@ -1,5 +1,11 @@
 """
-Django settings for apis_ontology project.
+Settings for apis_ontology Django project.
+
+Variables are grouped by:
+- Django general settings/built-ins
+- configs for third-party dependencies
+- APIS-specific variables
+- custom project settings
 """
 
 from apis_acdhch_default_settings.settings import *
