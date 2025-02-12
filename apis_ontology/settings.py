@@ -12,12 +12,6 @@ INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 INSTALLED_APPS += ["apis_core.documentation"]
 
-
-# Content Security Policy settings
-# TODO remove variable once it has been added to apis-acdhch-default-settings
-CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
-
-
 # Application definition
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
@@ -41,5 +35,11 @@ TIME_ZONE = "CET"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# Content Security Policy settings
+# TODO remove variable once it has been added to apis-acdhch-default-settings
+CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
+
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
