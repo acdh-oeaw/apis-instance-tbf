@@ -4,6 +4,8 @@ Django settings for apis_ontology project.
 
 from apis_acdhch_default_settings.settings import *
 
+# Django general settings
+
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -37,9 +39,12 @@ TIME_ZONE = "CET"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
+# Third-party dependencies
+
 # Content Security Policy settings
 # TODO remove variable once it has been added to apis-acdhch-default-settings
 CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
 
 
+# APIS-specific settings
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
