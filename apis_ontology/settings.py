@@ -18,9 +18,20 @@ DEBUG = False
 
 # Application definition
 
-INSTALLED_APPS += ["apis_core.history"]
-INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
-INSTALLED_APPS += ["apis_core.documentation"]
+APIS_APPS_PREPEND = ["apis_core.relations"]
+APIS_APPS_APPEND = [
+    "apis_core.history",
+    "apis_core.documentation",
+]
+
+for a in APIS_APPS_PREPEND:
+    if a not in INSTALLED_APPS:
+        INSTALLED_APPS.insert(0, a)
+
+for a in APIS_APPS_APPEND:
+    if a not in INSTALLED_APPS:
+        INSTALLED_APPS.append(a)
+
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
 
