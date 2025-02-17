@@ -43,19 +43,20 @@ whitenoise = ">=5.2.0,<6.0.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.36.1"
+version = "0.37.2"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "apis_core_rdf-0.36.1-py3-none-any.whl", hash = "sha256:c36e199fc6a3807afe1f48acb7159bff08e048ea3cbd1c0f04b4644969b32581"},
-    {file = "apis_core_rdf-0.36.1.tar.gz", hash = "sha256:5bee38280a591990b5c0b947bf7c3f61dd1e19b29f7ebd596653a57c86144e18"},
+    {file = "apis_core_rdf-0.37.2-py3-none-any.whl", hash = "sha256:145309cadd8812ed324862ff589c9ee6b6483bf3eb0e7ca623f1023fd6a9ef0a"},
+    {file = "apis_core_rdf-0.37.2.tar.gz", hash = "sha256:09a98b9bbb8df90d0ee53b7f441f2750ddd4db801fa0512ceeb17e623977a75a"},
 ]
 
 [package.dependencies]
 acdh-arche-assets = ">=3.21.1,<4.0.0"
 apis-override-select2js = ">=0.1,<0.3"
 crispy-bootstrap4 = ">=2023.1,<2025.0"
+crispy-bootstrap5 = ">=2024.10"
 Django = ">5"
 django-autocomplete-light = ">=3.9.4,<3.12.0"
 django-crispy-forms = ">=2,<3"
@@ -69,6 +70,7 @@ drf-spectacular = ">=0.26.1,<0.29.0"
 pydot = ">=3.0.2,<4.0.0"
 rdflib = ">=6.0.2,<8.0.0"
 requests = ">=2.25.0,<3.0.0"
+tablib = ">=3.8.0,<4.0.0"
 
 [[package]]
 name = "apis-override-select2js"
@@ -292,6 +294,24 @@ files = [
 [package.dependencies]
 django = ">=4.2"
 django-crispy-forms = ">=2.3"
+
+[[package]]
+name = "crispy-bootstrap5"
+version = "2024.10"
+description = "Bootstrap5 template pack for django-crispy-forms"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "crispy_bootstrap5-2024.10-py3-none-any.whl", hash = "sha256:59e91dac5e45a8c954af3fbcaa6804cd5aef4402f027af2f99a352b096c4016f"},
+    {file = "crispy_bootstrap5-2024.10.tar.gz", hash = "sha256:55b442fe675dd95ad280123c7fe464f454186e90b8e5642e751f436c87627c44"},
+]
+
+[package.dependencies]
+django = ">=4.2"
+django-crispy-forms = ">=2.3"
+
+[package.extras]
+test = ["pytest", "pytest-django"]
 
 [[package]]
 name = "cssbeautifier"
@@ -1838,6 +1858,26 @@ dev = ["build", "hatch"]
 doc = ["sphinx"]
 
 [[package]]
+name = "tablib"
+version = "3.8.0"
+description = "Format agnostic tabular data library (XLS, JSON, YAML, CSV, etc.)"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "tablib-3.8.0-py3-none-any.whl", hash = "sha256:35bdb9d4ec7052232f8803908f9c7a9c3c65807188b70618fa7a7d8ccd560b4d"},
+    {file = "tablib-3.8.0.tar.gz", hash = "sha256:94d8bcdc65a715a0024a6d5b701a5f31e45bd159269e62c73731de79f048db2b"},
+]
+
+[package.extras]
+all = ["odfpy", "openpyxl (>=2.6.0)", "pandas", "pyyaml", "tabulate", "xlrd", "xlwt"]
+cli = ["tabulate"]
+ods = ["odfpy"]
+pandas = ["pandas"]
+xls = ["xlrd", "xlwt"]
+xlsx = ["openpyxl (>=2.6.0)"]
+yaml = ["pyyaml"]
+
+[[package]]
 name = "tomlkit"
 version = "0.13.2"
 description = "Style preserving TOML library"
@@ -2040,4 +2080,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1464ddcb8d69c2692f67c8303bd627a952bbd799ba06cbe65768fad930956de3"
+content-hash = "da243004b23d3eb98936dc0626cec82b9104e8df454913c258e3fce5d860ee79"
