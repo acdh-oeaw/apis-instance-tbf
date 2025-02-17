@@ -16,11 +16,12 @@ from apis_acdhch_default_settings.settings import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
+# Application definition
+
 INSTALLED_APPS += ["apis_core.history"]
 INSTALLED_APPS = ["apis_core.relations"] + INSTALLED_APPS
 INSTALLED_APPS += ["apis_core.documentation"]
-
-# Application definition
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
 
