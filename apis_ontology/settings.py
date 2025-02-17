@@ -62,6 +62,13 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # TODO remove variable once it has been added to apis-acdhch-default-settings
 CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
 
+# django-tables2 settings
+DJANGO_TABLES2_TABLE_ATTRS = {
+    "class": "table table-hover table-striped",
+    "thead": {
+        "class": "table-light",
+    },
+}
 
 # APIS-specific settings
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
