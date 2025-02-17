@@ -12,7 +12,6 @@ from apis_acdhch_default_settings.settings import *
 
 # Django general settings
 
-# SECURITY WARNING: keep the secret key used in production secret!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
