@@ -43,25 +43,24 @@ whitenoise = ">=5.2,<7.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.37.2"
+version = "0.38.0"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "apis_core_rdf-0.37.2-py3-none-any.whl", hash = "sha256:145309cadd8812ed324862ff589c9ee6b6483bf3eb0e7ca623f1023fd6a9ef0a"},
-    {file = "apis_core_rdf-0.37.2.tar.gz", hash = "sha256:09a98b9bbb8df90d0ee53b7f441f2750ddd4db801fa0512ceeb17e623977a75a"},
+    {file = "apis_core_rdf-0.38.0-py3-none-any.whl", hash = "sha256:59cae19469237bd5346ffd96bde19e1ff4043114e8595ec671e4486ff1fa030e"},
+    {file = "apis_core_rdf-0.38.0.tar.gz", hash = "sha256:28cbc815e676b2da0fbde9dac4be5bd9137aef79894087a8e0a81c1b3487b454"},
 ]
 
 [package.dependencies]
 acdh-arche-assets = ">=3.21.1,<4.0.0"
-apis-override-select2js = ">=0.1,<0.3"
 crispy-bootstrap4 = ">=2023.1,<2025.0"
 crispy-bootstrap5 = ">=2024.10"
 Django = ">5"
 django-autocomplete-light = ">=3.9.4,<3.12.0"
 django-crispy-forms = ">=2,<3"
 django-crum = ">=0.7.9,<0.8.0"
-django-filter = ">=24.1"
+django-filter = ">=24.3"
 django-model-utils = ">=4.1.1,<6.0.0"
 django-simple-history = ">=3.6"
 django-tables2 = ">=2.3.3,<3.0.0"
@@ -71,20 +70,6 @@ pydot = ">=3.0.2,<4.0.0"
 rdflib = ">=6.0.2,<8.0.0"
 requests = ">=2.25.0,<3.0.0"
 tablib = ">=3.8.0,<4.0.0"
-
-[[package]]
-name = "apis-override-select2js"
-version = "0.2.1"
-description = "Override select2js files in APIS Django projects"
-optional = false
-python-versions = "*"
-files = [
-    {file = "apis_override_select2js-0.2.1-py2.py3-none-any.whl", hash = "sha256:d42e92194ac4dbfc0225b42f4c18ae0c0bb6a6b295f3f7051ae35c62bb3b68e8"},
-    {file = "apis_override_select2js-0.2.1.tar.gz", hash = "sha256:9afed572e9ceec28e74cdf03da27e6288b284d3431da664ef0996bcf50f3e55f"},
-]
-
-[package.dependencies]
-django = "*"
 
 [[package]]
 name = "asgiref"
@@ -2080,4 +2065,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b64260c520d5db4310b261a34534a432ba5d043f30e4b1e18ae3e4c1eb30acb7"
+content-hash = "7bfd8b214e81d7ff21f1649639be5bda43004cc8f1649c1d2c077595fac34fae"
