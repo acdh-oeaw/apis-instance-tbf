@@ -1,0 +1,1 @@
+[APIS](https://acdh-oeaw.github.io/apis-core-rdf/) instance for [Thomas Bernhard online](https://www.oeaw.ac.at/acdh/research/literary-textual-studies/research/authors-editions/ftb-thomas-bernhard-research-centre)
