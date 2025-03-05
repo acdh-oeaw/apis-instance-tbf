@@ -2,7 +2,6 @@ import logging
 
 import django_tables2 as tables
 from apis_core.apis_entities.tables import AbstractEntityTable
-from django_tables2.utils import A
 
 from .models import (
     Event,
@@ -28,14 +27,9 @@ class SortableLinkifyColumn(tables.Column):
     link to its detail view.
     """
 
-    linkify = {
-        "viewname": "apis_core:generic:detail",
-        "args": [A("self_contenttype"), A("pk")],
-    }
-
     def __init__(self, *args, **kwargs):
         super().__init__(
-            linkify=self.linkify,
+            linkify=True,
             *args,
             **kwargs,
         )
