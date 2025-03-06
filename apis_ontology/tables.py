@@ -22,9 +22,7 @@ logger = logging.getLogger(__name__)
 class SortableLinkifyColumn(tables.Column):
     """
     Custom table column which allows sorting of objects
-    in ascending/descending order and which turns the string
-    identifier for each individual object into a clickable
-    link to its detail view.
+    and clicking through to each object's detail view.
     """
 
     def __init__(self, *args, **kwargs):
