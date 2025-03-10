@@ -1,6 +1,6 @@
 # thomas bernhard in translation data
 
-Data dump of the initial release of [Thomas Bernhard in Translation](https://thomas-bernhard-translation.acdh-ch-dev.oeaw.ac.at/en/search), currently served from a Typesense database.
+Data dump of the initial release of [Thomas Bernhard in Translation](https://thomas-bernhard-translation.acdh.oeaw.ac.at/en/search), currently served from a Typesense database.
 
 The numeric `id`s of publications, translations and underlying Thomas Bernhard works are newly created primary keys for the Thomas Bernhard in Translation website and are used in the website urls, so they should be preserved. Translator `id`s are not currently exposed to the public.
 
