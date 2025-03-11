@@ -429,12 +429,12 @@ class Command(BaseCommand):
                                 work_import = WorkImporter(gnd_url + obj["id"], Work)
                                 work = work_import.create_instance()
 
-                                work_import_all = work_import.get_data(
+                                work_import_data = work_import.get_data(
                                     drop_unknown_fields=False
                                 )
-                                if "author" in work_import_all:
+                                if "author" in work_import_data:
                                     author = PersonImporter(
-                                        work_import_all["author"], Person
+                                        work_import_data["author"], Person
                                     ).create_instance()
                                     PersonIsAuthorOfWork.objects.get_or_create(
                                         subj_object_id=author.pk,
