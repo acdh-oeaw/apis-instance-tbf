@@ -245,7 +245,6 @@ class Command(BaseCommand):
                     notes = add_text(notes, f"Maße: {measurements}")
 
                 if country:
-                    country.strip()
                     notes = add_text(notes, f"Land: {country}")
 
                 # add any dates to notes field while interval field is not
