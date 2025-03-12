@@ -31,21 +31,6 @@ from apis_ontology.models import (  # noqa
 logger = logging.getLogger(__name__)
 
 
-def strip_strings(field_value):
-    """
-
-    :param field_value:
-    :type field_value:
-    :return:
-    :rtype:
-    """
-    if field_value:
-        field_value = field_value.strip()
-
-    return field_value
-    pass
-
-
 def add_text(text_value, new_text):
     """
     Add text to a variable holding content for a text field separating
