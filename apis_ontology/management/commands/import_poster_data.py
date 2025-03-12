@@ -173,7 +173,7 @@ class Command(BaseCommand):
 
             for row in posters_raw_data["rows"]:
                 signature = row["signature"] or ""
-                title = row["title"]  # Poster, Event/Performance field "label"
+                title = row["title"] or ""  # Poster, Event/Performance field "label"
                 storage_location = row["storage_location"] or ""  # Poster field
                 status = row["status"] or ""  # Poster field
                 notes = row["notes"] or ""  # Poster field
