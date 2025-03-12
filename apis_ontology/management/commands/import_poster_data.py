@@ -310,6 +310,8 @@ class Command(BaseCommand):
                 if end_date_written:
                     notes = add_text(notes, f"Datum Ende: {end_date_written}")
 
+                logger.debug(title)
+
                 poster, created = Poster.objects.get_or_create(
                     label=title,
                     storage_location=storage_location,
@@ -317,8 +319,6 @@ class Command(BaseCommand):
                     notes=notes,
                 )
                 poster_id = poster.pk
-
-                logger.debug(title)
 
                 if event_type:
                     participating_persons = []
