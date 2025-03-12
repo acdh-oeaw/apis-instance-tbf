@@ -211,7 +211,7 @@ class Command(BaseCommand):
                     title = "-"
 
                 if notes:
-                    notes = f"{notes.strip()}"
+                    notes = notes.strip()
                 else:
                     notes = ""
 
