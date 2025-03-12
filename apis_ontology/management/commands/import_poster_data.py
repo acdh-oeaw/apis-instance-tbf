@@ -132,11 +132,14 @@ class Command(BaseCommand):
     )
 
     def add_arguments(self, parser):
+        parser.add_argument("--keep-history", action="store_true")
         parser.add_argument("--wipe_uris", action="store_true")
         parser.add_argument("--wipe_relations", action="store_true")
         parser.add_argument("--delete", action="extend", nargs="+", type=str)
 
     def handle(self, *args, **options):
+        keep_history = options["keep_history"] or False
+
         if options["delete"]:
             for mc in options["delete"]:
                 del_mc = apps.get_model("apis_ontology", mc)
