@@ -2,6 +2,7 @@ import inspect
 import json
 import logging
 
+from apis_core.apis_entities.utils import get_entity_classes
 from apis_core.apis_metainfo.models import Uri
 from django.apps import apps
 from django.contrib.contenttypes.models import ContentType  # noqa
@@ -26,7 +27,6 @@ from apis_ontology.models import (  # noqa
     Poster,
     PosterPromotedEvent,
     PosterPromotedPerformance,
-    Relation,
     Work,
 )
 
@@ -204,21 +204,34 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument("--keep-history", action="store_true")
-        parser.add_argument("--wipe_uris", action="store_true")
-        parser.add_argument("--wipe_relations", action="store_true")
         parser.add_argument("--delete", action="extend", nargs="+", type=str)
 
     def handle(self, *args, **options):
         keep_history = options["keep_history"] or False
 
-        if options["delete"]:
-            for mc in options["delete"]:
-                del_mc = apps.get_model("apis_ontology", mc)
-                del_mc.objects.all().delete()
-        if "wipe_uris" in options:
-            Uri.objects.all().delete()
-        if "wipe_relations" in options:
-            Relation.objects.all().delete()
+        if delete_args := options["delete"]:
+            if "all" in delete_args:
+                delete_models = get_relation_classes() + get_entity_classes() + [Uri]
+                delete_objects(models=delete_models, keep_history=keep_history)
+            else:
+                if "relations" in delete_args:
+                    delete_objects(
+                        models=get_relation_classes(), keep_history=keep_history
+                    )
+                    delete_args.remove("relations")
+                if "entities" in delete_args:
+                    delete_objects(
+                        models=get_entity_classes(), keep_history=keep_history
+                    )
+                    delete_args.remove("entities")
+                if "uris" in delete_args:
+                    delete_objects(models=[Uri], keep_history=keep_history)
+                    delete_args.remove("uris")
+
+                if delete_args:
+                    delete_objects(models=delete_args, keep_history=keep_history)
+
+            exit(0)
 
         fpath = "data/posters/FTB_posters_initial_catalogue_refined.json"
         gnd_url = "https://d-nb.info/gnd/"  # noqa
