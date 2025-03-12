@@ -215,13 +215,16 @@ class Command(BaseCommand):
                 title = title.strip()
                 notes = notes.strip()
 
+                signature = signature.strip()
                 storage_location = storage_location.strip()
                 status = status.strip()
+                measurements = measurements.strip()
                 country = country.strip()
                 if isinstance(year, int):
                     year = str(year)
                 else:
                     year = year.strip()
+                event_type = event_type.strip()
                 start_date_written = start_date_written.strip()
                 end_date_written = end_date_written.strip()
 
@@ -231,11 +234,9 @@ class Command(BaseCommand):
                 # signature, measurements, unknown event_types, country,
                 # start_date_written, end_date_written TODO update
                 if signature:
-                    signature = signature.strip()
                     notes = add_text(notes, f"Signatur: {signature}")
 
                 if measurements:
-                    measurements = measurements.strip()
                     notes = add_text(notes, f"Maße: {measurements}")
 
                 if country:
@@ -259,7 +260,6 @@ class Command(BaseCommand):
                 logger.debug(title)
 
                 if event_type:
-                    event_type = event_type.strip()
                     participating_persons = []
                     participating_groups = []
 
