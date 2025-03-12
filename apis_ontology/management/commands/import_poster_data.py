@@ -172,29 +172,31 @@ class Command(BaseCommand):
             # print(json.dumps(posters, sort_keys=True, indent=2))
 
             for row in posters_raw_data["rows"]:
-                signature = row["signature"]
+                signature = row["signature"] or ""
                 title = row["title"]  # Poster, Event/Performance field "label"
-                storage_location = row["storage_location"]  # Poster field
-                status = row["status"]  # Poster field
-                notes = row["notes"]  # Poster field
-                measurements = row[
-                    "measurements"
-                ]  # Poster fields "height", "width"; should return empty
-                country = row[
-                    "country"
-                ]  # Poster field TBD TODO 2-char ISO country code
-                year = row["year"]  # Poster field TBD TODO CharField with max_length=4
+                storage_location = row["storage_location"] or ""  # Poster field
+                status = row["status"] or ""  # Poster field
+                notes = row["notes"] or ""  # Poster field
+                measurements = (
+                    row["measurements"] or ""
+                )  # Poster fields "height", "width"; should return empty
+                country = (
+                    row["country"] or ""
+                )  # Poster field TBD TODO 2-char ISO country code
+                year = (
+                    row["year"] or ""
+                )  # Poster field TBD TODO CharField with max_length=4
 
-                event_type = row[
-                    "event_type"
-                ]  # Event field if value not "Theater" (which denotes Performance)
+                event_type = (
+                    row["event_type"] or ""
+                )  # Event field if value not "Theater" (which denotes Performance)
 
-                start_date_written = row[
-                    "start_date_written"
-                ]  # Performance/Event field TBD TODO use new Interval field
-                end_date_written = row[
-                    "end_date_written"
-                ]  # Performance/Event field TBD TODO use new Interval field
+                start_date_written = (
+                    row["start_date_written"] or ""
+                )  # Performance/Event field TBD TODO use new Interval field
+                end_date_written = (
+                    row["end_date_written"] or ""
+                )  # Performance/Event field TBD TODO use new Interval field
 
                 # data objects which may have GND IDs
                 work_data = row["work"]  # Work entity
@@ -212,8 +214,6 @@ class Command(BaseCommand):
 
                 if notes:
                     notes = notes.strip()
-                else:
-                    notes = ""
 
                 if year and (isinstance(year, int)):
                     year = str(year)
