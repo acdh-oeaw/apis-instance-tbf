@@ -167,11 +167,9 @@ class Command(BaseCommand):
                 )  # Poster fields "height", "width"; should return empty
                 country = row["country"] or ""  # Poster field
                 year = row["year"] or ""  # Poster field
-
                 event_type = (
                     row["event_type"] or ""
                 )  # Event field if value not "Theater" (which denotes Performance)
-
                 start_date_written = (
                     row["start_date_written"] or ""
                 )  # Performance/Event field TODO use django-interval
@@ -194,7 +192,6 @@ class Command(BaseCommand):
 
                 title = title.strip()
                 notes = notes.strip()
-
                 signature = signature.strip()
                 storage_location = storage_location.strip()
                 status = status.strip()
@@ -215,10 +212,8 @@ class Command(BaseCommand):
                 # start_date_written, end_date_written TODO update
                 if signature:
                     notes = add_text(notes, f"Signatur: {signature}")
-
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
-
                 if country:
                     notes = add_text(notes, f"Land: {country}")
 
