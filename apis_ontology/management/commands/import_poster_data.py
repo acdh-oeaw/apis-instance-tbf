@@ -172,11 +172,11 @@ class Command(BaseCommand):
             # print(json.dumps(posters, sort_keys=True, indent=2))
 
             for row in posters_raw_data["rows"]:
-                signature = row["signature"] or ""
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
+                notes = row["notes"] or ""  # Poster field
+                signature = row["signature"] or ""
                 storage_location = row["storage_location"] or ""  # Poster field
                 status = row["status"] or ""  # Poster field
-                notes = row["notes"] or ""  # Poster field
                 measurements = (
                     row["measurements"] or ""
                 )  # Poster fields "height", "width"; should return empty
@@ -215,13 +215,13 @@ class Command(BaseCommand):
                 title = title.strip()
                 notes = notes.strip()
 
+                storage_location = storage_location.strip()
+                status = status.strip()
+                country = country.strip()
                 if isinstance(year, int):
                     year = str(year)
                 else:
                     year = year.strip()
-                storage_location = storage_location.strip()
-                status = status.strip()
-                country = country.strip()
                 start_date_written = start_date_written.strip()
                 end_date_written = end_date_written.strip()
 
