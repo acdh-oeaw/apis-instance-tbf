@@ -221,15 +221,15 @@ class Command(BaseCommand):
                 #     year = ""
 
                 if storage_location:
-                    storage_location.strip()
+                    storage_location = storage_location.strip()
                 if status:
-                    status.strip()
+                    status = status.strip()
                 if country:
-                    country.strip()
+                    country = country.strip()
                 if start_date_written:
-                    start_date_written.strip()
+                    start_date_written = start_date_written.strip()
                 if end_date_written:
-                    end_date_written.strip()
+                    end_date_written = end_date_written.strip()
 
                 # add unexpected values and values from columns for which
                 # there are no fields (yet) to Poster field "notes";
@@ -237,11 +237,11 @@ class Command(BaseCommand):
                 # signature, measurements, unknown event_types, country,
                 # start_date_written, end_date_written TODO update
                 if signature:
-                    signature.strip()
+                    signature = signature.strip()
                     notes = add_text(notes, f"Signatur: {signature}")
 
                 if measurements:
-                    measurements.strip()
+                    measurements = measurements.strip()
                     notes = add_text(notes, f"Maße: {measurements}")
 
                 if country:
