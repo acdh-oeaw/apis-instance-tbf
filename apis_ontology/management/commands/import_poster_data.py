@@ -211,14 +211,16 @@ class Command(BaseCommand):
                         f"(Work: {work_data['value']}, Director: {director_data['value']}, Group: {group_data['value']})"
                     )
                     title = "-"
+                else:
+                    title = title.strip()
 
                 if notes:
                     notes = notes.strip()
 
                 if year and (isinstance(year, int)):
                     year = str(year)
-                # else:
-                #     year = ""
+                else:
+                    year = year.strip()
 
                 if storage_location:
                     storage_location = storage_location.strip()
