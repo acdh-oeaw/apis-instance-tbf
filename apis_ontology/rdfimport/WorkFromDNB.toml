@@ -15,7 +15,7 @@ WHERE {
 # author
 sparql = """
 PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?author
+SELECT DISTINCT ?author
 WHERE {
   ?subject gndo:firstAuthor ?author
 }
