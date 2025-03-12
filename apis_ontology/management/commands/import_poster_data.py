@@ -10,6 +10,7 @@ from django.db.models import Model  # noqa
 
 from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter  # noqa
 from apis_ontology.models import (  # noqa
+    BaseRelation,
     Event,
     EventHadParticipantGroup,
     EventHadParticipantPerson,
@@ -123,6 +124,16 @@ def split_people(raw_data):
         names.append((surname, forename))
 
     return names
+
+
+def get_relation_classes():
+    """
+    Return all model classes which inherit from BaseRelation.
+
+    :return: a list of model classes
+    :rtype: list
+    """
+    return list(filter(lambda x: issubclass(x, BaseRelation), apps.get_models()))
 
 
 class Command(BaseCommand):
