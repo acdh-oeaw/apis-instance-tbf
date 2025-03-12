@@ -211,27 +211,19 @@ class Command(BaseCommand):
                         f"(Work: {work_data['value']}, Director: {director_data['value']}, Group: {group_data['value']})"
                     )
                     title = "-"
-                else:
-                    title = title.strip()
 
-                if notes:
-                    notes = notes.strip()
+                title = title.strip()
+                notes = notes.strip()
 
-                if year and (isinstance(year, int)):
+                if isinstance(year, int):
                     year = str(year)
                 else:
                     year = year.strip()
-
-                if storage_location:
-                    storage_location = storage_location.strip()
-                if status:
-                    status = status.strip()
-                if country:
-                    country = country.strip()
-                if start_date_written:
-                    start_date_written = start_date_written.strip()
-                if end_date_written:
-                    end_date_written = end_date_written.strip()
+                storage_location = storage_location.strip()
+                status = status.strip()
+                country = country.strip()
+                start_date_written = start_date_written.strip()
+                end_date_written = end_date_written.strip()
 
                 # add unexpected values and values from columns for which
                 # there are no fields (yet) to Poster field "notes";
