@@ -159,18 +159,14 @@ class Command(BaseCommand):
             for row in posters_raw_data["rows"]:
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
                 notes = row["notes"] or ""  # Poster field
-                signature = row["signature"] or ""
+                signature = row["signature"] or ""  # Poster field
                 storage_location = row["storage_location"] or ""  # Poster field
                 status = row["status"] or ""  # Poster field
                 measurements = (
                     row["measurements"] or ""
                 )  # Poster fields "height", "width"; should return empty
-                country = (
-                    row["country"] or ""
-                )  # Poster field TBD TODO 2-char ISO country code
-                year = (
-                    row["year"] or ""
-                )  # Poster field TBD TODO CharField with max_length=4
+                country = row["country"] or ""  # Poster field
+                year = row["year"] or ""  # Poster field
 
                 event_type = (
                     row["event_type"] or ""
@@ -178,10 +174,10 @@ class Command(BaseCommand):
 
                 start_date_written = (
                     row["start_date_written"] or ""
-                )  # Performance/Event field TBD TODO use new Interval field
+                )  # Performance/Event field TODO use django-interval
                 end_date_written = (
                     row["end_date_written"] or ""
-                )  # Performance/Event field TBD TODO use new Interval field
+                )  # Performance/Event field TODO use django-interval
 
                 # data objects which may have GND IDs
                 work_data = row["work"]  # Work entity
@@ -190,7 +186,6 @@ class Command(BaseCommand):
                 group_data = row["group"]  # Group entity
 
                 if not title:
-                    # TODO log error for non-existent poster data
                     logger.error(
                         f"There is no title for row {posters_raw_data['rows'].index(row)} "
                         f"(Work: {work_data['value']}, Director: {director_data['value']}, Group: {group_data['value']})"
