@@ -5,10 +5,9 @@ import logging
 from apis_core.apis_entities.utils import get_entity_classes
 from apis_core.apis_metainfo.models import Uri
 from django.apps import apps
-from django.contrib.contenttypes.models import ContentType  # noqa
+from django.contrib.contenttypes.models import ContentType
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
-from django.db.models import Model  # noqa
 
 from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter  # noqa
 from apis_ontology.models import (  # noqa
