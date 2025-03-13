@@ -315,9 +315,9 @@ class Command(BaseCommand):
 
                 poster, created = Poster.objects.get_or_create(
                     label=title,
-                    storage_location=storage_location,
-                    status=status,
                     notes=notes,
+                    status=status,
+                    storage_location=storage_location,
                 )
                 poster_id = poster.pk
 
