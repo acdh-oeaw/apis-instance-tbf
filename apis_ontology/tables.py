@@ -112,7 +112,9 @@ class PlaceTable(BaseEntityTable):
 
 
 class GroupTable(BaseEntityTable):
-    label = SortableLinkifyColumn()
+    label = SortableLinkifyColumn(
+        verbose_name=_("Name"),
+    )
 
     class Meta(BaseEntityTable.Meta):
         model = Group
