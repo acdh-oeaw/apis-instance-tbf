@@ -249,6 +249,9 @@ class Command(BaseCommand):
                 signature = row["signature"] or ""  # Poster field
                 storage_location = row["storage_location"] or ""  # Poster field
                 status = row["status"] or ""  # Poster field
+                quantity = (
+                    row["quantity"] or 0
+                )  # Poster field – should never be zero, but raw data contains null values
                 measurements = (
                     row["measurements"] or ""
                 )  # Poster fields "height", "width"; should return empty
@@ -282,6 +285,15 @@ class Command(BaseCommand):
                 signature = signature.strip()
                 storage_location = storage_location.strip()
                 status = status.strip()
+                if not isinstance(quantity, int):
+                    try:
+                        quantity = int(quantity)
+                    except ValueError:
+                        notes = add_text(
+                            notes,
+                            f"Anzahl (konnte nicht konvertiert werden): {quantity}",
+                        )
+                        quantity = 0
                 measurements = measurements.strip()
                 country = country.strip()
                 if isinstance(year, int):
@@ -317,6 +329,7 @@ class Command(BaseCommand):
                     notes=notes,
                     status=status,
                     storage_location=storage_location,
+                    quantity=quantity,
                     year=year,
                 )
                 poster_id = poster.pk
