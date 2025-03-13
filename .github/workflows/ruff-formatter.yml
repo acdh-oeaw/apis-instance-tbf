@@ -6,6 +6,8 @@ name: Run Ruff formatter
 on:
   # runs on opened, synchronised, reopened PRs
   pull_request:
+    paths:
+      - "**.py"
   workflow_dispatch:
 
 jobs:
