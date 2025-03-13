@@ -6,6 +6,8 @@ name: Run djLint linter
 on:
   # runs when activity type is one of: opened, synchronize, reopened
   pull_request:
+    paths:
+      - "**.html"
   workflow_dispatch:
 
 jobs:
