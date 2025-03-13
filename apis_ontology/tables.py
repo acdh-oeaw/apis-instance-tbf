@@ -127,7 +127,7 @@ class EventTable(BaseEntityTable):
 
     class Meta(BaseEntityTable.Meta):
         model = Event
-        fields = ["label"]
+        fields = ["label", "event_type"]
         order_by = "label"
 
 
