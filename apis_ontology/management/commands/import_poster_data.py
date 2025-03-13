@@ -295,14 +295,12 @@ class Command(BaseCommand):
                 # add unexpected values and values from columns for which
                 # there are no fields (yet) to Poster field "notes";
                 # relevant for:
-                # signature, measurements, unknown event_types, country,
+                # signature, measurements, unknown event_types,
                 # start_date_written, end_date_written TODO update
                 if signature:
                     notes = add_text(notes, f"Signatur: {signature}")
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
-                if country:
-                    notes = add_text(notes, f"Land: {country}")
 
                 # add any dates to notes field while interval field is not
                 # being used yet TODO replace with interval field
@@ -314,10 +312,12 @@ class Command(BaseCommand):
                 logger.debug(title)
 
                 poster, created = Poster.objects.get_or_create(
+                    country=country,
                     label=title,
                     notes=notes,
                     status=status,
                     storage_location=storage_location,
+                    year=year,
                 )
                 poster_id = poster.pk
 
