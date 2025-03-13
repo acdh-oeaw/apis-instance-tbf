@@ -145,5 +145,5 @@ class PosterTable(BaseEntityTable):
 
     class Meta(BaseEntityTable.Meta):
         model = Poster
-        fields = ["label"]
+        fields = ["label", "quantity", "storage_location", "status", "notes"]
         order_by = "label"
