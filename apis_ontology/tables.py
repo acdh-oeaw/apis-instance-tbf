@@ -82,6 +82,12 @@ class ItemTable(TitleFieldsMixin, BaseEntityTable):
 
 
 class PersonTable(BaseEntityTable):
+    forename = tables.Column(
+        verbose_name=_("Vorname"),
+    )
+    surname = tables.Column(
+        verbose_name=_("Nachname"),
+    )
     full_name = SortableLinkifyColumn(
         accessor="full_name",
         verbose_name=_("Name"),
