@@ -364,8 +364,7 @@ class Poster(BaseEntity):
     )
 
     quantity = models.PositiveSmallIntegerField(
-        blank=True,
-        null=True,
+        default=0,
         verbose_name=_("Anzahl"),
     )
 
