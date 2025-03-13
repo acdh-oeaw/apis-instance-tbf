@@ -31,6 +31,10 @@ from apis_ontology.models import (  # noqa
 
 logger = logging.getLogger(__name__)
 
+OPENREFINE_EXPORT = "data/posters/FTB_posters_initial_catalogue_refined.json"
+GND_URL = "https://d-nb.info/gnd/"
+GND_ID_TB = "118509861"  # GND ID for Thomas Bernhard
+
 
 def add_text(text_value, new_text):
     """
@@ -232,13 +236,10 @@ class Command(BaseCommand):
 
             exit(0)
 
-        fpath = "data/posters/FTB_posters_initial_catalogue_refined.json"
-        gnd_url = "https://d-nb.info/gnd/"  # noqa
-
         # create Thomas Bernhard as first Person from GND ID
-        PersonImporter(gnd_url + "118509861", Person).create_instance()
+        PersonImporter(GND_URL + GND_ID_TB, Person).create_instance()
 
-        with open(fpath) as f:
+        with open(OPENREFINE_EXPORT) as f:
             posters_raw_data = json.load(f)
             # print(json.dumps(posters, sort_keys=True, indent=2))
 
@@ -333,13 +334,13 @@ class Command(BaseCommand):
                             for obj in gnd_refs_objects:
                                 if "DifferentiatedPerson" in obj["types"]:
                                     person = PersonImporter(
-                                        gnd_url + obj["id"], Person
+                                        GND_URL + obj["id"], Person
                                     ).create_instance()
                                     if person:
                                         participating_persons.append(person)
                                 if "CorporateBody" in obj["types"]:
                                     group = GroupImporter(
-                                        gnd_url + obj["id"], Group
+                                        GND_URL + obj["id"], Group
                                     ).create_instance()
                                     if group:
                                         participating_groups.append(group)
@@ -365,13 +366,13 @@ class Command(BaseCommand):
                         for obj in gnd_refs_objects:
                             if "DifferentiatedPerson" in obj["types"]:
                                 person = PersonImporter(
-                                    gnd_url + obj["id"], Person
+                                    GND_URL + obj["id"], Person
                                 ).create_instance()
                                 if person:
                                     participating_persons.append(person)
                             if "CorporateBody" in obj["types"]:
                                 group = GroupImporter(
-                                    gnd_url + obj["id"], Group
+                                    GND_URL + obj["id"], Group
                                 ).create_instance()
                                 if group:
                                     participating_groups.append(group)
@@ -425,7 +426,7 @@ class Command(BaseCommand):
                             )
 
                             for obj in gnd_refs_objects:
-                                work_import = WorkImporter(gnd_url + obj["id"], Work)
+                                work_import = WorkImporter(GND_URL + obj["id"], Work)
                                 work = work_import.create_instance()
 
                                 work_import_data = work_import.get_data(
@@ -466,13 +467,13 @@ class Command(BaseCommand):
                             for obj in gnd_refs_objects:
                                 if "DifferentiatedPerson" in obj["types"]:
                                     person = PersonImporter(
-                                        gnd_url + obj["id"], Person
+                                        GND_URL + obj["id"], Person
                                     ).create_instance()
                                     if person:
                                         directors_persons.append(person)
                                 if "CorporateBody" in obj["types"]:
                                     group = GroupImporter(
-                                        gnd_url + obj["id"], Group
+                                        GND_URL + obj["id"], Group
                                     ).create_instance()
                                     if group:
                                         directors_groups.append(group)
@@ -534,7 +535,7 @@ class Command(BaseCommand):
                                 exclude_types=["DifferentiatedPerson", "CorporateBody"],
                             )
                             work = WorkImporter(
-                                gnd_url + gnd_refs_objects[0]["id"], Work
+                                GND_URL + gnd_refs_objects[0]["id"], Work
                             ).create_instance()
 
                         else:
