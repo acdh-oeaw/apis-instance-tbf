@@ -58,10 +58,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Third-party dependencies
 
-# Content Security Policy settings
-# TODO remove variable once it has been added to apis-acdhch-default-settings
-CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
-
 # django-tables2 settings
 DJANGO_TABLES2_TABLE_ATTRS = {
     "class": "table table-hover table-striped",
