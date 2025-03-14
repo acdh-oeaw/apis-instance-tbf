@@ -307,10 +307,8 @@ class Command(BaseCommand):
                 # add unexpected values and values from columns for which
                 # there are no fields (yet) to Poster field "notes";
                 # relevant for:
-                # signature, measurements, unknown event_types,
+                # measurements, unknown event_types,
                 # start_date_written, end_date_written TODO update
-                if signature:
-                    notes = add_text(notes, f"Signatur: {signature}")
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
                 if not event_type:
@@ -338,6 +336,7 @@ class Command(BaseCommand):
                     country=country,
                     label=title,
                     notes=notes,
+                    signature=signature,
                     status=status,
                     storage_location=storage_location,
                     quantity=quantity,
