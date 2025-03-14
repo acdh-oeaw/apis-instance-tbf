@@ -322,7 +322,14 @@ class Command(BaseCommand):
                         notes, f"Beteiligte Personen: {participants_array}"
                     )
                     notes = add_text(notes, f"Institution: {group_data}")
-
+                elif event_type and event_type not in Event.EventTypes.value + [
+                    "Theater"
+                ]:
+                    # record unknown event type in notes
+                    notes = add_text(
+                        notes,
+                        f"Veranstaltungstyp unbekannt: {event_type}",
+                    )
                 # add any dates to notes field while interval field is not
                 # being used yet TODO replace with interval field
                 if start_date_written:
@@ -609,12 +616,9 @@ class Command(BaseCommand):
                                 obj_content_type=get_ct(Group),
                             )
                     else:
-                        # store unknown event types in notes
                         logger.warning(
                             f"Unknown event type for Poster {title} (ID {(poster_id)})"
                         )
-                        notes = add_text(notes, f"Veranstaltungstyp: {event_type}")
-                        Poster.objects.filter(id=poster_id).update(notes=notes)
 
                 else:
                     logger.warning(
