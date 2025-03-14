@@ -313,6 +313,17 @@ class Command(BaseCommand):
                     notes = add_text(notes, f"Signatur: {signature}")
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
+                if not event_type:
+                    # record any data which would normally be linked with a
+                    # Performance or Event object to Poster notes in case
+                    # no such relation can be created
+                    notes = add_text(notes, "Plakat ohne Aufführung/Veranstaltung")
+                    notes = add_text(notes, f"Werkbezug: {work_data}")
+                    notes = add_text(notes, f"Regisseur: {director_data}")
+                    notes = add_text(
+                        notes, f"Beteiligte Personen: {participants_array}"
+                    )
+                    notes = add_text(notes, f"Institution: {group_data}")
 
                 # add any dates to notes field while interval field is not
                 # being used yet TODO replace with interval field
