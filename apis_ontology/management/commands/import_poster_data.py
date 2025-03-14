@@ -241,7 +241,6 @@ class Command(BaseCommand):
 
         with open(OPENREFINE_EXPORT) as f:
             posters_raw_data = json.load(f)
-            # print(json.dumps(posters, sort_keys=True, indent=2))
 
             for row in posters_raw_data["rows"]:
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
@@ -304,11 +303,8 @@ class Command(BaseCommand):
                 start_date_written = start_date_written.strip()
                 end_date_written = end_date_written.strip()
 
-                # add unexpected values and values from columns for which
-                # there are no fields (yet) to Poster field "notes";
-                # relevant for:
-                # measurements, unknown event_types,
-                # start_date_written, end_date_written TODO update
+                # add unexpected values and/or values from columns for which
+                # there are no fields (yet) to Poster field "notes"
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
                 if not event_type:
@@ -581,7 +577,7 @@ class Command(BaseCommand):
                         try:
                             # a Poster may only be linked to one Event
                             # TODO remove this check once dates (and countries?)
-                            #  are saved for performances
+                            #  are saved for events
                             existing_poster_event = PosterPromotedEvent.objects.get(
                                 subj_object_id=poster_id,
                                 subj_content_type=get_ct(Poster),
