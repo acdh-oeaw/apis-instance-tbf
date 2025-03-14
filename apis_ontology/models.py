@@ -316,6 +316,13 @@ class Poster(BaseEntity):
         verbose_name=_("Titel"),
     )
 
+    signature = models.CharField(
+        blank=True,
+        default="",
+        max_length=20,
+        verbose_name=_("Signatur"),
+    )
+
     storage_location = models.CharField(
         blank=True,
         default="",
