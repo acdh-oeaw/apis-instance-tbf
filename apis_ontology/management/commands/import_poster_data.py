@@ -272,12 +272,6 @@ class Command(BaseCommand):
                 participants_array = row["participants"]  # Person entity
                 group_data = row["group"]  # Group entity
 
-                if not title:
-                    logger.error(
-                        f"There is no title for row {posters_raw_data['rows'].index(row)} "
-                        f"(Work: {work_data['value']}, Director: {director_data['value']}, Group: {group_data['value']})"
-                    )
-
                 title = title.strip()
                 notes = notes.strip()
                 signature = signature.strip()
@@ -344,6 +338,11 @@ class Command(BaseCommand):
                     quantity=quantity,
                     year=year,
                 )
+
+                # log issues with Poster data when creating new objects
+                if created:
+                    if poster.label == "":
+                        logger.warning(f"Poster ID {poster.id} has no title.")
 
                 if event_type:
                     participating_persons = []
