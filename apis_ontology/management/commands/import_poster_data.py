@@ -199,6 +199,26 @@ def delete_objects(models=None, keep_history=False):
     return deleted_objects
 
 
+def convert_placeholder_dates(date_string):
+    """
+    Remove placeholder characters from partial string representations
+    of ISO dates.
+
+    :param date_string: a string which might look like an ISO date, or an
+                        ISO date with the character "x" in place of some of
+                        the date information, e.g. 1972-xx-xx or 1980-02-xx
+    :type date_string: str
+    :return: the date string but with all placeholder characters removed
+    :rtype: str
+    """
+
+    while len(date_string) > 0 and "x" in date_string[-1]:
+        date_string = date_string[:-1]
+        if len(date_string) > 0 and "-" in date_string[-1]:
+            date_string = date_string[:-1]
+    return date_string
+
+
 class Command(BaseCommand):
     help = (
         "Import poster, performance, event data based on manually "
