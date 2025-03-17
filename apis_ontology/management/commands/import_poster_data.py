@@ -236,11 +236,11 @@ class Command(BaseCommand):
 
             exit(0)
 
-        # create Thomas Bernhard as first Person from GND ID
-        PersonImporter(GND_URL + GND_ID_TB, Person).create_instance()
-
         with open(OPENREFINE_EXPORT) as f:
             posters_raw_data = json.load(f)
+
+            # create Thomas Bernhard as first Person from GND ID
+            PersonImporter(GND_URL + GND_ID_TB, Person).create_instance()
 
             for row in posters_raw_data["rows"]:
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
