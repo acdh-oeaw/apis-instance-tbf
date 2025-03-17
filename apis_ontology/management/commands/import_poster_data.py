@@ -311,7 +311,7 @@ class Command(BaseCommand):
                         notes, f"Beteiligte Personen: {participants_array}"
                     )
                     notes = add_text(notes, f"Institution: {group_data}")
-                elif event_type and event_type not in Event.EventTypes.value + [
+                elif event_type and event_type not in Event.EventTypes.values + [
                     "Theater"
                 ]:
                     # record unknown event type in notes
