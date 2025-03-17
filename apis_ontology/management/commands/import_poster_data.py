@@ -277,7 +277,6 @@ class Command(BaseCommand):
                         f"There is no title for row {posters_raw_data['rows'].index(row)} "
                         f"(Work: {work_data['value']}, Director: {director_data['value']}, Group: {group_data['value']})"
                     )
-                    title = "—"
 
                 title = title.strip()
                 notes = notes.strip()
