@@ -344,6 +344,11 @@ class Command(BaseCommand):
                     if poster.label == "":
                         logger.warning(f"Poster ID {poster.id} has no title.")
 
+                    if poster.quantity == 0:
+                        logger.warning(
+                            f'Poster "{poster.label}" (ID {poster.id}) has quantity 0.'
+                        )
+
                 if event_type:
                     participating_persons = []
                     participating_groups = []
