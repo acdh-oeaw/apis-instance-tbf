@@ -219,6 +219,28 @@ def convert_placeholder_dates(date_string):
     return date_string
 
 
+def extract_relevant_data(data):
+    """
+    Extract relevant data from an OpenRefine data dictionary.
+
+    Prioritises the original "value" over "match" (matched GND data)
+    over "candidates" (potential GND matches).
+
+    :param data: a dictionary with keys "value", "match", "candidates"
+    :type data: dict
+    :return: a string, dictionary or list of dictionaries containing data
+             (or otherwise the empty string)
+    :rtype: various
+    """
+    if data["value"]:
+        return data["value"]
+    elif data["match"]:
+        return data["match"]
+    elif data["candidates"]:
+        return data["candidates"]
+    return ""
+
+
 class Command(BaseCommand):
     help = (
         "Import poster, performance, event data based on manually "
