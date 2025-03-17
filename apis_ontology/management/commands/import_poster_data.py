@@ -584,7 +584,10 @@ class Command(BaseCommand):
                                 subj_content_type=get_ct(Poster),
                                 obj_content_type=get_ct(Event),
                             )
-                            event_id = existing_poster_event.obj_object_id
+                            event = Event.objects.get(
+                                id=existing_poster_event.obj_object_id
+                            )
+                            event_id = event.pk
                         except ObjectDoesNotExist:
                             event, created = Event.objects.get_or_create(
                                 label=title,
