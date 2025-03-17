@@ -345,7 +345,6 @@ class Command(BaseCommand):
                     quantity=quantity,
                     year=year,
                 )
-                poster_id = poster.pk
 
                 if event_type:
                     participating_persons = []
@@ -425,23 +424,21 @@ class Command(BaseCommand):
                             # TODO remove check once dates (and countries?)
                             #  are saved for performances
                             related_performance = PosterPromotedPerformance.objects.get(
-                                subj_object_id=poster_id,
+                                subj_object_id=poster.pk,
                                 subj_content_type=get_ct(Poster),
                                 obj_content_type=get_ct(Performance),
                             )
                             performance = Performance.objects.get(
                                 id=related_performance.obj_object_id
                             )
-                            performance_id = performance.pk
                         except ObjectDoesNotExist:
                             performance = Performance.objects.create(
                                 label=title,
                             )
-                            performance_id = performance.pk
 
                         PosterPromotedPerformance.objects.get_or_create(
-                            subj_object_id=poster_id,
-                            obj_object_id=performance_id,
+                            subj_object_id=poster.pk,
+                            obj_object_id=performance.pk,
                             subj_content_type=get_ct(Poster),
                             obj_content_type=get_ct(Performance),
                         )
@@ -479,7 +476,7 @@ class Command(BaseCommand):
                                 )
 
                         PerformancePerformedWork.objects.get_or_create(
-                            subj_object_id=performance_id,
+                            subj_object_id=performance.pk,
                             obj_object_id=work.pk,
                             subj_content_type=get_ct(Performance),
                             obj_content_type=get_ct(Work),
@@ -521,12 +518,12 @@ class Command(BaseCommand):
                                     directors_persons.append(director)
                             else:
                                 logger.warning(
-                                    f"Performance {performance} (ID: {performance_id}) is missing director"
+                                    f"Performance {performance} (ID: {performance.pk}) is missing director"
                                 )
 
                         for director in directors_persons:
                             PerformanceHadDirectorPerson.objects.get_or_create(
-                                subj_object_id=performance_id,
+                                subj_object_id=performance.pk,
                                 obj_object_id=director.pk,
                                 subj_content_type=get_ct(Performance),
                                 obj_content_type=get_ct(Person),
@@ -542,14 +539,14 @@ class Command(BaseCommand):
                         # participating Persons and Groups
                         for person in participating_persons:
                             PerformanceHadParticipantPerson.objects.get_or_create(
-                                subj_object_id=performance_id,
+                                subj_object_id=performance.pk,
                                 obj_object_id=person.pk,
                                 subj_content_type=get_ct(Performance),
                                 obj_content_type=get_ct(Person),
                             )
                         for group in participating_groups:
                             PerformanceHadParticipantGroup.objects.get_or_create(
-                                subj_object_id=performance_id,
+                                subj_object_id=performance.pk,
                                 obj_object_id=group.pk,
                                 subj_content_type=get_ct(Performance),
                                 obj_content_type=get_ct(Group),
@@ -579,22 +576,20 @@ class Command(BaseCommand):
                             # TODO remove this check once dates (and countries?)
                             #  are saved for events
                             related_event = PosterPromotedEvent.objects.get(
-                                subj_object_id=poster_id,
+                                subj_object_id=poster.pk,
                                 subj_content_type=get_ct(Poster),
                                 obj_content_type=get_ct(Event),
                             )
                             event = Event.objects.get(id=related_event.obj_object_id)
-                            event_id = event.pk
                         except ObjectDoesNotExist:
                             event, created = Event.objects.get_or_create(
                                 label=title,
                                 event_type=event_type,
                             )
-                            event_id = event.pk
 
                         PosterPromotedEvent.objects.get_or_create(
-                            subj_object_id=poster_id,
-                            obj_object_id=event_id,
+                            subj_object_id=poster.pk,
+                            obj_object_id=event.pk,
                             subj_content_type=get_ct(Poster),
                             obj_content_type=get_ct(Event),
                         )
@@ -603,24 +598,24 @@ class Command(BaseCommand):
                         # participating Persons and Groups
                         for person in participating_persons:
                             EventHadParticipantPerson.objects.get_or_create(
-                                subj_object_id=event_id,
+                                subj_object_id=event.pk,
                                 obj_object_id=person.pk,
                                 subj_content_type=get_ct(Event),
                                 obj_content_type=get_ct(Person),
                             )
                         for group in participating_groups:
                             EventHadParticipantGroup.objects.get_or_create(
-                                subj_object_id=event_id,
+                                subj_object_id=event.pk,
                                 obj_object_id=group.pk,
                                 subj_content_type=get_ct(Event),
                                 obj_content_type=get_ct(Group),
                             )
                     else:
                         logger.warning(
-                            f"Unknown event type for Poster {title} (ID {(poster_id)})"
+                            f"Unknown event type for Poster {title} (ID {(poster.pk)})"
                         )
 
                 else:
                     logger.warning(
-                        f"No event type for Poster {title} (ID {(poster_id)})"
+                        f"No event type for Poster {title} (ID {(poster.pk)})"
                     )
