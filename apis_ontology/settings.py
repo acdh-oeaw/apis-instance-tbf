@@ -22,6 +22,7 @@ APIS_APPS_PREPEND = ["apis_core.relations"]
 APIS_APPS_APPEND = [
     "apis_core.history",
     "apis_core.documentation",
+    "django_interval",
 ]
 
 for a in APIS_APPS_PREPEND:
