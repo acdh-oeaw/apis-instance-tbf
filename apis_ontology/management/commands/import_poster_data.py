@@ -519,10 +519,6 @@ class Command(BaseCommand):
                                         forename=person[1],
                                     )
                                     directors_persons.append(director)
-                            else:
-                                logger.warning(
-                                    f"Performance {performance} (ID: {performance.pk}) is missing director"
-                                )
 
                         for director in directors_persons:
                             PerformanceHadDirectorPerson.objects.get_or_create(
@@ -537,6 +533,11 @@ class Command(BaseCommand):
                             )
                             # TODO create new Relation PerformanceHadDirectorGroup
                             ...
+
+                        if not directors_persons and not directors_groups:
+                            logger.warning(
+                                f'Performance "{performance.label}" (ID {performance.pk}) has no director.'
+                            )
 
                         # create relationships between Performance and
                         # participating Persons and Groups
