@@ -257,6 +257,17 @@ class Event(BaseEntity):
         verbose_name=_("Veranstaltungstyp"),
     )
 
+    date_range = FuzzyDateParserField(
+        blank=True,
+        default="",
+        verbose_name=_("Zeitraum"),
+        help_text=_(
+            'Eingabe in der Form: "ab YYYY-MM-DD bis YYYY-MM-DD", wobei '
+            "beide Datumsteile optional sind und auch unvollständige Daten "
+            "angegeben werden können. Bsp: ab 1982-02 bis 1982-03"
+        ),
+    )
+
     class Meta:
         verbose_name = _("Veranstaltung")
         verbose_name_plural = _("Veranstaltungen")
