@@ -326,7 +326,7 @@ class Command(BaseCommand):
                 if end_date_written:
                     notes = add_text(notes, f"Datum Ende: {end_date_written}")
 
-                logger.debug(title)
+                logger.debug(f"[{posters_raw_data['rows'].index(row)}] {title}")
 
                 poster, poster_created = Poster.objects.get_or_create(
                     country=country,
