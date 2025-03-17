@@ -614,11 +614,13 @@ class Command(BaseCommand):
                                 obj_content_type=get_ct(Group),
                             )
                     else:
-                        logger.warning(
-                            f"Unknown event type for Poster {title} (ID {(poster.pk)})"
-                        )
+                        if poster_created:
+                            logger.warning(
+                                f'No Event created – Poster "{poster.label}" (ID {poster.id}) promotes unknown event_type.'
+                            )
 
                 else:
-                    logger.warning(
-                        f"No event type for Poster {title} (ID {(poster.pk)})"
-                    )
+                    if poster_created:
+                        logger.warning(
+                            f'No Event created – Poster "{poster.label}" (ID {poster.id}) has empty event_type.'
+                        )
