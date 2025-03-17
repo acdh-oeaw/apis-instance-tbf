@@ -578,14 +578,12 @@ class Command(BaseCommand):
                             # a Poster may only be linked to one Event
                             # TODO remove this check once dates (and countries?)
                             #  are saved for events
-                            existing_poster_event = PosterPromotedEvent.objects.get(
+                            related_event = PosterPromotedEvent.objects.get(
                                 subj_object_id=poster_id,
                                 subj_content_type=get_ct(Poster),
                                 obj_content_type=get_ct(Event),
                             )
-                            event = Event.objects.get(
-                                id=existing_poster_event.obj_object_id
-                            )
+                            event = Event.objects.get(id=related_event.obj_object_id)
                             event_id = event.pk
                         except ObjectDoesNotExist:
                             event, created = Event.objects.get_or_create(
