@@ -533,7 +533,7 @@ class Command(BaseCommand):
                             )
                         for director in directors_groups:
                             logger.warning(
-                                f"Missing relation for director group: {director}"
+                                f'Performance "{performance.label}" (ID {performance.pk}) – missing relation PerformanceHadDirectorGroup for {director}.'
                             )
                             # TODO create new Relation PerformanceHadDirectorGroup
                             ...
