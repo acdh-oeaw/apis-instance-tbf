@@ -348,6 +348,8 @@ class Command(BaseCommand):
                 else:
                     # create date_range from dates without placeholders
                     # for posters with a valid event_type
+                    # also log start and end date if year is not reflected
+                    # in both to catch data inconsistencies
                     date_range = ""
 
                     start_date = convert_placeholder_dates(start_date_written)
@@ -355,8 +357,14 @@ class Command(BaseCommand):
 
                     if start_date:
                         date_range = f"ab {start_date}"
+                        if year not in start_date:
+                            notes = add_text(
+                                notes, f"Datum Start: {start_date_written}"
+                            )
                     if end_date:
                         date_range = f"{date_range} bis {end_date}"
+                        if year not in start_date:
+                            notes = add_text(notes, f"Datum Start: {end_date_written}")
 
                 logger.debug(f"[{posters_raw_data['rows'].index(row)}] {title}")
 
