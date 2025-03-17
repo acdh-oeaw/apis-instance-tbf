@@ -334,8 +334,10 @@ class Command(BaseCommand):
                             notes,
                             f"Veranstaltungstyp unbekannt: {event_type}",
                         )
-                    notes = add_text(notes, f"Datum Start: {start_date_written}")
-                    notes = add_text(notes, f"Datum Ende: {end_date_written}")
+                    if start_date_written:
+                        notes = add_text(notes, f"Datum Start: {start_date_written}")
+                    if end_date_written:
+                        notes = add_text(notes, f"Datum Ende: {end_date_written}")
                     notes = add_text(notes, f"Werkbezug: {work_data}")
                     notes = add_text(notes, f"Regisseur: {director_data}")
                     notes = add_text(
