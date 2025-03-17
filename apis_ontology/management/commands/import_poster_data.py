@@ -364,7 +364,7 @@ class Command(BaseCommand):
                     if end_date:
                         date_range = f"{date_range} bis {end_date}"
                         if year not in start_date:
-                            notes = add_text(notes, f"Datum Start: {end_date_written}")
+                            notes = add_text(notes, f"Datum Ende: {end_date_written}")
 
                 logger.debug(f"[{posters_raw_data['rows'].index(row)}] {title}")
 
