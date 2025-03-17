@@ -360,12 +360,16 @@ class Command(BaseCommand):
                         notes = add_text(notes, f"Datum Start: {start_date_written}")
                     if end_date_written:
                         notes = add_text(notes, f"Datum Ende: {end_date_written}")
-                    notes = add_text(notes, f"Werkbezug: {work_data}")
-                    notes = add_text(notes, f"Regisseur: {director_data}")
-                    notes = add_text(
-                        notes, f"Beteiligte Personen: {participants_array}"
-                    )
-                    notes = add_text(notes, f"Institution: {group_data}")
+
+                    if work_info := extract_relevant_data(work_data):
+                        notes = add_text(notes, f"Werkbezug: {work_info}")
+                    if director_info := extract_relevant_data(director_data):
+                        notes = add_text(notes, f"Regisseur: {director_info}")
+                    if group_info := extract_relevant_data(group_data):
+                        notes = add_text(notes, f"Institution: {group_info}")
+                    for p in participants_array:
+                        if p_info := extract_relevant_data(p):
+                            notes = add_text(notes, f"Beteiligte Personen: {p_info}")
 
                 else:
                     # create date_range from dates without placeholders
