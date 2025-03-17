@@ -328,7 +328,7 @@ class Command(BaseCommand):
 
                 logger.debug(title)
 
-                poster, created = Poster.objects.get_or_create(
+                poster, poster_created = Poster.objects.get_or_create(
                     country=country,
                     label=title,
                     notes=notes,
@@ -340,7 +340,7 @@ class Command(BaseCommand):
                 )
 
                 # log issues with Poster data when creating new objects
-                if created:
+                if poster_created:
                     if poster.label == "":
                         logger.warning(f"Poster ID {poster.id} has no title.")
 
