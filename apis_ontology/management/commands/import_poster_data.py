@@ -428,12 +428,15 @@ class Command(BaseCommand):
                             # performances with the same label)
                             # TODO remove check once dates (and countries?)
                             #  are saved for performances
-                            performance = PosterPromotedPerformance.objects.get(
+                            related_performance = PosterPromotedPerformance.objects.get(
                                 subj_object_id=poster_id,
                                 subj_content_type=get_ct(Poster),
                                 obj_content_type=get_ct(Performance),
                             )
-                            performance_id = performance.obj_object_id
+                            performance = Performance.objects.get(
+                                id=related_performance.obj_object_id
+                            )
+                            performance_id = performance.pk
                         except ObjectDoesNotExist:
                             performance = Performance.objects.create(
                                 label=title,
