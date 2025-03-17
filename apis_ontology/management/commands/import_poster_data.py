@@ -320,31 +320,41 @@ class Command(BaseCommand):
                 # there are no fields (yet) to Poster field "notes"
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
-                if not event_type:
+
+                if not event_type or event_type not in Event.EventTypes.values + [
+                    "Theater"
+                ]:
                     # record any data which would normally be linked with a
                     # Performance or Event object to Poster notes in case
                     # no such relation can be created
-                    notes = add_text(notes, "Plakat ohne Aufführung/Veranstaltung")
+                    if not event_type:
+                        notes = add_text(notes, "Plakat ohne Aufführung/Veranstaltung")
+                    else:
+                        notes = add_text(
+                            notes,
+                            f"Veranstaltungstyp unbekannt: {event_type}",
+                        )
+                    notes = add_text(notes, f"Datum Start: {start_date_written}")
+                    notes = add_text(notes, f"Datum Ende: {end_date_written}")
                     notes = add_text(notes, f"Werkbezug: {work_data}")
                     notes = add_text(notes, f"Regisseur: {director_data}")
                     notes = add_text(
                         notes, f"Beteiligte Personen: {participants_array}"
                     )
                     notes = add_text(notes, f"Institution: {group_data}")
-                elif event_type and event_type not in Event.EventTypes.values + [
-                    "Theater"
-                ]:
-                    # record unknown event type in notes
-                    notes = add_text(
-                        notes,
-                        f"Veranstaltungstyp unbekannt: {event_type}",
-                    )
-                # add any dates to notes field while interval field is not
-                # being used yet TODO replace with interval field
-                if start_date_written:
-                    notes = add_text(notes, f"Datum Start: {start_date_written}")
-                if end_date_written:
-                    notes = add_text(notes, f"Datum Ende: {end_date_written}")
+
+                else:
+                    # create date_range from dates without placeholders
+                    # for posters with a valid event_type
+                    date_range = ""
+
+                    start_date = convert_placeholder_dates(start_date_written)
+                    end_date = convert_placeholder_dates(end_date_written)
+
+                    if start_date:
+                        date_range = f"ab {start_date}"
+                    if end_date:
+                        date_range = f"{date_range} bis {end_date}"
 
                 logger.debug(f"[{posters_raw_data['rows'].index(row)}] {title}")
 
@@ -457,6 +467,7 @@ class Command(BaseCommand):
                         except ObjectDoesNotExist:
                             performance = Performance.objects.create(
                                 label=title,
+                                date_range=date_range,
                             )
 
                         PosterPromotedPerformance.objects.get_or_create(
@@ -609,6 +620,7 @@ class Command(BaseCommand):
                             event, created = Event.objects.get_or_create(
                                 label=title,
                                 event_type=event_type,
+                                date_range=date_range,
                             )
 
                         PosterPromotedEvent.objects.get_or_create(
