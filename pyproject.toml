@@ -9,7 +9,7 @@ packages = [{include = "apis_ontology"}]
 python = "^3.11"
 apis-acdhch-default-settings = "^2.3.1"
 apis-core-rdf = "0.39.0"
-psycopg = "^3.2.5"
+psycopg = "^3.2.6"
 django-interval = "^0.4.0"
 
 [tool.poetry.group.dev]
