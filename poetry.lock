@@ -45,14 +45,14 @@ whitenoise = ">=5.2,<7.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.39.0"
+version = "0.40.0"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = "<4.0,>=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_core_rdf-0.39.0-py3-none-any.whl", hash = "sha256:96c169b038f1c90cb3ce1ec1dbccc2e5113ff905de9d2a0a65a8893ff97d052f"},
-    {file = "apis_core_rdf-0.39.0.tar.gz", hash = "sha256:2c8c49f214645b3ca50919c5ca6f2b63818f838713140ee43c2e3308a34966e9"},
+    {file = "apis_core_rdf-0.40.0-py3-none-any.whl", hash = "sha256:579ad666abf263abfe05e7fcd604aadd779c6b4aed5630b5a5a9c272211395b5"},
+    {file = "apis_core_rdf-0.40.0.tar.gz", hash = "sha256:01654fc1f0062f0cd86883874ff084deff54b551dd10cc1c030979380d1756b9"},
 ]
 
 [package.dependencies]
@@ -2177,4 +2177,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "c87ce4a5c20867ce67e1d28b16133529deae9beeb5b5700f0cb96f46e07286fa"
+content-hash = "63531c764bf5df98a822ea14285402d0634dd118b7d31d2ff642284fc1159b62"
