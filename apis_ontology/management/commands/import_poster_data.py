@@ -1,17 +1,13 @@
-import inspect
 import json
 import logging
 
 from apis_core.apis_entities.utils import get_entity_classes
 from apis_core.apis_metainfo.models import Uri
-from django.apps import apps
-from django.contrib.contenttypes.models import ContentType
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
 
-from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter  # noqa
-from apis_ontology.models import (  # noqa
-    BaseRelation,
+from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter
+from apis_ontology.models import (
     Event,
     EventHadParticipantGroup,
     EventHadParticipantPerson,
@@ -28,6 +24,7 @@ from apis_ontology.models import (  # noqa
     PosterPromotedPerformance,
     Work,
 )
+from apis_ontology.utils import delete_objects, get_ct, get_relation_classes
 
 logger = logging.getLogger(__name__)
 
@@ -50,13 +47,6 @@ def add_text(text_value, new_text):
         text_value = ""
     text_value += new_text
     return text_value
-
-
-def get_ct(model):
-    """
-    Return the ContentType for a given model.
-    """
-    return ContentType.objects.get_for_model(model)
 
 
 def extract_gnd_refs(data_object, exclude_types=None):
@@ -128,75 +118,6 @@ def split_people(raw_data):
         names.append((surname, forename))
 
     return names
-
-
-def get_relation_classes():
-    """
-    Return all model classes which inherit from BaseRelation.
-
-    :return: a list of model classes
-    :rtype: list
-    """
-    return list(filter(lambda x: issubclass(x, BaseRelation), apps.get_models()))
-
-
-def delete_objects(models=None, keep_history=False):
-    """
-    Delete model instance objects based on model classes and/or class names
-    (i.e. string representations of the same).
-
-    By default, all object histories are deleted alongside the objects
-    themselves – the relevant history models are assumed to be named the
-    same but prefixed with "Version" – unless keep_history
-    is set to True.
-
-    :param models: a list of model classes and/or class name strings
-    :type models: list
-    :param keep_history: whether to preserve object history or delete history
-                         objects as well; defaults to deleting history
-    :type keep_history: bool
-    :return: a list of tuples whose first item is the total of deleted objects
-             and whose second item is a dictionary with key-value pairs for
-             every model class and deleted objects per class for every
-             successful (non-zero) deletion, e.g.:
-             (4, {'apis_ontology.Poster': 1,
-             'apis_ontology.VersionPersonIsAuthorOfWork': 3})
-    :rtype: list
-    """
-    deleted_objects = []
-    for m in models:
-        model_class = None
-
-        if inspect.isclass(m):
-            model_class = m
-            model_name = m.__name__
-        else:
-            model_name = m
-            try:
-                model_class = apps.get_model("apis_ontology", model_name=model_name)
-            except LookupError:
-                pass
-
-        if model_class:
-            delete = model_class.objects.all().delete()
-            if delete[0]:
-                deleted_objects.append(delete)
-
-        if not keep_history:
-            historic_model_name = f"Version{model_name}"
-            try:
-                history_model_class = apps.get_model(
-                    "apis_ontology", model_name=historic_model_name
-                )
-                delete = history_model_class.objects.all().delete()
-                if delete[0]:
-                    deleted_objects.append(delete)
-            except LookupError:
-                pass
-
-    logger.debug("\n".join([str(d) for d in deleted_objects]))
-
-    return deleted_objects
 
 
 def convert_placeholder_dates(date_string):
