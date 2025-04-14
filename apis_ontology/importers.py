@@ -3,11 +3,8 @@ from apis_core.generic.importers import GenericModelImporter
 
 class BaseEntityImporter(GenericModelImporter):
     """
-    Importer for entities.
-
-    Allows defining related objects directly in RDF variable names.
-    Use `?something__RELATED_OBEJCT_CLASS__RELATION_CLASS` in your variables
-    to auto-create relations.
+    Extends APIS Core's GenericModelImporter class, which provides methods
+    for importing data from URIs and creating model instances off of it.
     """
 
 
