@@ -7,7 +7,7 @@ packages = [{include = "apis_ontology"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-apis-acdhch-default-settings = "^2.4.0"
+apis-acdhch-default-settings = "^2.5.0"
 apis-core-rdf = "0.42.6"
 psycopg = "^3.2.6"
 django-interval = "^0.5.1"
