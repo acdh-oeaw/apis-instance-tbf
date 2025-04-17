@@ -18,3 +18,7 @@ build
 
 # logging
 *.log
+
+
+# default dir for Django translations
+!**/locale/
