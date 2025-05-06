@@ -19,7 +19,6 @@ DEBUG = False
 # Application definition
 
 APIS_APPS_PREPEND = [
-    "apis_core.history",
     "apis_core.relations",
 ]
 APIS_APPS_APPEND = [
