@@ -14,6 +14,7 @@ class BaseEntity(VersionMixin, AbstractEntity):
 
     class Meta:
         abstract = True
+        ordering = ["id"]
 
 
 class BaseRelation(VersionMixin, Relation):
@@ -26,6 +27,7 @@ class BaseRelation(VersionMixin, Relation):
 
     class Meta:
         abstract = True
+        ordering = ["id"]
 
 
 class TitlesMixin(models.Model):
@@ -49,6 +51,7 @@ class TitlesMixin(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ["title"]
 
     def __str__(self):
         return self.title
@@ -70,7 +73,7 @@ class Work(TitlesMixin, BaseEntity):
     https://www.cidoc-crm.org/extensions/lrmoo/html/LRMoo_v1.0.html#F1
     """
 
-    class Meta:
+    class Meta(TitlesMixin.Meta):
         verbose_name = _("Werk")
         verbose_name_plural = _("Werke")
 
@@ -91,7 +94,7 @@ class Expression(TitlesMixin, BaseEntity):
     https://www.cidoc-crm.org/extensions/lrmoo/html/LRMoo_v1.0.html#F2
     """
 
-    class Meta:
+    class Meta(TitlesMixin.Meta):
         verbose_name = _("Expression")
         verbose_name_plural = _("Expressionen")
 
@@ -112,7 +115,7 @@ class Manifestation(TitlesMixin, BaseEntity):
     https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F3
     """
 
-    class Meta:
+    class Meta(TitlesMixin.Meta):
         verbose_name = _("Manifestation")
         verbose_name_plural = _("Manifestationen")
 
@@ -135,7 +138,7 @@ class Item(TitlesMixin, BaseEntity):
     https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F5
     """
 
-    class Meta:
+    class Meta(TitlesMixin.Meta):
         verbose_name = _("Exemplar")
         verbose_name_plural = _("Exemplare")
 
@@ -271,6 +274,7 @@ class Event(BaseEntity):
     class Meta:
         verbose_name = _("Veranstaltung")
         verbose_name_plural = _("Veranstaltungen")
+        ordering = ["label"]
 
     def __str__(self):
         return self.label
@@ -318,6 +322,7 @@ class Performance(BaseEntity):
     class Meta:
         verbose_name = _("Aufführung")
         verbose_name_plural = _("Aufführungen")
+        ordering = ["label"]
 
     def __str__(self):
         return self.label
@@ -401,6 +406,7 @@ class Poster(BaseEntity):
     class Meta:
         verbose_name = _("Plakat")
         verbose_name_plural = _("Plakate")
+        ordering = ["label"]
 
     def __str__(self):
         return self.label
