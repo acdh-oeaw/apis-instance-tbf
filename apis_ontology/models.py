@@ -153,8 +153,7 @@ class Person(BaseEntity, E21_Person):
     """
 
     class Meta(E21_Person.Meta):
-        verbose_name = _("person")
-        verbose_name_plural = _("persons")
+        pass
 
     def __str__(self):
         return self.full_name()
@@ -197,8 +196,7 @@ class Place(BaseEntity, E53_Place):
     """
 
     class Meta(E53_Place.Meta):
-        verbose_name = _("place")
-        verbose_name_plural = _("places")
+        pass
 
     def __str__(self):
         return self.label
@@ -218,8 +216,7 @@ class Group(BaseEntity, E74_Group):
     """
 
     class Meta(E74_Group.Meta):
-        verbose_name = _("group")
-        verbose_name_plural = _("groups")
+        pass
 
     def __str__(self):
         return self.label
