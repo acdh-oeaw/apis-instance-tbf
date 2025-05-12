@@ -148,7 +148,7 @@ class Person(BaseEntity, E21_Person):
     https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E21
     """
 
-    class Meta:
+    class Meta(E21_Person.Meta):
         verbose_name = _("Person")
         verbose_name_plural = _("Personen")
 
@@ -192,7 +192,7 @@ class Place(BaseEntity, E53_Place):
     https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E53
     """
 
-    class Meta:
+    class Meta(E53_Place.Meta):
         verbose_name = _("Ort")
         verbose_name_plural = _("Orte")
 
@@ -213,7 +213,7 @@ class Group(BaseEntity, E74_Group):
     https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E74
     """
 
-    class Meta:
+    class Meta(E74_Group.Meta):
         verbose_name = _("Körperschaft")
         verbose_name_plural = _("Körperschaften")
 
