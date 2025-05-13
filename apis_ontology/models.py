@@ -249,7 +249,7 @@ class Event(BaseEntity):
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Titel"),
+        verbose_name=_("Bezeichnung"),
     )
 
     event_type = models.CharField(
@@ -305,7 +305,7 @@ class Performance(BaseEntity):
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Titel"),
+        verbose_name=_("Bezeichnung"),
     )
 
     date_range = FuzzyDateParserField(
@@ -341,7 +341,7 @@ class Poster(BaseEntity):
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Titel"),
+        verbose_name=_("Bezeichnung"),
     )
 
     signature = models.CharField(
