@@ -83,14 +83,14 @@ class ItemTable(TitleFieldsMixin, BaseEntityTable):
 
 class PersonTable(BaseEntityTable):
     forename = tables.Column(
-        verbose_name=_("Vorname"),
+        verbose_name=_("forename"),
     )
     surname = tables.Column(
-        verbose_name=_("Nachname"),
+        verbose_name=_("surname"),
     )
     full_name = SortableLinkifyColumn(
         accessor="full_name",
-        verbose_name=_("Name"),
+        verbose_name=_("full name"),
         order_by=("surname", "forename"),
     )
 
@@ -102,7 +102,7 @@ class PersonTable(BaseEntityTable):
 
 class PlaceTable(BaseEntityTable):
     label = SortableLinkifyColumn(
-        verbose_name=_("Name"),
+        verbose_name=_("name"),
     )
 
     class Meta(BaseEntityTable.Meta):
@@ -113,7 +113,7 @@ class PlaceTable(BaseEntityTable):
 
 class GroupTable(BaseEntityTable):
     label = SortableLinkifyColumn(
-        verbose_name=_("Name"),
+        verbose_name=_("name"),
     )
 
     class Meta(BaseEntityTable.Meta):
