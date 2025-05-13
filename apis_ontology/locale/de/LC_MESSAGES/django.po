@@ -1,0 +1,190 @@
+# Forschungsplattform Thomas Bernhard – Übersetzungen.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# K Kollmann <dev-kk@oeaw.ac.at>, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-13 10:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
+"Language: German \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apis_ontology/models.py
+msgid "title"
+msgstr "Titel"
+
+#: apis_ontology/models.py
+msgid "subtitle"
+msgstr "Untertitel"
+
+#: apis_ontology/models.py
+msgid "work"
+msgstr "Werk"
+
+#: apis_ontology/models.py
+msgid "works"
+msgstr "Werke"
+
+#: apis_ontology/models.py
+msgid "expression"
+msgstr "Expression"
+
+#: apis_ontology/models.py
+msgid "expressions"
+msgstr "Expressionen"
+
+#: apis_ontology/models.py
+msgid "manifestation"
+msgstr "Manifestation"
+
+#: apis_ontology/models.py
+msgid "manifestations"
+msgstr "Manifestationen"
+
+#: apis_ontology/models.py
+msgid "item"
+msgstr "Exemplar"
+
+#: apis_ontology/models.py
+msgid "items"
+msgstr "Exemplare"
+
+#: apis_ontology/models.py
+msgid "exhibition"
+msgstr "Ausstellung"
+
+#: apis_ontology/models.py
+msgid "book presentation"
+msgstr "Buchpräsentation"
+
+#: apis_ontology/models.py
+msgid "conference"
+msgstr "Konferenz"
+
+#: apis_ontology/models.py
+msgid "book reading"
+msgstr "Lesung"
+
+#: apis_ontology/models.py
+msgid "screening"
+msgstr "Videovorführung"
+
+#: apis_ontology/models.py
+msgid "lecture"
+msgstr "Vortrag"
+
+#: apis_ontology/models.py
+msgctxt "verbose_name for Event class field 'label'"
+msgid "label"
+msgstr "Bezeichnung"
+
+#: apis_ontology/models.py
+msgid "event type"
+msgstr "Veranstaltungstyp"
+
+#: apis_ontology/models.py
+msgid "date range"
+msgstr "Zeitraum"
+
+#: apis_ontology/models.py
+msgid ""
+"Input has to be formatted \"ab YYYY-MM-DD bis YYYY-MM-DD\" for from and to "
+"date, though either date is optional and dates may also remain incomplete. "
+"Ex. ab 1982-02 bis 1982-03"
+msgstr ""
+"Eingabe in der Form: \"ab YYYY-MM-DD bis YYYY-MM-DD\", wobei beide "
+"Datumsteile optional sind und auch unvollständige Daten angegeben werden "
+"können. Bsp: ab 1982-02 bis 1982-03"
+
+#: apis_ontology/models.py
+msgid "event"
+msgstr "Veranstaltung"
+
+#: apis_ontology/models.py
+msgid "events"
+msgstr "Veranstaltungen"
+
+#: apis_ontology/models.py
+msgctxt "verbose_name for Performance class field 'label'"
+msgid "label"
+msgstr "Bezeichnung"
+
+#: apis_ontology/models.py
+msgid "performance"
+msgstr "Aufführung"
+
+#: apis_ontology/models.py
+msgid "performances"
+msgstr "Aufführungen"
+
+#: apis_ontology/models.py
+msgctxt "verbose_name for Poster class field 'label'"
+msgid "label"
+msgstr "Bezeichnung"
+
+#: apis_ontology/models.py
+msgid "signature"
+msgstr "Signatur"
+
+#: apis_ontology/models.py
+msgid "storage location"
+msgstr "Archivierung"
+
+#: apis_ontology/models.py
+msgid "status"
+msgstr "Status"
+
+#: apis_ontology/models.py
+msgid "country"
+msgstr "Land"
+
+#: apis_ontology/models.py
+msgid "year"
+msgstr "Jahr"
+
+#: apis_ontology/models.py
+msgid "notes"
+msgstr "Anmerkungen"
+
+#: apis_ontology/models.py
+msgid "length"
+msgstr "Länge"
+
+#: apis_ontology/models.py
+msgid "width"
+msgstr "Breite"
+
+#: apis_ontology/models.py
+msgid "quantity"
+msgstr "Anzahl"
+
+#: apis_ontology/models.py
+msgid "poster"
+msgstr "Plakat"
+
+#: apis_ontology/models.py
+msgid "posters"
+msgstr "Plakate"
+
+#: apis_ontology/tables.py
+msgid "forename"
+msgstr "Vorname"
+
+#: apis_ontology/tables.py
+msgid "surname"
+msgstr "Nachname"
+
+#: apis_ontology/tables.py
+msgid "full name"
+msgstr "Name"
+
+#: apis_ontology/tables.py
+msgid "name"
+msgstr "Name"
