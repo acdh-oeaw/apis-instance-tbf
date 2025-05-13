@@ -4,6 +4,7 @@ from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from django.utils.translation import pgettext_lazy
 from django_interval.fields import FuzzyDateParserField
 
 
@@ -39,14 +40,14 @@ class TitlesMixin(models.Model):
         max_length=255,
         blank=True,
         default="",
-        verbose_name=_("Titel"),
+        verbose_name=_("title"),
     )
 
     subtitle = models.CharField(
         max_length=255,
         blank=True,
         default="",
-        verbose_name=_("Untertitel"),
+        verbose_name=_("subtitle"),
     )
 
     class Meta:
@@ -74,8 +75,8 @@ class Work(TitlesMixin, BaseEntity):
     """
 
     class Meta(TitlesMixin.Meta):
-        verbose_name = _("Werk")
-        verbose_name_plural = _("Werke")
+        verbose_name = _("work")
+        verbose_name_plural = _("works")
 
 
 class Expression(TitlesMixin, BaseEntity):
@@ -95,8 +96,8 @@ class Expression(TitlesMixin, BaseEntity):
     """
 
     class Meta(TitlesMixin.Meta):
-        verbose_name = _("Expression")
-        verbose_name_plural = _("Expressionen")
+        verbose_name = _("expression")
+        verbose_name_plural = _("expressions")
 
 
 class Manifestation(TitlesMixin, BaseEntity):
@@ -116,8 +117,8 @@ class Manifestation(TitlesMixin, BaseEntity):
     """
 
     class Meta(TitlesMixin.Meta):
-        verbose_name = _("Manifestation")
-        verbose_name_plural = _("Manifestationen")
+        verbose_name = _("manifestation")
+        verbose_name_plural = _("manifestations")
 
 
 class Item(TitlesMixin, BaseEntity):
@@ -139,8 +140,8 @@ class Item(TitlesMixin, BaseEntity):
     """
 
     class Meta(TitlesMixin.Meta):
-        verbose_name = _("Exemplar")
-        verbose_name_plural = _("Exemplare")
+        verbose_name = _("item")
+        verbose_name_plural = _("items")
 
 
 class Person(BaseEntity, E21_Person):
@@ -152,8 +153,8 @@ class Person(BaseEntity, E21_Person):
     """
 
     class Meta(E21_Person.Meta):
-        verbose_name = _("Person")
-        verbose_name_plural = _("Personen")
+        verbose_name = _("person")
+        verbose_name_plural = _("persons")
 
     def __str__(self):
         return self.full_name()
@@ -196,8 +197,8 @@ class Place(BaseEntity, E53_Place):
     """
 
     class Meta(E53_Place.Meta):
-        verbose_name = _("Ort")
-        verbose_name_plural = _("Orte")
+        verbose_name = _("place")
+        verbose_name_plural = _("places")
 
     def __str__(self):
         return self.label
@@ -217,8 +218,8 @@ class Group(BaseEntity, E74_Group):
     """
 
     class Meta(E74_Group.Meta):
-        verbose_name = _("Körperschaft")
-        verbose_name_plural = _("Körperschaften")
+        verbose_name = _("group")
+        verbose_name_plural = _("groups")
 
     def __str__(self):
         return self.label
@@ -238,18 +239,20 @@ class Event(BaseEntity):
     """
 
     class EventTypes(models.TextChoices):
-        EXHIBITION = "Ausstellung", _("Ausstellung")
-        BOOK_PRESENTATION = "Buchpräsentation", _("Buchpräsentation")
-        CONFERENCE = "Konferenz", _("Konferenz")
-        BOOK_READING = "Lesung", _("Lesung")
-        SCREENING = "Videovorführung", _("Videovorführung")
-        LECTURE = "Vortrag", _("Vortrag")
+        EXHIBITION = "Ausstellung", _("exhibition")
+        BOOK_PRESENTATION = "Buchpräsentation", _("book presentation")
+        CONFERENCE = "Konferenz", _("conference")
+        BOOK_READING = "Lesung", _("book reading")
+        SCREENING = "Videovorführung", _("screening")
+        LECTURE = "Vortrag", _("lecture")
 
     label = models.CharField(
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Bezeichnung"),
+        verbose_name=pgettext_lazy(
+            "verbose_name for Event class field 'label'", "label"
+        ),
     )
 
     event_type = models.CharField(
@@ -257,23 +260,23 @@ class Event(BaseEntity):
         choices=EventTypes.choices,
         blank=True,
         default="",
-        verbose_name=_("Veranstaltungstyp"),
+        verbose_name=_("event type"),
     )
 
     date_range = FuzzyDateParserField(
         blank=True,
         default="",
-        verbose_name=_("Zeitraum"),
+        verbose_name=_("date range"),
         help_text=_(
-            'Eingabe in der Form: "ab YYYY-MM-DD bis YYYY-MM-DD", wobei '
-            "beide Datumsteile optional sind und auch unvollständige Daten "
-            "angegeben werden können. Bsp: ab 1982-02 bis 1982-03"
+            'Input has to be formatted "ab YYYY-MM-DD bis YYYY-MM-DD" for '
+            "from and to date, though either date is optional and dates may "
+            "also remain incomplete. Ex. ab 1982-02 bis 1982-03"
         ),
     )
 
     class Meta:
-        verbose_name = _("Veranstaltung")
-        verbose_name_plural = _("Veranstaltungen")
+        verbose_name = _("event")
+        verbose_name_plural = _("events")
         ordering = ["label"]
 
     def __str__(self):
@@ -305,23 +308,25 @@ class Performance(BaseEntity):
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Bezeichnung"),
+        verbose_name=pgettext_lazy(
+            "verbose_name for Performance class field 'label'", "label"
+        ),
     )
 
     date_range = FuzzyDateParserField(
         blank=True,
         default="",
-        verbose_name=_("Zeitraum"),
+        verbose_name=_("date range"),
         help_text=_(
-            'Eingabe in der Form: "ab YYYY-MM-DD bis YYYY-MM-DD", wobei '
-            "beide Datumsteile optional sind und auch unvollständige Daten "
-            "angegeben werden können. Bsp: ab 1982-02 bis 1982-03"
+            'Input has to be formatted "ab YYYY-MM-DD bis YYYY-MM-DD" for '
+            "from and to date, though either date is optional and dates may "
+            "also remain incomplete. Ex. ab 1982-02 bis 1982-03"
         ),
     )
 
     class Meta:
-        verbose_name = _("Aufführung")
-        verbose_name_plural = _("Aufführungen")
+        verbose_name = _("performance")
+        verbose_name_plural = _("performances")
         ordering = ["label"]
 
     def __str__(self):
@@ -341,71 +346,73 @@ class Poster(BaseEntity):
         blank=True,
         default="",
         max_length=4096,
-        verbose_name=_("Bezeichnung"),
+        verbose_name=pgettext_lazy(
+            "verbose_name for Poster class field 'label'", "label"
+        ),
     )
 
     signature = models.CharField(
         blank=True,
         default="",
         max_length=20,
-        verbose_name=_("Signatur"),
+        verbose_name=_("signature"),
     )
 
     storage_location = models.CharField(
         blank=True,
         default="",
         max_length=1024,
-        verbose_name=_("Archivierung"),
+        verbose_name=_("storage location"),
     )
 
     status = models.CharField(
         blank=True,
         default="",
         max_length=255,
-        verbose_name=_("Status"),
+        verbose_name=_("status"),
     )
 
     country = models.CharField(
         blank=True,
         default="",
         max_length=2,
-        verbose_name=_("Land"),
+        verbose_name=_("country"),
     )
 
     year = models.CharField(
         blank=True,
         default="",
         max_length=4,
-        verbose_name=_("Jahr"),
+        verbose_name=_("year"),
     )
 
     notes = models.TextField(
         blank=True,
         default="",
         max_length=1024,
-        verbose_name=_("Anmerkungen"),
+        verbose_name=_("notes"),
     )
 
     height = models.FloatField(
         blank=True,
         null=True,
-        verbose_name=_("Länge"),
+        verbose_name=_("length"),
     )
 
     width = models.FloatField(
         blank=True,
         null=True,
-        verbose_name=_("Breite"),
+        verbose_name=_("width"),
     )
 
     quantity = models.PositiveSmallIntegerField(
         default=0,
-        verbose_name=_("Anzahl"),
+        verbose_name=_("quantity"),
     )
 
     class Meta:
-        verbose_name = _("Plakat")
-        verbose_name_plural = _("Plakate")
+        verbose_name = _("poster")
+        verbose_name_plural = _("posters")
         ordering = ["label"]
 
     def __str__(self):
