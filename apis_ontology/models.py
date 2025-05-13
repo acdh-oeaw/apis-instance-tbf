@@ -243,7 +243,7 @@ class Event(BaseEntity):
         CONFERENCE = "Konferenz", _("Konferenz")
         BOOK_READING = "Lesung", _("Lesung")
         SCREENING = "Videovorführung", _("Videovorführung")
-        WORK_IN_PROGRESS = "Vortrag", _("Vortrag")
+        LECTURE = "Vortrag", _("Vortrag")
 
     label = models.CharField(
         blank=True,
