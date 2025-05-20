@@ -9,6 +9,7 @@ Variables are grouped by:
 """
 
 from apis_acdhch_default_settings.settings import *
+from django.utils.translation import gettext_lazy as _
 
 # Django general settings
 
@@ -47,6 +48,10 @@ DATABASES = {
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 LANGUAGE_CODE = "de-at"
+
+LANGUAGES = [
+    ("de", _("German")),
+]
 
 TIME_ZONE = "CET"
 
