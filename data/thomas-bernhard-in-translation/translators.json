@@ -1,2022 +1,2202 @@
 [
-    {
-        "name": "Gedaj, Doreida",
-        "gnd": "1012844331",
-        "id": 1
-    },
-    {
-        "name": "\u01e6iryis, Sam\u012br",
-        "gnd": "1091070733",
-        "id": 2
-    },
-    {
-        "name": "Uribarri, Ibon",
-        "gnd": "121638472",
-        "id": 3
-    },
-    {
-        "name": "Macedo, Jos\u00e9 Marcos",
-        "gnd": "136666825",
-        "id": 4
-    },
-    {
-        "name": "Tellaroli, Sergio",
-        "gnd": "132456168",
-        "id": 5
-    },
-    {
-        "name": "Melo, Jos\u00e9 Laurenio de",
-        "gnd": "1056367539",
-        "id": 6
-    },
-    {
-        "name": "Welper, Hans Peter",
-        "gnd": null,
-        "id": 7
-    },
-    {
-        "name": "Correia, Marcelo Cordeiro",
-        "gnd": "1186818190",
-        "id": 8
-    },
-    {
-        "name": "Ebersp\u00e4cher, Gisele",
-        "gnd": null,
-        "id": 9
-    },
-    {
-        "name": "Pacheco, Paulo Rog\u00e9rio Jr.",
-        "gnd": null,
-        "id": 10
-    },
-    {
-        "name": "R\u00f6hrig, Christine",
-        "gnd": "128687894",
-        "id": 11
-    },
-    {
-        "name": "Scherer, Ana Maria",
-        "gnd": null,
-        "id": 12
-    },
-    {
-        "name": "Signeu, Samir",
-        "gnd": null,
-        "id": 13
-    },
-    {
-        "name": "Luft, Lya",
-        "gnd": "11891426X",
-        "id": 14
-    },
-    {
-        "name": "Murdarov, Vladko",
-        "gnd": "10317656X",
-        "id": 15
-    },
-    {
-        "name": "Teocharov, Vladimir",
-        "gnd": "1332464289",
-        "id": 16
-    },
-    {
-        "name": "Andreev, Alexander",
-        "gnd": "1043474846",
-        "id": 17
-    },
-    {
-        "name": "Iliev, Ljubomir",
-        "gnd": "139444394",
-        "id": 18
-    },
-    {
-        "name": "Dimova, Ana & Students",
-        "gnd": null,
-        "id": 19
-    },
-    {
-        "name": "Karamelska, Teodora",
-        "gnd": "1029621152",
-        "id": 20
-    },
-    {
-        "name": "Stanishev, Krastyo",
-        "gnd": null,
-        "id": 21
-    },
-    {
-        "name": "Ma, Wentao",
-        "gnd": "1057987050",
-        "id": 22
-    },
-    {
-        "name": "Jie, Gong",
-        "gnd": null,
-        "id": 23
-    },
-    {
-        "name": "Jian, Zi Ma",
-        "gnd": null,
-        "id": 24
-    },
-    {
-        "name": "Han, Ruixiang",
-        "gnd": "1053037864",
-        "id": 25
-    },
-    {
-        "name": "Liu, Wenjie",
-        "gnd": "116026273X",
-        "id": 26
-    },
-    {
-        "name": "Wang, Zhongxin",
-        "gnd": "1012218384",
-        "id": 27
-    },
-    {
-        "name": "Xie, Fang",
-        "gnd": null,
-        "id": 28
-    },
-    {
-        "name": "Schnelle, Barbora",
-        "gnd": "134111346",
-        "id": 29
-    },
-    {
-        "name": "Augustov\u00e1, Zuzana",
-        "gnd": "129164100",
-        "id": 30
-    },
-    {
-        "name": "Charv\u00e1t, Radovan",
-        "gnd": "136336906",
-        "id": 31
-    },
-    {
-        "name": "\u0160pl\u00edchal, Bohumil",
-        "gnd": null,
-        "id": 32
-    },
-    {
-        "name": "Pet\u0159\u00ed\u010dek, Miroslav",
-        "gnd": "114005958",
-        "id": 33
-    },
-    {
-        "name": "Kufnerov\u00e1, Zlata",
-        "gnd": "129638900",
-        "id": 34
-    },
-    {
-        "name": "Stavia\u0159ov\u00e1, Hana",
-        "gnd": null,
-        "id": 35
-    },
-    {
-        "name": "Dimter, Tom\u00e1\u0161",
-        "gnd": "132734117",
-        "id": 36
-    },
-    {
-        "name": "Jacobsenov\u00e1, Michaela",
-        "gnd": "129483176",
-        "id": 37
-    },
-    {
-        "name": "Nekula, Marek",
-        "gnd": "131386654",
-        "id": 38
-    },
-    {
-        "name": "Mizerov\u00e1, Nikola",
-        "gnd": "1189349515",
-        "id": 39
-    },
-    {
-        "name": "Novotn\u00fd, Pavel",
-        "gnd": "1171453116",
-        "id": 40
-    },
-    {
-        "name": "Balvin, Josef",
-        "gnd": "116046775",
-        "id": 41
-    },
-    {
-        "name": "B\u00edl\u00e9ho, Jaroslava",
-        "gnd": null,
-        "id": 42
-    },
-    {
-        "name": "Lang\u00e1\u0161kov\u00e1, Ta\u0165jana",
-        "gnd": null,
-        "id": 43
-    },
-    {
-        "name": "Tome\u0161, Vladim\u00edr",
-        "gnd": "114470448",
-        "id": 44
-    },
-    {
-        "name": "Spitzbard, Wolfgang",
-        "gnd": "Q112365138",
-        "id": 45
-    },
-    {
-        "name": "Ullrichov\u00e1, Daria",
-        "gnd": null,
-        "id": 46
-    },
-    {
-        "name": "Cejpek, V\u00e1clav",
-        "gnd": "1048022838",
-        "id": 47
-    },
-    {
-        "name": "J\u00edlkov\u00e1, Jitka",
-        "gnd": "122472446",
-        "id": 48
-    },
-    {
-        "name": "Slez\u00e1k, Vratislav",
-        "gnd": "113652445",
-        "id": 49
-    },
-    {
-        "name": "Jensen, Ren\u00e9 Jean",
-        "gnd": "131470000",
-        "id": 50
-    },
-    {
-        "name": "Kierkegaard, Tommy",
-        "gnd": null,
-        "id": 51
-    },
-    {
-        "name": "Fauth, S\u00f8ren R.",
-        "gnd": "130646482",
-        "id": 52
-    },
-    {
-        "name": "Bille, Karen-Maria",
-        "gnd": null,
-        "id": 53
-    },
-    {
-        "name": "McLintock, David",
-        "gnd": "143687727",
-        "id": 54
-    },
-    {
-        "name": "Janeway, Carol Brown",
-        "gnd": "138370176",
-        "id": 55
-    },
-    {
-        "name": "Reidel, James",
-        "gnd": "142366803",
-        "id": 56
-    },
-    {
-        "name": "Osers, Ewald",
-        "gnd": "117744441",
-        "id": 57
-    },
-    {
-        "name": "Wilkins, Sophie",
-        "gnd": "Q95703843",
-        "id": 58
-    },
-    {
-        "name": "Dawson, Jack a.k.a. Mark Anderson",
-        "gnd": "1196980330 / 11329977X",
-        "id": 59
-    },
-    {
-        "name": "Hofmann, Michael",
-        "gnd": "132306174",
-        "id": 60
-    },
-    {
-        "name": "Robertson, Douglas",
-        "gnd": null,
-        "id": 61
-    },
-    {
-        "name": "Winston, Clara",
-        "gnd": "Q59525372",
-        "id": 62
-    },
-    {
-        "name": "Winston, Richard",
-        "gnd": "1037208870",
-        "id": 63
-    },
-    {
-        "name": "Stockman, Russell",
-        "gnd": "124036007",
-        "id": 64
-    },
-    {
-        "name": "Waugh, Peter",
-        "gnd": null,
-        "id": 65
-    },
-    {
-        "name": "Jansen, Peter",
-        "gnd": null,
-        "id": 66
-    },
-    {
-        "name": "Northcott, Kenneth J.",
-        "gnd": "127219501",
-        "id": 67
-    },
-    {
-        "name": "Honegger, Gitta",
-        "gnd": "124619533",
-        "id": 68
-    },
-    {
-        "name": "Oakes, Meredith",
-        "gnd": "138551731",
-        "id": 69
-    },
-    {
-        "name": "Tierney, Andrea",
-        "gnd": "1019872926",
-        "id": 70
-    },
-    {
-        "name": "Plaice, Neville",
-        "gnd": "105626568X",
-        "id": 71
-    },
-    {
-        "name": "Plaice, Stephen",
-        "gnd": "1171560575",
-        "id": 72
-    },
-    {
-        "name": "Cairns, Tom",
-        "gnd": null,
-        "id": 73
-    },
-    {
-        "name": "Eyre, Peter",
-        "gnd": null,
-        "id": 74
-    },
-    {
-        "name": "Lindgren, Laura",
-        "gnd": "1036333043",
-        "id": 75
-    },
-    {
-        "name": "Kinosian, Craig",
-        "gnd": null,
-        "id": 76
-    },
-    {
-        "name": "Stoklosinski, Eduard",
-        "gnd": null,
-        "id": 77
-    },
-    {
-        "name": "Chalmers, Martin",
-        "gnd": "114173567",
-        "id": 78
-    },
-    {
-        "name": "Glowa, Josef",
-        "gnd": null,
-        "id": 79
-    },
-    {
-        "name": "Hurly-Glowa, Susan",
-        "gnd": null,
-        "id": 80
-    },
-    {
-        "name": "McManus, Donald Cameron",
-        "gnd": "1089326556",
-        "id": 81
-    },
-    {
-        "name": "Mitchell, Michael",
-        "gnd": "113837895",
-        "id": 82
-    },
-    {
-        "name": "Searls, Damion",
-        "gnd": "132954214",
-        "id": 83
-    },
-    {
-        "name": "Williams, Eric",
-        "gnd": null,
-        "id": 84
-    },
-    {
-        "name": "Decker, Craig",
-        "gnd": "128883626",
-        "id": 85
-    },
-    {
-        "name": "Case, Holly",
-        "gnd": null,
-        "id": 86
-    },
-    {
-        "name": "Waidson, Herbert Morgan",
-        "gnd": "Q59628070",
-        "id": 87
-    },
-    {
-        "name": "Siegel, Adam",
-        "gnd": null,
-        "id": 88
-    },
-    {
-        "name": "Wilson, A. Lesllie",
-        "gnd": null,
-        "id": 89
-    },
-    {
-        "name": "Tasa, Toivo",
-        "gnd": "Q14503060",
-        "id": 90
-    },
-    {
-        "name": "Sirkel, Mati",
-        "gnd": "113737300",
-        "id": 91
-    },
-    {
-        "name": "Sirkel, Mati",
-        "gnd": "113737300",
-        "id": 92
-    },
-    {
-        "name": "M\u00e4gar, Heli",
-        "gnd": "1138306738",
-        "id": 93
-    },
-    {
-        "name": "Sarrivaara, Olli",
-        "gnd": "137246536",
-        "id": 94
-    },
-    {
-        "name": "Roinila, Tarja",
-        "gnd": "118148532",
-        "id": 95
-    },
-    {
-        "name": "Spreng, Eberhard",
-        "gnd": "114692562X",
-        "id": 96
-    },
-    {
-        "name": "Mirsky, Daniel",
-        "gnd": "1056937912",
-        "id": 97
-    },
-    {
-        "name": "Lambrichs, Gilberte",
-        "gnd": "127140581",
-        "id": 98
-    },
-    {
-        "name": "Estrangin, Guy F.",
-        "gnd": "127105778",
-        "id": 99
-    },
-    {
-        "name": "Kreiss, Bernard",
-        "gnd": "140640894",
-        "id": 100
-    },
-    {
-        "name": "Porcell, Claude",
-        "gnd": "114277966",
-        "id": 101
-    },
-    {
-        "name": "Kohn, Albert",
-        "gnd": "126505152",
-        "id": 102
-    },
-    {
-        "name": "Simon, Boris",
-        "gnd": "1205565698",
-        "id": 103
-    },
-    {
-        "name": "Turk-Meyer, Jos\u00e9e",
-        "gnd": "127531399X",
-        "id": 104
-    },
-    {
-        "name": "H\u00e9mery, Jean-Claude",
-        "gnd": "1152034472",
-        "id": 105
-    },
-    {
-        "name": "Kaufholz-Messmer, \u00c9liane",
-        "gnd": "141257946",
-        "id": 106
-    },
-    {
-        "name": "Servicen, Louise",
-        "gnd": "1036521567",
-        "id": 107
-    },
-    {
-        "name": "Holl, Herbert",
-        "gnd": "120991268",
-        "id": 108
-    },
-    {
-        "name": "Han, Kza",
-        "gnd": "137436971",
-        "id": 109
-    },
-    {
-        "name": "Moreau, Jean-Luc",
-        "gnd": "123611431",
-        "id": 110
-    },
-    {
-        "name": "Hommel, Susanne",
-        "gnd": "1027599265",
-        "id": 111
-    },
-    {
-        "name": "Nebenzahl, Michel",
-        "gnd": null,
-        "id": 112
-    },
-    {
-        "name": "Demet, Michel-Fran\u00e7ois",
-        "gnd": "116069015",
-        "id": 113
-    },
-    {
-        "name": "Etor\u00e9-Lortholary, Jeanne",
-        "gnd": "137449232",
-        "id": 114
-    },
-    {
-        "name": "Lortholary, Bernard",
-        "gnd": "138972516",
-        "id": 115
-    },
-    {
-        "name": "Petit, Dominique",
-        "gnd": "1017918856",
-        "id": 116
-    },
-    {
-        "name": "Darnaud, Edith",
-        "gnd": null,
-        "id": 117
-    },
-    {
-        "name": "Hofer-Bury, Roland",
-        "gnd": null,
-        "id": 119
-    },
-    {
-        "name": "Meur, Jean de",
-        "gnd": null,
-        "id": 120
-    },
-    {
-        "name": "Para, Jean-Baptiste",
-        "gnd": "14117479X",
-        "id": 121
-    },
-    {
-        "name": "Tautou, Alexis",
-        "gnd": "131565587X",
-        "id": 122
-    },
-    {
-        "name": "Hornig, Dieter",
-        "gnd": "109855019",
-        "id": 123
-    },
-    {
-        "name": "Lenormand, Herv\u00e9",
-        "gnd": null,
-        "id": 124
-    },
-    {
-        "name": "W\u00f6gerbauer, Werner",
-        "gnd": "130301078",
-        "id": 125
-    },
-    {
-        "name": "Joachim, Fran\u00e7ois",
-        "gnd": null,
-        "id": 126
-    },
-    {
-        "name": "Mannoni, Olivier",
-        "gnd": "136813089",
-        "id": 127
-    },
-    {
-        "name": "Stephan, Claudia",
-        "gnd": null,
-        "id": 128
-    },
-    {
-        "name": "Lefebvre, Jean-Pierre",
-        "gnd": "121462609",
-        "id": 130
-    },
-    {
-        "name": "Becerra de Becerre\u00e1, Afonso",
-        "gnd": "1033609943",
-        "id": 131
-    },
-    {
-        "name": "Contreras, Ana",
-        "gnd": null,
-        "id": 132
-    },
-    {
-        "name": "L\u00f3pez Pato, Catuxa",
-        "gnd": "1046629735",
-        "id": 133
-    },
-    {
-        "name": "Miriana\u0161vili, Maia",
-        "gnd": "133964981",
-        "id": 134
-    },
-    {
-        "name": "P\u0315an\u01f0ikije, Maia",
-        "gnd": "1160330182",
-        "id": 135
-    },
-    {
-        "name": "Datuaschwili, Natia",
-        "gnd": null,
-        "id": 136
-    },
-    {
-        "name": "Kentrotis, Georgios",
-        "gnd": "137598556",
-        "id": 137
-    },
-    {
-        "name": "Isar\u0113s, Alexandros",
-        "gnd": "133548910",
-        "id": 138
-    },
-    {
-        "name": "Perlegkas, Yannos",
-        "gnd": null,
-        "id": 139
-    },
-    {
-        "name": "Theodoropoulou, Ismini",
-        "gnd": null,
-        "id": 140
-    },
-    {
-        "name": "Depastas, Giorgos",
-        "gnd": null,
-        "id": 141
-    },
-    {
-        "name": "Tomanas, Vassilis",
-        "gnd": null,
-        "id": 142
-    },
-    {
-        "name": "Mastorak\u0113, Tzen\u0113",
-        "gnd": "129471550",
-        "id": 143
-    },
-    {
-        "name": "Matziri, Sotiria",
-        "gnd": null,
-        "id": 144
-    },
-    {
-        "name": "Tselentis, Dionysis",
-        "gnd": null,
-        "id": 145
-    },
-    {
-        "name": "Varsou, Dimitri",
-        "gnd": null,
-        "id": 146
-    },
-    {
-        "name": "Vogiatzis, Lefteris",
-        "gnd": null,
-        "id": 147
-    },
-    {
-        "name": "Tsalis, Vasilis",
-        "gnd": null,
-        "id": 148
-    },
-    {
-        "name": "Gkenkopulu, Maria",
-        "gnd": null,
-        "id": 149
-    },
-    {
-        "name": "Moskovou, Spyros",
-        "gnd": null,
-        "id": 150
-    },
-    {
-        "name": "Kypri\u014dt\u0113s, Alexandros",
-        "gnd": "12915170X",
-        "id": 151
-    },
-    {
-        "name": "Diamantopoulou, Ioanna",
-        "gnd": null,
-        "id": 152
-    },
-    {
-        "name": "Grammatikopoulou, Christina-Panagiota",
-        "gnd": null,
-        "id": 153
-    },
-    {
-        "name": "Sarikas, Zissis",
-        "gnd": null,
-        "id": 154
-    },
-    {
-        "name": "Koperti, Iakovos",
-        "gnd": "120990261",
-        "id": 155
-    },
-    {
-        "name": "Loupasakis, Theodoros",
-        "gnd": null,
-        "id": 156
-    },
-    {
-        "name": "Psaltou, Katharina",
-        "gnd": null,
-        "id": 157
-    },
-    {
-        "name": "Velentzas, Seraphim",
-        "gnd": null,
-        "id": 158
-    },
-    {
-        "name": "Markar\u0113s, Petros",
-        "gnd": "121868338",
-        "id": 159
-    },
-    {
-        "name": "Poulantzas, Vasilis",
-        "gnd": "Q60733190",
-        "id": 160
-    },
-    {
-        "name": "Mirs\u1e33i, Nili",
-        "gnd": "1114402494",
-        "id": 161
-    },
-    {
-        "name": "Milstein, Avishai",
-        "gnd": "124219553X",
-        "id": 162
-    },
-    {
-        "name": "Ben-Ari, Nitza",
-        "gnd": null,
-        "id": 163
-    },
-    {
-        "name": "Karmel, Avraham",
-        "gnd": "1114408301",
-        "id": 164
-    },
-    {
-        "name": "Bar-\u1e24ayim, Ra\u1e25el",
-        "gnd": "137916272",
-        "id": 165
-    },
-    {
-        "name": "Shargal, Judith",
-        "gnd": null,
-        "id": 166
-    },
-    {
-        "name": "\u1e32onas, \u1e6cali",
-        "gnd": "1031842128",
-        "id": 167
-    },
-    {
-        "name": "G\u0151rgey, G\u00e1bor",
-        "gnd": "103313311",
-        "id": 168
-    },
-    {
-        "name": "Toronyi, Attila",
-        "gnd": null,
-        "id": 169
-    },
-    {
-        "name": "Tandori, Dezs\u0151",
-        "gnd": "119101580",
-        "id": 170
-    },
-    {
-        "name": "Haj\u00f3s, Gabriella",
-        "gnd": null,
-        "id": 171
-    },
-    {
-        "name": "R\u00e9vai, G\u00e1bor",
-        "gnd": "115452141",
-        "id": 172
-    },
-    {
-        "name": "Kukorelly, Endre",
-        "gnd": "120234556",
-        "id": 173
-    },
-    {
-        "name": "Adamik, Lajos",
-        "gnd": "120290863",
-        "id": 174
-    },
-    {
-        "name": "Gy\u00f6rffy, Mikl\u00f3s",
-        "gnd": "113410824",
-        "id": 175
-    },
-    {
-        "name": "Halasi, Zolt\u00e1n",
-        "gnd": "115418989",
-        "id": 176
-    },
-    {
-        "name": "Erd\u00e9lyi, Z. J\u00e1nos",
-        "gnd": "Q124815409",
-        "id": 177
-    },
-    {
-        "name": "Ember, M\u00e1ria",
-        "gnd": "119379848",
-        "id": 178
-    },
-    {
-        "name": "Tolm\u00e1r, Tam\u00e1s",
-        "gnd": null,
-        "id": 179
-    },
-    {
-        "name": "L\u0151rinczy, Attila",
-        "gnd": "1035422026",
-        "id": 180
-    },
-    {
-        "name": "Teglasy, Gergely",
-        "gnd": "1070048836",
-        "id": 181
-    },
-    {
-        "name": "Sarank\u00f3, M\u00e1rta",
-        "gnd": "142048941",
-        "id": 182
-    },
-    {
-        "name": "Szijj, Ferenc",
-        "gnd": "103304207",
-        "id": 183
-    },
-    {
-        "name": "Sveinsson, Hj\u00e1lmar",
-        "gnd": "1032752440",
-        "id": 184
-    },
-    {
-        "name": "\u00d3skarssonar, \u00d3skars \u00c1rna",
-        "gnd": null,
-        "id": 185
-    },
-    {
-        "name": "Gut Bozzetti, Elsbeth",
-        "gnd": "1019346833",
-        "id": 186
-    },
-    {
-        "name": "Niccolini, Elisabetta",
-        "gnd": null,
-        "id": 187
-    },
-    {
-        "name": "Arioso, Enrico",
-        "gnd": null,
-        "id": 188
-    },
-    {
-        "name": "Zorzi, Rolando",
-        "gnd": null,
-        "id": 189
-    },
-    {
-        "name": "Colorni, Renata",
-        "gnd": "112839223",
-        "id": 190
-    },
-    {
-        "name": "Apostolo, Stefano",
-        "gnd": "1211209792",
-        "id": 191
-    },
-    {
-        "name": "Thabet, Samir",
-        "gnd": "1141391872",
-        "id": 192
-    },
-    {
-        "name": "Carpi, Anna Maria",
-        "gnd": "123134382",
-        "id": 193
-    },
-    {
-        "name": "Groff, Claudio",
-        "gnd": "112858953",
-        "id": 194
-    },
-    {
-        "name": "Agabio, Giovanna",
-        "gnd": "132354330",
-        "id": 195
-    },
-    {
-        "name": "Gini, Enza",
-        "gnd": null,
-        "id": 196
-    },
-    {
-        "name": "Gandini, Umberto",
-        "gnd": "114324247",
-        "id": 197
-    },
-    {
-        "name": "Menin, Roberto",
-        "gnd": null,
-        "id": 198
-    },
-    {
-        "name": "Bernardi, Eugenio",
-        "gnd": "1017918821",
-        "id": 199
-    },
-    {
-        "name": "Chiusano, Italo Alighiero",
-        "gnd": "11936462X",
-        "id": 200
-    },
-    {
-        "name": "Gardoncini, Alice",
-        "gnd": "1272177750",
-        "id": 201
-    },
-    {
-        "name": "Olivetti, Magda",
-        "gnd": "137595050",
-        "id": 202
-    },
-    {
-        "name": "Reitani, Luigi",
-        "gnd": "115452141",
-        "id": 203
-    },
-    {
-        "name": "Rovagnati, Alessandra",
-        "gnd": null,
-        "id": 204
-    },
-    {
-        "name": "Lavagetto, Andreina",
-        "gnd": "1173331999",
-        "id": 205
-    },
-    {
-        "name": "Ruchat, Anna",
-        "gnd": "111625785",
-        "id": 206
-    },
-    {
-        "name": "Grieco, Agnese",
-        "gnd": "172985013",
-        "id": 207
-    },
-    {
-        "name": "Ciancia, Elisabetta dell\u2019Anna",
-        "gnd": "123634601",
-        "id": 208
-    },
-    {
-        "name": "Calligaris, Anna",
-        "gnd": null,
-        "id": 209
-    },
-    {
-        "name": "Ruberl, Vittoria Rovelli",
-        "gnd": null,
-        "id": 210
-    },
-    {
-        "name": "Latini, Micaela",
-        "gnd": "132807114",
-        "id": 211
-    },
-    {
-        "name": "Fiorato, Pierfrancesco",
-        "gnd": "1073275078",
-        "id": 212
-    },
-    {
-        "name": "Iwashita, Masayoshi",
-        "gnd": "114712406X",
-        "id": 213
-    },
-    {
-        "name": "Yamamoto, Hiroshi",
-        "gnd": "139679022",
-        "id": 214
-    },
-    {
-        "name": "Hatsumi, Motoi",
-        "gnd": "1073619796",
-        "id": 215
-    },
-    {
-        "name": "Iijima, Yutaro",
-        "gnd": null,
-        "id": 216
-    },
-    {
-        "name": "Ikeda, Nobuo",
-        "gnd": "1075348315",
-        "id": 217
-    },
-    {
-        "name": "Misao, Takeuchi",
-        "gnd": null,
-        "id": 218
-    },
-    {
-        "name": "Nishikawa, Kenichi",
-        "gnd": "1147124078",
-        "id": 219
-    },
-    {
-        "name": "Imai, Atsushi",
-        "gnd": "122224868",
-        "id": 220
-    },
-    {
-        "name": "Higuchi, Daisuke",
-        "gnd": null,
-        "id": 221
-    },
-    {
-        "name": "Kazuki, Eri",
-        "gnd": null,
-        "id": 222
-    },
-    {
-        "name": "Murgades, Josep",
-        "gnd": "1050810910",
-        "id": 223
-    },
-    {
-        "name": "Garrigasait, Ra\u00fcl",
-        "gnd": "1068300116",
-        "id": 224
-    },
-    {
-        "name": "Formosa Plans, Clara",
-        "gnd": "141993855",
-        "id": 225
-    },
-    {
-        "name": "Farr\u00e9s, Ramon",
-        "gnd": "123509556",
-        "id": 226
-    },
-    {
-        "name": "Formosa, Feliu",
-        "gnd": "128450231",
-        "id": 227
-    },
-    {
-        "name": "Fontcuberta i Gel, Joan",
-        "gnd": "130132454",
-        "id": 228
-    },
-    {
-        "name": "Soler Horta, Anna",
-        "gnd": "140013458",
-        "id": 229
-    },
-    {
-        "name": "Bou, Eugeni",
-        "gnd": null,
-        "id": 230
-    },
-    {
-        "name": "Roig, N\u00faria",
-        "gnd": "1026759412",
-        "id": 231
-    },
-    {
-        "name": "Puigtobella, Bernat",
-        "gnd": "1056497629",
-        "id": 232
-    },
-    {
-        "name": "Iba\u00f1ez, Jordi",
-        "gnd": "1020429593",
-        "id": 233
-    },
-    {
-        "name": "Bag, In won",
-        "gnd": "139005625",
-        "id": 234
-    },
-    {
-        "name": "Kim, Yeon-sun",
-        "gnd": null,
-        "id": 235
-    },
-    {
-        "name": "Song, Geum-bong",
-        "gnd": null,
-        "id": 236
-    },
-    {
-        "name": "Seon-a, Yun",
-        "gnd": null,
-        "id": 237
-    },
-    {
-        "name": "Bae, Su a",
-        "gnd": "1022100165",
-        "id": 238
-    },
-    {
-        "name": "Park, Hui-seok",
-        "gnd": "130485551",
-        "id": 239
-    },
-    {
-        "name": "Kim, Seong-Hyeon",
-        "gnd": null,
-        "id": 240
-    },
-    {
-        "name": "Ryu, Jong-yeong",
-        "gnd": null,
-        "id": 241
-    },
-    {
-        "name": "Ryu, Eun-hui",
-        "gnd": "115744363",
-        "id": 242
-    },
-    {
-        "name": "Cho, Hyeon-cheon",
-        "gnd": null,
-        "id": 243
-    },
-    {
-        "name": "Gim, Yeong ok",
-        "gnd": "172830494",
-        "id": 244
-    },
-    {
-        "name": "Park, Hwan-deok",
-        "gnd": null,
-        "id": 245
-    },
-    {
-        "name": "Byeon, Hag-su",
-        "gnd": null,
-        "id": 246
-    },
-    {
-        "name": "Bag, Yeong hui",
-        "gnd": null,
-        "id": 247
-    },
-    {
-        "name": "Gim, Mi hye",
-        "gnd": "118134086",
-        "id": 248
-    },
-    {
-        "name": "Chang, Eun-su",
-        "gnd": null,
-        "id": 249
-    },
-    {
-        "name": "Stama\u0107, Truda",
-        "gnd": "1020655135",
-        "id": 250
-    },
-    {
-        "name": "Peri\u0107, Boris",
-        "gnd": "123586763",
-        "id": 251
-    },
-    {
-        "name": "Kne\u017eevi\u0107, Snje\u0161ka",
-        "gnd": "1017241961",
-        "id": 252
-    },
-    {
-        "name": "Muhamedagi\u0107, Sead",
-        "gnd": "1017884579",
-        "id": 253
-    },
-    {
-        "name": "Pranjkovi\u0107, Ana",
-        "gnd": "1091593388",
-        "id": 255
-    },
-    {
-        "name": "Sinkovi\u0107, Helen",
-        "gnd": "141551526",
-        "id": 256
-    },
-    {
-        "name": "\u010cetrauskas, Teodoras",
-        "gnd": "123290376",
-        "id": 257
-    },
-    {
-        "name": "Sodeikien\u0117, Giedr\u0117",
-        "gnd": "1048311376",
-        "id": 258
-    },
-    {
-        "name": "Mikutyt\u0117, Jurgita",
-        "gnd": null,
-        "id": 259
-    },
-    {
-        "name": "Lindner, Elizabeta",
-        "gnd": "140167625",
-        "id": 260
-    },
-    {
-        "name": "Graftdijk, Thomas",
-        "gnd": "112828264",
-        "id": 261
-    },
-    {
-        "name": "Brogt, Janine",
-        "gnd": "1192275144",
-        "id": 262
-    },
-    {
-        "name": "Rijnders, Gerardjan",
-        "gnd": "1013260554",
-        "id": 263
-    },
-    {
-        "name": "Bakx, Hans Willem",
-        "gnd": "1018015213",
-        "id": 264
-    },
-    {
-        "name": "Engelander, Ruud",
-        "gnd": "1169097006",
-        "id": 265
-    },
-    {
-        "name": "Bussink, Gerrit",
-        "gnd": "11440853X",
-        "id": 266
-    },
-    {
-        "name": "Duquesnoy, Theodor",
-        "gnd": "1070720577",
-        "id": 267
-    },
-    {
-        "name": "Groot, Jacob",
-        "gnd": null,
-        "id": 268
-    },
-    {
-        "name": "Bakker, Chris",
-        "gnd": "1200664884",
-        "id": 269
-    },
-    {
-        "name": "Bes, Gerard",
-        "gnd": null,
-        "id": 270
-    },
-    {
-        "name": "Grisel, Philip",
-        "gnd": null,
-        "id": 271
-    },
-    {
-        "name": "Bok, Pauline de",
-        "gnd": "139189637",
-        "id": 272
-    },
-    {
-        "name": "Hengel, Ria van",
-        "gnd": "122811682",
-        "id": 273
-    },
-    {
-        "name": "Klinkenberg, P.P.J.",
-        "gnd": null,
-        "id": 274
-    },
-    {
-        "name": "Wigman, Menno",
-        "gnd": "Q4110542",
-        "id": 275
-    },
-    {
-        "name": "Thijs, Ger",
-        "gnd": "Q2356157",
-        "id": 276
-    },
-    {
-        "name": "Kleijn, Tom",
-        "gnd": null,
-        "id": 277
-    },
-    {
-        "name": "Loo, Christope van de",
-        "gnd": null,
-        "id": 278
-    },
-    {
-        "name": "Kan, Jeroen van",
-        "gnd": "112675725X",
-        "id": 279
-    },
-    {
-        "name": "Scholten, Rob",
-        "gnd": null,
-        "id": 280
-    },
-    {
-        "name": "Dahl, Sverre",
-        "gnd": "10933230X",
-        "id": 281
-    },
-    {
-        "name": "Aasprong, Monica",
-        "gnd": "138392307",
-        "id": 282
-    },
-    {
-        "name": "St\u00f8lan, Arne Hugo",
-        "gnd": "105315626X",
-        "id": 283
-    },
-    {
-        "name": "Fosse, Jon",
-        "gnd": "120052547",
-        "id": 284
-    },
-    {
-        "name": "Stub\u00f8, Eirik",
-        "gnd": null,
-        "id": 285
-    },
-    {
-        "name": "Ghayashi, Nasser",
-        "gnd": null,
-        "id": 286
-    },
-    {
-        "name": "Jamani, Abdullah",
-        "gnd": null,
-        "id": 287
-    },
-    {
-        "name": "Alilou, Khadijah Kazem",
-        "gnd": null,
-        "id": 288
-    },
-    {
-        "name": "Haddad, Ali Asghar",
-        "gnd": "1068191961",
-        "id": 289
-    },
-    {
-        "name": "Ra\u0161\u012bd, \u0160ahr\u016bz",
-        "gnd": "1081376856",
-        "id": 290
-    },
-    {
-        "name": "Jahanshahi, Jahid",
-        "gnd": null,
-        "id": 291
-    },
-    {
-        "name": "Mousavi, Mohammad Reza",
-        "gnd": null,
-        "id": 292
-    },
-    {
-        "name": "Alazreg, Abdullahi",
-        "gnd": null,
-        "id": 293
-    },
-    {
-        "name": "Ahangar, Aboozar",
-        "gnd": null,
-        "id": 294
-    },
-    {
-        "name": "Arab, Hassan",
-        "gnd": null,
-        "id": 295
-    },
-    {
-        "name": "Armand, Zainab",
-        "gnd": null,
-        "id": 296
-    },
-    {
-        "name": "Muska\u0142a, Monika",
-        "gnd": "141954027",
-        "id": 297
-    },
-    {
-        "name": "Lisiecka, S\u0142awa",
-        "gnd": "12857688X",
-        "id": 298
-    },
-    {
-        "name": "B\u0142aut, S\u0142awomir",
-        "gnd": "115162283",
-        "id": 299
-    },
-    {
-        "name": "Dyzek, Ernest",
-        "gnd": null,
-        "id": 300
-    },
-    {
-        "name": "Nowak, Marek Feliks",
-        "gnd": null,
-        "id": 301
-    },
-    {
-        "name": "K\u0119dzierski, Marek",
-        "gnd": "120039753",
-        "id": 302
-    },
-    {
-        "name": "Mycielska, Gabriela",
-        "gnd": "127249869",
-        "id": 303
-    },
-    {
-        "name": "Jasku\u0142a, Zdzis\u0142aw",
-        "gnd": "1014069262",
-        "id": 304
-    },
-    {
-        "name": "Wojnakowski, Ryszard",
-        "gnd": "124711944",
-        "id": 305
-    },
-    {
-        "name": "Buras, Jacek St.",
-        "gnd": "120362694",
-        "id": 306
-    },
-    {
-        "name": "\u017bmij-Zieli\u0144ska, Danuta",
-        "gnd": "1215107900",
-        "id": 307
-    },
-    {
-        "name": "Matysik, Grzegorz",
-        "gnd": "1061823695",
-        "id": 308
-    },
-    {
-        "name": "Wo\u0142kowicz, Anna",
-        "gnd": "Q117871566",
-        "id": 309
-    },
-    {
-        "name": "Kunicki, Wojciech",
-        "gnd": "121265501",
-        "id": 310
-    },
-    {
-        "name": "Bara\u0144czak, Stanis\u0142aw",
-        "gnd": "119229129",
-        "id": 311
-    },
-    {
-        "name": "Borkiewicz, Agnieszka",
-        "gnd": null,
-        "id": 312
-    },
-    {
-        "name": "Bochenek, Zbigniew",
-        "gnd": "Q9387781",
-        "id": 313
-    },
-    {
-        "name": "Surowska, Barbara L.",
-        "gnd": "1089574959",
-        "id": 314
-    },
-    {
-        "name": "Sauerland, Karol",
-        "gnd": "123637015",
-        "id": 315
-    },
-    {
-        "name": "Malheiro, Maria Olema",
-        "gnd": null,
-        "id": 316
-    },
-    {
-        "name": "Almeida, Leopoldina",
-        "gnd": "138312737",
-        "id": 317
-    },
-    {
-        "name": "Caetano, Jos\u00e9 Antonio Palma",
-        "gnd": "110602897",
-        "id": 318
-    },
-    {
-        "name": "Duarte, Bruno",
-        "gnd": "141122455",
-        "id": 319
-    },
-    {
-        "name": "Barrento, Jo\u00e3o",
-        "gnd": "121553779",
-        "id": 320
-    },
-    {
-        "name": "Mendes, Anabela",
-        "gnd": "121903326X",
-        "id": 321
-    },
-    {
-        "name": "Pimenta, Alberto",
-        "gnd": "17230881X",
-        "id": 322
-    },
-    {
-        "name": "Parreira, Francisco Lu\u00eds",
-        "gnd": "1234182270",
-        "id": 323
-    },
-    {
-        "name": "Dan\u0163i\u015f, Gabriela",
-        "gnd": null,
-        "id": 324
-    },
-    {
-        "name": "Madritsch Marin, Florica",
-        "gnd": "128824050",
-        "id": 325
-    },
-    {
-        "name": "Evu, Ioan",
-        "gnd": "140531726",
-        "id": 326
-    },
-    {
-        "name": "Haas, Theresia",
-        "gnd": null,
-        "id": 327
-    },
-    {
-        "name": "Isb\u0103\u0219escu, Mihai",
-        "gnd": "133234487",
-        "id": 328
-    },
-    {
-        "name": "Khlebnikowa, Borisa",
-        "gnd": null,
-        "id": 329
-    },
-    {
-        "name": "Fadeeva, Vladimira",
-        "gnd": null,
-        "id": 330
-    },
-    {
-        "name": "Rudnitzki, Michael",
-        "gnd": null,
-        "id": 331
-    },
-    {
-        "name": "Rajt-Kowaljowa, Rita",
-        "gnd": "1057558192",
-        "id": 332
-    },
-    {
-        "name": "Schlapoberskaja, Serafima",
-        "gnd": null,
-        "id": 333
-    },
-    {
-        "name": "Baskakova, Tat\u02b9jana Aleksandrovna",
-        "gnd": "1017399611",
-        "id": 334
-    },
-    {
-        "name": "Mikhelevich, Jewgenija",
-        "gnd": null,
-        "id": 335
-    },
-    {
-        "name": "Cherkasow, V.",
-        "gnd": null,
-        "id": 337
-    },
-    {
-        "name": "Gajdukowa, \u0415.",
-        "gnd": "1044377364",
-        "id": 338
-    },
-    {
-        "name": "Ognew, Alexej",
-        "gnd": null,
-        "id": 339
-    },
-    {
-        "name": "Matveeva, Anna",
-        "gnd": null,
-        "id": 340
-    },
-    {
-        "name": "Tropinin, Paul",
-        "gnd": null,
-        "id": 341
-    },
-    {
-        "name": "Kotelevskaja, Vera Vladimirovna",
-        "gnd": "1177089246",
-        "id": 342
-    },
-    {
-        "name": "Belorusets, Evgenia",
-        "gnd": "1051756766",
-        "id": 343
-    },
-    {
-        "name": "Markin, Aleksandr",
-        "gnd": "131681745",
-        "id": 344
-    },
-    {
-        "name": "Slawinskaja, A.",
-        "gnd": null,
-        "id": 346
-    },
-    {
-        "name": "Dmitrijewa, J.",
-        "gnd": null,
-        "id": 347
-    },
-    {
-        "name": "Radovi\u0107, Marinko",
-        "gnd": null,
-        "id": 348
-    },
-    {
-        "name": "Karanovi\u0107, Sanja",
-        "gnd": "1133516378",
-        "id": 349
-    },
-    {
-        "name": "Grujic, Borivoj",
-        "gnd": "1078380821",
-        "id": 350
-    },
-    {
-        "name": "A\u0107in, Jovica",
-        "gnd": "113613555",
-        "id": 351
-    },
-    {
-        "name": "Dra\u017ei\u0107, Relja",
-        "gnd": "141036028",
-        "id": 352
-    },
-    {
-        "name": "Guslov, Novak",
-        "gnd": null,
-        "id": 353
-    },
-    {
-        "name": "Avramovi\u0107, Mirjana",
-        "gnd": "1227236212",
-        "id": 354
-    },
-    {
-        "name": "Deni\u0107, Bojana",
-        "gnd": "1016946325",
-        "id": 355
-    },
-    {
-        "name": "Krasni, Zlatko",
-        "gnd": "115835970",
-        "id": 356
-    },
-    {
-        "name": "Dvorsk\u00fd, Juraj",
-        "gnd": "14026289X",
-        "id": 357
-    },
-    {
-        "name": "Krej\u010dikov\u00e1, Jana",
-        "gnd": null,
-        "id": 358
-    },
-    {
-        "name": "Kubica, Peter",
-        "gnd": "102911658X",
-        "id": 359
-    },
-    {
-        "name": "Virk, Jani",
-        "gnd": "Q4022080",
-        "id": 360
-    },
-    {
-        "name": "Vevar, \u0160tefan",
-        "gnd": "Q18646326",
-        "id": 361
-    },
-    {
-        "name": "Virk, Sara Marina",
-        "gnd": "101402708X",
-        "id": 362
-    },
-    {
-        "name": "Brodar, Ur\u0161ka",
-        "gnd": "Q114305369",
-        "id": 363
-    },
-    {
-        "name": "Morel, Alenka",
-        "gnd": "1156675316",
-        "id": 364
-    },
-    {
-        "name": "Pirc, Ana Monika",
-        "gnd": null,
-        "id": 365
-    },
-    {
-        "name": "Jen\u010di\u010d, Lu\u010dka",
-        "gnd": "115212396",
-        "id": 366
-    },
-    {
-        "name": "Kranjc, Mojca",
-        "gnd": "115835970",
-        "id": 367
-    },
-    {
-        "name": "Marinc\u030cic\u030c, Katarina",
-        "gnd": "1089854382",
-        "id": 368
-    },
-    {
-        "name": "Flis, Davorin",
-        "gnd": null,
-        "id": 369
-    },
-    {
-        "name": "Kralj, Lado",
-        "gnd": "1043476903",
-        "id": 370
-    },
-    {
-        "name": "Trekman, Borut",
-        "gnd": "Q12786235",
-        "id": 371
-    },
-    {
-        "name": "Borovnik, Silvija",
-        "gnd": "1234736527",
-        "id": 372
-    },
-    {
-        "name": "Miladinovi\u0107 Zalaznik, Mira",
-        "gnd": "1063226295",
-        "id": 373
-    },
-    {
-        "name": "S\u00e1enz, Miguel",
-        "gnd": "113071043",
-        "id": 374
-    },
-    {
-        "name": "Cruz Santaella, Esther",
-        "gnd": "1165093812",
-        "id": 375
-    },
-    {
-        "name": "Fortea, Carlos",
-        "gnd": "11541522X",
-        "id": 376
-    },
-    {
-        "name": "Mizraji, Margarita",
-        "gnd": null,
-        "id": 377
-    },
-    {
-        "name": "Costa, Nicol\u00e1s",
-        "gnd": "127221085",
-        "id": 378
-    },
-    {
-        "name": "Fehling, Ruth",
-        "gnd": null,
-        "id": 379
-    },
-    {
-        "name": "Cordchado, Ricardo",
-        "gnd": null,
-        "id": 380
-    },
-    {
-        "name": "Scherzer, Sabina",
-        "gnd": null,
-        "id": 381
-    },
-    {
-        "name": "Holmqvist, Margaretha",
-        "gnd": "107718731",
-        "id": 382
-    },
-    {
-        "name": "Birnbaum, Daniel",
-        "gnd": "12150011X",
-        "id": 383
-    },
-    {
-        "name": "Olsson, Anders",
-        "gnd": null,
-        "id": 384
-    },
-    {
-        "name": "Bornlid, Jan Erik",
-        "gnd": "137299931",
-        "id": 385
-    },
-    {
-        "name": "Freij, Lars W.",
-        "gnd": "107890143",
-        "id": 386
-    },
-    {
-        "name": "Wid\u00e9n, Susanne",
-        "gnd": "1018886249",
-        "id": 387
-    },
-    {
-        "name": "Lindmann, Magnus",
-        "gnd": null,
-        "id": 388
-    },
-    {
-        "name": "\u00d6zg\u00fcven, Fatih",
-        "gnd": "103434453",
-        "id": 389
-    },
-    {
-        "name": "Duru, Sezer",
-        "gnd": "135753279",
-        "id": 390
-    },
-    {
-        "name": "Tezel, Esen",
-        "gnd": "102948354X",
-        "id": 391
-    },
-    {
-        "name": "T\u00fczel, Mustafa",
-        "gnd": null,
-        "id": 392
-    },
-    {
-        "name": "T\u00fcrk, M. Sami",
-        "gnd": null,
-        "id": 393
-    },
-    {
-        "name": "Nalc\u0131o\u011flu, Ahmet U\u011fur",
-        "gnd": "1187984000",
-        "id": 394
-    },
-    {
-        "name": "Sar\u0131, Ahmet",
-        "gnd": "139907858",
-        "id": 395
-    },
-    {
-        "name": "Uyan\u0131k, G\u00fcrsel",
-        "gnd": "140037438",
-        "id": 396
-    },
-    {
-        "name": "\u00d6zt\u00fcrk Da\u011fabakan, Fatma",
-        "gnd": "139907440",
-        "id": 397
-    },
-    {
-        "name": "\u00c7a\u011flar, Arif",
-        "gnd": null,
-        "id": 398
-    },
-    {
-        "name": "Nutku, \u00d6zdemir",
-        "gnd": "107830302",
-        "id": 399
-    },
-    {
-        "name": "Arpad, Ahmet",
-        "gnd": null,
-        "id": 400
-    },
-    {
-        "name": "Murad, Efe",
-        "gnd": "1280573597",
-        "id": 401
-    },
-    {
-        "name": "Omay, Ebru",
-        "gnd": null,
-        "id": 402
-    },
-    {
-        "name": "Amasyal\u0131, Nadide",
-        "gnd": null,
-        "id": 403
-    },
-    {
-        "name": "Boztepe, Kemal",
-        "gnd": null,
-        "id": 404
-    },
-    {
-        "name": "Havryliv, Tymofij",
-        "gnd": "137196059",
-        "id": 405
-    },
-    {
-        "name": "Andrushchenko, Igor",
-        "gnd": null,
-        "id": 406
-    },
-    {
-        "name": "Kravchenko, Lesya",
-        "gnd": null,
-        "id": 407
-    },
-    {
-        "name": "\u1e92af\u0101r, Iqb\u0101l",
-        "gnd": null,
-        "id": 408
-    },
-    {
-        "name": "L\u00e3nh, Ho\u00e0ng \u0110\u0103ng",
-        "gnd": null,
-        "id": 409
-    }
+	{
+		"gnd": "1012844331",
+		"id": 1,
+		"name": "Gedaj, Doreida"
+	},
+	{
+		"gnd": "1091070733",
+		"id": 2,
+		"name": "Ǧiryis, Samīr"
+	},
+	{
+		"gnd": "121638472",
+		"id": 3,
+		"name": "Uribarri, Ibon"
+	},
+	{
+		"gnd": "136666825",
+		"id": 4,
+		"name": "Macedo, José Marcos"
+	},
+	{
+		"gnd": "132456168",
+		"id": 5,
+		"name": "Tellaroli, Sergio"
+	},
+	{
+		"gnd": "1056367539",
+		"id": 6,
+		"name": "Melo, José Laurenio de"
+	},
+	{
+		"gnd": null,
+		"id": 7,
+		"name": "Welper, Hans Peter"
+	},
+	{
+		"gnd": "1186818190",
+		"id": 8,
+		"name": "Correia, Marcelo Cordeiro"
+	},
+	{
+		"gnd": null,
+		"id": 9,
+		"name": "Eberspächer, Gisele"
+	},
+	{
+		"gnd": null,
+		"id": 10,
+		"name": "Pacheco, Paulo Rogério Jr."
+	},
+	{
+		"gnd": "128687894",
+		"id": 11,
+		"name": "Röhrig, Christine"
+	},
+	{
+		"gnd": null,
+		"id": 12,
+		"name": "Scherer, Ana Maria"
+	},
+	{
+		"gnd": null,
+		"id": 13,
+		"name": "Signeu, Samir"
+	},
+	{
+		"gnd": "11891426X",
+		"id": 14,
+		"name": "Luft, Lya"
+	},
+	{
+		"gnd": "10317656X",
+		"id": 15,
+		"name": "Murdarov, Vladko"
+	},
+	{
+		"gnd": "1332464289",
+		"id": 16,
+		"name": "Teocharov, Vladimir"
+	},
+	{
+		"gnd": "1043474846",
+		"id": 17,
+		"name": "Andreev, Alexander"
+	},
+	{
+		"gnd": "139444394",
+		"id": 18,
+		"name": "Iliev, Ljubomir"
+	},
+	{
+		"gnd": null,
+		"id": 19,
+		"name": "Dimova, Ana"
+	},
+	{
+		"gnd": "1029621152",
+		"id": 20,
+		"name": "Karamelska, Teodora"
+	},
+	{
+		"gnd": null,
+		"id": 21,
+		"name": "Stanishev, Krastyo"
+	},
+	{
+		"gnd": "1057987050",
+		"id": 22,
+		"name": "Ma, Wentao"
+	},
+	{
+		"gnd": null,
+		"id": 23,
+		"name": "Jie, Gong"
+	},
+	{
+		"gnd": null,
+		"id": 24,
+		"name": "Jian, Zi Ma"
+	},
+	{
+		"gnd": "1053037864",
+		"id": 25,
+		"name": "Han, Ruixiang"
+	},
+	{
+		"gnd": "116026273X",
+		"id": 26,
+		"name": "Liu, Wenjie"
+	},
+	{
+		"gnd": "1012218384",
+		"id": 27,
+		"name": "Wang, Zhongxin"
+	},
+	{
+		"gnd": null,
+		"id": 28,
+		"name": "Xie, Fang"
+	},
+	{
+		"gnd": "134111346",
+		"id": 29,
+		"name": "Schnelle, Barbora"
+	},
+	{
+		"gnd": "129164100",
+		"id": 30,
+		"name": "Augustová, Zuzana"
+	},
+	{
+		"gnd": "136336906",
+		"id": 31,
+		"name": "Charvát, Radovan"
+	},
+	{
+		"gnd": null,
+		"id": 32,
+		"name": "Šplíchal, Bohumil"
+	},
+	{
+		"gnd": "114005958",
+		"id": 33,
+		"name": "Petříček, Miroslav"
+	},
+	{
+		"gnd": "129638900",
+		"id": 34,
+		"name": "Kufnerová, Zlata"
+	},
+	{
+		"gnd": null,
+		"id": 35,
+		"name": "Staviařová, Hana"
+	},
+	{
+		"gnd": "132734117",
+		"id": 36,
+		"name": "Dimter, Tomáš"
+	},
+	{
+		"gnd": "129483176",
+		"id": 37,
+		"name": "Jacobsenová, Michaela"
+	},
+	{
+		"gnd": "131386654",
+		"id": 38,
+		"name": "Nekula, Marek"
+	},
+	{
+		"gnd": "1189349515",
+		"id": 39,
+		"name": "Mizerová, Nikola"
+	},
+	{
+		"gnd": "1171453116",
+		"id": 40,
+		"name": "Novotný, Pavel"
+	},
+	{
+		"gnd": "116046775",
+		"id": 41,
+		"name": "Balvin, Josef"
+	},
+	{
+		"gnd": null,
+		"id": 42,
+		"name": "Bílého, Jaroslava"
+	},
+	{
+		"gnd": null,
+		"id": 43,
+		"name": "Langášková, Taťjana"
+	},
+	{
+		"gnd": "114470448",
+		"id": 44,
+		"name": "Tomeš, Vladimír"
+	},
+	{
+		"gnd": "Q112365138",
+		"id": 45,
+		"name": "Spitzbard, Wolfgang"
+	},
+	{
+		"gnd": null,
+		"id": 46,
+		"name": "Ullrichová, Daria"
+	},
+	{
+		"gnd": "1048022838",
+		"id": 47,
+		"name": "Cejpek, Václav"
+	},
+	{
+		"gnd": "122472446",
+		"id": 48,
+		"name": "Jílková, Jitka"
+	},
+	{
+		"gnd": "113652445",
+		"id": 49,
+		"name": "Slezák, Vratislav"
+	},
+	{
+		"gnd": "131470000",
+		"id": 50,
+		"name": "Jensen, René Jean"
+	},
+	{
+		"gnd": null,
+		"id": 51,
+		"name": "Kierkegaard, Tommy"
+	},
+	{
+		"gnd": "130646482",
+		"id": 52,
+		"name": "Fauth, Søren R."
+	},
+	{
+		"gnd": null,
+		"id": 53,
+		"name": "Bille, Karen-Maria"
+	},
+	{
+		"gnd": "143687727",
+		"id": 54,
+		"name": "McLintock, David"
+	},
+	{
+		"gnd": "138370176",
+		"id": 55,
+		"name": "Janeway, Carol Brown"
+	},
+	{
+		"gnd": "142366803",
+		"id": 56,
+		"name": "Reidel, James"
+	},
+	{
+		"gnd": "117744441",
+		"id": 57,
+		"name": "Osers, Ewald"
+	},
+	{
+		"gnd": "Q95703843",
+		"id": 58,
+		"name": "Wilkins, Sophie"
+	},
+	{
+		"gnd": "1196980330 / 11329977X",
+		"id": 59,
+		"name": "Dawson, Jack a.k.a. Mark Anderson"
+	},
+	{
+		"gnd": "132306174",
+		"id": 60,
+		"name": "Hofmann, Michael"
+	},
+	{
+		"gnd": null,
+		"id": 61,
+		"name": "Robertson, Douglas"
+	},
+	{
+		"gnd": "Q59525372",
+		"id": 62,
+		"name": "Winston, Clara"
+	},
+	{
+		"gnd": "1037208870",
+		"id": 63,
+		"name": "Winston, Richard"
+	},
+	{
+		"gnd": "124036007",
+		"id": 64,
+		"name": "Stockman, Russell"
+	},
+	{
+		"gnd": null,
+		"id": 65,
+		"name": "Waugh, Peter"
+	},
+	{
+		"gnd": null,
+		"id": 66,
+		"name": "Jansen, Peter"
+	},
+	{
+		"gnd": "127219501",
+		"id": 67,
+		"name": "Northcott, Kenneth J."
+	},
+	{
+		"gnd": "124619533",
+		"id": 68,
+		"name": "Honegger, Gitta"
+	},
+	{
+		"gnd": "138551731",
+		"id": 69,
+		"name": "Oakes, Meredith"
+	},
+	{
+		"gnd": "1019872926",
+		"id": 70,
+		"name": "Tierney, Andrea"
+	},
+	{
+		"gnd": "105626568X",
+		"id": 71,
+		"name": "Plaice, Neville"
+	},
+	{
+		"gnd": "1171560575",
+		"id": 72,
+		"name": "Plaice, Stephen"
+	},
+	{
+		"gnd": null,
+		"id": 73,
+		"name": "Cairns, Tom"
+	},
+	{
+		"gnd": null,
+		"id": 74,
+		"name": "Eyre, Peter"
+	},
+	{
+		"gnd": "1036333043",
+		"id": 75,
+		"name": "Lindgren, Laura"
+	},
+	{
+		"gnd": null,
+		"id": 76,
+		"name": "Kinosian, Craig"
+	},
+	{
+		"gnd": null,
+		"id": 77,
+		"name": "Stoklosinski, Eduard"
+	},
+	{
+		"gnd": "114173567",
+		"id": 78,
+		"name": "Chalmers, Martin"
+	},
+	{
+		"gnd": null,
+		"id": 79,
+		"name": "Glowa, Josef"
+	},
+	{
+		"gnd": null,
+		"id": 80,
+		"name": "Hurly-Glowa, Susan"
+	},
+	{
+		"gnd": "1089326556",
+		"id": 81,
+		"name": "McManus, Donald Cameron"
+	},
+	{
+		"gnd": "113837895",
+		"id": 82,
+		"name": "Mitchell, Michael"
+	},
+	{
+		"gnd": "132954214",
+		"id": 83,
+		"name": "Searls, Damion"
+	},
+	{
+		"gnd": null,
+		"id": 84,
+		"name": "Williams, Eric"
+	},
+	{
+		"gnd": "128883626",
+		"id": 85,
+		"name": "Decker, Craig"
+	},
+	{
+		"gnd": null,
+		"id": 86,
+		"name": "Case, Holly"
+	},
+	{
+		"gnd": "Q59628070",
+		"id": 87,
+		"name": "Waidson, Herbert Morgan"
+	},
+	{
+		"gnd": null,
+		"id": 88,
+		"name": "Siegel, Adam"
+	},
+	{
+		"gnd": null,
+		"id": 89,
+		"name": "Wilson, A. Lesllie"
+	},
+	{
+		"gnd": "Q14503060",
+		"id": 90,
+		"name": "Tasa, Toivo"
+	},
+	{
+		"gnd": "113737300",
+		"id": 91,
+		"name": "Sirkel, Mati"
+	},
+	{
+		"gnd": "113737300",
+		"id": 92,
+		"name": "Sirkel, Mati"
+	},
+	{
+		"gnd": "1138306738",
+		"id": 93,
+		"name": "Mägar, Heli"
+	},
+	{
+		"gnd": "137246536",
+		"id": 94,
+		"name": "Sarrivaara, Olli"
+	},
+	{
+		"gnd": "118148532",
+		"id": 95,
+		"name": "Roinila, Tarja"
+	},
+	{
+		"gnd": "114692562X",
+		"id": 96,
+		"name": "Spreng, Eberhard"
+	},
+	{
+		"gnd": "1056937912",
+		"id": 97,
+		"name": "Mirsky, Daniel"
+	},
+	{
+		"gnd": "127140581",
+		"id": 98,
+		"name": "Lambrichs, Gilberte"
+	},
+	{
+		"gnd": "127105778",
+		"id": 99,
+		"name": "Estrangin, Guy F."
+	},
+	{
+		"gnd": "140640894",
+		"id": 100,
+		"name": "Kreiss, Bernard"
+	},
+	{
+		"gnd": "114277966",
+		"id": 101,
+		"name": "Porcell, Claude"
+	},
+	{
+		"gnd": "126505152",
+		"id": 102,
+		"name": "Kohn, Albert"
+	},
+	{
+		"gnd": "1205565698",
+		"id": 103,
+		"name": "Simon, Boris"
+	},
+	{
+		"gnd": "127531399X",
+		"id": 104,
+		"name": "Turk-Meyer, Josée"
+	},
+	{
+		"gnd": "1152034472",
+		"id": 105,
+		"name": "Hémery, Jean-Claude"
+	},
+	{
+		"gnd": "141257946",
+		"id": 106,
+		"name": "Kaufholz-Messmer, Éliane"
+	},
+	{
+		"gnd": "1036521567",
+		"id": 107,
+		"name": "Servicen, Louise"
+	},
+	{
+		"gnd": "120991268",
+		"id": 108,
+		"name": "Holl, Herbert"
+	},
+	{
+		"gnd": "137436971",
+		"id": 109,
+		"name": "Han, Kza"
+	},
+	{
+		"gnd": "123611431",
+		"id": 110,
+		"name": "Moreau, Jean-Luc"
+	},
+	{
+		"gnd": "1027599265",
+		"id": 111,
+		"name": "Hommel, Susanne"
+	},
+	{
+		"gnd": null,
+		"id": 112,
+		"name": "Nebenzahl, Michel"
+	},
+	{
+		"gnd": "116069015",
+		"id": 113,
+		"name": "Demet, Michel-François"
+	},
+	{
+		"gnd": "137449232",
+		"id": 114,
+		"name": "Etoré-Lortholary, Jeanne"
+	},
+	{
+		"gnd": "138972516",
+		"id": 115,
+		"name": "Lortholary, Bernard"
+	},
+	{
+		"gnd": "1017918856",
+		"id": 116,
+		"name": "Petit, Dominique"
+	},
+	{
+		"gnd": null,
+		"id": 117,
+		"name": "Darnaud, Edith"
+	},
+	{
+		"gnd": null,
+		"id": 119,
+		"name": "Hofer-Bury, Roland"
+	},
+	{
+		"gnd": null,
+		"id": 120,
+		"name": "Meur, Jean de"
+	},
+	{
+		"gnd": "14117479X",
+		"id": 121,
+		"name": "Para, Jean-Baptiste"
+	},
+	{
+		"gnd": "131565587X",
+		"id": 122,
+		"name": "Tautou, Alexis"
+	},
+	{
+		"gnd": "109855019",
+		"id": 123,
+		"name": "Hornig, Dieter"
+	},
+	{
+		"gnd": null,
+		"id": 124,
+		"name": "Lenormand, Hervé"
+	},
+	{
+		"gnd": "130301078",
+		"id": 125,
+		"name": "Wögerbauer, Werner"
+	},
+	{
+		"gnd": null,
+		"id": 126,
+		"name": "Joachim, François"
+	},
+	{
+		"gnd": "136813089",
+		"id": 127,
+		"name": "Mannoni, Olivier"
+	},
+	{
+		"gnd": null,
+		"id": 128,
+		"name": "Stephan, Claudia"
+	},
+	{
+		"gnd": "121462609",
+		"id": 130,
+		"name": "Lefebvre, Jean-Pierre"
+	},
+	{
+		"gnd": "1033609943",
+		"id": 131,
+		"name": "Becerra de Becerreá, Afonso"
+	},
+	{
+		"gnd": null,
+		"id": 132,
+		"name": "Contreras, Ana"
+	},
+	{
+		"gnd": "1046629735",
+		"id": 133,
+		"name": "López Pato, Catuxa"
+	},
+	{
+		"gnd": "133964981",
+		"id": 134,
+		"name": "Mirianašvili, Maia"
+	},
+	{
+		"gnd": "1160330182",
+		"id": 135,
+		"name": "P̕anǰikije, Maia"
+	},
+	{
+		"gnd": null,
+		"id": 136,
+		"name": "Datuaschwili, Natia"
+	},
+	{
+		"gnd": "137598556",
+		"id": 137,
+		"name": "Kentrotis, Georgios"
+	},
+	{
+		"gnd": "133548910",
+		"id": 138,
+		"name": "Isarēs, Alexandros"
+	},
+	{
+		"gnd": null,
+		"id": 139,
+		"name": "Perlegkas, Yannos"
+	},
+	{
+		"gnd": null,
+		"id": 140,
+		"name": "Theodoropoulou, Ismini"
+	},
+	{
+		"gnd": null,
+		"id": 141,
+		"name": "Depastas, Giorgos"
+	},
+	{
+		"gnd": null,
+		"id": 142,
+		"name": "Tomanas, Vassilis"
+	},
+	{
+		"gnd": "129471550",
+		"id": 143,
+		"name": "Mastorakē, Tzenē"
+	},
+	{
+		"gnd": null,
+		"id": 144,
+		"name": "Matziri, Sotiria"
+	},
+	{
+		"gnd": null,
+		"id": 145,
+		"name": "Tselentis, Dionysis"
+	},
+	{
+		"gnd": null,
+		"id": 146,
+		"name": "Varsou, Dimitri"
+	},
+	{
+		"gnd": null,
+		"id": 147,
+		"name": "Vogiatzis, Lefteris"
+	},
+	{
+		"gnd": null,
+		"id": 148,
+		"name": "Tsalis, Vasilis"
+	},
+	{
+		"gnd": null,
+		"id": 149,
+		"name": "Gkenkopulu, Maria"
+	},
+	{
+		"gnd": null,
+		"id": 150,
+		"name": "Moskovou, Spyros"
+	},
+	{
+		"gnd": "12915170X",
+		"id": 151,
+		"name": "Kypriōtēs, Alexandros"
+	},
+	{
+		"gnd": null,
+		"id": 152,
+		"name": "Diamantopoulou, Ioanna"
+	},
+	{
+		"gnd": null,
+		"id": 153,
+		"name": "Grammatikopoulou, Christina-Panagiota"
+	},
+	{
+		"gnd": null,
+		"id": 154,
+		"name": "Sarikas, Zissis"
+	},
+	{
+		"gnd": "120990261",
+		"id": 155,
+		"name": "Koperti, Iakovos"
+	},
+	{
+		"gnd": null,
+		"id": 156,
+		"name": "Loupasakis, Theodoros"
+	},
+	{
+		"gnd": null,
+		"id": 157,
+		"name": "Psaltou, Katharina"
+	},
+	{
+		"gnd": null,
+		"id": 158,
+		"name": "Velentzas, Seraphim"
+	},
+	{
+		"gnd": "121868338",
+		"id": 159,
+		"name": "Markarēs, Petros"
+	},
+	{
+		"gnd": "Q60733190",
+		"id": 160,
+		"name": "Poulantzas, Vasilis"
+	},
+	{
+		"gnd": "1114402494",
+		"id": 161,
+		"name": "Mirsḳi, Nili"
+	},
+	{
+		"gnd": "124219553X",
+		"id": 162,
+		"name": "Milstein, Avishai"
+	},
+	{
+		"gnd": null,
+		"id": 163,
+		"name": "Ben-Ari, Nitza"
+	},
+	{
+		"gnd": "1114408301",
+		"id": 164,
+		"name": "Karmel, Avraham"
+	},
+	{
+		"gnd": "137916272",
+		"id": 165,
+		"name": "Bar-Ḥayim, Raḥel"
+	},
+	{
+		"gnd": null,
+		"id": 166,
+		"name": "Shargal, Judith"
+	},
+	{
+		"gnd": "1031842128",
+		"id": 167,
+		"name": "Ḳonas, Ṭali"
+	},
+	{
+		"gnd": "103313311",
+		"id": 168,
+		"name": "Gőrgey, Gábor"
+	},
+	{
+		"gnd": null,
+		"id": 169,
+		"name": "Toronyi, Attila"
+	},
+	{
+		"gnd": "119101580",
+		"id": 170,
+		"name": "Tandori, Dezső"
+	},
+	{
+		"gnd": null,
+		"id": 171,
+		"name": "Hajós, Gabriella"
+	},
+	{
+		"gnd": "115452141",
+		"id": 172,
+		"name": "Révai, Gábor"
+	},
+	{
+		"gnd": "120234556",
+		"id": 173,
+		"name": "Kukorelly, Endre"
+	},
+	{
+		"gnd": "120290863",
+		"id": 174,
+		"name": "Adamik, Lajos"
+	},
+	{
+		"gnd": "113410824",
+		"id": 175,
+		"name": "Györffy, Miklós"
+	},
+	{
+		"gnd": "115418989",
+		"id": 176,
+		"name": "Halasi, Zoltán"
+	},
+	{
+		"gnd": "Q124815409",
+		"id": 177,
+		"name": "Erdélyi, Z. János"
+	},
+	{
+		"gnd": "119379848",
+		"id": 178,
+		"name": "Ember, Mária"
+	},
+	{
+		"gnd": null,
+		"id": 179,
+		"name": "Tolmár, Tamás"
+	},
+	{
+		"gnd": "1035422026",
+		"id": 180,
+		"name": "Lőrinczy, Attila"
+	},
+	{
+		"gnd": "1070048836",
+		"id": 181,
+		"name": "Teglasy, Gergely"
+	},
+	{
+		"gnd": "142048941",
+		"id": 182,
+		"name": "Sarankó, Márta"
+	},
+	{
+		"gnd": "103304207",
+		"id": 183,
+		"name": "Szijj, Ferenc"
+	},
+	{
+		"gnd": "1032752440",
+		"id": 184,
+		"name": "Sveinsson, Hjálmar"
+	},
+	{
+		"gnd": null,
+		"id": 185,
+		"name": "Óskarssonar, Óskars Árna"
+	},
+	{
+		"gnd": "1019346833",
+		"id": 186,
+		"name": "Gut Bozzetti, Elsbeth"
+	},
+	{
+		"gnd": null,
+		"id": 187,
+		"name": "Niccolini, Elisabetta"
+	},
+	{
+		"gnd": null,
+		"id": 188,
+		"name": "Arioso, Enrico"
+	},
+	{
+		"gnd": null,
+		"id": 189,
+		"name": "Zorzi, Rolando"
+	},
+	{
+		"gnd": "112839223",
+		"id": 190,
+		"name": "Colorni, Renata"
+	},
+	{
+		"gnd": "1211209792",
+		"id": 191,
+		"name": "Apostolo, Stefano"
+	},
+	{
+		"gnd": "1141391872",
+		"id": 192,
+		"name": "Thabet, Samir"
+	},
+	{
+		"gnd": "123134382",
+		"id": 193,
+		"name": "Carpi, Anna Maria"
+	},
+	{
+		"gnd": "112858953",
+		"id": 194,
+		"name": "Groff, Claudio"
+	},
+	{
+		"gnd": "132354330",
+		"id": 195,
+		"name": "Agabio, Giovanna"
+	},
+	{
+		"gnd": null,
+		"id": 196,
+		"name": "Gini, Enza"
+	},
+	{
+		"gnd": "114324247",
+		"id": 197,
+		"name": "Gandini, Umberto"
+	},
+	{
+		"gnd": null,
+		"id": 198,
+		"name": "Menin, Roberto"
+	},
+	{
+		"gnd": "1017918821",
+		"id": 199,
+		"name": "Bernardi, Eugenio"
+	},
+	{
+		"gnd": "11936462X",
+		"id": 200,
+		"name": "Chiusano, Italo Alighiero"
+	},
+	{
+		"gnd": "1272177750",
+		"id": 201,
+		"name": "Gardoncini, Alice"
+	},
+	{
+		"gnd": "137595050",
+		"id": 202,
+		"name": "Olivetti, Magda"
+	},
+	{
+		"gnd": "115452141",
+		"id": 203,
+		"name": "Reitani, Luigi"
+	},
+	{
+		"gnd": null,
+		"id": 204,
+		"name": "Rovagnati, Alessandra"
+	},
+	{
+		"gnd": "1173331999",
+		"id": 205,
+		"name": "Lavagetto, Andreina"
+	},
+	{
+		"gnd": "111625785",
+		"id": 206,
+		"name": "Ruchat, Anna"
+	},
+	{
+		"gnd": "172985013",
+		"id": 207,
+		"name": "Grieco, Agnese"
+	},
+	{
+		"gnd": "123634601",
+		"id": 208,
+		"name": "Ciancia, Elisabetta dell’Anna"
+	},
+	{
+		"gnd": null,
+		"id": 209,
+		"name": "Calligaris, Anna"
+	},
+	{
+		"gnd": null,
+		"id": 210,
+		"name": "Ruberl, Vittoria Rovelli"
+	},
+	{
+		"gnd": "132807114",
+		"id": 211,
+		"name": "Latini, Micaela"
+	},
+	{
+		"gnd": "1073275078",
+		"id": 212,
+		"name": "Fiorato, Pierfrancesco"
+	},
+	{
+		"gnd": "114712406X",
+		"id": 213,
+		"name": "Iwashita, Masayoshi"
+	},
+	{
+		"gnd": "139679022",
+		"id": 214,
+		"name": "Yamamoto, Hiroshi"
+	},
+	{
+		"gnd": "1073619796",
+		"id": 215,
+		"name": "Hatsumi, Motoi"
+	},
+	{
+		"gnd": null,
+		"id": 216,
+		"name": "Iijima, Yutaro"
+	},
+	{
+		"gnd": "1075348315",
+		"id": 217,
+		"name": "Ikeda, Nobuo"
+	},
+	{
+		"gnd": null,
+		"id": 218,
+		"name": "Misao, Takeuchi"
+	},
+	{
+		"gnd": "1147124078",
+		"id": 219,
+		"name": "Nishikawa, Kenichi"
+	},
+	{
+		"gnd": "122224868",
+		"id": 220,
+		"name": "Imai, Atsushi"
+	},
+	{
+		"gnd": null,
+		"id": 221,
+		"name": "Higuchi, Daisuke"
+	},
+	{
+		"gnd": null,
+		"id": 222,
+		"name": "Kazuki, Eri"
+	},
+	{
+		"gnd": "1050810910",
+		"id": 223,
+		"name": "Murgades, Josep"
+	},
+	{
+		"gnd": "1068300116",
+		"id": 224,
+		"name": "Garrigasait, Raül"
+	},
+	{
+		"gnd": "141993855",
+		"id": 225,
+		"name": "Formosa Plans, Clara"
+	},
+	{
+		"gnd": "123509556",
+		"id": 226,
+		"name": "Farrés, Ramon"
+	},
+	{
+		"gnd": "128450231",
+		"id": 227,
+		"name": "Formosa, Feliu"
+	},
+	{
+		"gnd": "130132454",
+		"id": 228,
+		"name": "Fontcuberta i Gel, Joan"
+	},
+	{
+		"gnd": "140013458",
+		"id": 229,
+		"name": "Soler Horta, Anna"
+	},
+	{
+		"gnd": null,
+		"id": 230,
+		"name": "Bou, Eugeni"
+	},
+	{
+		"gnd": "1026759412",
+		"id": 231,
+		"name": "Roig, Núria"
+	},
+	{
+		"gnd": "1056497629",
+		"id": 232,
+		"name": "Puigtobella, Bernat"
+	},
+	{
+		"gnd": "1020429593",
+		"id": 233,
+		"name": "Ibañez, Jordi"
+	},
+	{
+		"gnd": "139005625",
+		"id": 234,
+		"name": "Bag, In won"
+	},
+	{
+		"gnd": null,
+		"id": 235,
+		"name": "Kim, Yeon-sun"
+	},
+	{
+		"gnd": null,
+		"id": 236,
+		"name": "Song, Geum-bong"
+	},
+	{
+		"gnd": null,
+		"id": 237,
+		"name": "Seon-a, Yun"
+	},
+	{
+		"gnd": "1022100165",
+		"id": 238,
+		"name": "Bae, Su a"
+	},
+	{
+		"gnd": "130485551",
+		"id": 239,
+		"name": "Park, Hui-seok"
+	},
+	{
+		"gnd": null,
+		"id": 240,
+		"name": "Kim, Seong-Hyeon"
+	},
+	{
+		"gnd": null,
+		"id": 241,
+		"name": "Ryu, Jong-yeong"
+	},
+	{
+		"gnd": "115744363",
+		"id": 242,
+		"name": "Ryu, Eun-hui"
+	},
+	{
+		"gnd": null,
+		"id": 243,
+		"name": "Cho, Hyeon-cheon"
+	},
+	{
+		"gnd": "172830494",
+		"id": 244,
+		"name": "Gim, Yeong ok"
+	},
+	{
+		"gnd": null,
+		"id": 245,
+		"name": "Park, Hwan-deok"
+	},
+	{
+		"gnd": null,
+		"id": 246,
+		"name": "Byeon, Hag-su"
+	},
+	{
+		"gnd": null,
+		"id": 247,
+		"name": "Bag, Yeong hui"
+	},
+	{
+		"gnd": "118134086",
+		"id": 248,
+		"name": "Gim, Mi hye"
+	},
+	{
+		"gnd": null,
+		"id": 249,
+		"name": "Chang, Eun-su"
+	},
+	{
+		"gnd": "1020655135",
+		"id": 250,
+		"name": "Stamać, Truda"
+	},
+	{
+		"gnd": "123586763",
+		"id": 251,
+		"name": "Perić, Boris"
+	},
+	{
+		"gnd": "1017241961",
+		"id": 252,
+		"name": "Knežević, Snješka"
+	},
+	{
+		"gnd": "1017884579",
+		"id": 253,
+		"name": "Muhamedagić, Sead"
+	},
+	{
+		"gnd": "1091593388",
+		"id": 255,
+		"name": "Pranjković, Ana"
+	},
+	{
+		"gnd": "141551526",
+		"id": 256,
+		"name": "Sinković, Helen"
+	},
+	{
+		"gnd": "123290376",
+		"id": 257,
+		"name": "Četrauskas, Teodoras"
+	},
+	{
+		"gnd": "1048311376",
+		"id": 258,
+		"name": "Sodeikienė, Giedrė"
+	},
+	{
+		"gnd": null,
+		"id": 259,
+		"name": "Mikutytė, Jurgita"
+	},
+	{
+		"gnd": "140167625",
+		"id": 260,
+		"name": "Lindner, Elizabeta"
+	},
+	{
+		"gnd": "112828264",
+		"id": 261,
+		"name": "Graftdijk, Thomas"
+	},
+	{
+		"gnd": "1192275144",
+		"id": 262,
+		"name": "Brogt, Janine"
+	},
+	{
+		"gnd": "1013260554",
+		"id": 263,
+		"name": "Rijnders, Gerardjan"
+	},
+	{
+		"gnd": "1018015213",
+		"id": 264,
+		"name": "Bakx, Hans Willem"
+	},
+	{
+		"gnd": "1169097006",
+		"id": 265,
+		"name": "Engelander, Ruud"
+	},
+	{
+		"gnd": "11440853X",
+		"id": 266,
+		"name": "Bussink, Gerrit"
+	},
+	{
+		"gnd": "1070720577",
+		"id": 267,
+		"name": "Duquesnoy, Theodor"
+	},
+	{
+		"gnd": null,
+		"id": 268,
+		"name": "Groot, Jacob"
+	},
+	{
+		"gnd": "1200664884",
+		"id": 269,
+		"name": "Bakker, Chris"
+	},
+	{
+		"gnd": null,
+		"id": 270,
+		"name": "Bes, Gerard"
+	},
+	{
+		"gnd": null,
+		"id": 271,
+		"name": "Grisel, Philip"
+	},
+	{
+		"gnd": "139189637",
+		"id": 272,
+		"name": "Bok, Pauline de"
+	},
+	{
+		"gnd": "122811682",
+		"id": 273,
+		"name": "Hengel, Ria van"
+	},
+	{
+		"gnd": null,
+		"id": 274,
+		"name": "Klinkenberg, P.P.J."
+	},
+	{
+		"gnd": "Q4110542",
+		"id": 275,
+		"name": "Wigman, Menno"
+	},
+	{
+		"gnd": "Q2356157",
+		"id": 276,
+		"name": "Thijs, Ger"
+	},
+	{
+		"gnd": null,
+		"id": 277,
+		"name": "Kleijn, Tom"
+	},
+	{
+		"gnd": null,
+		"id": 278,
+		"name": "Loo, Christophe van de"
+	},
+	{
+		"gnd": "112675725X",
+		"id": 279,
+		"name": "Kan, Jeroen van"
+	},
+	{
+		"gnd": null,
+		"id": 280,
+		"name": "Scholten, Rob"
+	},
+	{
+		"gnd": "10933230X",
+		"id": 281,
+		"name": "Dahl, Sverre"
+	},
+	{
+		"gnd": "138392307",
+		"id": 282,
+		"name": "Aasprong, Monica"
+	},
+	{
+		"gnd": "105315626X",
+		"id": 283,
+		"name": "Stølan, Arne Hugo"
+	},
+	{
+		"gnd": "120052547",
+		"id": 284,
+		"name": "Fosse, Jon"
+	},
+	{
+		"gnd": null,
+		"id": 285,
+		"name": "Stubø, Eirik"
+	},
+	{
+		"gnd": null,
+		"id": 286,
+		"name": "Ghayashi, Nasser"
+	},
+	{
+		"gnd": null,
+		"id": 287,
+		"name": "Jamani, Abdullah"
+	},
+	{
+		"gnd": null,
+		"id": 288,
+		"name": "Alilou, Khadijah Kazem"
+	},
+	{
+		"gnd": "1068191961",
+		"id": 289,
+		"name": "Haddad, Ali Asghar"
+	},
+	{
+		"gnd": "1081376856",
+		"id": 290,
+		"name": "Rašīd, Šahrūz"
+	},
+	{
+		"gnd": null,
+		"id": 291,
+		"name": "Jahanshahi, Jahid"
+	},
+	{
+		"gnd": null,
+		"id": 292,
+		"name": "Mousavi, Mohammad Reza"
+	},
+	{
+		"gnd": null,
+		"id": 293,
+		"name": "Alazreg, Abdullahi"
+	},
+	{
+		"gnd": null,
+		"id": 294,
+		"name": "Ahangar, Aboozar"
+	},
+	{
+		"gnd": null,
+		"id": 295,
+		"name": "Arab, Hassan"
+	},
+	{
+		"gnd": null,
+		"id": 296,
+		"name": "Armand, Zainab"
+	},
+	{
+		"gnd": "141954027",
+		"id": 297,
+		"name": "Muskała, Monika"
+	},
+	{
+		"gnd": "12857688X",
+		"id": 298,
+		"name": "Lisiecka, Sława"
+	},
+	{
+		"gnd": "115162283",
+		"id": 299,
+		"name": "Błaut, Sławomir"
+	},
+	{
+		"gnd": null,
+		"id": 300,
+		"name": "Dyzek, Ernest"
+	},
+	{
+		"gnd": null,
+		"id": 301,
+		"name": "Nowak, Marek Feliks"
+	},
+	{
+		"gnd": "120039753",
+		"id": 302,
+		"name": "Kędzierski, Marek"
+	},
+	{
+		"gnd": "127249869",
+		"id": 303,
+		"name": "Mycielska, Gabriela"
+	},
+	{
+		"gnd": "1014069262",
+		"id": 304,
+		"name": "Jaskuła, Zdzisław"
+	},
+	{
+		"gnd": "124711944",
+		"id": 305,
+		"name": "Wojnakowski, Ryszard"
+	},
+	{
+		"gnd": "120362694",
+		"id": 306,
+		"name": "Buras, Jacek St."
+	},
+	{
+		"gnd": "1215107900",
+		"id": 307,
+		"name": "Żmij-Zielińska, Danuta"
+	},
+	{
+		"gnd": "1061823695",
+		"id": 308,
+		"name": "Matysik, Grzegorz"
+	},
+	{
+		"gnd": null,
+		"id": 309,
+		"name": "Wołkowicz, Anna"
+	},
+	{
+		"gnd": "121265501",
+		"id": 310,
+		"name": "Kunicki, Wojciech"
+	},
+	{
+		"gnd": "119229129",
+		"id": 311,
+		"name": "Barańczak, Stanisław"
+	},
+	{
+		"gnd": null,
+		"id": 312,
+		"name": "Borkiewicz, Agnieszka"
+	},
+	{
+		"gnd": "Q9387781",
+		"id": 313,
+		"name": "Bochenek, Zbigniew"
+	},
+	{
+		"gnd": "1089574959",
+		"id": 314,
+		"name": "Surowska, Barbara L."
+	},
+	{
+		"gnd": "123637015",
+		"id": 315,
+		"name": "Sauerland, Karol"
+	},
+	{
+		"gnd": null,
+		"id": 316,
+		"name": "Malheiro, Maria Olema"
+	},
+	{
+		"gnd": "138312737",
+		"id": 317,
+		"name": "Almeida, Leopoldina"
+	},
+	{
+		"gnd": "110602897",
+		"id": 318,
+		"name": "Caetano, José Antonio Palma"
+	},
+	{
+		"gnd": "141122455",
+		"id": 319,
+		"name": "Duarte, Bruno"
+	},
+	{
+		"gnd": "121553779",
+		"id": 320,
+		"name": "Barrento, João"
+	},
+	{
+		"gnd": "121903326X",
+		"id": 321,
+		"name": "Mendes, Anabela"
+	},
+	{
+		"gnd": "17230881X",
+		"id": 322,
+		"name": "Pimenta, Alberto"
+	},
+	{
+		"gnd": "1234182270",
+		"id": 323,
+		"name": "Parreira, Francisco Luís"
+	},
+	{
+		"gnd": null,
+		"id": 324,
+		"name": "Danţiş, Gabriela"
+	},
+	{
+		"gnd": "128824050",
+		"id": 325,
+		"name": "Madritsch Marin, Florica"
+	},
+	{
+		"gnd": "140531726",
+		"id": 326,
+		"name": "Evu, Ioan"
+	},
+	{
+		"gnd": null,
+		"id": 327,
+		"name": "Haas, Theresia"
+	},
+	{
+		"gnd": "133234487",
+		"id": 328,
+		"name": "Isbășescu, Mihai"
+	},
+	{
+		"gnd": null,
+		"id": 329,
+		"name": "Khlebnikowa, Borisa"
+	},
+	{
+		"gnd": null,
+		"id": 330,
+		"name": "Fadeeva, Vladimira"
+	},
+	{
+		"gnd": null,
+		"id": 331,
+		"name": "Rudnitzki, Michael"
+	},
+	{
+		"gnd": "1057558192",
+		"id": 332,
+		"name": "Rajt-Kowaljowa, Rita"
+	},
+	{
+		"gnd": null,
+		"id": 333,
+		"name": "Schlapoberskaja, Serafima"
+	},
+	{
+		"gnd": "1017399611",
+		"id": 334,
+		"name": "Baskakova, Tatʹjana Aleksandrovna"
+	},
+	{
+		"gnd": null,
+		"id": 335,
+		"name": "Mikhelevich, Jewgenija"
+	},
+	{
+		"gnd": null,
+		"id": 337,
+		"name": "Cherkasow, V."
+	},
+	{
+		"gnd": "1044377364",
+		"id": 338,
+		"name": "Gajdukowa, Е."
+	},
+	{
+		"gnd": null,
+		"id": 339,
+		"name": "Ognew, Alexej"
+	},
+	{
+		"gnd": null,
+		"id": 340,
+		"name": "Matveeva, Anna"
+	},
+	{
+		"gnd": null,
+		"id": 341,
+		"name": "Tropinin, Paul"
+	},
+	{
+		"gnd": "1177089246",
+		"id": 342,
+		"name": "Kotelevskaja, Vera Vladimirovna"
+	},
+	{
+		"gnd": "1051756766",
+		"id": 343,
+		"name": "Belorusets, Evgenia"
+	},
+	{
+		"gnd": "131681745",
+		"id": 344,
+		"name": "Markin, Aleksandr"
+	},
+	{
+		"gnd": null,
+		"id": 346,
+		"name": "Slawinskaja, A."
+	},
+	{
+		"gnd": null,
+		"id": 347,
+		"name": "Dmitrijewa, J."
+	},
+	{
+		"gnd": null,
+		"id": 348,
+		"name": "Radović, Marinko"
+	},
+	{
+		"gnd": "1133516378",
+		"id": 349,
+		"name": "Karanović, Sanja"
+	},
+	{
+		"gnd": "1078380821",
+		"id": 350,
+		"name": "Grujic, Borivoj"
+	},
+	{
+		"gnd": "113613555",
+		"id": 351,
+		"name": "Aćin, Jovica"
+	},
+	{
+		"gnd": "141036028",
+		"id": 352,
+		"name": "Dražić, Relja"
+	},
+	{
+		"gnd": null,
+		"id": 353,
+		"name": "Guslov, Novak"
+	},
+	{
+		"gnd": "1227236212",
+		"id": 354,
+		"name": "Avramović, Mirjana"
+	},
+	{
+		"gnd": "1016946325",
+		"id": 355,
+		"name": "Denić, Bojana"
+	},
+	{
+		"gnd": "115835970",
+		"id": 356,
+		"name": "Krasni, Zlatko"
+	},
+	{
+		"gnd": "14026289X",
+		"id": 357,
+		"name": "Dvorský, Juraj"
+	},
+	{
+		"gnd": null,
+		"id": 358,
+		"name": "Krejčiková, Jana"
+	},
+	{
+		"gnd": "102911658X",
+		"id": 359,
+		"name": "Kubica, Peter"
+	},
+	{
+		"gnd": "Q4022080",
+		"id": 360,
+		"name": "Virk, Jani"
+	},
+	{
+		"gnd": "Q18646326",
+		"id": 361,
+		"name": "Vevar, Štefan"
+	},
+	{
+		"gnd": "101402708X",
+		"id": 362,
+		"name": "Virk, Sara Marina"
+	},
+	{
+		"gnd": "Q114305369",
+		"id": 363,
+		"name": "Brodar, Urška"
+	},
+	{
+		"gnd": "1156675316",
+		"id": 364,
+		"name": "Morel, Alenka"
+	},
+	{
+		"gnd": null,
+		"id": 365,
+		"name": "Pirc, Ana Monika"
+	},
+	{
+		"gnd": "115212396",
+		"id": 366,
+		"name": "Jenčič, Lučka"
+	},
+	{
+		"gnd": "115835970",
+		"id": 367,
+		"name": "Kranjc, Mojca"
+	},
+	{
+		"gnd": "1089854382",
+		"id": 368,
+		"name": "Marinčič, Katarina"
+	},
+	{
+		"gnd": null,
+		"id": 369,
+		"name": "Flis, Davorin"
+	},
+	{
+		"gnd": "1043476903",
+		"id": 370,
+		"name": "Kralj, Lado"
+	},
+	{
+		"gnd": "Q12786235",
+		"id": 371,
+		"name": "Trekman, Borut"
+	},
+	{
+		"gnd": "1234736527",
+		"id": 372,
+		"name": "Borovnik, Silvija"
+	},
+	{
+		"gnd": "1063226295",
+		"id": 373,
+		"name": "Miladinović Zalaznik, Mira"
+	},
+	{
+		"gnd": "113071043",
+		"id": 374,
+		"name": "Sáenz, Miguel"
+	},
+	{
+		"gnd": "1165093812",
+		"id": 375,
+		"name": "Cruz Santaella, Esther"
+	},
+	{
+		"gnd": "11541522X",
+		"id": 376,
+		"name": "Fortea, Carlos"
+	},
+	{
+		"gnd": null,
+		"id": 377,
+		"name": "Mizraji, Margarita"
+	},
+	{
+		"gnd": "127221085",
+		"id": 378,
+		"name": "Costa, Nicolás"
+	},
+	{
+		"gnd": null,
+		"id": 379,
+		"name": "Fehling, Ruth"
+	},
+	{
+		"gnd": null,
+		"id": 380,
+		"name": "Corchado, Ricardo"
+	},
+	{
+		"gnd": null,
+		"id": 381,
+		"name": "Scherzer, Sabina"
+	},
+	{
+		"gnd": "107718731",
+		"id": 382,
+		"name": "Holmqvist, Margaretha"
+	},
+	{
+		"gnd": "12150011X",
+		"id": 383,
+		"name": "Birnbaum, Daniel"
+	},
+	{
+		"gnd": null,
+		"id": 384,
+		"name": "Olsson, Anders"
+	},
+	{
+		"gnd": "137299931",
+		"id": 385,
+		"name": "Bornlid, Jan Erik"
+	},
+	{
+		"gnd": "107890143",
+		"id": 386,
+		"name": "Freij, Lars W."
+	},
+	{
+		"gnd": "1018886249",
+		"id": 387,
+		"name": "Widén, Susanne"
+	},
+	{
+		"gnd": null,
+		"id": 388,
+		"name": "Lindmann, Magnus"
+	},
+	{
+		"gnd": "103434453",
+		"id": 389,
+		"name": "Özgüven, Fatih"
+	},
+	{
+		"gnd": "135753279",
+		"id": 390,
+		"name": "Duru, Sezer"
+	},
+	{
+		"gnd": "102948354X",
+		"id": 391,
+		"name": "Tezel, Esen"
+	},
+	{
+		"gnd": null,
+		"id": 392,
+		"name": "Tüzel, Mustafa"
+	},
+	{
+		"gnd": null,
+		"id": 393,
+		"name": "Türk, M. Sami"
+	},
+	{
+		"gnd": "1187984000",
+		"id": 394,
+		"name": "Nalcıoğlu, Ahmet Uğur"
+	},
+	{
+		"gnd": "139907858",
+		"id": 395,
+		"name": "Sarı, Ahmet"
+	},
+	{
+		"gnd": "140037438",
+		"id": 396,
+		"name": "Uyanık, Gürsel"
+	},
+	{
+		"gnd": "139907440",
+		"id": 397,
+		"name": "Öztürk Dağabakan, Fatma"
+	},
+	{
+		"gnd": null,
+		"id": 398,
+		"name": "Çağlar, Arif"
+	},
+	{
+		"gnd": "107830302",
+		"id": 399,
+		"name": "Nutku, Özdemir"
+	},
+	{
+		"gnd": null,
+		"id": 400,
+		"name": "Arpad, Ahmet"
+	},
+	{
+		"gnd": "1280573597",
+		"id": 401,
+		"name": "Murad, Efe"
+	},
+	{
+		"gnd": null,
+		"id": 402,
+		"name": "Omay, Ebru"
+	},
+	{
+		"gnd": null,
+		"id": 403,
+		"name": "Amasyalı, Nadide"
+	},
+	{
+		"gnd": null,
+		"id": 404,
+		"name": "Boztepe, Kemal"
+	},
+	{
+		"gnd": "137196059",
+		"id": 405,
+		"name": "Havryliv, Tymofij"
+	},
+	{
+		"gnd": null,
+		"id": 406,
+		"name": "Andrushchenko, Igor"
+	},
+	{
+		"gnd": null,
+		"id": 407,
+		"name": "Kravchenko, Lesya"
+	},
+	{
+		"gnd": null,
+		"id": 408,
+		"name": "Ẓafār, Iqbāl"
+	},
+	{
+		"gnd": null,
+		"id": 409,
+		"name": "Lãnh, Hoàng Đăng"
+	},
+	{
+		"gnd": "1234245051",
+		"id": 410,
+		"name": "Avgerinou, Sofia"
+	},
+	{
+		"gnd": null,
+		"id": 412,
+		"name": "Koltsidopoulou, Anny"
+	},
+	{
+		"gnd": null,
+		"id": 414,
+		"name": "Mortazavi, Hadi"
+	},
+	{
+		"gnd": null,
+		"id": 415,
+		"name": "Neri, Angélica"
+	},
+	{
+		"gnd": null,
+		"id": 417,
+		"name": "Bohunovsky, Ruth"
+	},
+	{
+		"gnd": null,
+		"id": 418,
+		"name": "Abdala Jr, Luiz"
+	},
+	{
+		"gnd": null,
+		"id": 419,
+		"name": "Simões, Hugo"
+	},
+	{
+		"gnd": null,
+		"id": 420,
+		"name": "Dickel, Agnieszka"
+	},
+	{
+		"gnd": null,
+		"id": 423,
+		"name": "Szybiak, Agnieszka"
+	},
+	{
+		"gnd": null,
+		"id": 424,
+		"name": "Kamińska, Beata"
+	},
+	{
+		"gnd": null,
+		"id": 425,
+		"name": "Dydak, Paweł"
+	},
+	{
+		"gnd": null,
+		"id": 426,
+		"name": "Dębek, Irena"
+	},
+	{
+		"gnd": null,
+		"id": 427,
+		"name": "Kaczmarek, Magdalena"
+	},
+	{
+		"gnd": null,
+		"id": 428,
+		"name": "Wasilewski, Paweł"
+	},
+	{
+		"gnd": null,
+		"id": 429,
+		"name": "Ziegler-Brodnicka, Ewa"
+	},
+	{
+		"gnd": null,
+		"id": 430,
+		"name": "Schmidt, Krystyna"
+	},
+	{
+		"gnd": null,
+		"id": 431,
+		"name": "Darul, Magdalena"
+	},
+	{
+		"gnd": null,
+		"id": 432,
+		"name": "Sucharska, Zofia"
+	},
+	{
+		"gnd": null,
+		"id": 433,
+		"name": "Kaczorowska, Tatiana"
+	},
+	{
+		"gnd": null,
+		"id": 434,
+		"name": "Mużdżak, Anna"
+	},
+	{
+		"gnd": null,
+		"id": 435,
+		"name": "Mikulska-Frindo, Ewa"
+	},
+	{
+		"gnd": null,
+		"id": 436,
+		"name": "Kuczkowska, Iwona"
+	},
+	{
+		"gnd": null,
+		"id": 437,
+		"name": "Granbichler, Joanna"
+	},
+	{
+		"gnd": null,
+		"id": 438,
+		"name": "Bombrych, Tomasz"
+	},
+	{
+		"gnd": null,
+		"id": 439,
+		"name": "Zarychta, Paweł"
+	},
+	{
+		"gnd": null,
+		"id": 440,
+		"name": "Kromp, Ilona"
+	},
+	{
+		"gnd": null,
+		"id": 441,
+		"name": "Sosnowski, Andrzej"
+	},
+	{
+		"gnd": null,
+		"id": 442,
+		"name": "Filipek, Anna"
+	},
+	{
+		"gnd": null,
+		"id": 443,
+		"name": "Diduszko, Joanna"
+	},
+	{
+		"gnd": null,
+		"id": 444,
+		"name": "Fortuna, Waldemar"
+	},
+	{
+		"gnd": null,
+		"id": 445,
+		"name": "Selewska, Jowita"
+	},
+	{
+		"gnd": null,
+		"id": 446,
+		"name": "Perlikiewicz, Marta"
+	},
+	{
+		"gnd": null,
+		"id": 447,
+		"name": "Worożbit, Sebastian"
+	},
+	{
+		"gnd": null,
+		"id": 448,
+		"name": "Meske, Bożena"
+	},
+	{
+		"gnd": null,
+		"id": 449,
+		"name": "Peters, Jacques"
+	},
+	{
+		"gnd": "1309257094",
+		"id": 450,
+		"name": "Maza, Virginia"
+	}
 ]
