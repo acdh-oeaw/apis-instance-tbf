@@ -1,0 +1,1482 @@
+[
+	{
+		"category": "poetry",
+		"gnd": "1208645420",
+		"id": 1,
+		"short_title": null,
+		"title": "Auf der Erde und in der Hölle",
+		"year": 1957
+	},
+	{
+		"category": "poetry",
+		"gnd": "105004097X",
+		"id": 2,
+		"short_title": null,
+		"title": "In hora mortis",
+		"year": 1958
+	},
+	{
+		"category": "poetry",
+		"gnd": "1306442915",
+		"id": 3,
+		"short_title": null,
+		"title": "Unter dem Eisen des Mondes",
+		"year": 1958
+	},
+	{
+		"category": "poetry",
+		"gnd": "1203737297",
+		"id": 4,
+		"short_title": null,
+		"title": "Die Irren, die Häftlinge",
+		"year": 1962
+	},
+	{
+		"category": "novels",
+		"gnd": "4140750-7",
+		"id": 5,
+		"short_title": null,
+		"title": "Frost",
+		"year": 1963
+	},
+	{
+		"category": "novellas",
+		"gnd": "1045328219",
+		"id": 6,
+		"short_title": null,
+		"title": "Amras",
+		"year": 1964
+	},
+	{
+		"category": "novellas",
+		"gnd": "1024915921",
+		"id": 7,
+		"short_title": null,
+		"title": "Jauregg",
+		"year": 1966
+	},
+	{
+		"category": "novellas",
+		"gnd": "7845728-2",
+		"id": 8,
+		"short_title": null,
+		"title": "Viktor Halbnarr",
+		"year": 1966
+	},
+	{
+		"category": "novels",
+		"gnd": "4140749-0",
+		"id": 9,
+		"short_title": null,
+		"title": "Verstörung",
+		"year": 1967
+	},
+	{
+		"category": "novellas",
+		"gnd": "1140157906",
+		"id": 10,
+		"short_title": null,
+		"title": "Die Mütze",
+		"year": 1967
+	},
+	{
+		"category": "novellas",
+		"gnd": "1078686300",
+		"id": 11,
+		"short_title": null,
+		"title": "Ist es eine Komödie? Ist es eine Tragödie?",
+		"year": 1967
+	},
+	{
+		"category": "novellas",
+		"gnd": "1233642103",
+		"id": 12,
+		"short_title": null,
+		"title": "An der Baumgrenze",
+		"year": 1967
+	},
+	{
+		"category": "novellas",
+		"gnd": "1147793611",
+		"id": 13,
+		"short_title": null,
+		"title": "Watten. Ein Nachlass",
+		"year": 1969
+	},
+	{
+		"category": "novellas",
+		"gnd": "4734848-3",
+		"id": 14,
+		"short_title": null,
+		"title": "Der Wetterfleck",
+		"year": 1969
+	},
+	{
+		"category": "novellas",
+		"gnd": "4687798-8",
+		"id": 15,
+		"short_title": null,
+		"title": "Der Italiener",
+		"year": 1969
+	},
+	{
+		"category": "drama",
+		"gnd": "4493036-7",
+		"id": 16,
+		"short_title": null,
+		"title": "Ein Fest für Boris",
+		"year": 1970
+	},
+	{
+		"category": "novels",
+		"gnd": "4209488-4",
+		"id": 17,
+		"short_title": null,
+		"title": "Das Kalkwerk",
+		"year": 1970
+	},
+	{
+		"category": "novellas",
+		"gnd": "4576168-1",
+		"id": 18,
+		"short_title": null,
+		"title": "Gehen",
+		"year": 1971
+	},
+	{
+		"category": "drama",
+		"gnd": "4485102-9",
+		"id": 19,
+		"short_title": null,
+		"title": "Der Ignorant und der Wahnsinnige",
+		"year": 1972
+	},
+	{
+		"category": "drama",
+		"gnd": "4520814-1",
+		"id": 20,
+		"short_title": null,
+		"title": "Die Jagdgesellschaft",
+		"year": 1974
+	},
+	{
+		"category": "drama",
+		"gnd": "4281931-3",
+		"id": 21,
+		"short_title": null,
+		"title": "Die Macht der Gewohnheit",
+		"year": 1974
+	},
+	{
+		"category": "novellas",
+		"gnd": "4444005-4",
+		"id": 22,
+		"short_title": null,
+		"title": "Der Kulterer",
+		"year": 1974
+	},
+	{
+		"category": "autobiography",
+		"gnd": "4392770-1",
+		"id": 23,
+		"short_title": null,
+		"title": "Die Ursache",
+		"year": 1975
+	},
+	{
+		"category": "drama",
+		"gnd": "7600801-0",
+		"id": 24,
+		"short_title": null,
+		"title": "Der Präsident",
+		"year": 1975
+	},
+	{
+		"category": "novels",
+		"gnd": "4126723-0",
+		"id": 25,
+		"short_title": null,
+		"title": "Korrektur",
+		"year": 1975
+	},
+	{
+		"category": "drama",
+		"gnd": "1162284560",
+		"id": 26,
+		"short_title": null,
+		"title": "Die Berühmten",
+		"year": 1976
+	},
+	{
+		"category": "autobiography",
+		"gnd": "4998706-9",
+		"id": 27,
+		"short_title": "Der Keller",
+		"title": "Der Keller. Eine Entziehung",
+		"year": 1976
+	},
+	{
+		"category": "drama",
+		"gnd": "4487124-7",
+		"id": 28,
+		"short_title": "Minetti",
+		"title": "Minetti. Ein Portrait des Künstlers als alter Mann",
+		"year": 1977
+	},
+	{
+		"category": "novellas",
+		"gnd": "4525059-5",
+		"id": 29,
+		"short_title": null,
+		"title": "Der Stimmenimitator",
+		"year": 1978
+	},
+	{
+		"category": "novellas",
+		"gnd": "4738741-5",
+		"id": 30,
+		"short_title": null,
+		"title": "Ja",
+		"year": 1978
+	},
+	{
+		"category": "drama",
+		"gnd": "1057906050",
+		"id": 31,
+		"short_title": null,
+		"title": "Immanuel Kant",
+		"year": 1978
+	},
+	{
+		"category": "autobiography",
+		"gnd": "4998708-2",
+		"id": 32,
+		"short_title": "Der Atem",
+		"title": "Der Atem. Eine Entscheidung",
+		"year": 1978
+	},
+	{
+		"category": "drama",
+		"gnd": "4217797-2",
+		"id": 33,
+		"short_title": null,
+		"title": "Vor dem Ruhestand",
+		"year": 1979
+	},
+	{
+		"category": "drama",
+		"gnd": "4636697-0",
+		"id": 34,
+		"short_title": null,
+		"title": "Der Weltverbesserer",
+		"year": 1979
+	},
+	{
+		"category": "novellas",
+		"gnd": "1141917998",
+		"id": 35,
+		"short_title": null,
+		"title": "Die Billigesser",
+		"year": 1980
+	},
+	{
+		"category": "autobiography",
+		"gnd": "7655973-7",
+		"id": 36,
+		"short_title": "Die Kälte",
+		"title": "Die Kälte. Eine Isolation",
+		"year": 1981
+	},
+	{
+		"category": "poetry",
+		"gnd": "1270058894",
+		"id": 37,
+		"short_title": null,
+		"title": "Ave Vergil",
+		"year": 1981
+	},
+	{
+		"category": "novellas",
+		"gnd": "4509408-1",
+		"id": 38,
+		"short_title": null,
+		"title": "Wittgensteins Neffe. Eine Freundschaft",
+		"year": 1982
+	},
+	{
+		"category": "novels",
+		"gnd": "4242075-1",
+		"id": 39,
+		"short_title": null,
+		"title": "Beton",
+		"year": 1982
+	},
+	{
+		"category": "drama",
+		"gnd": "1244933007",
+		"id": 40,
+		"short_title": null,
+		"title": "Über allen Gipfeln ist Ruh",
+		"year": 1982
+	},
+	{
+		"category": "autobiography",
+		"gnd": "4998709-4",
+		"id": 41,
+		"short_title": null,
+		"title": "Ein Kind",
+		"year": 1982
+	},
+	{
+		"category": "novels",
+		"gnd": "4280472-3",
+		"id": 42,
+		"short_title": null,
+		"title": "Der Untergeher",
+		"year": 1983
+	},
+	{
+		"category": "drama",
+		"gnd": "4253712-5",
+		"id": 43,
+		"short_title": null,
+		"title": "Der Theatermacher",
+		"year": 1984
+	},
+	{
+		"category": "novels",
+		"gnd": "4447199-3",
+		"id": 44,
+		"short_title": null,
+		"title": "Holzfällen. Eine Erregung",
+		"year": 1984
+	},
+	{
+		"category": "novels",
+		"gnd": "4281932-5",
+		"id": 45,
+		"short_title": null,
+		"title": "Alte Meister. Komödie",
+		"year": 1985
+	},
+	{
+		"category": "novels",
+		"gnd": "4201254-5",
+		"id": 46,
+		"short_title": null,
+		"title": "Auslöschung. Ein Zerfall",
+		"year": 1986
+	},
+	{
+		"category": "drama",
+		"gnd": "1123599505",
+		"id": 47,
+		"short_title": null,
+		"title": "Einfach kompliziert",
+		"year": 1986
+	},
+	{
+		"category": "drama",
+		"gnd": "7659613-8",
+		"id": 48,
+		"short_title": null,
+		"title": "Elisabeth II. Keine Komödie",
+		"year": 1987
+	},
+	{
+		"category": "drama",
+		"gnd": "4221007-0",
+		"id": 49,
+		"short_title": null,
+		"title": "Heldenplatz",
+		"year": 1988
+	},
+	{
+		"category": "drama",
+		"gnd": "1158674678",
+		"id": 50,
+		"short_title": null,
+		"title": "Der deutsche Mittagstisch",
+		"year": 1988
+	},
+	{
+		"category": "drama",
+		"gnd": "124493318X",
+		"id": 51,
+		"short_title": null,
+		"title": "Claus Peymann kauft sich eine Hose und geht mit mir essen",
+		"year": 1990
+	},
+	{
+		"category": "novellas",
+		"gnd": "1217488685",
+		"id": 52,
+		"short_title": null,
+		"title": "Ereignisse",
+		"year": 1991
+	},
+	{
+		"category": "other",
+		"gnd": "7846530-8",
+		"id": 53,
+		"short_title": null,
+		"title": "Meine Preise. Eine Bilanz",
+		"year": 2009
+	},
+	{
+		"category": "other",
+		"gnd": "1214903665",
+		"id": 54,
+		"short_title": null,
+		"title": "Der Wahrheit auf der Spur",
+		"year": 2010
+	},
+	{
+		"category": "adaptations",
+		"gnd": "1219327905",
+		"id": 55,
+		"short_title": null,
+		"title": "Alte Meister. Komödie. Gezeichnet von Mahler",
+		"year": 2012
+	},
+	{
+		"category": "drama",
+		"gnd": "4362534-4",
+		"id": 56,
+		"short_title": null,
+		"title": "Am Ziel",
+		"year": "1981"
+	},
+	{
+		"category": "drama",
+		"gnd": "1123599106",
+		"id": 57,
+		"short_title": null,
+		"title": "Der Schein trügt",
+		"year": "1983"
+	},
+	{
+		"category": "drama",
+		"gnd": "4217798-4",
+		"id": 58,
+		"short_title": null,
+		"title": "Ritter, Dene, Voss",
+		"year": "1984"
+	},
+	{
+		"category": "drama",
+		"gnd": "108146285X",
+		"id": 59,
+		"short_title": null,
+		"title": "die rosen der einöde",
+		"year": "1959"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 60,
+		"short_title": null,
+		"title": "Köpfe",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 61,
+		"short_title": null,
+		"title": "Die Erfundene",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 62,
+		"short_title": null,
+		"title": "Rosa",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 63,
+		"short_title": null,
+		"title": "Frühling",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 64,
+		"short_title": null,
+		"title": "Der Berg",
+		"year": "1970"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 65,
+		"short_title": null,
+		"title": "A Doda",
+		"year": "1980"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 66,
+		"short_title": null,
+		"title": "Maiandacht",
+		"year": "1988"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 67,
+		"short_title": null,
+		"title": "Match",
+		"year": "1988"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 68,
+		"short_title": null,
+		"title": "Freispruch",
+		"year": "1988"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 69,
+		"short_title": null,
+		"title": "Eis",
+		"year": "1988"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 70,
+		"short_title": null,
+		"title": "Alles oder nichts",
+		"year": "1981"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 71,
+		"short_title": null,
+		"title": "Claus Peymann verläßt Bochum und geht als Burgtheaterdirektor nach Wien",
+		"year": "1986"
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 72,
+		"short_title": null,
+		"title": "Claus Peymann und Hermann Beil auf der Sulzwiese",
+		"year": "1987"
+	},
+	{
+		"category": "novellas",
+		"gnd": "1134906285",
+		"id": 73,
+		"short_title": null,
+		"title": "Goethe schtirbt",
+		"year": "1982"
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 74,
+		"short_title": null,
+		"title": "Montaigne",
+		"year": "1982"
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 75,
+		"short_title": null,
+		"title": "Wiedersehen",
+		"year": "1982"
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 76,
+		"short_title": null,
+		"title": "In Flammen aufgegangen",
+		"year": "1983"
+	},
+	{
+		"category": "novellas",
+		"gnd": "1269415670",
+		"id": 77,
+		"short_title": null,
+		"title": "Der Hutmacher",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": "1158696477",
+		"id": 79,
+		"short_title": null,
+		"title": "Ungenach",
+		"year": "1968"
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 80,
+		"short_title": null,
+		"title": "Das Verbrechen eines Innsbrucker Kaufmannssohns",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 81,
+		"short_title": null,
+		"title": "Der Zimmerer",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 82,
+		"short_title": null,
+		"title": "Zwei Erzieher",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 83,
+		"short_title": null,
+		"title": "Attaché an der französischen Botschaft",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 84,
+		"short_title": null,
+		"title": "Midland in Stilfs",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 85,
+		"short_title": null,
+		"title": "Am Ortler",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": "1158695977",
+		"id": 86,
+		"short_title": null,
+		"title": "In der Höhe. Rettungsversuch, Unsinn",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 87,
+		"short_title": null,
+		"title": "Das rote Licht",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 88,
+		"short_title": null,
+		"title": "Die Siedler",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 89,
+		"short_title": null,
+		"title": "Von einem Nachmittag in einer großen Stadt",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 90,
+		"short_title": null,
+		"title": "Von sieben Tannen und vom Schnee... Eine märchenhafe  Weihnachtsgeschichte",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 91,
+		"short_title": null,
+		"title": "Die verrückte Magdalena",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 92,
+		"short_title": null,
+		"title": "Letzter Wille und Testament",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 93,
+		"short_title": null,
+		"title": "Das Armenhaus von St. Laurin",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 94,
+		"short_title": null,
+		"title": "Großer, unbegreiflicher Hunger",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 95,
+		"short_title": null,
+		"title": "Wintertag im Hochgebirge",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 96,
+		"short_title": null,
+		"title": "Der Untergang des Abendlandes",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 97,
+		"short_title": null,
+		"title": "Die Landschaft der Mutter",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 98,
+		"short_title": null,
+		"title": "Ein älterer Mann namens August",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 99,
+		"short_title": null,
+		"title": "Von einem, der auszog die Welt zu sehen",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 100,
+		"short_title": null,
+		"title": "Der Schweinehüter",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 101,
+		"short_title": null,
+		"title": "Eine Zeugenaussage",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 102,
+		"short_title": null,
+		"title": "Berg",
+		"year": null
+	},
+	{
+		"category": "drama",
+		"gnd": null,
+		"id": 103,
+		"short_title": null,
+		"title": "Erfundene",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 104,
+		"short_title": null,
+		"title": "Ein Frühling",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 105,
+		"short_title": null,
+		"title": "Von einer Katastrophe in die andere. Interview von Asta Scheib",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 106,
+		"short_title": null,
+		"title": "Ich bin nur mehr kurz da. Interview von Kurt Hofmann",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 107,
+		"short_title": null,
+		"title": "Aus Gesprächen mit Kurt Hofmann",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 108,
+		"short_title": null,
+		"title": "Gedichte 1952-1957",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 109,
+		"short_title": null,
+		"title": "Psalm",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 110,
+		"short_title": null,
+		"title": "Gedichte 1959-1963",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 111,
+		"short_title": null,
+		"title": "Drei Tage",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 112,
+		"short_title": null,
+		"title": "Jean Arthur Rimbaud. Zum 100. Geburtstag",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 113,
+		"short_title": null,
+		"title": "André Müller im Gespräch mit Thomas Bernhard",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 114,
+		"short_title": null,
+		"title": "Argumente eines Winterspaziergängers",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": "1153801205",
+		"id": 115,
+		"short_title": null,
+		"title": "Thomas Bernhard – Gerhard Fritsch. Der Briefwechsel",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 116,
+		"short_title": null,
+		"title": "Kurt Hofmann: Aus Gesprächen mit Thomas Bernhard",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 117,
+		"short_title": null,
+		"title": "Eine Begegnung. Gespräche mit Krista Fleischmann",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 118,
+		"short_title": null,
+		"title": "Mein Weltenstück",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 119,
+		"short_title": null,
+		"title": "Verstreut publizierte Gedichte",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 120,
+		"short_title": null,
+		"title": "Ein junger Schriftsteller",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 121,
+		"short_title": null,
+		"title": "Monologe auf Mallorca",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 122,
+		"short_title": null,
+		"title": "Mein Glückliches Österreich",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 123,
+		"short_title": "Mit der Klarheit nimmt die Kälte zu",
+		"title": "Mit der Klarheit nimmt die Kälte zu (Bremer Literaturpreis)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 124,
+		"short_title": "Der Wahrheit und dem Tod auf der Spur",
+		"title": "Der Wahrheit und dem Tod auf der Spur (Anton-Wildgans-Preis)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 125,
+		"short_title": "Verehrter Herr Minister, verehrte Anwesende",
+		"title": "Verehrter Herr Minister, verehrte Anwesende (Österreichischer Staatspreis)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 126,
+		"short_title": null,
+		"title": "Unsterblichkeit ist unmöglich. Landschaft der Kindheit",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 127,
+		"short_title": "Nie und mit nichts fertig werden",
+		"title": "Nie und mit nichts fertig werden (Büchner-Preis)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 128,
+		"short_title": null,
+		"title": "Brief an Siegfried Unseld",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 129,
+		"short_title": null,
+		"title": "Brief an Henning Rischbieter",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 130,
+		"short_title": null,
+		"title": "Ansichten eines unverbesserlichen Weltverbesserer. Interview mit Niklas Frank",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 131,
+		"short_title": null,
+		"title": "Junge Köpfe",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 132,
+		"short_title": null,
+		"title": "Meine eigene Einsamkeit",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 133,
+		"short_title": "Gerichtschroniken",
+		"title": "Gerichtschroniken (Ein paar saure Zuckerl)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 134,
+		"short_title": null,
+		"title": "Selbstmord in der Landesheilanstalt",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 135,
+		"short_title": null,
+		"title": "Vielgeliebt und nie bezahlt",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 136,
+		"short_title": null,
+		"title": "Gastspiel am Landesgericht",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 137,
+		"short_title": null,
+		"title": "Ernestine kontra Lucie",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 138,
+		"short_title": null,
+		"title": "Paris",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 139,
+		"short_title": null,
+		"title": "Verfolgungswahn",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 140,
+		"short_title": "Zwei Briefe",
+		"title": "Zwei Briefe (1960-1963) an Annemarie Hammerstein-Siller",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 141,
+		"short_title": null,
+		"title": "Telegramm vom 30. November 1960 an Michael Guttenbrunner",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 142,
+		"short_title": null,
+		"title": "Ein Brief aus einem Drama",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 143,
+		"short_title": null,
+		"title": "Ein ländlicher Betrüger",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 144,
+		"short_title": null,
+		"title": "Als Verwalter im Asyl",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 146,
+		"short_title": null,
+		"title": "Brief an Claus Peymann, 02.12.1986",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 147,
+		"short_title": null,
+		"title": "In Rom",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 148,
+		"short_title": null,
+		"title": "Erklärung",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": "1210310406",
+		"id": 149,
+		"short_title": null,
+		"title": "Thomas Bernhard und Siegfried Unseld",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 150,
+		"short_title": null,
+		"title": "Unseld",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 151,
+		"short_title": null,
+		"title": "Leute, die ein Gespräch führen wollen, sind mir verdächtig. Interview mit Werner Wögerbauer",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 152,
+		"short_title": null,
+		"title": "Brief an Christoph von Schwerin",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 153,
+		"short_title": "Briefe an die Presse",
+		"title": "Briefe an die Presse (Politische Morgenandacht; Schriftstellerberuf heute. Die Komödie der Eitelkeit; Thomas Bernhard: Ein Brief an die ZEIT; Bernhards Plädoyer. Zur Wiener Gerichtsverhandlung „Holzfällen“ betreffend; Vranitzky. Eine Erwiderung; „Sehr geehrter Herr Dr. Temnitschka …“. Brief vom 27.3.1986; „Mein Beitrag zur Eindämmung der Professoreninflation …“. ( Schriftliche Stellungnahme am 4.4.1986 für Zeit im Bild, ORF); Bernhard gegen Europalia. Kein Gastspiel des „Theatermachers“ in Brüssel?)",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 154,
+		"short_title": null,
+		"title": "Thomas Bernhard an die Redaktion des Watzmann, 1.4.1984",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 155,
+		"short_title": "Grand Hotel Imperial Dubrovnik",
+		"title": "Grand Hotel Imperial Dubrovnik („Liebe, verehrte Doktor Spiel …“. Brief vom 2.3.1971)",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 157,
+		"short_title": null,
+		"title": "Warum fürchte ich mein Altern",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 159,
+		"short_title": null,
+		"title": "Im Garten der Mutter",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 160,
+		"short_title": null,
+		"title": "Der Italiener",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 161,
+		"short_title": null,
+		"title": "Anhang",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 162,
+		"short_title": null,
+		"title": "Beruhigung",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 163,
+		"short_title": null,
+		"title": "Die Frau aus dem Gußwerk und der Mann mit dem Rucksack",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 164,
+		"short_title": null,
+		"title": "Ebene",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 165,
+		"short_title": null,
+		"title": "Das Vermächtnis",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 166,
+		"short_title": null,
+		"title": "Wahnsinn",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 167,
+		"short_title": null,
+		"title": "Die Magd",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 168,
+		"short_title": null,
+		"title": "Sind Sie gern böse? Ein Nachtgespräch zwischen Thomas Bernhard und Peter Hamm",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 169,
+		"short_title": null,
+		"title": "Neun Psalmen",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 170,
+		"short_title": null,
+		"title": "Der Diktator",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 171,
+		"short_title": null,
+		"title": "Pisa und Venedig",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 172,
+		"short_title": null,
+		"title": "Hotel Waldhaus",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 173,
+		"short_title": null,
+		"title": "Warnung",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 174,
+		"short_title": null,
+		"title": "Unerfüllter Wunsch",
+		"year": null
+	},
+	{
+		"category": "novellas",
+		"gnd": null,
+		"id": 175,
+		"short_title": null,
+		"title": "Zuviel",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 177,
+		"short_title": null,
+		"title": "Brief an Erwin Axer",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 178,
+		"short_title": null,
+		"title": "Im Tal",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 179,
+		"short_title": null,
+		"title": "Krieger",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 180,
+		"short_title": null,
+		"title": "Eine Strophe für Padraic Colum",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 181,
+		"short_title": null,
+		"title": "Geburtstagsode",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 182,
+		"short_title": null,
+		"title": "Morgen",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 183,
+		"short_title": null,
+		"title": "Beschreibung einer Familie",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 184,
+		"short_title": null,
+		"title": "Jetzt im Frühling",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 185,
+		"short_title": null,
+		"title": "An H. W.",
+		"year": null
+	},
+	{
+		"category": "other",
+		"gnd": null,
+		"id": 186,
+		"short_title": null,
+		"title": "Der Literaturpreis der Freien und Hansestadt Bremen",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 187,
+		"short_title": "Gedichte",
+		"title": "Gedichte (selection)",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 188,
+		"short_title": null,
+		"title": "Frost (Version C)",
+		"year": null
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 189,
+		"short_title": null,
+		"title": "Traurigkeit",
+		"year": 1957
+	},
+	{
+		"category": "poetry",
+		"gnd": null,
+		"id": 191,
+		"short_title": null,
+		"title": "Tod und Thymian",
+		"year": null
+	}
+]

@@ -1,0 +1,13010 @@
+[
+	{
+		"id": 1,
+		"title": "Gel",
+		"translators": [
+			103,
+			104
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 2,
+		"title": "Мраз",
+		"translators": [
+			350
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 3,
+		"title": "Dulgherul",
+		"translators": [
+			328
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 4,
+		"title": "Gargoyles",
+		"translators": [
+			62,
+			63
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 5,
+		"title": "Perturbation",
+		"translators": [
+			99
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 6,
+		"title": "È una commedia? È una tragedia?",
+		"translators": [
+			210
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 7,
+		"title": "Kalkbruket",
+		"translators": [
+			382
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 8,
+		"title": "The Lime Works",
+		"translators": [
+			58
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 9,
+		"title": "La plâtrière",
+		"translators": [
+			107
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 10,
+		"title": "Fagy",
+		"translators": [
+			170
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 11,
+		"title": "Is it a Comedy? Is it a Tragedy?",
+		"translators": [
+			89
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 12,
+		"title": "Święto Borysa",
+		"translators": [
+			314,
+			315
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 13,
+		"title": "The Force of Habit. A Comedy",
+		"translators": [
+			71,
+			72
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 14,
+		"title": "De kalkfabriek",
+		"translators": [
+			264
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 15,
+		"title": "De oorzaak",
+		"translators": [
+			264
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 16,
+		"title": "Na drevesni meji",
+		"translators": [
+			366
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 17,
+		"title": "A Testimony",
+		"translators": [
+			87
+		],
+		"work": 101,
+		"work_display_title": null
+	},
+	{
+		"id": 18,
+		"title": "Corrections",
+		"translators": [
+			102
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 19,
+		"title": "Minetti. A művész arcképe öregember korábol",
+		"translators": [
+			168
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 20,
+		"title": "Trastorno",
+		"translators": [
+			374
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 21,
+		"title": "Correction",
+		"translators": [
+			58
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 22,
+		"title": "A hangutánzó művész tanításai (Pisa és velence / Sima jegy / Szép kilátás / Moosprugger tévedése / Állítas / Mimózák / Hamis hang / Igaz szerelem / Őrület)",
+		"translators": [
+			169
+		],
+		"work": 29,
+		"work_display_title": "Der Stimmenimitator (Exzerpt)"
+	},
+	{
+		"id": 23,
+		"title": "A mészégető",
+		"translators": [
+			170
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 24,
+		"title": "Mróz",
+		"translators": [
+			299
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 25,
+		"title": "The Hunting Party",
+		"translators": [
+			68
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 26,
+		"title": "Oui",
+		"translators": [
+			105
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 27,
+		"title": "Het jachtgezelschap",
+		"translators": [
+			264,
+			265
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 28,
+		"title": "De wereldverbeteraar",
+		"translators": [
+			264,
+			265
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 29,
+		"title": "Partyjka Przełoƶyła",
+		"translators": [
+			303
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 30,
+		"title": "Na granicy lasów",
+		"translators": [
+			298
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 31,
+		"title": "At the Timberline",
+		"translators": [
+			58
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 32,
+		"title": "L'imitateur",
+		"translators": [
+			105
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 33,
+		"title": "L'origine. Simple indication",
+		"translators": [
+			102
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 34,
+		"title": "Kulterer",
+		"translators": [
+			196
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 35,
+		"title": "L'Italiano",
+		"translators": [
+			196
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 36,
+		"title": "Al limite boschivo",
+		"translators": [
+			196
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 37,
+		"title": "Perturbamento",
+		"translators": [
+			199
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 38,
+		"title": "石灰工場",
+		"translators": [
+			218
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 39,
+		"title": "De stemmenimitator",
+		"translators": [
+			264,
+			261
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 40,
+		"title": "Voor het pensioen. Komedie van de Duitse ziel",
+		"translators": [
+			264
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 41,
+		"title": "Naprawiacz świata",
+		"translators": [
+			307
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 42,
+		"title": "Мидленд в Стильфсе",
+		"translators": [
+			332
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 43,
+		"title": "Sí",
+		"translators": [
+			374
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 44,
+		"title": "The German Lunch Table",
+		"translators": [
+			68
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 45,
+		"title": "The President",
+		"translators": [
+			68
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 46,
+		"title": "Eve of Retirement",
+		"translators": [
+			68
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 47,
+		"title": "Is It A Comedy? Is It A Tragedy?",
+		"translators": [
+			68
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 48,
+		"title": "Járás",
+		"translators": [
+			172
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 49,
+		"title": "Il pranzo tedesco",
+		"translators": [
+			188
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 50,
+		"title": "Una festa per Boris",
+		"translators": [
+			198
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 51,
+		"title": "La forza dell' abitudine",
+		"translators": [
+			197
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 52,
+		"title": "Il riformatore del mondo",
+		"translators": [
+			198
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 53,
+		"title": "Un colloquio con Thomas Bernhard a cura di André Müller",
+		"translators": [
+			198
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 54,
+		"title": "L'origine. Un accenno",
+		"translators": [
+			197
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 55,
+		"title": "Vorst",
+		"translators": [
+			261
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 56,
+		"title": "Über allen Gipfeln ist Ruh. Een dag uit het leven van een duitse schrijver rond 1980",
+		"translators": [
+			267
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 57,
+		"title": "Диханието",
+		"translators": [
+			17
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 58,
+		"title": "Appearances Are Deceiving",
+		"translators": [
+			68
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 59,
+		"title": "La cave. Un retrait",
+		"translators": [
+			102
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 60,
+		"title": "Le souffle. Une décision",
+		"translators": [
+			102
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 61,
+		"title": "La Force de l'habitude",
+		"translators": [
+			101
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 62,
+		"title": "Minetti. Portrait de l'artiste en viel homme",
+		"translators": [
+			101
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 63,
+		"title": "Manie de persécution",
+		"translators": [
+			101
+		],
+		"work": 139,
+		"work_display_title": null
+	},
+	{
+		"id": 64,
+		"title": "Ja",
+		"translators": [
+			194
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 65,
+		"title": "La partita a carte",
+		"translators": [
+			202
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 66,
+		"title": "Suterena. Wyzwolenie",
+		"translators": [
+			298
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 67,
+		"title": "Oddech. Decyzja",
+		"translators": [
+			298
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 68,
+		"title": "Виктор Подурак",
+		"translators": [
+			332
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 69,
+		"title": "Культерер",
+		"translators": [
+			332
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 70,
+		"title": "Атташе французского посольства",
+		"translators": [
+			332
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 71,
+		"title": "На границе леса",
+		"translators": [
+			329
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 72,
+		"title": "Преферанс",
+		"translators": [
+			333
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 73,
+		"title": "Дождевик",
+		"translators": [
+			332
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 74,
+		"title": "Причина",
+		"translators": [
+			332
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 75,
+		"title": "Подвал",
+		"translators": [
+			332
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 76,
+		"title": "Corrección",
+		"translators": [
+			374
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 77,
+		"title": "Dech. Jedno rozhodnutí",
+		"translators": [
+			49
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 78,
+		"title": "Concrete",
+		"translators": [
+			54
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 79,
+		"title": "Külm",
+		"translators": [
+			90
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 80,
+		"title": "Le froid. Une mise en quarantaine",
+		"translators": [
+			102
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 81,
+		"title": "Un enfant",
+		"translators": [
+			102
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 82,
+		"title": "L'Ignorant et le fou",
+		"translators": [
+			113
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 83,
+		"title": "La brigata d e i cacciatori",
+		"translators": [
+			200
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 84,
+		"title": "Minetti",
+		"translators": [
+			197
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 85,
+		"title": "Alla meta",
+		"translators": [
+			199
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 86,
+		"title": "La fornace",
+		"translators": [
+			202
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 87,
+		"title": "La cantina. Una via di scampo",
+		"translators": [
+			199
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 88,
+		"title": "Der domkop en de gek",
+		"translators": [
+			262,
+			263
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 89,
+		"title": "Een kind",
+		"translators": [
+			274
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 90,
+		"title": "Po vseh višavah je mir",
+		"translators": [
+			370
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 91,
+		"title": "La calera",
+		"translators": [
+			374
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 92,
+		"title": "El imititador de voces",
+		"translators": [
+			374
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 93,
+		"title": "El origen. Una indicación",
+		"translators": [
+			374
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 94,
+		"title": "El sótano",
+		"translators": [
+			374
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 95,
+		"title": "A Child",
+		"translators": [
+			54
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 96,
+		"title": "An Indication of the Cause",
+		"translators": [
+			54
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 97,
+		"title": "The Cellar: An Escape",
+		"translators": [
+			54
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 98,
+		"title": "Breath: A Decision",
+		"translators": [
+			54
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 99,
+		"title": "In the Cold",
+		"translators": [
+			54
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 100,
+		"title": "Béton",
+		"translators": [
+			98
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 101,
+		"title": "Le neveu de Wittgenstein. Un amitié",
+		"translators": [
+			105
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 102,
+		"title": "Les Apparences sont trompeuses",
+		"translators": [
+			117
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 103,
+		"title": "Il soccombente",
+		"translators": [
+			190
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 104,
+		"title": "シティルフス農場のミッドランド",
+		"translators": [
+			221
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 105,
+		"title": "El nebot de Wittgenstein. Una amistat",
+		"translators": [
+			223
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 106,
+		"title": "Historietes inexemplars (L'imitador de veus)",
+		"translators": [
+			223
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 107,
+		"title": "Schijn bedriegt",
+		"translators": [
+			276
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 108,
+		"title": "Betong",
+		"translators": [
+			281
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 109,
+		"title": "Kalkwerk",
+		"translators": [
+			300,
+			301
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 110,
+		"title": "Pozory mylą",
+		"translators": [
+			307
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 111,
+		"title": "Čepica",
+		"translators": [
+			373
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 112,
+		"title": "El malogrado",
+		"translators": [
+			374
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 113,
+		"title": "Helada",
+		"translators": [
+			374
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 114,
+		"title": "El aliento",
+		"translators": [
+			374
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 115,
+		"title": "El frío",
+		"translators": [
+			374
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 116,
+		"title": "Betong",
+		"translators": [
+			382
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 117,
+		"title": "Wittgenstein's Nephew",
+		"translators": [
+			57
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 118,
+		"title": "Le naufragé",
+		"translators": [
+			100
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 119,
+		"title": "Le Faiseur de théâtre",
+		"translators": [
+			117
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 120,
+		"title": "Le froid augmente avec la clarté (Discours pour le Prix de littérature de Brême)",
+		"translators": [
+			101,
+			120
+		],
+		"work": 123,
+		"work_display_title": "Mit der Klarheit nimmt die Kälte zu (Bremer\nLiteraturpreis)"
+	},
+	{
+		"id": 121,
+		"title": "À la recherche de la vérité et de la mort. Deux discours (Discours pour le prix Wildgans)",
+		"translators": [
+			101,
+			120
+		],
+		"work": 124,
+		"work_display_title": "Der Wahrheit und dem Tod auf der Spur\n(Anton-Wildgans-Preis)"
+	},
+	{
+		"id": 122,
+		"title": "À la recherche de la vérité et de la mort. Deux discours (Discours pour le prix de l’État autrichien)",
+		"translators": [
+			101,
+			120
+		],
+		"work": 125,
+		"work_display_title": "Verehrter Herr Minister, verehrte Anwesende\n(Österreichischer Staatspreis)"
+	},
+	{
+		"id": 123,
+		"title": "L’immortalité est impossible. Paysage d’enfance",
+		"translators": [
+			101,
+			120
+		],
+		"work": 126,
+		"work_display_title": null
+	},
+	{
+		"id": 124,
+		"title": "N’en finir jamais ni de rien (Discours pour le prix Büchner)",
+		"translators": [
+			101,
+			120
+		],
+		"work": 127,
+		"work_display_title": null
+	},
+	{
+		"id": 125,
+		"title": "Entretien avec Thomas Bernhard, propos recueillis par André Müller",
+		"translators": [
+			101,
+			120
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 126,
+		"title": "Trois jours",
+		"translators": [
+			120
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 127,
+		"title": "Gelo",
+		"translators": [
+			202
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 128,
+		"title": "Amras",
+		"translators": [
+			261
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 129,
+		"title": "Orsaken. En antydan",
+		"translators": [
+			387
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 130,
+		"title": "Woodcutters",
+		"translators": [
+			54
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 131,
+		"title": "Des arbres à abattre. Une irritation",
+		"translators": [
+			100
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 132,
+		"title": "Amras",
+		"translators": [
+			105
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 133,
+		"title": "Le crime d'un fils de commerçant d'Innsbruck",
+		"translators": [
+			106
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 134,
+		"title": "Le charpentier",
+		"translators": [
+			106
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 135,
+		"title": "Jauregg",
+		"translators": [
+			106
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 136,
+		"title": "Deux éducateurs",
+		"translators": [
+			106
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 137,
+		"title": "La casquette",
+		"translators": [
+			106
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 138,
+		"title": "Est-ce une comédie? Est-ce une tragédie?",
+		"translators": [
+			106
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 139,
+		"title": "L'attaché à l'ambassade de France",
+		"translators": [
+			106
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 140,
+		"title": "Ungenach",
+		"translators": [
+			106
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 141,
+		"title": "Watten",
+		"translators": [
+			105
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 142,
+		"title": "Midland à Stilfs",
+		"translators": [
+			106
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 143,
+		"title": "La cape de loden",
+		"translators": [
+			106
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 144,
+		"title": "Dans le massif de l'Ortler",
+		"translators": [
+			106
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 145,
+		"title": "Marcher",
+		"translators": [
+			106
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 146,
+		"title": "Au but",
+		"translators": [
+			101
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 147,
+		"title": "Avant la retraite. Une comédie de l'âme allemande",
+		"translators": [
+			101
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 148,
+		"title": "Sur la terre comme en enfer",
+		"translators": [
+			119
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 149,
+		"title": "In hora mortis",
+		"translators": [
+			119
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 150,
+		"title": "L'Italien",
+		"translators": [
+			101
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 151,
+		"title": "Trois jours",
+		"translators": [
+			101
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 152,
+		"title": "Kulterer",
+		"translators": [
+			101
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 153,
+		"title": "Recontre avec Thomas Bernhard",
+		"translators": [
+			124,
+			125
+		],
+		"work": 151,
+		"work_display_title": null
+	},
+	{
+		"id": 154,
+		"title": "Viktor Halbnarr. Un conte d'hiver",
+		"translators": [
+			106
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 155,
+		"title": "A la lisière des arbres",
+		"translators": [
+			106
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 156,
+		"title": "Grand Hotel Impérial. Dubrovnik",
+		"translators": [
+			109,
+			108
+		],
+		"work": 155,
+		"work_display_title": null
+	},
+	{
+		"id": 157,
+		"title": "Deuil",
+		"translators": [
+			109,
+			108
+		],
+		"work": 189,
+		"work_display_title": null
+	},
+	{
+		"id": 158,
+		"title": "Scénes de Vérone",
+		"translators": [
+			109,
+			108
+		],
+		"work": 37,
+		"work_display_title": "Ave Vergil (Exzerpt)"
+	},
+	{
+		"id": 159,
+		"title": "La casquette",
+		"translators": [
+			106
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 160,
+		"title": "Goethe se meurt",
+		"translators": [
+			106
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 161,
+		"title": "Μπετόν",
+		"translators": [
+			138
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 162,
+		"title": "Midland Stilfsben",
+		"translators": [
+			175
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 163,
+		"title": "Alsózás",
+		"translators": [
+			175
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 164,
+		"title": "Az erdőhatáron",
+		"translators": [
+			175
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 165,
+		"title": "Ungenach",
+		"translators": [
+			175
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 166,
+		"title": "A körgallér",
+		"translators": [
+			174
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 167,
+		"title": "Igen",
+		"translators": [
+			176
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 168,
+		"title": "L'imitatore di voci",
+		"translators": [
+			199
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 169,
+		"title": "Chłód. Izolacja",
+		"translators": [
+			298
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 170,
+		"title": "Vitgenštajnov sinovac. Jedno prijateljstvo",
+		"translators": [
+			348
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 171,
+		"title": "Amras",
+		"translators": [
+			374
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 172,
+		"title": "Ungenach",
+		"translators": [
+			374
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 173,
+		"title": "Jugar al watten",
+		"translators": [
+			374
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 174,
+		"title": "Andar",
+		"translators": [
+			374
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 175,
+		"title": "El ignorante y el demente",
+		"translators": [
+			374
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 176,
+		"title": "La partida de caza",
+		"translators": [
+			374
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 177,
+		"title": "La fuerza de la costumbre",
+		"translators": [
+			374
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 178,
+		"title": "Un niño",
+		"translators": [
+			374
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 179,
+		"title": "El frío aumenta con la claridad",
+		"translators": [
+			377
+		],
+		"work": 123,
+		"work_display_title": null
+	},
+	{
+		"id": 180,
+		"title": "En busca de la veridad y de la muerte",
+		"translators": [
+			377
+		],
+		"work": 124,
+		"work_display_title": null
+	},
+	{
+		"id": 181,
+		"title": "La immortalidad es imposible",
+		"translators": [
+			377
+		],
+		"work": 126,
+		"work_display_title": null
+	},
+	{
+		"id": 182,
+		"title": "No terminar nunca con ello ni con nada",
+		"translators": [
+			377
+		],
+		"work": 127,
+		"work_display_title": null
+	},
+	{
+		"id": 183,
+		"title": "Tres días",
+		"translators": [
+			377
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 184,
+		"title": "André Müller. Entrevista con Thomas Bernhard",
+		"translators": [
+			377
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 185,
+		"title": "Källaren. En frigörelse",
+		"translators": [
+			387
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 186,
+		"title": "Cutting Timber. An Irritation",
+		"translators": [
+			57
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 187,
+		"title": "Claus Peymann s'achète un pantalon et vient manger avec moi",
+		"translators": [
+			96
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 188,
+		"title": "Maîtres anciens. Comédie",
+		"translators": [
+			98
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 189,
+		"title": "Je te salue Virigile",
+		"translators": [
+			108,
+			109
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 190,
+		"title": "Evénements",
+		"translators": [
+			114,
+			115
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 191,
+		"title": "Un jeune écrivain",
+		"translators": [
+			115
+		],
+		"work": 120,
+		"work_display_title": null
+	},
+	{
+		"id": 192,
+		"title": "Montaigne",
+		"translators": [
+			101
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 193,
+		"title": "Monologues à Majorque",
+		"translators": [
+			116
+		],
+		"work": 121,
+		"work_display_title": null
+	},
+	{
+		"id": 194,
+		"title": "Les mois de Marie",
+		"translators": [
+			101
+		],
+		"work": 66,
+		"work_display_title": null
+	},
+	{
+		"id": 195,
+		"title": "Claus Peymann et Hermann Beil sur la Sulzwiese",
+		"translators": [
+			101
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 196,
+		"title": "Mon heureuse Autriche",
+		"translators": [
+			101
+		],
+		"work": 122,
+		"work_display_title": null
+	},
+	{
+		"id": 197,
+		"title": "La Société de chasse",
+		"translators": [
+			101
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 198,
+		"title": "Simplement compliqué",
+		"translators": [
+			112
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 199,
+		"title": "Minetti. Un retrat de l'artista vell",
+		"translators": [
+			223
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 200,
+		"title": "Minetti. Een portret van de kunstenaar als oude man",
+		"translators": [
+			278,
+			449
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 201,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			280
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 202,
+		"title": "O Náufrago",
+		"translators": [
+			317
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 203,
+		"title": "Ребёнок как ребёнок",
+		"translators": [
+			335
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 204,
+		"title": "Ave Virgilio",
+		"translators": [
+			374
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 205,
+		"title": "El sobrino de Wittgenstein. Una amistad",
+		"translators": [
+			374
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 206,
+		"title": "Tala",
+		"translators": [
+			374
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 207,
+		"title": "Wittgensteins brorson. En vänskap",
+		"translators": [
+			382
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 208,
+		"title": "Andhämtningen. Ett avgörande",
+		"translators": [
+			386
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 209,
+		"title": "Old Masters. A Comedy",
+		"translators": [
+			57
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 210,
+		"title": "Wittgenstein's Nephew",
+		"translators": [
+			54
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 211,
+		"title": "Perturbation",
+		"translators": [
+			100
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 212,
+		"title": "Déjeuner chez Wittgenstein",
+		"translators": [
+			112
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 213,
+		"title": "Emmanuel Kant",
+		"translators": [
+			113,
+			101
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 214,
+		"title": "Ο ανιψιός του Βιτγκενστάιν. Μια φιλία",
+		"translators": [
+			146
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 215,
+		"title": "Η ΑΝΑΣΑ",
+		"translators": [
+			157
+		],
+		"work": 32,
+		"work_display_title": "Der Atem (Exzerpt)"
+	},
+	{
+		"id": 216,
+		"title": "Heldenplatz",
+		"translators": [
+			170
+		],
+		"work": 49,
+		"work_display_title": "Heldenplatz (Exzerpt)"
+	},
+	{
+		"id": 217,
+		"title": "Conversazioni di Thomas Bernhard. A cura di Kurt Hofmann",
+		"translators": [
+			187
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 218,
+		"title": "Amras",
+		"translators": [
+			202
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 219,
+		"title": "Eventi",
+		"translators": [
+			203
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 220,
+		"title": "Discorso in occasione del conferimento del Premio di Stato austriaco per la letterature, 1968",
+		"translators": [
+			203
+		],
+		"work": 125,
+		"work_display_title": "Verehrter Herr Minister, verehrte Anwesende\n(Österreichischer Staatspreis)"
+	},
+	{
+		"id": 221,
+		"title": "Il nipote di Wittgenstein. Un' amicizia",
+		"translators": [
+			190
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 222,
+		"title": "Il respiro. Una decisione",
+		"translators": [
+			206
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 223,
+		"title": "Trasbals",
+		"translators": [
+			231
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 224,
+		"title": "La força del costum",
+		"translators": [
+			227
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 225,
+		"title": "Wittgensteins nevø. Et vennskap",
+		"translators": [
+			281
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 226,
+		"title": "Vzrok. Nakazovanje",
+		"translators": [
+			366
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 227,
+		"title": "Komedijant",
+		"translators": [
+			371
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 228,
+		"title": "Je komedija? Je tragedija?",
+		"translators": [
+			372
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 229,
+		"title": "Hormigón",
+		"translators": [
+			374
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 230,
+		"title": "Los comebarato",
+		"translators": [
+			376
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 231,
+		"title": "Kylan: En isolering",
+		"translators": [
+			387
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 232,
+		"title": "Wittgenstein'ın Yeğeni. Bir Dostluk",
+		"translators": [
+			389
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 233,
+		"title": "Klet. Odtegnitev",
+		"translators": [
+			366
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 234,
+		"title": "The Cheap-Eaters",
+		"translators": [
+			57
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 235,
+		"title": "A Party for Boris",
+		"translators": [
+			66,
+			67
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 236,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			66,
+			67
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 237,
+		"title": "Histrionics",
+		"translators": [
+			66,
+			67
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 238,
+		"title": "Extinction. Un effondrement",
+		"translators": [
+			98
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 239,
+		"title": "Entretiens avec Thomas Bernhard. Je n'insulte vraiment personne",
+		"translators": [
+			110
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 240,
+		"title": "Le Réformateur",
+		"translators": [
+			112
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 241,
+		"title": "Place des héros",
+		"translators": [
+			101
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 242,
+		"title": "Wittgenstein unokaöccse",
+		"translators": [
+			171
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 243,
+		"title": "Claus Peymann lascia Bochum trasferendosi a Vienna come direttore del Burgtheater",
+		"translators": [
+			187
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 244,
+		"title": "Claus Peymann compra un paio di pantaloni e viene a mangiare con me",
+		"translators": [
+			187
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 245,
+		"title": "Claus Peymanne Hermann Beil sulla Sulzwiese",
+		"translators": [
+			187
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 246,
+		"title": "Assoluzione",
+		"translators": [
+			187
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 247,
+		"title": "Gelati",
+		"translators": [
+			187
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 248,
+		"title": "Il pranzo tedesco",
+		"translators": [
+			187
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 249,
+		"title": "Tutto o niente",
+		"translators": [
+			187
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 250,
+		"title": "In alto. Tentativo di salvezza, nonsenso",
+		"translators": [
+			195
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 251,
+		"title": "Cemento",
+		"translators": [
+			194
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 252,
+		"title": "A colpi d'ascia. Una irritazione",
+		"translators": [
+			190,
+			207
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 253,
+		"title": "ヴィトゲンシュタインの甥",
+		"translators": [
+			213
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 254,
+		"title": "A les altures. Intent de salvació, bestieses",
+		"translators": [
+			228
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 255,
+		"title": "L'origen. Una insinuacio",
+		"translators": [
+			233
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 256,
+		"title": "Muizen, ratten en dagloners",
+		"translators": [
+			266
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 257,
+		"title": "Trær som faller. En opphisselse",
+		"translators": [
+			281
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 258,
+		"title": "Komediant",
+		"translators": [
+			306
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 259,
+		"title": "Betão",
+		"translators": [
+			316
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 260,
+		"title": "Perturbação",
+		"translators": [
+			317
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 261,
+		"title": "Minetti",
+		"translators": [
+			320
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 262,
+		"title": "No Alvo",
+		"translators": [
+			321
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 263,
+		"title": "Rúbanie lesa. Rozhorčenie",
+		"translators": [
+			358
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 264,
+		"title": "Maestros antiguos. Comedia",
+		"translators": [
+			374
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 265,
+		"title": "Ett barn",
+		"translators": [
+			386
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 266,
+		"title": "Árvores abatidas. Uma provocação",
+		"translators": [
+			14
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 267,
+		"title": "The Loser",
+		"translators": [
+			59
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 268,
+		"title": "On the Mountain. Rescue attempt, nonsense",
+		"translators": [
+			64
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 269,
+		"title": "Yes",
+		"translators": [
+			57
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 270,
+		"title": "The Italian",
+		"translators": [
+			84
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 271,
+		"title": "Dans le hauteurs. Tentative de sauventage, non-sens",
+		"translators": [
+			101
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 272,
+		"title": "Un mort",
+		"translators": [
+			101
+		],
+		"work": 65,
+		"work_display_title": null
+	},
+	{
+		"id": 273,
+		"title": "Match",
+		"translators": [
+			101
+		],
+		"work": 67,
+		"work_display_title": null
+	},
+	{
+		"id": 274,
+		"title": "Acquittement",
+		"translators": [
+			101
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 275,
+		"title": "Glaces",
+		"translators": [
+			101
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 276,
+		"title": "Le Déjeuner allemand",
+		"translators": [
+			101
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 277,
+		"title": "Tout ou rien",
+		"translators": [
+			101
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 278,
+		"title": "Claus Peymann quitte Bochum et va à Vienne comme directeur du Burgtheater",
+		"translators": [
+			101
+		],
+		"work": 71,
+		"work_display_title": "Claus Peymann verlässt Bochum und geht als Burgtheaterdirektor nach Wien"
+	},
+	{
+		"id": 279,
+		"title": "Claus Peymann s'achète un pantalon et va déjeuner avec moi",
+		"translators": [
+			101
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 280,
+		"title": "Ρίττερ, Ντένε, Φος",
+		"translators": [
+			144,
+			147
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 281,
+		"title": "Διόρθωση (excerpt)",
+		"translators": [
+			138
+		],
+		"work": 25,
+		"work_display_title": "Korrektur (Exzerpt)"
+	},
+	{
+		"id": 282,
+		"title": "Η εξάλειψη (excerpt)",
+		"translators": [
+			143
+		],
+		"work": 46,
+		"work_display_title": "Auslöschung (Exzerpt)"
+	},
+	{
+		"id": 283,
+		"title": "Μονόλογοι στη Μαγιόρκα",
+		"translators": [
+			145
+		],
+		"work": 121,
+		"work_display_title": null
+	},
+	{
+		"id": 284,
+		"title": "Ave Virgil (excerpt)",
+		"translators": [
+			137
+		],
+		"work": 37,
+		"work_display_title": "Ave Vergil (Exzerpt)"
+	},
+	{
+		"id": 285,
+		"title": "כוחו של הרגל",
+		"translators": [
+			162
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 286,
+		"title": "בטון",
+		"translators": [
+			163
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 287,
+		"title": "Ave Virgilio",
+		"translators": [
+			193
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 288,
+		"title": "L'apparenza inganna",
+		"translators": [
+			198
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 289,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			199
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 290,
+		"title": "Semplicemente complicato",
+		"translators": [
+			197
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 291,
+		"title": "Il freddo. Una segragazione",
+		"translators": [
+			206
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 292,
+		"title": "혼란",
+		"translators": [
+			235
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 293,
+		"title": "한아이",
+		"translators": [
+			235
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 294,
+		"title": "Het jachtgezelschap",
+		"translators": [
+			263
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 295,
+		"title": "Oude meesters",
+		"translators": [
+			261
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 296,
+		"title": "Op de hoogte. Reddingspoging, onzin",
+		"translators": [
+			266
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 297,
+		"title": "De misdaad van een koopmanszoon uit Innsbruck",
+		"translators": [
+			268
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 298,
+		"title": "De timmerman",
+		"translators": [
+			268
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 299,
+		"title": "Jauregg",
+		"translators": [
+			268
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 300,
+		"title": "Twee leraren",
+		"translators": [
+			268
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 301,
+		"title": "De pet",
+		"translators": [
+			268
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 302,
+		"title": "Is het een komedie? Is het een tragedie?",
+		"translators": [
+			268
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 303,
+		"title": "Viktor Halfnar",
+		"translators": [
+			268
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 304,
+		"title": "Attaché bij de Franse ambassade",
+		"translators": [
+			268
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 305,
+		"title": "Op de boomgrens",
+		"translators": [
+			268
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 306,
+		"title": "Midland in Stilfs",
+		"translators": [
+			268
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 307,
+		"title": "De loden cape",
+		"translators": [
+			268
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 308,
+		"title": "Aan de voet van de Ortler",
+		"translators": [
+			268
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 309,
+		"title": "Heldenplatz",
+		"translators": [
+			277
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 310,
+		"title": "Gamle mestere. Komedie",
+		"translators": [
+			281
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 311,
+		"title": "Bratanek Wittgensteina. Przyjaźń",
+		"translators": [
+			302
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 312,
+		"title": "A Força do Hábito",
+		"translators": [
+			322
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 313,
+		"title": "Simplesmente Complicado",
+		"translators": [
+			320
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 314,
+		"title": "Tre dafar",
+		"translators": [
+			383
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 315,
+		"title": "Gå",
+		"translators": [
+			383,
+			384
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 316,
+		"title": "Helt enkelt komplicerat",
+		"translators": [
+			384
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 317,
+		"title": "Три дні",
+		"translators": [
+			407
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 318,
+		"title": "O sobrinho de Wittgenstein. Uma amizade",
+		"translators": [
+			12
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 319,
+		"title": "Le Président",
+		"translators": [
+			101
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 320,
+		"title": "Το ασβεστοκάμινο",
+		"translators": [
+			155
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 321,
+		"title": "Η δύναμη της συνήθειας",
+		"translators": [
+			158
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 322,
+		"title": "A menthetetlen",
+		"translators": [
+			172
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 323,
+		"title": "Egy gyerek megindul",
+		"translators": [
+			181
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 324,
+		"title": "Piazza degli eroi",
+		"translators": [
+			189
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 325,
+		"title": "Antichi maestri. Commedia",
+		"translators": [
+			206
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 326,
+		"title": "破滅者 グレン・グールドを見つめて",
+		"translators": [
+			213
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 327,
+		"title": "El malaguanyat",
+		"translators": [
+			228
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 328,
+		"title": "De neef van Wittgenstein. Een vriendschap",
+		"translators": [
+			266
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 329,
+		"title": "Utslettelse. En oppløsning",
+		"translators": [
+			281
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 330,
+		"title": "Трагедия? Или комедия?",
+		"translators": [
+			346
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 331,
+		"title": "Dih. Odločitev",
+		"translators": [
+			366
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 332,
+		"title": "Extinción. Un desmoronamiento",
+		"translators": [
+			374
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 333,
+		"title": "En las alturas. Tentativa de salvamento, absurdo",
+		"translators": [
+			374
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 334,
+		"title": "Odun Kesmek. Bir Öfke",
+		"translators": [
+			390
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 335,
+		"title": "Tiyatrocu",
+		"translators": [
+			399
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 336,
+		"title": "Kahramanlar Alanı",
+		"translators": [
+			400
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 337,
+		"title": "Entretiens avec Krista Fleischmann",
+		"translators": [
+			101
+		],
+		"work": 117,
+		"work_display_title": null
+	},
+	{
+		"id": 338,
+		"title": "Pourquoi ai-je peur de vieillir",
+		"translators": [
+			130
+		],
+		"work": 157,
+		"work_display_title": null
+	},
+	{
+		"id": 339,
+		"title": "La Mort et le Thym",
+		"translators": [
+			130
+		],
+		"work": 191,
+		"work_display_title": null
+	},
+	{
+		"id": 340,
+		"title": "Dans le jardin de ma mère",
+		"translators": [
+			130
+		],
+		"work": 159,
+		"work_display_title": null
+	},
+	{
+		"id": 341,
+		"title": "ריטר, דיינה, פוס",
+		"translators": [
+			162
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 342,
+		"title": "Egy okkal több. Közelítési kísérlet",
+		"translators": [
+			178
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 343,
+		"title": "Ungenach",
+		"translators": [
+			199
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 344,
+		"title": "벌목꾼",
+		"translators": [
+			248
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 345,
+		"title": "Sečnja. Razburjenje",
+		"translators": [
+			360
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 346,
+		"title": "El carpintiero",
+		"translators": [
+			374
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 347,
+		"title": "Jauregg",
+		"translators": [
+			374
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 348,
+		"title": "Dos preceptores",
+		"translators": [
+			374
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 349,
+		"title": "La gorra",
+		"translators": [
+			374
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 350,
+		"title": "¿Es una comedia? ¿Es una tragedia?",
+		"translators": [
+			374
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 351,
+		"title": "Agregado en la Embajada de Francia",
+		"translators": [
+			374
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 352,
+		"title": "Midland en Stilfs",
+		"translators": [
+			374
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 353,
+		"title": "El abrigo de loden",
+		"translators": [
+			374
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 354,
+		"title": "En el Ortler",
+		"translators": [
+			374
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 355,
+		"title": "Utplåning. Ett sönderfall",
+		"translators": [
+			382
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 356,
+		"title": "Neden. Bir Değini",
+		"translators": [
+			392
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 357,
+		"title": "Staří mistři. Komedie",
+		"translators": [
+			32
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 358,
+		"title": "Maître. La journée d'un poète allemand vers 1980",
+		"translators": [
+			101
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 359,
+		"title": "Παλιοί δάσκαλοι. Κωμωδία",
+		"translators": [
+			142
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 360,
+		"title": "Irtás. Indulatmű",
+		"translators": [
+			171
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 361,
+		"title": "A hangimitátor",
+		"translators": [
+			177
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 362,
+		"title": "Események",
+		"translators": [
+			177
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 363,
+		"title": "Egy hátraarc. (A pince)",
+		"translators": [
+			179
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 364,
+		"title": "Un bambino",
+		"translators": [
+			190
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 365,
+		"title": "A la meta",
+		"translators": [
+			230
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 366,
+		"title": "Elisabeth II",
+		"translators": [
+			267
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 367,
+		"title": "Havaristen",
+		"translators": [
+			281
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 368,
+		"title": "Bitterhetens ild",
+		"translators": [
+			283
+		],
+		"work": 1,
+		"work_display_title": "Auf der Erde und in der Hölle (Exzerpt)"
+	},
+	{
+		"id": 369,
+		"title": "Izbris. Razpad",
+		"translators": [
+			369
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 370,
+		"title": "Hlad. Izolacija",
+		"translators": [
+			366
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 371,
+		"title": "Trije dnevi",
+		"translators": [
+			366
+		],
+		"work": 111,
+		"work_display_title": "Drei Tage (Exzerpt)"
+	},
+	{
+		"id": 372,
+		"title": "Pred upokojitvijo. Komedija o nemški duši",
+		"translators": [
+			366
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 373,
+		"title": "Mahzen. Bir Vazgeçiş",
+		"translators": [
+			392
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 374,
+		"title": "Wittgensteins nevø. Et venskab",
+		"translators": [
+			53
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 375,
+		"title": "Extinction",
+		"translators": [
+			54
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 376,
+		"title": "The Voice Impersonator",
+		"translators": [
+			76
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 377,
+		"title": "Η ΑΙΤΙΑ.  Ένας υπαινιγμός",
+		"translators": [
+			142
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 378,
+		"title": "ΤΟ ΥΠΟΓΕΙΟ. Μια αποτοξίνωση",
+		"translators": [
+			142
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 379,
+		"title": "Η ΑΝΑΣΑ. Μια απόφαση",
+		"translators": [
+			142
+		],
+		"work": 32,
+		"work_display_title": "Der Atem"
+	},
+	{
+		"id": 380,
+		"title": "ΤΟ ΚΡΥΟ. Μια απομόνωση",
+		"translators": [
+			142
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 381,
+		"title": "ΕΝΑ ΠΑΙΔΙ",
+		"translators": [
+			142
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 382,
+		"title": "Στον προορισμό",
+		"translators": [
+			159
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 383,
+		"title": "Beton",
+		"translators": [
+			171
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 384,
+		"title": "Nagy levegő. (Egy döntés)",
+		"translators": [
+			180
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 385,
+		"title": "Elkülönítés. (A hideg)",
+		"translators": [
+			180
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 386,
+		"title": "Correzione",
+		"translators": [
+			195
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 387,
+		"title": "Nou salms",
+		"translators": [
+			226
+		],
+		"work": 169,
+		"work_display_title": null
+	},
+	{
+		"id": 388,
+		"title": "In hora mortis",
+		"translators": [
+			226
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 389,
+		"title": "영웅광장",
+		"translators": [
+			247
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 390,
+		"title": "Et barn",
+		"translators": [
+			281
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 391,
+		"title": "Himmlers fødselsdag. En komedie om den tyske sjel",
+		"translators": [
+			285
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 392,
+		"title": "Immanuel Kant",
+		"translators": [
+			306
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 393,
+		"title": "Старые мастера. Комедия",
+		"translators": [
+			329
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 394,
+		"title": "Dünya Düzelticisi",
+		"translators": [
+			395,
+			396
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 395,
+		"title": "O náufrago",
+		"translators": [
+			5
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 396,
+		"title": "Wittgensteinův synovec. O jednom přátelství",
+		"translators": [
+			33
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 397,
+		"title": "Z rozhovorů s Thomasem Bernhardem",
+		"translators": [
+			41
+		],
+		"work": 107,
+		"work_display_title": null
+	},
+	{
+		"id": 398,
+		"title": "Une fête pour Boris",
+		"translators": [
+			101
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 399,
+		"title": "Ξύλευση. Ένας ερεθισμός",
+		"translators": [
+			142
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 400,
+		"title": "אחיינו של ויטגנשטיין. סיפורה של ידידות",
+		"translators": [
+			161
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 401,
+		"title": "Korrektúra",
+		"translators": [
+			171
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 402,
+		"title": "Estinzione. Uno sfacelo",
+		"translators": [
+			205
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 403,
+		"title": "Årsaken. En antydning",
+		"translators": [
+			281
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 404,
+		"title": "Kjelleren. En unndragelse",
+		"translators": [
+			281
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 405,
+		"title": "کنکریٹ",
+		"translators": [
+			408
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 406,
+		"title": "Příčina",
+		"translators": [
+			38,
+			49
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 407,
+		"title": "Sklep",
+		"translators": [
+			38,
+			49
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 408,
+		"title": "Chlad",
+		"translators": [
+			38,
+			49
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 409,
+		"title": "Dítě",
+		"translators": [
+			38,
+			49
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 410,
+		"title": "The Voice Imitator",
+		"translators": [
+			67
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 411,
+		"title": "In hora mortis",
+		"translators": [
+			173
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 412,
+		"title": "비트겐슈타인의 조카. 어떤 우정",
+		"translators": [
+			237
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 413,
+		"title": "옛 거장들. 희극",
+		"translators": [
+			235,
+			239
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 414,
+		"title": "Auf der Erde und in der Hölle",
+		"translators": [
+			275
+		],
+		"work": 1,
+		"work_display_title": "Auf der Erde und in der Hölle (Exzerpt)"
+	},
+	{
+		"id": 415,
+		"title": "In hora mortis",
+		"translators": [
+			275
+		],
+		"work": 2,
+		"work_display_title": "In hora mortis (Exzerpt)"
+	},
+	{
+		"id": 416,
+		"title": "Unter dem Eisen des Mondes",
+		"translators": [
+			275
+		],
+		"work": 3,
+		"work_display_title": "Unter dem Eisen des Mondes (Exzerpt)"
+	},
+	{
+		"id": 417,
+		"title": "Ave Vergil",
+		"translators": [
+			275
+		],
+		"work": 37,
+		"work_display_title": "Ave Vergil (Exzerpt)"
+	},
+	{
+		"id": 418,
+		"title": "Verspreide Gedichten",
+		"translators": [
+			275
+		],
+		"work": 119,
+		"work_display_title": null
+	},
+	{
+		"id": 419,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			284
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 420,
+		"title": "Pusten. En avgjørelse",
+		"translators": [
+			281
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 421,
+		"title": "Kulden. En isolasjon",
+		"translators": [
+			281
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 422,
+		"title": "جشن تولد بوریس",
+		"translators": [
+			289
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 423,
+		"title": "Trzy dni",
+		"translators": [
+			309
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 424,
+		"title": "Яурегг",
+		"translators": [
+			347
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 425,
+		"title": "Acontecimientos",
+		"translators": [
+			374
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 426,
+		"title": "Hambre grande, inconcebible",
+		"translators": [
+			374
+		],
+		"work": 94,
+		"work_display_title": null
+	},
+	{
+		"id": 427,
+		"title": "Un joven escritor",
+		"translators": [
+			374
+		],
+		"work": 120,
+		"work_display_title": null
+	},
+	{
+		"id": 428,
+		"title": "El crimen del hijo de un comerciante de Innsbruck",
+		"translators": [
+			374
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 429,
+		"title": "En la linde de los árboles",
+		"translators": [
+			374
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 430,
+		"title": "Víctor Seminecio",
+		"translators": [
+			374
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 431,
+		"title": "Goethe se mmmuere",
+		"translators": [
+			374
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 432,
+		"title": "Soluk. Bir Karar",
+		"translators": [
+			402
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 433,
+		"title": "Soğukluk. Bir Dışlanma",
+		"translators": [
+			403
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 434,
+		"title": "Bir Çocuk",
+		"translators": [
+			404
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 435,
+		"title": "На земята и в ада",
+		"translators": [
+			21
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 436,
+		"title": "Korektura",
+		"translators": [
+			33
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 437,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			30
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 438,
+		"title": "Jednoduše komplikovaně",
+		"translators": [
+			30
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 439,
+		"title": "Alžběta II",
+		"translators": [
+			30
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 440,
+		"title": "Minetti",
+		"translators": [
+			41
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 441,
+		"title": "Před penzí",
+		"translators": [
+			41
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 442,
+		"title": "Zdání klame",
+		"translators": [
+			41,
+			42
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 443,
+		"title": "Divadelník",
+		"translators": [
+			44
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 444,
+		"title": "Náměstí hrdinů",
+		"translators": [
+			43
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 445,
+		"title": "Claus Peymann and Hermann Beil on Sulzwiese",
+		"translators": [
+			68
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 446,
+		"title": "Οι φτηνοφαγάδες",
+		"translators": [
+			142
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 447,
+		"title": "Διόρθωση",
+		"translators": [
+			142
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 448,
+		"title": "Ο αποτυχημένος",
+		"translators": [
+			142
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 449,
+		"title": "Régi mesterek. Komédia",
+		"translators": [
+			171
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 450,
+		"title": "A tudatlan és az őrült",
+		"translators": [
+			175
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 451,
+		"title": "A szokás hatalma",
+		"translators": [
+			170
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 452,
+		"title": "A színházcsináló",
+		"translators": [
+			175
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 453,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			175
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 454,
+		"title": "지하실. 하나의 탈출",
+		"translators": [
+			245
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 455,
+		"title": "Imitator glasova",
+		"translators": [
+			251
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 456,
+		"title": "Przyczyna",
+		"translators": [
+			298
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 457,
+		"title": "Dziecko",
+		"translators": [
+			298
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 458,
+		"title": "In hora mortis",
+		"translators": [
+			374
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 459,
+		"title": "Bajo el hierro de la luna",
+		"translators": [
+			374
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 460,
+		"title": "Heldenplatz (Plaza de los Héroes)",
+		"translators": [
+			374
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 461,
+		"title": "Perturbação",
+		"translators": [
+			6,
+			7
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 462,
+		"title": "Claus Peymann opouští Bochum a jde jako ředitel Burgtheatru do Vídně",
+		"translators": [
+			29
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 463,
+		"title": "Vyhlazení. Rozpad",
+		"translators": [
+			31
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 464,
+		"title": "Mýcení. Rozčilení",
+		"translators": [
+			38
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 465,
+		"title": "Slavnost pro Borise",
+		"translators": [
+			45
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 466,
+		"title": "Společnost na lovu",
+		"translators": [
+			41
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 467,
+		"title": "Síla zvyku",
+		"translators": [
+			41
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 468,
+		"title": "Světanápravce",
+		"translators": [
+			41
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 469,
+		"title": "U cíle",
+		"translators": [
+			46
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 470,
+		"title": "Heldenplatz",
+		"translators": [
+			68
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 471,
+		"title": "Walking",
+		"translators": [
+			67
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 472,
+		"title": "Les Célèbres",
+		"translators": [
+			101
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 473,
+		"title": "Élisabeth II",
+		"translators": [
+			101
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 474,
+		"title": "Πριν την αποχώρηση. Μια κωμωδία της γερμανικής ψυχής",
+		"translators": [
+			160
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 475,
+		"title": "הלדנפלאץ",
+		"translators": [
+			164
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 476,
+		"title": "לפני הפרישה לגימלאות",
+		"translators": [
+			164
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 477,
+		"title": "מחיקה. התפוררות",
+		"translators": [
+			164
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 478,
+		"title": "ילד",
+		"translators": [
+			165
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 479,
+		"title": "L'ignorante e il folle",
+		"translators": [
+			198
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 480,
+		"title": "Immanuel Kant",
+		"translators": [
+			197
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 481,
+		"title": "Prima della pensione",
+		"translators": [
+			198
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 482,
+		"title": "Goethe \"muore\"",
+		"translators": [
+			211
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 483,
+		"title": "호흡",
+		"translators": [
+			243
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 484,
+		"title": "보리스를 위한 파티",
+		"translators": [
+			246
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 485,
+		"title": "Grimzdėjas",
+		"translators": [
+			257
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 486,
+		"title": "Сила привычки",
+		"translators": [
+			331
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 487,
+		"title": "Президент",
+		"translators": [
+			331
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 488,
+		"title": "Минетти",
+		"translators": [
+			331
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 489,
+		"title": "Иммануил Кант",
+		"translators": [
+			331
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 490,
+		"title": "Ha пoкой",
+		"translators": [
+			331
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 491,
+		"title": "Спаситель человечества",
+		"translators": [
+			331
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 492,
+		"title": "Видимость обманчива",
+		"translators": [
+			331
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 493,
+		"title": "Лицедей",
+		"translators": [
+			331
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 494,
+		"title": "Площадь героев",
+		"translators": [
+			331
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 495,
+		"title": "Otrok",
+		"translators": [
+			366
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 496,
+		"title": "Almuerzo en casa de Ludwig W.",
+		"translators": [
+			378,
+			379
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 497,
+		"title": "Magdalena la Loca",
+		"translators": [
+			380,
+			381
+		],
+		"work": 91,
+		"work_display_title": null
+	},
+	{
+		"id": 498,
+		"title": "Hambre indescriptible",
+		"translators": [
+			380,
+			381
+		],
+		"work": 94,
+		"work_display_title": null
+	},
+	{
+		"id": 499,
+		"title": "Старі майстри",
+		"translators": [
+			405
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 500,
+		"title": "Елізабет II",
+		"translators": [
+			405
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 501,
+		"title": "Extinção. Uma derrocada",
+		"translators": [
+			4
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 502,
+		"title": "Ungenach",
+		"translators": [
+			33
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 503,
+		"title": "Amras",
+		"translators": [
+			37
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 504,
+		"title": "Moušlování",
+		"translators": [
+			33
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 505,
+		"title": "Minetti",
+		"translators": [
+			68
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 506,
+		"title": "",
+		"translators": [
+			136
+		],
+		"work": 160,
+		"work_display_title": null
+	},
+	{
+		"id": 507,
+		"title": "Ο Μίμος των φωνών. 104 ιστορίες",
+		"translators": [
+			138
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 508,
+		"title": "I mangia a poco",
+		"translators": [
+			199
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 509,
+		"title": "何ひとつとして決着はつかない",
+		"translators": [
+			222
+		],
+		"work": 127,
+		"work_display_title": "Nie und mit nichts fertig werden (Büchnerpreis-Rede)"
+	},
+	{
+		"id": 510,
+		"title": "Plaça dels Herois",
+		"translators": [
+			227
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 511,
+		"title": "O sobrinho de Wittgenstein. Uma amizade",
+		"translators": [
+			318
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 512,
+		"title": "Na terra e no inferno",
+		"translators": [
+			318
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 513,
+		"title": "Стужа",
+		"translators": [
+			330
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 514,
+		"title": "Ante la jubilación (Comedia del alma alemana)",
+		"translators": [
+			374
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 515,
+		"title": "Minetti",
+		"translators": [
+			374
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 516,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			374
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 517,
+		"title": "Bitik Adam",
+		"translators": [
+			390
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 518,
+		"title": "Thomas Bernhard’la Konuşmalar",
+		"translators": [
+			390
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 519,
+		"title": "Claus Peymann si kupuje kalhoty a jdese mnou na oběd",
+		"translators": [
+			30
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 520,
+		"title": "Beton",
+		"translators": [
+			31
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 521,
+		"title": "In hora mortis",
+		"translators": [
+			34
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 522,
+		"title": "Pod okovy měsíce",
+		"translators": [
+			34
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 524,
+		"title": "Montaigne. Un racconto",
+		"translators": [
+			212
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 525,
+		"title": "Teatermakeren",
+		"translators": [
+			281
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 526,
+		"title": "Ganske enkelt komplisiert",
+		"translators": [
+			281
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 527,
+		"title": "یائورِگ",
+		"translators": [
+			289
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 528,
+		"title": "Beton",
+		"translators": [
+			300,
+			301
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 529,
+		"title": "Święto borysa",
+		"translators": [
+			297
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 530,
+		"title": "Przed odejściem w stan spoczynku",
+		"translators": [
+			307
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 531,
+		"title": "Stari majstori. Komedija",
+		"translators": [
+			351
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 532,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			368
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 533,
+		"title": "Monologi z Mallorce. Thomas Bernhard o sebi",
+		"translators": [
+			367
+		],
+		"work": 121,
+		"work_display_title": null
+	},
+	{
+		"id": 534,
+		"title": "El reformador des mundo",
+		"translators": [
+			374
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 535,
+		"title": "Simplemente complicado",
+		"translators": [
+			374
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 536,
+		"title": "Las aspariencias engañan",
+		"translators": [
+			374
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 537,
+		"title": "Una fiesta para Boris",
+		"translators": [
+			374
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 538,
+		"title": "En la meta",
+		"translators": [
+			374
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 539,
+		"title": "El teatrero",
+		"translators": [
+			374
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 540,
+		"title": "El Italiano",
+		"translators": [
+			374
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 541,
+		"title": "Tres dias",
+		"translators": [
+			374
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 542,
+		"title": "Старите майстори. Комедия",
+		"translators": [
+			16
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 543,
+		"title": "Племенникът на Витгенщайн. Едно приятелство",
+		"translators": [
+			15
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 544,
+		"title": "Оправдателна присъда",
+		"translators": [
+			19
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 545,
+		"title": "Сладолед",
+		"translators": [
+			19
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 546,
+		"title": "Обяд нo немски",
+		"translators": [
+			19
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 547,
+		"title": "Всичко или нищо",
+		"translators": [
+			19
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 548,
+		"title": "Imitátor hlasů",
+		"translators": [
+			31
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 549,
+		"title": "Ztroskotanec",
+		"translators": [
+			36
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 550,
+		"title": "Lettre à Christoph von Schwerin",
+		"translators": [
+			126
+		],
+		"work": 152,
+		"work_display_title": null
+	},
+	{
+		"id": 551,
+		"title": "Lettres à la presse (L'Europe; Elias Canetti; Bruno Kreisky; Littérature et justice; Franz Vranitzky; L'Assemblée de auteurs à Graz; Le titre de professeur; La bureaucratie culturelle autrichienne)",
+		"translators": [
+			127
+		],
+		"work": 153,
+		"work_display_title": null
+	},
+	{
+		"id": 552,
+		"title": "Ceux de la cantine",
+		"translators": [
+			98
+		],
+		"work": 35,
+		"work_display_title": "Die Billigesser (Exzerpt)"
+	},
+	{
+		"id": 553,
+		"title": "Thomas Bernhard à la rédaction du Watzmann 5020 Salzburg",
+		"translators": [
+			127
+		],
+		"work": 154,
+		"work_display_title": null
+	},
+	{
+		"id": 554,
+		"title": "Les Roses du désert",
+		"translators": [
+			128
+		],
+		"work": 59,
+		"work_display_title": null
+	},
+	{
+		"id": 555,
+		"title": "המרתף. הימלטות",
+		"translators": [
+			165
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 556,
+		"title": "הסיבה. רמז",
+		"translators": [
+			166
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 557,
+		"title": "In hora mortis",
+		"translators": [
+			203
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 558,
+		"title": "El comediant",
+		"translators": [
+			232
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 559,
+		"title": "혼란",
+		"translators": [
+			235,
+			236
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 560,
+		"title": "Amras",
+		"translators": [
+			281
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 561,
+		"title": "Przegrany",
+		"translators": [
+			302
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 562,
+		"title": "Na polowaniu",
+		"translators": [
+			297
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 563,
+		"title": "Portret artysty z czasów starości",
+		"translators": [
+			297
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 564,
+		"title": "Siła przyzwycajenia",
+		"translators": [
+			297
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 565,
+		"title": "In hora mortis. Ciclu de poeme",
+		"translators": [
+			325
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 566,
+		"title": "Simplu complicat",
+		"translators": [
+			325
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 567,
+		"title": "Eski Ustalar",
+		"translators": [
+			390
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 568,
+		"title": "Olaylar",
+		"translators": [
+			394,
+			395
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 569,
+		"title": "Іммануїл Кант",
+		"translators": [
+			405
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 570,
+		"title": "Кляус Пайманн покидає Бохум і вирушає на посаду директора Бурґтеатру у Відень",
+		"translators": [
+			405
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 571,
+		"title": "Кляус Пайманн купує штани, і ми йдемо їсти",
+		"translators": [
+			405
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 572,
+		"title": "Кляус Пайманн і Герман Байль на Зульцвізе",
+		"translators": [
+			405
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 573,
+		"title": "Празник за Борис",
+		"translators": [
+			15
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 574,
+		"title": "Президентът",
+		"translators": [
+			15
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 575,
+		"title": "Имануел Кант",
+		"translators": [
+			15
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 576,
+		"title": "Театралът",
+		"translators": [
+			15
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 577,
+		"title": "Крушенецът",
+		"translators": [
+			17
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 578,
+		"title": "Zločin kupeckého syna z Innsbrucku",
+		"translators": [
+			31
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 579,
+		"title": "Tesař",
+		"translators": [
+			33
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 580,
+		"title": "Jauregg",
+		"translators": [
+			38
+		],
+		"work": 7,
+		"work_display_title": "Jauergg"
+	},
+	{
+		"id": 581,
+		"title": "Dva vychovatelé",
+		"translators": [
+			38
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 582,
+		"title": "Čepice",
+		"translators": [
+			38
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 583,
+		"title": "Je to komedie? Je to tragédie?",
+		"translators": [
+			36
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 584,
+		"title": "Viktor Pomatený",
+		"translators": [
+			36
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 585,
+		"title": "Atašé z francouzského velvyslanectví",
+		"translators": [
+			38
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 586,
+		"title": "Na okraji lesa",
+		"translators": [
+			33
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 587,
+		"title": "Midland ve Stilfsu",
+		"translators": [
+			33
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 588,
+		"title": "Havelok",
+		"translators": [
+			36
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 589,
+		"title": "Na Ortleru",
+		"translators": [
+			37
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 590,
+		"title": "Humírající Goethe",
+		"translators": [
+			32
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 591,
+		"title": "Amras",
+		"translators": [
+			66
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 592,
+		"title": "Playing Watten",
+		"translators": [
+			67
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 593,
+		"title": "სარდაფი",
+		"translators": [
+			134
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 594,
+		"title": "Αφανισμός. Mια κατάρρευση",
+		"translators": [
+			142
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 595,
+		"title": "Thomas Bernhard: Un incontro. Conversazioni con Krista Fleischmann",
+		"translators": [
+			204
+		],
+		"work": 117,
+		"work_display_title": null
+	},
+	{
+		"id": 596,
+		"title": "습관의 힘",
+		"translators": [
+			241
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 597,
+		"title": "영웅광장",
+		"translators": [
+			241
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 598,
+		"title": "원인",
+		"translators": [
+			244
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 599,
+		"title": "Wittgensteinov nećak. Jedno prijateljstvo",
+		"translators": [
+			250
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 600,
+		"title": "Svečanost za Borisa",
+		"translators": [
+			253
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 601,
+		"title": "Lovačko društvo",
+		"translators": [
+			252
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 602,
+		"title": "Pred mirovinom",
+		"translators": [
+			253
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 603,
+		"title": "Trg heroja",
+		"translators": [
+			253
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 604,
+		"title": "Gå",
+		"translators": [
+			282
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 605,
+		"title": "Billigspiserne",
+		"translators": [
+			281
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 606,
+		"title": "Ja",
+		"translators": [
+			281
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 607,
+		"title": "Ved målet",
+		"translators": [
+			284
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 608,
+		"title": "Antigos mestres. Comédia",
+		"translators": [
+			318
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 609,
+		"title": "Племянник Витгенштейна",
+		"translators": [
+			334
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 610,
+		"title": "Ses Taklitçisi",
+		"translators": [
+			390
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 611,
+		"title": "Ловната дружина",
+		"translators": [
+			15
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 612,
+		"title": "Силата на навика",
+		"translators": [
+			15
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 613,
+		"title": "Видимото мами",
+		"translators": [
+			15
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 614,
+		"title": "Елизабет Втора",
+		"translators": [
+			15
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 615,
+		"title": "Ano",
+		"translators": [
+			35
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 616,
+		"title": "Rozrušení",
+		"translators": [
+			31
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 617,
+		"title": "Over All the Mountain Tops",
+		"translators": [
+			82
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 618,
+		"title": "Crimes of an Innsbruck Merchant's Son",
+		"translators": [
+			85
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 619,
+		"title": "Il Presidente",
+		"translators": [
+			199
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 620,
+		"title": "Il teatrante",
+		"translators": [
+			197
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 621,
+		"title": "Elisabetta II",
+		"translators": [
+			197
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 622,
+		"title": "消去 (1)",
+		"translators": [
+			217
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 623,
+		"title": "雨合羽",
+		"translators": [
+			215
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 624,
+		"title": "リッター、デーネ、フォス",
+		"translators": [
+			217
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 625,
+		"title": "Podrum",
+		"translators": [
+			256
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 626,
+		"title": "Forstyrrelse",
+		"translators": [
+			281
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 627,
+		"title": "نمایشنامه: رئیس‌جمهور",
+		"translators": [
+			291
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 628,
+		"title": "Wymazywanie. Rozpad",
+		"translators": [
+			298
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 629,
+		"title": "Na szczytach panuje cisza",
+		"translators": [
+			306
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 630,
+		"title": "Rodzeństwo",
+		"translators": [
+			306
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 631,
+		"title": "Plac Bohaterów",
+		"translators": [
+			308
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 632,
+		"title": "Attaché ambasady francuskiej. Dziennik wakacyjny, zakończenie",
+		"translators": [
+			300,
+			301
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 633,
+		"title": "Extinção. Uma derrocada",
+		"translators": [
+			318
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 634,
+		"title": "O fazedor de teatro",
+		"translators": [
+			318
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 635,
+		"title": "Da",
+		"translators": [
+			324
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 636,
+		"title": "Izboljševalec sveta",
+		"translators": [
+			367
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 637,
+		"title": "Na cilju",
+		"translators": [
+			367
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 638,
+		"title": "Undergångaren",
+		"translators": [
+			385
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 639,
+		"title": "صداقة مع ابن شقيق فيتغنشتاين",
+		"translators": [
+			2
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 640,
+		"title": "Прочутите",
+		"translators": [
+			15
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 641,
+		"title": "Минети",
+		"translators": [
+			15
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 642,
+		"title": "Преди пенсиониране",
+		"translators": [
+			15
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 643,
+		"title": "Достигнатата цел",
+		"translators": [
+			15
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 644,
+		"title": "Просто сложно",
+		"translators": [
+			15
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 645,
+		"title": "Chůze",
+		"translators": [
+			33
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 646,
+		"title": "Vápenka",
+		"translators": [
+			36
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 647,
+		"title": "Od jedné katastrofy k další",
+		"translators": [
+			36
+		],
+		"work": 105,
+		"work_display_title": null
+	},
+	{
+		"id": 648,
+		"title": "Už tady budu jen krátce",
+		"translators": [
+			36
+		],
+		"work": 106,
+		"work_display_title": null
+	},
+	{
+		"id": 649,
+		"title": "Gående",
+		"translators": [
+			50,
+			51
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 650,
+		"title": "Prosa",
+		"translators": [
+			77
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 651,
+		"title": "The World-Fixer",
+		"translators": [
+			79,
+			80,
+			81
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 652,
+		"title": "Les Mange-pas-chere",
+		"translators": [
+			101
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 653,
+		"title": "Oαντρε μιλερ συνομιλει με τον Tομας Mηερνχαρντίτ",
+		"translators": [
+			156
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 654,
+		"title": "Το θέατρο ως ένωση τελµατόθιων",
+		"translators": [
+			156
+		],
+		"work": 116,
+		"work_display_title": "Kurt Hofmann: Aus Gesprächen mit Thomas Bernhard (Exzerpt)"
+	},
+	{
+		"id": 655,
+		"title": "Μονόλογοι στη Μαγιόρκα",
+		"translators": [
+			156
+		],
+		"work": 121,
+		"work_display_title": null
+	},
+	{
+		"id": 656,
+		"title": "Kioltás. Bomlásregény",
+		"translators": [
+			171
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 657,
+		"title": "A földön és a pokolban",
+		"translators": [
+			177
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 658,
+		"title": "In hora mortis",
+		"translators": [
+			177
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 659,
+		"title": "A hold kardja alatt",
+		"translators": [
+			177
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 660,
+		"title": "Az őrültek A fegyencek",
+		"translators": [
+			177
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 661,
+		"title": "Ave Vergilius",
+		"translators": [
+			177
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 663,
+		"title": "Steinsteypa",
+		"translators": [
+			184
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 664,
+		"title": "Tre giorni",
+		"translators": [
+			209
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 665,
+		"title": "ヴィクトル・ハルプナル",
+		"translators": [
+			219
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 666,
+		"title": "二人の教師",
+		"translators": [
+			219
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 667,
+		"title": "ふちなし帽",
+		"translators": [
+			219
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 668,
+		"title": "喜劇?悲劇?",
+		"translators": [
+			219
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 669,
+		"title": "ヤウレク",
+		"translators": [
+			219
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 670,
+		"title": "フランス大使館員",
+		"translators": [
+			219
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 671,
+		"title": "インスブルクの商人の息子が犯した罪",
+		"translators": [
+			219
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 672,
+		"title": "大工",
+		"translators": [
+			219
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 673,
+		"title": "クルテラー",
+		"translators": [
+			219
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 674,
+		"title": "イタリア人",
+		"translators": [
+			219
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 675,
+		"title": "森林限界で",
+		"translators": [
+			219
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 676,
+		"title": "Gubitnik",
+		"translators": [
+			251
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 677,
+		"title": "Midland na Stilfsu",
+		"translators": [
+			252
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 678,
+		"title": "Hubertus",
+		"translators": [
+			252
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 679,
+		"title": "Na Ortleru",
+		"translators": [
+			252
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 680,
+		"title": "Da",
+		"translators": [
+			252
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 681,
+		"title": "Uzrok",
+		"translators": [
+			251
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 682,
+		"title": "Senieji meistrai",
+		"translators": [
+			259
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 683,
+		"title": "Dawni mistrzowie. Komedia",
+		"translators": [
+			302
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 684,
+		"title": "List do Erwina Axera",
+		"translators": [],
+		"work": 177,
+		"work_display_title": null
+	},
+	{
+		"id": 685,
+		"title": "Vechi maeştri. Comedie",
+		"translators": [
+			324
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 686,
+		"title": "Происшествия",
+		"translators": [
+			334
+		],
+		"work": 52,
+		"work_display_title": "Ereignisse (Exzerpt)"
+	},
+	{
+		"id": 687,
+		"title": "Beton",
+		"translators": [
+			354
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 688,
+		"title": "Pivnica",
+		"translators": [
+			359
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 689,
+		"title": "Immanuel Kant",
+		"translators": [
+			374
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 690,
+		"title": "Un muerto",
+		"translators": [
+			374
+		],
+		"work": 65,
+		"work_display_title": null
+	},
+	{
+		"id": 691,
+		"title": "El mes de María",
+		"translators": [
+			374
+		],
+		"work": 66,
+		"work_display_title": null
+	},
+	{
+		"id": 692,
+		"title": "Partido",
+		"translators": [
+			374
+		],
+		"work": 67,
+		"work_display_title": null
+	},
+	{
+		"id": 693,
+		"title": "Absolución",
+		"translators": [
+			374
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 694,
+		"title": "Helados",
+		"translators": [
+			374
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 695,
+		"title": "Comida alemana",
+		"translators": [
+			374
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 696,
+		"title": "Todo o nada",
+		"translators": [
+			374
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 697,
+		"title": "El presidente",
+		"translators": [
+			374
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 698,
+		"title": "Los famosos",
+		"translators": [
+			374
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 699,
+		"title": "La paz reina en las cumbres",
+		"translators": [
+			374
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 700,
+		"title": "Isabel II",
+		"translators": [
+			374
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 701,
+		"title": "Claus Peymann deja Bochum y se va a Viena de director del Burgtheater",
+		"translators": [
+			374
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 702,
+		"title": "Claus Peymann se compra unos pantalones y luego nos vamos a comer",
+		"translators": [
+			374
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 703,
+		"title": "Claus Peymann y Hermann Beil en la Sulzwiese",
+		"translators": [
+			374
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 704,
+		"title": "Yok Etme. Bir Parçalanma",
+		"translators": [
+			390
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 705,
+		"title": "Origem",
+		"translators": [
+			5
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 706,
+		"title": "聲音模仿者",
+		"translators": [
+			22
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 707,
+		"title": "事件",
+		"translators": [
+			22
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 708,
+		"title": "历代大师",
+		"translators": [
+			22
+		],
+		"work": 45,
+		"work_display_title": "Alte Meister"
+	},
+	{
+		"id": 709,
+		"title": "水泥地",
+		"translators": [
+			22
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 710,
+		"title": "Konzumenti levných jídel",
+		"translators": [
+			36
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 711,
+		"title": "Frost",
+		"translators": [
+			60
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 712,
+		"title": "In Hora Mortis",
+		"translators": [
+			56
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 713,
+		"title": "Under the Iron of the Moon",
+		"translators": [
+			56
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 714,
+		"title": "Ο αναμορφωτής του κόσμου",
+		"translators": [
+			154
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 715,
+		"title": "הטובע",
+		"translators": [
+			165
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 716,
+		"title": "הנשימה. החלטה",
+		"translators": [
+			166
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 717,
+		"title": "הקור. בידוד",
+		"translators": [
+			165
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 718,
+		"title": "Megzavarodás",
+		"translators": [
+			174
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 719,
+		"title": "Em conversa com Thomas Bernhard",
+		"translators": [
+			318
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 720,
+		"title": "Причина: прикосновение",
+		"translators": [
+			332
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 721,
+		"title": "Подвал: ускользание",
+		"translators": [
+			332
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 722,
+		"title": "Дыхание: выбор",
+		"translators": [
+			330
+		],
+		"work": 32,
+		"work_display_title": "Der Atem"
+	},
+	{
+		"id": 723,
+		"title": "Холод: изоляция",
+		"translators": [
+			334
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 724,
+		"title": "Conversaciones con Thomas Bernhard",
+		"translators": [
+			374
+		],
+		"work": 116,
+		"work_display_title": null
+	},
+	{
+		"id": 725,
+		"title": "Don",
+		"translators": [
+			392
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 726,
+		"title": "Изличаване. Едно разпадане",
+		"translators": [
+			17
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 727,
+		"title": "Mráz",
+		"translators": [
+			31
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 728,
+		"title": "Hakkuu. Muuan mielenkuohu",
+		"translators": [
+			95
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 729,
+		"title": "Entretien d'André Müller avec Thomas Bernhard",
+		"translators": [
+			101
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 730,
+		"title": "Egy gyerek",
+		"translators": [
+			182
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 731,
+		"title": "Az ok. Rávilágítás",
+		"translators": [
+			182
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 732,
+		"title": "A pince. Kivonuás",
+		"translators": [
+			183
+		],
+		"work": 27,
+		"work_display_title": null
+	},
+	{
+		"id": 733,
+		"title": "Peymann deixa Bochum i se'n va a Viena com a director del Burgtheater",
+		"translators": [
+			229
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 734,
+		"title": "Claus Peymann es compra uns pantalons i després anem a dinar",
+		"translators": [
+			229
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 735,
+		"title": "Claus Peymann i Hermann Beil a la Sulzwiese",
+		"translators": [
+			229
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 736,
+		"title": "Czapka",
+		"translators": [
+			313
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 737,
+		"title": "Correcção",
+		"translators": [
+			318
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 738,
+		"title": "Derrubar árvores. Uma irritação",
+		"translators": [
+			318
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 739,
+		"title": "Stari mojstri. Komedija",
+		"translators": [
+			360
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 740,
+		"title": "Wittgensteinov nečak. Prijateljstvo",
+		"translators": [
+			366
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 741,
+		"title": "Skogshuggning",
+		"translators": [
+			385
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 742,
+		"title": "Beton",
+		"translators": [
+			390
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 743,
+		"title": "Immanuel Kant",
+		"translators": [
+			397,
+			395
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 744,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			397,
+			395
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 745,
+		"title": "Undergængeren",
+		"translators": [
+			52
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 746,
+		"title": "Claus Peymann Buys Himself a Pair of Pants and Joins Me for Lunch",
+		"translators": [
+			83
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 747,
+		"title": "Betoni",
+		"translators": [
+			94
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 748,
+		"title": "Lettre à Siegfried Unseld (extrait)",
+		"translators": [
+			101
+		],
+		"work": 128,
+		"work_display_title": "Brief an Siegfried Unseld (Exzerpt)"
+	},
+	{
+		"id": 749,
+		"title": "Lettre à Henning Rischbieter",
+		"translators": [
+			101
+		],
+		"work": 129,
+		"work_display_title": null
+	},
+	{
+		"id": 750,
+		"title": "ორი აღმზრდელი",
+		"translators": [
+			134
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 751,
+		"title": "ქუ­დი",
+		"translators": [
+			134
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 752,
+		"title": "Magasban. Mentéskísérlet, badarság",
+		"translators": [
+			174
+		],
+		"work": 86,
+		"work_display_title": "In der Höhe"
+	},
+	{
+		"id": 753,
+		"title": "Amras",
+		"translators": [
+			174
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 754,
+		"title": "Az olasz férfi",
+		"translators": [
+			174
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 755,
+		"title": "A Kulterer",
+		"translators": [
+			174
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 756,
+		"title": "ヘルデンプラッツ",
+		"translators": [
+			217
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 757,
+		"title": "座長ブルスコン",
+		"translators": [
+			217
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 758,
+		"title": "L'origen",
+		"translators": [
+			225
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 759,
+		"title": "소멸",
+		"translators": [
+			242,
+			243
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 760,
+		"title": "O presidente",
+		"translators": [
+			318
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 761,
+		"title": "Claus Peymann zapusti Bochum in gre kot direktor Burgtheatra na Dunaj",
+		"translators": [
+			367
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 762,
+		"title": "Oponašalec glasov",
+		"translators": [
+			367
+		],
+		"work": 29,
+		"work_display_title": "Der Stimmenimitator (Exzerpt)"
+	},
+	{
+		"id": 763,
+		"title": "Moč navade",
+		"translators": [
+			367
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 764,
+		"title": "Площа героїв",
+		"translators": [
+			405
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 765,
+		"title": "Alferrikaldua",
+		"translators": [
+			3
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 766,
+		"title": "O imitador de vozes",
+		"translators": [
+			5
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 767,
+		"title": "Moje ceny",
+		"translators": [
+			33
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 768,
+		"title": "Na výšinách. Pokus o záchranu, nesmysl",
+		"translators": [
+			33
+		],
+		"work": 86,
+		"work_display_title": null
+	},
+	{
+		"id": 769,
+		"title": "Haaskio",
+		"translators": [
+			95
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 770,
+		"title": "Points de vue d'un incorrigible redresseur de torts",
+		"translators": [
+			121
+		],
+		"work": 130,
+		"work_display_title": null
+	},
+	{
+		"id": 771,
+		"title": "Díjaim",
+		"translators": [
+			174
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 772,
+		"title": "I miei premi",
+		"translators": [
+			208
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 773,
+		"title": "El soterrani",
+		"translators": [
+			225
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 774,
+		"title": "두 명의 교사",
+		"translators": [
+			240
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 775,
+		"title": "모자",
+		"translators": [
+			240
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 776,
+		"title": "희극입니까? 비극입니까?",
+		"translators": [
+			240
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 777,
+		"title": "야우레크",
+		"translators": [
+			240
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 778,
+		"title": "프랑스 대사관 문정관",
+		"translators": [
+			240
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 779,
+		"title": "인스부르크 상인 아들의 범죄",
+		"translators": [
+			240
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 780,
+		"title": "목수",
+		"translators": [
+			240
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 781,
+		"title": "슈틸프스의 미들랜드",
+		"translators": [
+			240
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 782,
+		"title": "비옷",
+		"translators": [
+			240
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 783,
+		"title": "오르틀러에서―고마고이에서 온 소식",
+		"translators": [
+			240
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 784,
+		"title": "Mijn prijzen",
+		"translators": [
+			266
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 785,
+		"title": "Zaburzenie",
+		"translators": [
+			298
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 786,
+		"title": "Katolicka egzystencja, z rozmów z Kurtem Hofmannem",
+		"translators": [
+			302
+		],
+		"work": 116,
+		"work_display_title": "Kurt Hofmann: Aus Gesprächen mit Thomas Bernhard (Exzerpt)"
+	},
+	{
+		"id": 787,
+		"title": "Spotkanie. Rozmowy z Kristą Fleischmann",
+		"translators": [
+			302
+		],
+		"work": 117,
+		"work_display_title": "Eine Begegnung. Gespräche mit Krista Fleischmann (Exzerpt)"
+	},
+	{
+		"id": 788,
+		"title": "W dolinie",
+		"translators": [
+			311
+		],
+		"work": 178,
+		"work_display_title": null
+	},
+	{
+		"id": 789,
+		"title": "Wojownik",
+		"translators": [
+			311
+		],
+		"work": 179,
+		"work_display_title": null
+	},
+	{
+		"id": 790,
+		"title": "Strofa dla Padraic Columa",
+		"translators": [
+			311
+		],
+		"work": 180,
+		"work_display_title": null
+	},
+	{
+		"id": 791,
+		"title": "Oda na urodziny",
+		"translators": [
+			311
+		],
+		"work": 181,
+		"work_display_title": null
+	},
+	{
+		"id": 792,
+		"title": "Poranek",
+		"translators": [
+			311
+		],
+		"work": 182,
+		"work_display_title": null
+	},
+	{
+		"id": 793,
+		"title": "Opis pewnej rodziny",
+		"translators": [
+			311
+		],
+		"work": 183,
+		"work_display_title": null
+	},
+	{
+		"id": 794,
+		"title": "Teraz, wiosną",
+		"translators": [
+			311
+		],
+		"work": 184,
+		"work_display_title": null
+	},
+	{
+		"id": 795,
+		"title": "Do H.W.",
+		"translators": [
+			311
+		],
+		"work": 185,
+		"work_display_title": null
+	},
+	{
+		"id": 796,
+		"title": "Chodzenie (fragment powieści)",
+		"translators": [
+			302
+		],
+		"work": 18,
+		"work_display_title": "Gehen (Exzerpt)"
+	},
+	{
+		"id": 797,
+		"title": "Korekta (fragment powieści)",
+		"translators": [
+			302
+		],
+		"work": 25,
+		"work_display_title": "Korrektur (Exzerpt)"
+	},
+	{
+		"id": 798,
+		"title": "Wycinka (fragment powieści)",
+		"translators": [
+			297
+		],
+		"work": 44,
+		"work_display_title": "Holzfällen (Exzerpt)"
+	},
+	{
+		"id": 799,
+		"title": "Moje nagrody – Nagroda Literacka Wolnego Hanzeatyckiego Miasta Bremy",
+		"translators": [
+			302
+		],
+		"work": 186,
+		"work_display_title": null
+	},
+	{
+		"id": 800,
+		"title": "Zdarzenia4 (Malarz, Dwoje młodych ludzi, Profesor, Celnik, Oberżysta, Zarządczyni  majątku, Prezydent, Wiolonczelistka, Maszyna, Silniejsi)",
+		"translators": [
+			311,
+			312,
+			302,
+			298,
+			297
+		],
+		"work": 52,
+		"work_display_title": "Ereignisse (Exzerpt)"
+	},
+	{
+		"id": 801,
+		"title": "Wiktor Szajbus. Baśń zimowa",
+		"translators": [
+			312
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 802,
+		"title": "W Rzymie",
+		"translators": [
+			302
+		],
+		"work": 147,
+		"work_display_title": null
+	},
+	{
+		"id": 803,
+		"title": "Os Meus Prémios",
+		"translators": [
+			318
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 804,
+		"title": "Biografia durerii",
+		"translators": [
+			326,
+			327
+		],
+		"work": 187,
+		"work_display_title": null
+	},
+	{
+		"id": 805,
+		"title": "Mis premios",
+		"translators": [
+			374
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 806,
+		"title": "Yürümek",
+		"translators": [
+			390
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 807,
+		"title": "Evet",
+		"translators": [
+			390
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 808,
+		"title": "Невежият и безумният",
+		"translators": [
+			15
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 809,
+		"title": "Обновителят на света",
+		"translators": [
+			15
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 810,
+		"title": "Над всички върхове е тишина",
+		"translators": [
+			15
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 811,
+		"title": "Ритер, Дене, Фос",
+		"translators": [
+			15
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 812,
+		"title": "Площадът на героите",
+		"translators": [
+			15
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 813,
+		"title": "Розите в пущинака",
+		"translators": [
+			15
+		],
+		"work": 59,
+		"work_display_title": null
+	},
+	{
+		"id": 814,
+		"title": "Глави",
+		"translators": [
+			15
+		],
+		"work": 60,
+		"work_display_title": null
+	},
+	{
+		"id": 815,
+		"title": "Измислената",
+		"translators": [
+			15
+		],
+		"work": 61,
+		"work_display_title": null
+	},
+	{
+		"id": 816,
+		"title": "Розa",
+		"translators": [
+			15
+		],
+		"work": 62,
+		"work_display_title": null
+	},
+	{
+		"id": 817,
+		"title": "Пролет",
+		"translators": [
+			15
+		],
+		"work": 63,
+		"work_display_title": null
+	},
+	{
+		"id": 818,
+		"title": "Планината",
+		"translators": [
+			15
+		],
+		"work": 64,
+		"work_display_title": null
+	},
+	{
+		"id": 819,
+		"title": "Мъртвец",
+		"translators": [
+			15
+		],
+		"work": 65,
+		"work_display_title": null
+	},
+	{
+		"id": 820,
+		"title": "Майска молитва",
+		"translators": [
+			15
+		],
+		"work": 66,
+		"work_display_title": null
+	},
+	{
+		"id": 821,
+		"title": "Мач",
+		"translators": [
+			15
+		],
+		"work": 67,
+		"work_display_title": null
+	},
+	{
+		"id": 822,
+		"title": "Оправдателна присъда",
+		"translators": [
+			15
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 823,
+		"title": "Сладолед",
+		"translators": [
+			15
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 824,
+		"title": "Обяд на немска трапеза",
+		"translators": [
+			15
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 825,
+		"title": "Всичко или нищо",
+		"translators": [
+			15
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 826,
+		"title": "Клаус Пайман напуска Бохум и заминава за Виена като директор на Бургтеатър",
+		"translators": [
+			15
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 827,
+		"title": "Клаус Пайман си купува панталон и идва с мене да яде",
+		"translators": [
+			15
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 828,
+		"title": "Клаус Пайман и Херман Байл на Зулцвизе",
+		"translators": [
+			15
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 829,
+		"title": "Моите награди",
+		"translators": [
+			17
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 830,
+		"title": "波斯女人",
+		"translators": [
+			22
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 831,
+		"title": "维特根斯坦的侄子",
+		"translators": [
+			22
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 832,
+		"title": "场友谊, 制帽匠",
+		"translators": [
+			22
+		],
+		"work": 77,
+		"work_display_title": null
+	},
+	{
+		"id": 833,
+		"title": "Rudé světlo",
+		"translators": [
+			31
+		],
+		"work": 87,
+		"work_display_title": null
+	},
+	{
+		"id": 834,
+		"title": "Osadníci",
+		"translators": [
+			31
+		],
+		"work": 88,
+		"work_display_title": null
+	},
+	{
+		"id": 835,
+		"title": "O odpoledni v jednom velkém městě",
+		"translators": [
+			31
+		],
+		"work": 89,
+		"work_display_title": null
+	},
+	{
+		"id": 836,
+		"title": "O sedmi jedlích a o sněhu...",
+		"translators": [
+			31
+		],
+		"work": 90,
+		"work_display_title": "Von sieben Tannen und vom Schnee... Eine märchenhafe \nWeihnachtsgeschichte"
+	},
+	{
+		"id": 837,
+		"title": "Bláznivá Magdalena",
+		"translators": [
+			31
+		],
+		"work": 91,
+		"work_display_title": null
+	},
+	{
+		"id": 838,
+		"title": "Poslední vůle",
+		"translators": [
+			31
+		],
+		"work": 92,
+		"work_display_title": null
+	},
+	{
+		"id": 839,
+		"title": "Chudobinec u sv. Laurina",
+		"translators": [
+			31
+		],
+		"work": 93,
+		"work_display_title": null
+	},
+	{
+		"id": 840,
+		"title": "Velký, nepochopitelný hlad",
+		"translators": [
+			31
+		],
+		"work": 94,
+		"work_display_title": null
+	},
+	{
+		"id": 841,
+		"title": "Zimní den ve velehorách",
+		"translators": [
+			31
+		],
+		"work": 95,
+		"work_display_title": null
+	},
+	{
+		"id": 842,
+		"title": "Zánik Západu",
+		"translators": [
+			31
+		],
+		"work": 96,
+		"work_display_title": null
+	},
+	{
+		"id": 843,
+		"title": "Matčina krajina",
+		"translators": [
+			31
+		],
+		"work": 97,
+		"work_display_title": null
+	},
+	{
+		"id": 844,
+		"title": "Starší muž jménem August",
+		"translators": [
+			31
+		],
+		"work": 98,
+		"work_display_title": null
+	},
+	{
+		"id": 845,
+		"title": "O muži, který odešel, aby viděl svět",
+		"translators": [
+			31
+		],
+		"work": 99,
+		"work_display_title": null
+	},
+	{
+		"id": 846,
+		"title": "Strážce vepře",
+		"translators": [
+			31
+		],
+		"work": 100,
+		"work_display_title": null
+	},
+	{
+		"id": 847,
+		"title": "Ital",
+		"translators": [
+			31
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 848,
+		"title": "Kulterer",
+		"translators": [
+			31
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 849,
+		"title": "pouštní růže",
+		"translators": [
+			30
+		],
+		"work": 59,
+		"work_display_title": null
+	},
+	{
+		"id": 850,
+		"title": "Hora",
+		"translators": [
+			30
+		],
+		"work": 102,
+		"work_display_title": null
+	},
+	{
+		"id": 851,
+		"title": "Hlavy",
+		"translators": [
+			30
+		],
+		"work": 60,
+		"work_display_title": null
+	},
+	{
+		"id": 852,
+		"title": "Vybájená",
+		"translators": [
+			30
+		],
+		"work": 103,
+		"work_display_title": null
+	},
+	{
+		"id": 853,
+		"title": "Róza",
+		"translators": [
+			30
+		],
+		"work": 62,
+		"work_display_title": null
+	},
+	{
+		"id": 854,
+		"title": "Jaro",
+		"translators": [
+			30
+		],
+		"work": 104,
+		"work_display_title": null
+	},
+	{
+		"id": 855,
+		"title": "Ignorant a šílenec",
+		"translators": [
+			41
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 856,
+		"title": "Prezident",
+		"translators": [
+			30
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 857,
+		"title": "My Prizes. An Accounting",
+		"translators": [
+			55
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 858,
+		"title": "Heldenplatz",
+		"translators": [
+			69,
+			70
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 859,
+		"title": "Two Tutors",
+		"translators": [
+			78
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 860,
+		"title": "The Cap",
+		"translators": [
+			78
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 861,
+		"title": "Is it a Comedy? Is it a Tragedy?",
+		"translators": [
+			78
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 862,
+		"title": "Jauregg",
+		"translators": [
+			78
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 863,
+		"title": "Attaché at the French Embassy",
+		"translators": [
+			78
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 864,
+		"title": "The Crime of an Innsbruck Shopkeeper's Son",
+		"translators": [
+			78
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 865,
+		"title": "The Carpenter",
+		"translators": [
+			78
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 866,
+		"title": "A Conversation. Thomas Bernhard and André Müller",
+		"translators": [
+			88
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 867,
+		"title": "Mes prix littéraires",
+		"translators": [
+			97
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 868,
+		"title": "Na meta",
+		"translators": [
+			131,
+			132
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 869,
+		"title": "Τα βραβεία μου",
+		"translators": [
+			150
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 870,
+		"title": "מייסטרים דגולים. קומדיה",
+		"translators": [
+			165
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 871,
+		"title": "古典絵画の巨匠たち",
+		"translators": [
+			214
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 872,
+		"title": "Sota el ferro de la lluna",
+		"translators": [
+			226
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 873,
+		"title": "Mine priser",
+		"translators": [
+			281
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 874,
+		"title": "Moje nagrodi",
+		"translators": [
+			302
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 875,
+		"title": "Spotkanie. Rozmowy z Kristą Fleischmann",
+		"translators": [
+			298
+		],
+		"work": 117,
+		"work_display_title": null
+	},
+	{
+		"id": 876,
+		"title": "Пропащий",
+		"translators": [
+			344
+		],
+		"work": 42,
+		"work_display_title": "Der Untergeher (Exzerpt)"
+	},
+	{
+		"id": 877,
+		"title": "Из книги малой прозы »Имитатор голосо«1 (Гамсун, Имитатор голосов, Убийственная дискредитация, Фурати, Рекламный проспект, Пиза и Венеция)",
+		"translators": [
+			343,
+			344,
+			331
+		],
+		"work": 29,
+		"work_display_title": "Der Stimmenimitator (Exzerpt)"
+	},
+	{
+		"id": 878,
+		"title": "Знаменитые",
+		"translators": [
+			331
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 879,
+		"title": "Uzrok",
+		"translators": [
+			352
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 880,
+		"title": "Podrum",
+		"translators": [
+			352
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 881,
+		"title": "Dah",
+		"translators": [
+			352
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 882,
+		"title": "Hladnoća",
+		"translators": [
+			352
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 883,
+		"title": "Dete",
+		"translators": [
+			352
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 884,
+		"title": "Potonjenec",
+		"translators": [
+			366
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 885,
+		"title": "A quel hombre azotado por tempestades",
+		"translators": [
+			374
+		],
+		"work": 112,
+		"work_display_title": null
+	},
+	{
+		"id": 886,
+		"title": "Así en la tierra como en el infierno",
+		"translators": [
+			374
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 887,
+		"title": "Los locos Los reclusos",
+		"translators": [
+			374
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 888,
+		"title": "Gamla mästare. Komedi",
+		"translators": [
+			385
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 889,
+		"title": "Ödüllerim",
+		"translators": [
+			390
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 890,
+		"title": "Meus prêmios",
+		"translators": [
+			5
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 891,
+		"title": "Události",
+		"translators": [
+			31
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 892,
+		"title": "Jaro",
+		"translators": [
+			31
+		],
+		"work": 63,
+		"work_display_title": null
+	},
+	{
+		"id": 893,
+		"title": "Svědecká výpověď",
+		"translators": [
+			31
+		],
+		"work": 101,
+		"work_display_title": null
+	},
+	{
+		"id": 894,
+		"title": "Montaigne",
+		"translators": [
+			31
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 895,
+		"title": "Shledání",
+		"translators": [
+			31
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 896,
+		"title": "Zašlé v plamenech",
+		"translators": [
+			31
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 897,
+		"title": "Velikáni",
+		"translators": [
+			47
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 898,
+		"title": "Immanuel Kant",
+		"translators": [
+			41
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 899,
+		"title": "Nad vrcholky strání a výš",
+		"translators": [
+			30
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 900,
+		"title": "Nebožtík",
+		"translators": [
+			48
+		],
+		"work": 65,
+		"work_display_title": null
+	},
+	{
+		"id": 901,
+		"title": "Májová",
+		"translators": [
+			48
+		],
+		"work": 66,
+		"work_display_title": null
+	},
+	{
+		"id": 902,
+		"title": "Zápas",
+		"translators": [
+			48
+		],
+		"work": 67,
+		"work_display_title": null
+	},
+	{
+		"id": 903,
+		"title": "Zproštění viny",
+		"translators": [
+			48
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 904,
+		"title": "Zmrzlina",
+		"translators": [
+			48
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 905,
+		"title": "Německý oběd",
+		"translators": [
+			48
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 906,
+		"title": "Všechno nebo nic",
+		"translators": [
+			48
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 907,
+		"title": "Claus Peymann a Hermann Beil na Huspeninové louce",
+		"translators": [
+			29
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 908,
+		"title": "Årsagen. En antydning",
+		"translators": [
+			52
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 909,
+		"title": "Victor Halfwit. A Winter's Tale",
+		"translators": [
+			78
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 910,
+		"title": "Syy",
+		"translators": [
+			94
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 911,
+		"title": "Kellari. Vetäytyminen",
+		"translators": [
+			94
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 912,
+		"title": "Mestres antics. Comèdia",
+		"translators": [
+			225
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 913,
+		"title": "몰락하는 자",
+		"translators": [
+			234
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 914,
+		"title": "Brisanje. Raspad",
+		"translators": [
+			253
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 915,
+		"title": "Cечење шума. Eдна возбуда",
+		"translators": [
+			260
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 916,
+		"title": "Gubitnik",
+		"translators": [
+			356
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 917,
+		"title": "Gete na sssamrti",
+		"translators": [
+			355
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 918,
+		"title": "Montenji",
+		"translators": [
+			355
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 919,
+		"title": "Ponovi susret",
+		"translators": [
+			355
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 920,
+		"title": "Izgorela",
+		"translators": [
+			355
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 921,
+		"title": "Skrachovanec",
+		"translators": [
+			357
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 922,
+		"title": "Heldenplatz",
+		"translators": [
+			385
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 923,
+		"title": "Mina priser",
+		"translators": [
+			385
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 924,
+		"title": "Orsaken: En antydan",
+		"translators": [
+			386,
+			387
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 925,
+		"title": "Källaren: En frigörelse",
+		"translators": [
+			386,
+			387
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 926,
+		"title": "Andhämtningen: Ett avgörande",
+		"translators": [
+			386,
+			387
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 927,
+		"title": "Kylan: En isolering",
+		"translators": [
+			386,
+			387
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 928,
+		"title": "Ett barn",
+		"translators": [
+			386,
+			387
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 929,
+		"title": "Düzelti",
+		"translators": [
+			390
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 930,
+		"title": "Сеч. Една възбуда",
+		"translators": [
+			17
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 931,
+		"title": "Kælderen. En unddragelse",
+		"translators": [
+			52
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 932,
+		"title": "Hengitys. Päätös",
+		"translators": [
+			94
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 933,
+		"title": "Kylmyys. Eristys",
+		"translators": [
+			94
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 934,
+		"title": "Mon bout de monde",
+		"translators": [
+			111
+		],
+		"work": 118,
+		"work_display_title": null
+	},
+	{
+		"id": 935,
+		"title": "Sur la terre et en enfer",
+		"translators": [
+			111
+		],
+		"work": 1,
+		"work_display_title": "Auf der Erde und in der Hölle (Exzerpt)"
+	},
+	{
+		"id": 936,
+		"title": "In hora mortis",
+		"translators": [
+			111
+		],
+		"work": 2,
+		"work_display_title": "In hora mortis (Exzerpt)"
+	},
+	{
+		"id": 937,
+		"title": "Sous le fer de la lune",
+		"translators": [
+			111
+		],
+		"work": 3,
+		"work_display_title": "Unter dem Eisen des Mondes (Exzerpt)"
+	},
+	{
+		"id": 938,
+		"title": "Annexe",
+		"translators": [
+			111
+		],
+		"work": 119,
+		"work_display_title": null
+	},
+	{
+		"id": 939,
+		"title": "Események",
+		"translators": [
+			174
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 940,
+		"title": "A hangimitátor",
+		"translators": [
+			174
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 941,
+		"title": "Két nevelő",
+		"translators": [
+			174
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 942,
+		"title": "A sapka",
+		"translators": [
+			174
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 943,
+		"title": "Komédia? Tragédia?",
+		"translators": [
+			174
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 944,
+		"title": "Jauregg",
+		"translators": [
+			174
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 945,
+		"title": "A francia attasé",
+		"translators": [
+			174
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 946,
+		"title": "Egy innsbrucki kereskedőfiú bűne",
+		"translators": [
+			174
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 947,
+		"title": "Az ács",
+		"translators": [
+			174
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 948,
+		"title": "Az erdőhatáron",
+		"translators": [
+			174
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 949,
+		"title": "Az angol férfi",
+		"translators": [
+			174
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 950,
+		"title": "Az Ortleren",
+		"translators": [
+			174
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 951,
+		"title": "Tavasz",
+		"translators": [
+			174
+		],
+		"work": 104,
+		"work_display_title": null
+	},
+	{
+		"id": 952,
+		"title": "Tanúvallomás",
+		"translators": [
+			174
+		],
+		"work": 101,
+		"work_display_title": null
+	},
+	{
+		"id": 953,
+		"title": "A fiatal író",
+		"translators": [
+			174
+		],
+		"work": 120,
+		"work_display_title": null
+	},
+	{
+		"id": 954,
+		"title": "Félnótás Viktor",
+		"translators": [
+			174
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 955,
+		"title": "Megnyugvás",
+		"translators": [
+			174
+		],
+		"work": 162,
+		"work_display_title": null
+	},
+	{
+		"id": 956,
+		"title": "Egy vidéki csaló",
+		"translators": [
+			174
+		],
+		"work": 143,
+		"work_display_title": null
+	},
+	{
+		"id": 957,
+		"title": "A menhelyi gondnok",
+		"translators": [
+			174
+		],
+		"work": 144,
+		"work_display_title": null
+	},
+	{
+		"id": 958,
+		"title": "A nő az öntődéből meg a hátizsákos férfi",
+		"translators": [
+			174
+		],
+		"work": 163,
+		"work_display_title": null
+	},
+	{
+		"id": 959,
+		"title": "Síkság",
+		"translators": [
+			174
+		],
+		"work": 164,
+		"work_display_title": null
+	},
+	{
+		"id": 960,
+		"title": "Goethe meghó",
+		"translators": [
+			174
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 961,
+		"title": "Montaigne",
+		"translators": [
+			174
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 962,
+		"title": "Viszontlátás",
+		"translators": [
+			174
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 963,
+		"title": "Lángok martaléka lett)",
+		"translators": [
+			174
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 964,
+		"title": "A vörös fény",
+		"translators": [
+			174
+		],
+		"work": 87,
+		"work_display_title": null
+	},
+	{
+		"id": 965,
+		"title": "A telepesek",
+		"translators": [
+			174
+		],
+		"work": 88,
+		"work_display_title": null
+	},
+	{
+		"id": 966,
+		"title": "Délután a nagyvárosban",
+		"translators": [
+			174
+		],
+		"work": 89,
+		"work_display_title": null
+	},
+	{
+		"id": 967,
+		"title": "A hét fenyőfáról és a hóról",
+		"translators": [
+			174
+		],
+		"work": 90,
+		"work_display_title": "Von sieben Tannen und vom Schnee"
+	},
+	{
+		"id": 968,
+		"title": "Bolond Magdaléna",
+		"translators": [
+			174
+		],
+		"work": 91,
+		"work_display_title": null
+	},
+	{
+		"id": 969,
+		"title": "A hagyaték",
+		"translators": [
+			174
+		],
+		"work": 165,
+		"work_display_title": null
+	},
+	{
+		"id": 970,
+		"title": "A Szent Lőrinc szegényház",
+		"translators": [
+			174
+		],
+		"work": 93,
+		"work_display_title": null
+	},
+	{
+		"id": 971,
+		"title": "Nagy, felfoghatatlan éhség",
+		"translators": [
+			174
+		],
+		"work": 94,
+		"work_display_title": null
+	},
+	{
+		"id": 972,
+		"title": "Téli nap a magashegységben",
+		"translators": [
+			174
+		],
+		"work": 95,
+		"work_display_title": null
+	},
+	{
+		"id": 973,
+		"title": "Alkonyföld pusztulása",
+		"translators": [
+			174
+		],
+		"work": 96,
+		"work_display_title": null
+	},
+	{
+		"id": 974,
+		"title": "Az anyai táj",
+		"translators": [
+			174
+		],
+		"work": 97,
+		"work_display_title": null
+	},
+	{
+		"id": 975,
+		"title": "Az öregúr, akit Augustnak hívtak",
+		"translators": [
+			174
+		],
+		"work": 98,
+		"work_display_title": null
+	},
+	{
+		"id": 976,
+		"title": "Az ember, aki elindult világot látni",
+		"translators": [
+			174
+		],
+		"work": 99,
+		"work_display_title": null
+	},
+	{
+		"id": 977,
+		"title": "A disznópásztor",
+		"translators": [
+			174
+		],
+		"work": 100,
+		"work_display_title": null
+	},
+	{
+		"id": 978,
+		"title": "Hladnoća. Izolacija",
+		"translators": [
+			255
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 979,
+		"title": "Victor Halfnar. Een wintersprookje",
+		"translators": [
+			279
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 980,
+		"title": "Goethe dauer (Goethe dauer",
+		"translators": [
+			281
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 981,
+		"title": "Montaigne",
+		"translators": [
+			281
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 982,
+		"title": "Gjensyn",
+		"translators": [
+			281
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 983,
+		"title": "Gått opp i flammer)",
+		"translators": [
+			281
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 984,
+		"title": "Moje nagrade",
+		"translators": [
+			355
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 985,
+		"title": "Correspondencia",
+		"translators": [
+			374
+		],
+		"work": 149,
+		"work_display_title": "Thomas Bernhard – Siegfried Unseld. Der Briefwechsel (Exzerpt)"
+	},
+	{
+		"id": 986,
+		"title": "Montaigne",
+		"translators": [
+			374
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 987,
+		"title": "Reencuentro",
+		"translators": [
+			374
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 988,
+		"title": "Ardía",
+		"translators": [
+			374
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 989,
+		"title": "我的文学奖",
+		"translators": [
+			22
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 990,
+		"title": "Pravdě na stopě",
+		"translators": [
+			39,
+			40,
+			33
+		],
+		"work": 54,
+		"work_display_title": null
+	},
+	{
+		"id": 991,
+		"title": "Staří mistři nakreslil Mahler",
+		"translators": [
+			32
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 992,
+		"title": "Træfældning. En ophidselse",
+		"translators": [
+			50
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 993,
+		"title": "Åndedrættet. En afgørelse.",
+		"translators": [
+			52
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 994,
+		"title": "Jean-Arthur Rimbaud. For his 100th Birthday",
+		"translators": [
+			86
+		],
+		"work": 112,
+		"work_display_title": null
+	},
+	{
+		"id": 995,
+		"title": "Arguments from a Winter’s Walk (excerpt)",
+		"translators": [
+			88
+		],
+		"work": 114,
+		"work_display_title": null
+	},
+	{
+		"id": 996,
+		"title": "Vanad Meistrid. Komöödia",
+		"translators": [
+			91
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 997,
+		"title": "Kyllä",
+		"translators": [
+			94
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 998,
+		"title": "Muuan lapsi",
+		"translators": [
+			94
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 999,
+		"title": "Vanhat mestarit. Komedia",
+		"translators": [
+			95
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1000,
+		"title": "Sur le traces de la vérité. Discours, lettres, entretiens, articles",
+		"translators": [
+			97
+		],
+		"work": 54,
+		"work_display_title": null
+	},
+	{
+		"id": 1001,
+		"title": "Goehte se mheurt",
+		"translators": [
+			97
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1002,
+		"title": "Montaigne",
+		"translators": [
+			97
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1003,
+		"title": "Retrouvailles",
+		"translators": [
+			97
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1004,
+		"title": "Parti en fumée",
+		"translators": [
+			97
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1005,
+		"title": "Goethe muore",
+		"translators": [
+			208
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1006,
+		"title": "Montaigne",
+		"translators": [
+			208
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1007,
+		"title": "Incontro",
+		"translators": [
+			208
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1008,
+		"title": "Andata a fuoco",
+		"translators": [
+			208
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1009,
+		"title": "Un nen",
+		"translators": [
+			225
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1010,
+		"title": "El fred",
+		"translators": [
+			225
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 1011,
+		"title": "L'alè. Un decisió",
+		"translators": [
+			225
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 1012,
+		"title": "Senzillament complicat",
+		"translators": [
+			229
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 1013,
+		"title": "Cтари мајстори. Kомедија",
+		"translators": [
+			260
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1014,
+		"title": "دارمرز",
+		"translators": [
+			288
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1015,
+		"title": "کولترر",
+		"translators": [
+			288
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1016,
+		"title": "مرد ایتالیایی",
+		"translators": [
+			288
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1017,
+		"title": "Extincţie. O destrămare",
+		"translators": [
+			324
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 1018,
+		"title": "Seča šume. Jedno uzbuđenje",
+		"translators": [
+			355
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1019,
+		"title": "Moje nagrade",
+		"translators": [
+			363,
+			364,
+			365
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 1020,
+		"title": "Maestros antiguos según Mahler",
+		"translators": [
+			375,
+			374
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 1021,
+		"title": "¿Le gusta ser malvado? Conversación noctura entre Thomas Bernhard y Peter Hamm en la casa de Bernhard en Ohlsdorf, 1977",
+		"translators": [
+			374
+		],
+		"work": 168,
+		"work_display_title": null
+	},
+	{
+		"id": 1022,
+		"title": "Frost",
+		"translators": [
+			385
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1023,
+		"title": "Goethe Öleyazıyor",
+		"translators": [
+			389
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1024,
+		"title": "Montaigne",
+		"translators": [
+			389
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1025,
+		"title": "Yeniden Görüşme",
+		"translators": [
+			389
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1026,
+		"title": "Alev Alev Yandı, Kül Oldu",
+		"translators": [
+			389
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1027,
+		"title": "Amras",
+		"translators": [
+			393
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1028,
+		"title": "Watten",
+		"translators": [
+			393
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 1029,
+		"title": "Холоднеча",
+		"translators": [
+			406
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1030,
+		"title": "习惯的力量",
+		"translators": [
+			22
+		],
+		"work": 21,
+		"work_display_title": null
+	},
+	{
+		"id": 1031,
+		"title": "总统",
+		"translators": [
+			22
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 1032,
+		"title": "英雄广场",
+		"translators": [
+			22
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1033,
+		"title": "Kulden. En isolation",
+		"translators": [
+			52
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 1034,
+		"title": "Minetti. A portrait of the artist as an old man",
+		"translators": [
+			73,
+			74
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1035,
+		"title": "Kulterer",
+		"translators": [
+			94
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1036,
+		"title": "Italialainen",
+		"translators": [
+			94
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1037,
+		"title": "Puurajalla",
+		"translators": [
+			94
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1038,
+		"title": "Palkintopuhetta",
+		"translators": [
+			95
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 1039,
+		"title": "Häiriö",
+		"translators": [
+			95
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1040,
+		"title": "Brjálæði",
+		"translators": [
+			185
+		],
+		"work": 166,
+		"work_display_title": null
+	},
+	{
+		"id": 1041,
+		"title": "Fjósakonan",
+		"translators": [
+			185
+		],
+		"work": 167,
+		"work_display_title": null
+	},
+	{
+		"id": 1042,
+		"title": "私のもらった文学賞",
+		"translators": [
+			217
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 1043,
+		"title": "Els meus premis",
+		"translators": [
+			225
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 1044,
+		"title": "El President",
+		"translators": [
+			232
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 1045,
+		"title": "비트겐슈타인의 조카. 어떤 우정",
+		"translators": [
+			238
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1046,
+		"title": "A Causa",
+		"translators": [
+			318
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1047,
+		"title": "A Cave",
+		"translators": [
+			318
+		],
+		"work": 27,
+		"work_display_title": null
+	},
+	{
+		"id": 1048,
+		"title": "A Respiração",
+		"translators": [
+			318
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 1049,
+		"title": "O Frio",
+		"translators": [
+			318
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 1050,
+		"title": "Uma Criança",
+		"translators": [
+			318
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1051,
+		"title": "Brisanje. Raspad",
+		"translators": [
+			352
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 1052,
+		"title": "Poremećaj",
+		"translators": [
+			349
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1053,
+		"title": "En busca de la verdad. Discursos, cartas de lector, entrevistas, artículos",
+		"translators": [
+			374
+		],
+		"work": 54,
+		"work_display_title": null
+	},
+	{
+		"id": 1054,
+		"title": "Korrigering",
+		"translators": [
+			385
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1055,
+		"title": "Ungenach",
+		"translators": [
+			389
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 1056,
+		"title": "Et barn",
+		"translators": [
+			52
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1057,
+		"title": "On Earth and in Hell. Auf der Erde und in der Hölle",
+		"translators": [
+			65
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 1058,
+		"title": "Maîtres anciens. Comédie dessiné par Mahler",
+		"translators": [
+			98
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 1059,
+		"title": "სანახაობის მომწყობი",
+		"translators": [
+			135
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 1060,
+		"title": "Ιμμανουέλ Καντ",
+		"translators": [
+			139,
+			140
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 1061,
+		"title": "Δύο παιδαγωγοί",
+		"translators": [
+			148
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 1062,
+		"title": "Η τραγιάσκα",
+		"translators": [
+			148
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 1063,
+		"title": "Είναι τραγωδία; Είναι κωμωδία",
+		"translators": [
+			148
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 1064,
+		"title": "Γιάουρεκ",
+		"translators": [
+			148
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 1065,
+		"title": "Ακόλουθος στη γαλλική πρεσβεία. Ημερολόγιο διακοπών, κατακλείδα",
+		"translators": [
+			148
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 1066,
+		"title": "Το έγκλημα του γιου ενός εμπόρου από το Ίνσμπρουκ",
+		"translators": [
+			148
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 1067,
+		"title": "Ο μαραγκός",
+		"translators": [
+			148
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 1068,
+		"title": "Eftirherman. XL örsögur úr Der Stimmenimitator (Hamsun / Eftirherman / Ferðamannabæklingur / Pisa og Feneyjar / Í Líma / Næstum / Góðmennska / Skipti / Umnsúningur / Hótel Waldhaus / Haumer skógarhöggsmaður / Ofviða / Lyfseðill / Vonsviknir Englendingar / Frábærir tónleikar / Í vísindaskyni / Mistök Moospruggers / Póstur / Viðvörun / Fullyrðing / Ljósmyndarar / Schluemberger / Uppgötvun / Frægur dansari / Samviskubit / Gleymska / Piccadilly Circus / Hlébarðinn / Fölsk nóta / Gamli bóndinn / Fjósakona / Markasteinn / Túristahópur / Sönn ást / Potocki fursti / Eftir yður / Reynt á ímyndunaraflið / Í grennd við Sulden / Perast / Brjálæði)",
+		"translators": [
+			185
+		],
+		"work": 29,
+		"work_display_title": "Der Stimmenimitator (Exzerpt)"
+	},
+	{
+		"id": 1069,
+		"title": "Sotto il ferro della luna",
+		"translators": [
+			192
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 1070,
+		"title": "미네티",
+		"translators": [
+			242
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1071,
+		"title": "Mraz",
+		"translators": [
+			255
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1072,
+		"title": "Tak",
+		"translators": [
+			297
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1073,
+		"title": "Wyjadacze",
+		"translators": [
+			297
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1074,
+		"title": "Moja cząstka świata",
+		"translators": [
+			305
+		],
+		"work": 118,
+		"work_display_title": null
+	},
+	{
+		"id": 1075,
+		"title": "Na ziemi i w piekle (Exzerpt)",
+		"translators": [
+			304,
+			298
+		],
+		"work": 1,
+		"work_display_title": "Auf der Erde und in der Hölle (Exzerpt)"
+	},
+	{
+		"id": 1076,
+		"title": "In hora mortis",
+		"translators": [
+			304,
+			298
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 1077,
+		"title": "Pod żelazem księżyca (Exzerpt)",
+		"translators": [
+			304,
+			298
+		],
+		"work": 3,
+		"work_display_title": "Unter dem Eisen des Mondes (Exzerpt)"
+	},
+	{
+		"id": 1078,
+		"title": "Pomyleńcy Więźniowie",
+		"translators": [
+			304,
+			298
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 1079,
+		"title": "Ave Vergil (Exzerpt)",
+		"translators": [
+			304,
+			298
+		],
+		"work": 37,
+		"work_display_title": "Ave Vergil (Exzerpt)"
+	},
+	{
+		"id": 1081,
+		"title": "Praça dos heróis",
+		"translators": [
+			323
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1082,
+		"title": "Vitgenštajnov nećak. Jedno prijateljstvo",
+		"translators": [
+			349
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1083,
+		"title": "Trg heroja",
+		"translators": [
+			352
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1084,
+		"title": "Imitator glasov",
+		"translators": [
+			349
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 1085,
+		"title": "Starí majstri. Komédia",
+		"translators": [
+			357
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1086,
+		"title": "Kireç Ocağı",
+		"translators": [
+			391
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 1087,
+		"title": "Neden. Bir Değini",
+		"translators": [
+			390
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1088,
+		"title": "Kiler. Bir Kaçış",
+		"translators": [
+			390
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 1089,
+		"title": "原因",
+		"translators": [
+			27
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1090,
+		"title": "地下",
+		"translators": [
+			26
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 1091,
+		"title": "呼吸",
+		"translators": [
+			25
+		],
+		"work": 32,
+		"work_display_title": "Der Atem"
+	},
+	{
+		"id": 1092,
+		"title": "寒冷",
+		"translators": [
+			23
+		],
+		"work": 36,
+		"work_display_title": "Die Kälte"
+	},
+	{
+		"id": 1093,
+		"title": "個孩",
+		"translators": [
+			24
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1094,
+		"title": "Gamle mestre. Komedie",
+		"translators": [
+			50
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1095,
+		"title": "Three Days",
+		"translators": [
+			75
+		],
+		"work": 111,
+		"work_display_title": null
+	},
+	{
+		"id": 1096,
+		"title": "Goethe Dies",
+		"translators": [
+			56
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1097,
+		"title": "Montaigne. A Story in Twenty-Two Instalments",
+		"translators": [
+			56
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1098,
+		"title": "Reunion",
+		"translators": [
+			56
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1099,
+		"title": "Going Up in Flames. A Travelogue to an Erstwhile Friend",
+		"translators": [
+			56
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1100,
+		"title": "Thomas Bernhard. Gerhard Fritsch. Kirjeenvaihtoa",
+		"translators": [
+			94
+		],
+		"work": 115,
+		"work_display_title": null
+	},
+	{
+		"id": 1101,
+		"title": "Amras",
+		"translators": [
+			95
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1102,
+		"title": "Kortinpeluu",
+		"translators": [
+			95
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 1103,
+		"title": "Kävely",
+		"translators": [
+			95
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1104,
+		"title": "Ο Αδαής και ο Παράφρων",
+		"translators": [
+			141
+		],
+		"work": 19,
+		"work_display_title": null
+	},
+	{
+		"id": 1105,
+		"title": "Πλατεία Ηρώων",
+		"translators": [
+			148
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1106,
+		"title": "Immanuel Kant",
+		"translators": [
+			177
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 1107,
+		"title": "A célnál",
+		"translators": [
+			177
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 1108,
+		"title": "Egyszerűen komplikált",
+		"translators": [
+			177
+		],
+		"work": 47,
+		"work_display_title": null
+	},
+	{
+		"id": 1109,
+		"title": "Heldenplatz",
+		"translators": [
+			177
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1110,
+		"title": "ある子供",
+		"translators": [
+			220
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1111,
+		"title": "Sí",
+		"translators": [
+			225
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1112,
+		"title": "Kulterer",
+		"translators": [
+			270,
+			271
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1113,
+		"title": "De Italiaan",
+		"translators": [
+			270,
+			271
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1114,
+		"title": "Op de boomgrens",
+		"translators": [
+			270,
+			271
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1115,
+		"title": "قدم زدن",
+		"translators": [
+			290
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1116,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 170,
+		"work_display_title": null
+	},
+	{
+		"id": 1117,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 171,
+		"work_display_title": null
+	},
+	{
+		"id": 1118,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1119,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 172,
+		"work_display_title": null
+	},
+	{
+		"id": 1120,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 173,
+		"work_display_title": null
+	},
+	{
+		"id": 1121,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1122,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 174,
+		"work_display_title": null
+	},
+	{
+		"id": 1123,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1124,
+		"title": "",
+		"translators": [
+			293
+		],
+		"work": 175,
+		"work_display_title": null
+	},
+	{
+		"id": 1125,
+		"title": "آشفتگی",
+		"translators": [
+			295
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1126,
+		"title": "Dawni mistrzowie. Komedia rysowana przez Mahlera",
+		"translators": [
+			302
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 1127,
+		"title": "Frig",
+		"translators": [
+			324
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1128,
+		"title": "Amras",
+		"translators": [
+			349
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1129,
+		"title": "Hodanje",
+		"translators": [
+			349
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1130,
+		"title": "Vaten. Zaostavština",
+		"translators": [
+			349
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 1131,
+		"title": "Mraz",
+		"translators": [
+			361
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1132,
+		"title": "Nefes. Bir Karar",
+		"translators": [
+			390
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 1133,
+		"title": "Soğuk. Bir Soyutlama",
+		"translators": [
+			390
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 1134,
+		"title": "Çocuk",
+		"translators": [
+			390
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1135,
+		"title": "Andar",
+		"translators": [
+			8
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1136,
+		"title": "O fazedor de teatro",
+		"translators": [
+			13
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 1137,
+		"title": "Mine priser",
+		"translators": [
+			52
+		],
+		"work": 53,
+		"work_display_title": null
+	},
+	{
+		"id": 1138,
+		"title": "Early Poems (1952-1956)",
+		"translators": [
+			56
+		],
+		"work": 108,
+		"work_display_title": null
+	},
+	{
+		"id": 1139,
+		"title": "On Earth and in Hell",
+		"translators": [
+			56
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 1140,
+		"title": "Psalm",
+		"translators": [
+			56
+		],
+		"work": 109,
+		"work_display_title": null
+	},
+	{
+		"id": 1141,
+		"title": "The Insane The Inmates",
+		"translators": [
+			56
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 1142,
+		"title": "Ave Vergil",
+		"translators": [
+			56
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 1143,
+		"title": "Later Poems (1959-1963)",
+		"translators": [
+			56
+		],
+		"work": 110,
+		"work_display_title": null
+	},
+	{
+		"id": 1144,
+		"title": "O facedor de teatro",
+		"translators": [
+			133
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 1145,
+		"title": "לחטוב עצים. סערת רוח",
+		"translators": [
+			165
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1146,
+		"title": "原因. 一つの示唆",
+		"translators": [
+			220
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1147,
+		"title": "L'imitador de veus",
+		"translators": [
+			225
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 1148,
+		"title": "Chodzenie",
+		"translators": [
+			298
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1149,
+		"title": "Amras",
+		"translators": [
+			298
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1150,
+		"title": "Korektura",
+		"translators": [
+			349
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1151,
+		"title": "Dva vzojitela",
+		"translators": [
+			360,
+			362
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 1152,
+		"title": "Kapa",
+		"translators": [
+			360,
+			362
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 1153,
+		"title": "Je to komedija? Je to tragedija?",
+		"translators": [
+			360,
+			362
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 1154,
+		"title": "Jauregg",
+		"translators": [
+			360,
+			362
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 1155,
+		"title": "Ataše na trancoskem veleposlaništvu",
+		"translators": [
+			360,
+			362
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 1156,
+		"title": "Zločin innsbruškega trgovskega sina",
+		"translators": [
+			360,
+			362
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 1157,
+		"title": "Tesar",
+		"translators": [
+			360,
+			362
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 1158,
+		"title": "Na drevesni meji",
+		"translators": [
+			360,
+			362
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1159,
+		"title": "Midland v Stilfsu",
+		"translators": [
+			360,
+			362
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1160,
+		"title": "Pelerina",
+		"translators": [
+			360,
+			362
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1161,
+		"title": "Ob Ortlerju. Poročilo iz Gomagoija",
+		"translators": [
+			360,
+			362
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1162,
+		"title": "Viktor Polnori. Zimsa Pravljica",
+		"translators": [
+			360,
+			362
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 1163,
+		"title": "Ja",
+		"translators": [
+			385
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1164,
+		"title": "Gå",
+		"translators": [
+			385
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1165,
+		"title": "Hakikatin İzinde. Konuşmalar, Okur Mektupları, Söyleşiler, Edebiyat Yazıları",
+		"translators": [
+			393
+		],
+		"work": 54,
+		"work_display_title": null
+	},
+	{
+		"id": 1166,
+		"title": "Ucuzayiyenler",
+		"translators": [
+			391
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1167,
+		"title": "In Hora Mortis",
+		"translators": [
+			401
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 1168,
+		"title": "Имитатор голосов",
+		"translators": [
+			339
+		],
+		"work": 29,
+		"work_display_title": "Der Stimmenimitator (Exzerpt)"
+	},
+	{
+		"id": 1169,
+		"title": "Мраз",
+		"translators": [
+			18
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1170,
+		"title": "Old Masters. A Comedy. Illustrated by Nicolas Mahler",
+		"translators": [
+			56
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 1171,
+		"title": "Pakkanen",
+		"translators": [
+			95
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1172,
+		"title": "Camminare",
+		"translators": [
+			195
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1173,
+		"title": "Salmo",
+		"translators": [
+			191
+		],
+		"work": 109,
+		"work_display_title": null
+	},
+	{
+		"id": 1174,
+		"title": "I folli I carcerati",
+		"translators": [
+			191
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 1175,
+		"title": "El nebot de Wittgenstein",
+		"translators": [
+			224
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1176,
+		"title": "برادرزاده ویتگنشتاین",
+		"translators": [
+			292
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1177,
+		"title": "تصحیح",
+		"translators": [
+			287
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1178,
+		"title": "Goethe ómiera",
+		"translators": [
+			310
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1179,
+		"title": "Происшествия",
+		"translators": [
+			337,
+			338,
+			339
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 1180,
+		"title": "Videz vara",
+		"translators": [
+			367
+		],
+		"work": 57,
+		"work_display_title": null
+	},
+	{
+		"id": 1181,
+		"title": "Jaktsällskapet",
+		"translators": [
+			385
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 1182,
+		"title": "Minetti",
+		"translators": [
+			385
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1183,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			385
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 1184,
+		"title": "Sarsıntı",
+		"translators": [
+			391
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1185,
+		"title": "Diệt Vong",
+		"translators": [
+			409
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 1186,
+		"title": "Đốn Hạ",
+		"translators": [
+			409
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1187,
+		"title": "Ja",
+		"translators": [
+			52
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1188,
+		"title": "Beton",
+		"translators": [
+			52
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1189,
+		"title": "Γεγονότα",
+		"translators": [
+			151
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 1190,
+		"title": "Ποιήματα 1952-1957",
+		"translators": [
+			152,
+			153
+		],
+		"work": 108,
+		"work_display_title": null
+	},
+	{
+		"id": 1191,
+		"title": "Στη γη και στην κόλαση",
+		"translators": [
+			152,
+			153
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 1192,
+		"title": "Στη χώρα του θανάτου",
+		"translators": [
+			152,
+			153
+		],
+		"work": 2,
+		"work_display_title": null
+	},
+	{
+		"id": 1193,
+		"title": "Κάτω από το σίδερικò του φεγγαριού",
+		"translators": [
+			152,
+			153
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 1194,
+		"title": "Ψαλμός",
+		"translators": [
+			152,
+			153
+		],
+		"work": 109,
+		"work_display_title": null
+	},
+	{
+		"id": 1195,
+		"title": "Οι τρελοί Οι φυλακισμένοι",
+		"translators": [
+			152,
+			153
+		],
+		"work": 4,
+		"work_display_title": null
+	},
+	{
+		"id": 1196,
+		"title": "Ποιήματα 1959-1963",
+		"translators": [
+			152,
+			153
+		],
+		"work": 110,
+		"work_display_title": null
+	},
+	{
+		"id": 1197,
+		"title": "Ave Vergil",
+		"translators": [
+			152,
+			153
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 1198,
+		"title": "Frost. Τρίτη έκδοχή",
+		"translators": [
+			152,
+			153
+		],
+		"work": 188,
+		"work_display_title": null
+	},
+	{
+		"id": 1199,
+		"title": "アムラス",
+		"translators": [
+			215,
+			216
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1200,
+		"title": "歩く",
+		"translators": [
+			215,
+			216
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1201,
+		"title": "凍（いて）",
+		"translators": [
+			217
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1202,
+		"title": "Houthakken. Een afrekening",
+		"translators": [
+			269,
+			272
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1203,
+		"title": "Ja",
+		"translators": [
+			273
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1204,
+		"title": "Wandeling",
+		"translators": [
+			273
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1205,
+		"title": "De dagschotelaars",
+		"translators": [
+			273
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1206,
+		"title": "بازنده",
+		"translators": [
+			294
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1207,
+		"title": "بازنده",
+		"translators": [
+			287
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1208,
+		"title": "بازنویسی",
+		"translators": [
+			296
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1209,
+		"title": "Claus Peymann opuszcza Bocum i udaje się jako dyrektor Burgtheater do Wiednia",
+		"translators": [
+			298
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 1210,
+		"title": "Claus Peymann kupuje sobie spodnie i idzie ze mną na obiad",
+		"translators": [
+			298
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 1211,
+		"title": "Claus Peymann i Hermann Beil na Sulzwiese",
+		"translators": [
+			298
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 1212,
+		"title": "Stari majstori. Komedija",
+		"translators": [
+			349
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1213,
+		"title": "Zabava za Borisa",
+		"translators": [
+			360
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 1214,
+		"title": "André Müller v pogovoru s Thomasom Bernhardom",
+		"translators": [
+			362
+		],
+		"work": 113,
+		"work_display_title": null
+	},
+	{
+		"id": 1215,
+		"title": "El Kulterer",
+		"translators": [
+			374
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1216,
+		"title": "Anstöt",
+		"translators": [
+			385
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1217,
+		"title": "Ayın Demiri Altında",
+		"translators": [
+			398
+		],
+		"work": 3,
+		"work_display_title": null
+	},
+	{
+		"id": 1218,
+		"title": "Mjeshtra të vjetër. Komedi",
+		"translators": [
+			1
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1219,
+		"title": "O presidente",
+		"translators": [
+			9,
+			10
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 1220,
+		"title": "Praça dos Heróis",
+		"translators": [
+			11
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1221,
+		"title": "Бетон",
+		"translators": [
+			18
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1222,
+		"title": "Дете. Разказ",
+		"translators": [
+			15
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1223,
+		"title": "Halvallasyöjät",
+		"translators": [
+			95
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1224,
+		"title": "Wittgensteinin veljenpoika",
+		"translators": [
+			95
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1225,
+		"title": "ტყის ჩეხა",
+		"translators": [
+			135
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1226,
+		"title": "Ρίττερ, Ντένε, Φος",
+		"translators": [
+			141
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 1227,
+		"title": "Una conversazione notturna",
+		"translators": [
+			186
+		],
+		"work": 168,
+		"work_display_title": null
+	},
+	{
+		"id": 1228,
+		"title": "Sulla terra e all'inferno",
+		"translators": [
+			191,
+			192
+		],
+		"work": 1,
+		"work_display_title": null
+	},
+	{
+		"id": 1229,
+		"title": "Midland a Stilfs",
+		"translators": [
+			195
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1230,
+		"title": "Il mantello di Loden",
+		"translators": [
+			195
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1231,
+		"title": "Sull'Ortles",
+		"translators": [
+			195
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1232,
+		"title": "地下. ある逃亡",
+		"translators": [
+			220
+		],
+		"work": 27,
+		"work_display_title": "Der Keller"
+	},
+	{
+		"id": 1233,
+		"title": "Formigó",
+		"translators": [
+			225
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1234,
+		"title": "De onderspitdelver",
+		"translators": [
+			269
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1235,
+		"title": "بتن",
+		"translators": [
+			287
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1236,
+		"title": "چوب برها",
+		"translators": [
+			287
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1237,
+		"title": "Zdarzenia",
+		"translators": [
+			298
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 1238,
+		"title": "Naśladowca głosów",
+		"translators": [
+			306
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 1239,
+		"title": "Razgovori s Tomasom Bernhardom",
+		"translators": [
+			353
+		],
+		"work": 117,
+		"work_display_title": null
+	},
+	{
+		"id": 1240,
+		"title": "Nipi i Wittgensteinit. Një miqësi",
+		"translators": [
+			1
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1241,
+		"title": "Mestres Antigos. Comédia",
+		"translators": [
+			5
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1242,
+		"title": "Варницата",
+		"translators": [
+			18
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 1243,
+		"title": "Причината. Един намек",
+		"translators": [
+			15
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1244,
+		"title": "狩猎聚会",
+		"translators": [
+			28
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 1245,
+		"title": "米奈蒂",
+		"translators": [
+			28
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1246,
+		"title": "伊马努埃尔·康德",
+		"translators": [
+			28
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 1247,
+		"title": "退休之前",
+		"translators": [
+			28
+		],
+		"work": 33,
+		"work_display_title": null
+	},
+	{
+		"id": 1248,
+		"title": "世界改造者",
+		"translators": [
+			28
+		],
+		"work": 34,
+		"work_display_title": null
+	},
+	{
+		"id": 1249,
+		"title": "抵达目的地",
+		"translators": [
+			28
+		],
+		"work": 56,
+		"work_display_title": null
+	},
+	{
+		"id": 1250,
+		"title": "戏剧人",
+		"translators": [
+			28
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 1251,
+		"title": "Forstyrrelse",
+		"translators": [
+			52
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1252,
+		"title": "The Cheap-Eaters",
+		"translators": [
+			61
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1253,
+		"title": "Hukkasaaja",
+		"translators": [
+			92
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1254,
+		"title": "À la lisière des arbres",
+		"translators": [
+			106
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1255,
+		"title": "Jeunes têtes",
+		"translators": [
+			122
+		],
+		"work": 131,
+		"work_display_title": null
+	},
+	{
+		"id": 1256,
+		"title": "Ma propre solitude",
+		"translators": [
+			122
+		],
+		"work": 132,
+		"work_display_title": null
+	},
+	{
+		"id": 1257,
+		"title": "Chroniques judiciaires (Pour quelques friandises acidulées)",
+		"translators": [
+			122
+		],
+		"work": 133,
+		"work_display_title": null
+	},
+	{
+		"id": 1258,
+		"title": "Suicide à l'hôpital psychiatrique régional",
+		"translators": [
+			122
+		],
+		"work": 134,
+		"work_display_title": null
+	},
+	{
+		"id": 1259,
+		"title": "Tant aimée, jamais payée",
+		"translators": [
+			122
+		],
+		"work": 135,
+		"work_display_title": null
+	},
+	{
+		"id": 1260,
+		"title": "Répresentation au tribunal pénal régional",
+		"translators": [
+			122
+		],
+		"work": 136,
+		"work_display_title": null
+	},
+	{
+		"id": 1261,
+		"title": "Ernestine contre Lucie",
+		"translators": [
+			122
+		],
+		"work": 137,
+		"work_display_title": null
+	},
+	{
+		"id": 1262,
+		"title": "Paris",
+		"translators": [
+			123
+		],
+		"work": 138,
+		"work_display_title": null
+	},
+	{
+		"id": 1263,
+		"title": "Délire de persécution",
+		"translators": [
+			123
+		],
+		"work": 139,
+		"work_display_title": null
+	},
+	{
+		"id": 1264,
+		"title": "Deux lettres (1960-1963) à Annemarie Hammerstein-Siller",
+		"translators": [
+			123
+		],
+		"work": 140,
+		"work_display_title": null
+	},
+	{
+		"id": 1265,
+		"title": "Telegramme du 30 Novembre 1960 à Michael Guttenbrunner",
+		"translators": [
+			123
+		],
+		"work": 141,
+		"work_display_title": null
+	},
+	{
+		"id": 1266,
+		"title": "Une lettre tirée d'un drame",
+		"translators": [
+			123
+		],
+		"work": 142,
+		"work_display_title": null
+	},
+	{
+		"id": 1267,
+		"title": "Un printemps",
+		"translators": [
+			123
+		],
+		"work": 104,
+		"work_display_title": null
+	},
+	{
+		"id": 1268,
+		"title": "Un imposteur à la campagne",
+		"translators": [
+			123
+		],
+		"work": 143,
+		"work_display_title": null
+	},
+	{
+		"id": 1269,
+		"title": "En tant qu'administrateur de l'asile",
+		"translators": [
+			123
+		],
+		"work": 144,
+		"work_display_title": null
+	},
+	{
+		"id": 1270,
+		"title": "La femme de la fonderie et l'homme avec le sac à dos",
+		"translators": [
+			123
+		],
+		"work": 163,
+		"work_display_title": null
+	},
+	{
+		"id": 1271,
+		"title": "Lettre à Claus Peymann",
+		"translators": [
+			97
+		],
+		"work": 146,
+		"work_display_title": null
+	},
+	{
+		"id": 1272,
+		"title": "À Rome",
+		"translators": [
+			105
+		],
+		"work": 147,
+		"work_display_title": null
+	},
+	{
+		"id": 1273,
+		"title": "Déclaration",
+		"translators": [
+			122
+		],
+		"work": 148,
+		"work_display_title": null
+	},
+	{
+		"id": 1274,
+		"title": "Correspondance. Extraits. Thomas Bernhard et Siegfried Unseld",
+		"translators": [
+			123
+		],
+		"work": 149,
+		"work_display_title": null
+	},
+	{
+		"id": 1275,
+		"title": "Unseld",
+		"translators": [
+			123
+		],
+		"work": 150,
+		"work_display_title": null
+	},
+	{
+		"id": 1276,
+		"title": "Le celebrità",
+		"translators": [
+			201
+		],
+		"work": 26,
+		"work_display_title": null
+	},
+	{
+		"id": 1277,
+		"title": "Su tutte le vette è pace",
+		"translators": [
+			201
+		],
+		"work": 40,
+		"work_display_title": null
+	},
+	{
+		"id": 1278,
+		"title": "Piazza degli Eroi",
+		"translators": [
+			201
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1279,
+		"title": "Il pranzo tedesco",
+		"translators": [
+			201
+		],
+		"work": 50,
+		"work_display_title": null
+	},
+	{
+		"id": 1280,
+		"title": "Un morto",
+		"translators": [
+			197
+		],
+		"work": 65,
+		"work_display_title": null
+	},
+	{
+		"id": 1281,
+		"title": "Funzione di maggio",
+		"translators": [
+			197
+		],
+		"work": 66,
+		"work_display_title": null
+	},
+	{
+		"id": 1282,
+		"title": "Gelati",
+		"translators": [
+			201
+		],
+		"work": 69,
+		"work_display_title": null
+	},
+	{
+		"id": 1283,
+		"title": "Assoluzione",
+		"translators": [
+			201
+		],
+		"work": 68,
+		"work_display_title": null
+	},
+	{
+		"id": 1284,
+		"title": "Tutto o niente",
+		"translators": [
+			201
+		],
+		"work": 70,
+		"work_display_title": null
+	},
+	{
+		"id": 1285,
+		"title": "Match",
+		"translators": [
+			197
+		],
+		"work": 67,
+		"work_display_title": null
+	},
+	{
+		"id": 1286,
+		"title": "Claus Peymann lascia Bochum e si trasferisce a Vienna a direttore del Burgtheater",
+		"translators": [
+			201
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 1287,
+		"title": "Claus Peymann si compra un paio di pantaloni e viene a mangiare con me",
+		"translators": [
+			201
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 1288,
+		"title": "Claus Peymann e Hermann Beil sulla Sulzwiese",
+		"translators": [
+			201
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 1289,
+		"title": "Ritter, Dene, Voss",
+		"translators": [
+			203
+		],
+		"work": 58,
+		"work_display_title": null
+	},
+	{
+		"id": 1290,
+		"title": "推敲",
+		"translators": [
+			216
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1291,
+		"title": "昏乱",
+		"translators": [
+			217
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1292,
+		"title": "연극쟁이",
+		"translators": [
+			249
+		],
+		"work": 43,
+		"work_display_title": null
+	},
+	{
+		"id": 1293,
+		"title": "Kalkinė",
+		"translators": [
+			258
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 1294,
+		"title": "Watten. Een nalatenschap",
+		"translators": [
+			273
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 1295,
+		"title": "De kelder. En onttrekking",
+		"translators": [
+			273
+		],
+		"work": 27,
+		"work_display_title": null
+	},
+	{
+		"id": 1296,
+		"title": "De adem. Een besluit",
+		"translators": [
+			273
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 1297,
+		"title": "De kou. Een isolement",
+		"translators": [
+			273
+		],
+		"work": 36,
+		"work_display_title": null
+	},
+	{
+		"id": 1298,
+		"title": "Een kind",
+		"translators": [
+			273
+		],
+		"work": 41,
+		"work_display_title": null
+	},
+	{
+		"id": 1299,
+		"title": "استادان بزرگ",
+		"translators": [
+			287
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1300,
+		"title": "Plac Bohaterów",
+		"translators": [
+			306
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1301,
+		"title": "Опубликованные стихотворения",
+		"translators": [
+			342
+		],
+		"work": 108,
+		"work_display_title": null
+	},
+	{
+		"id": 1302,
+		"title": "Krečana",
+		"translators": [
+			349
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 1303,
+		"title": "Ave Vergilius",
+		"translators": [
+			385
+		],
+		"work": 37,
+		"work_display_title": null
+	},
+	{
+		"id": 1304,
+		"title": "Amras",
+		"translators": [
+			385
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1305,
+		"title": "Ungenach",
+		"translators": [
+			385
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 1306,
+		"title": "Watten",
+		"translators": [
+			385
+		],
+		"work": 13,
+		"work_display_title": null
+	},
+	{
+		"id": 1307,
+		"title": "Billigäterna",
+		"translators": [
+			385
+		],
+		"work": 35,
+		"work_display_title": null
+	},
+	{
+		"id": 1308,
+		"title": "Wittgenstein'in qardaşı oğlu. Bir dostluğun hekayäsi",
+		"translators": [],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1309,
+		"title": "Derrubar árvores. Uma irritação",
+		"translators": [
+			5
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1310,
+		"title": "Умираштият Гьоте",
+		"translators": [
+			20
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1311,
+		"title": "Монтен. Разказ",
+		"translators": [
+			20
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1312,
+		"title": "Виждане",
+		"translators": [
+			20
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1313,
+		"title": "В пламъци. Пътепис до някогашен приятел",
+		"translators": [
+			20
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1314,
+		"title": "Ungenach",
+		"translators": [
+			61
+		],
+		"work": 79,
+		"work_display_title": null
+	},
+	{
+		"id": 1315,
+		"title": "The Weatherproof Cape",
+		"translators": [
+			61
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1316,
+		"title": "Midland in Stilfs",
+		"translators": [
+			61
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1317,
+		"title": "At the Ortler",
+		"translators": [
+			61
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1318,
+		"title": "At the Timberline",
+		"translators": [
+			61
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1319,
+		"title": "Metsaraiumine. Erutus",
+		"translators": [
+			93
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1320,
+		"title": "დაღმამავალი",
+		"translators": [
+			135
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1321,
+		"title": "Βαδίζοντας",
+		"translators": [
+			149
+		],
+		"work": 18,
+		"work_display_title": null
+	},
+	{
+		"id": 1322,
+		"title": "כן",
+		"translators": [
+			167
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1323,
+		"title": "樵る. 激情",
+		"translators": [
+			215
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1324,
+		"title": "Uitwissing. Een verval",
+		"translators": [
+			269
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 1325,
+		"title": "Beton",
+		"translators": [
+			273
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1326,
+		"title": "De oorzaak. Een benadering",
+		"translators": [
+			273
+		],
+		"work": 23,
+		"work_display_title": null
+	},
+	{
+		"id": 1327,
+		"title": "مقلد صدا",
+		"translators": [
+			286
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 1328,
+		"title": "Geada",
+		"translators": [
+			319
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1329,
+		"title": "Stari majstori. Komedija (Mahler)",
+		"translators": [
+			349
+		],
+		"work": 55,
+		"work_display_title": null
+	},
+	{
+		"id": 1330,
+		"title": "V višavah",
+		"translators": [
+			362
+		],
+		"work": 86,
+		"work_display_title": "In der Höhe"
+	},
+	{
+		"id": 1331,
+		"title": "Amras",
+		"translators": [
+			362
+		],
+		"work": 6,
+		"work_display_title": null
+	},
+	{
+		"id": 1332,
+		"title": "Italijan",
+		"translators": [
+			362
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1333,
+		"title": "Kulterer",
+		"translators": [
+			362
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1334,
+		"title": "Röstimitatören",
+		"translators": [
+			385
+		],
+		"work": 29,
+		"work_display_title": null
+	},
+	{
+		"id": 1335,
+		"title": "Claus Peymann lämnar Bochum och åker till Wien som Burgtheaterchef",
+		"translators": [
+			388
+		],
+		"work": 71,
+		"work_display_title": null
+	},
+	{
+		"id": 1336,
+		"title": "Claus Peymann köper sig ett par byxor och går ut med mig och äter",
+		"translators": [
+			388
+		],
+		"work": 51,
+		"work_display_title": null
+	},
+	{
+		"id": 1337,
+		"title": "Claus Peymann och Hermann Beil på Sulzwiese",
+		"translators": [
+			388
+		],
+		"work": 72,
+		"work_display_title": null
+	},
+	{
+		"id": 1338,
+		"title": "Boris İçin Bir Şölen",
+		"translators": [
+			389
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 1339,
+		"title": "Av Meclisi",
+		"translators": [
+			389
+		],
+		"work": 20,
+		"work_display_title": null
+	},
+	{
+		"id": 1340,
+		"title": "Minetti. Sanatçının Yaşlı Bir Adam Olarak Portresi",
+		"translators": [
+			389
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1341,
+		"title": "Beton",
+		"translators": [],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1342,
+		"title": "Sarsıntı",
+		"translators": [],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1343,
+		"title": "Sim",
+		"translators": [
+			5
+		],
+		"work": 30,
+		"work_display_title": null
+	},
+	{
+		"id": 1344,
+		"title": "Ärakustutamine. Lagu",
+		"translators": [
+			92
+		],
+		"work": 46,
+		"work_display_title": null
+	},
+	{
+		"id": 1345,
+		"title": "ძველი ოსტატები",
+		"translators": [
+			135
+		],
+		"work": 45,
+		"work_display_title": null
+	},
+	{
+		"id": 1346,
+		"title": "息. 一つの決断",
+		"translators": [
+			220
+		],
+		"work": 32,
+		"work_display_title": null
+	},
+	{
+		"id": 1347,
+		"title": "Tala. Una exaltació",
+		"translators": [
+			225
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1348,
+		"title": "Goethe sterft",
+		"translators": [
+			269
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1349,
+		"title": "Montaigne. Een vertelling",
+		"translators": [
+			269
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1350,
+		"title": "Weerzien",
+		"translators": [
+			269
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1351,
+		"title": "In vlammen opgegaan. Reisverslag aan een vroegere vriend",
+		"translators": [
+			269
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1352,
+		"title": "Correctie",
+		"translators": [
+			273
+		],
+		"work": 25,
+		"work_display_title": null
+	},
+	{
+		"id": 1353,
+		"title": "Бетон",
+		"translators": [
+			340,
+			341
+		],
+		"work": 39,
+		"work_display_title": null
+	},
+	{
+		"id": 1354,
+		"title": "Goethe döör",
+		"translators": [
+			385
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1355,
+		"title": "Montaigne",
+		"translators": [
+			385
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1356,
+		"title": "Återseende",
+		"translators": [
+			385
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1357,
+		"title": "Förtärt i lågor",
+		"translators": [
+			385
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1358,
+		"title": "Vid trädgrensen",
+		"translators": [
+			385
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1359,
+		"title": "Kulterer",
+		"translators": [
+			385
+		],
+		"work": 22,
+		"work_display_title": null
+	},
+	{
+		"id": 1360,
+		"title": "Italienaren",
+		"translators": [
+			385
+		],
+		"work": 15,
+		"work_display_title": null
+	},
+	{
+		"id": 1361,
+		"title": "Midland i Stilfs",
+		"translators": [
+			385
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1362,
+		"title": "Regncapen",
+		"translators": [
+			385
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1363,
+		"title": "På Ortler",
+		"translators": [
+			385
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1364,
+		"title": "Tilldragelser",
+		"translators": [
+			385
+		],
+		"work": 52,
+		"work_display_title": "Ereignisse (Exzerpt)"
+	},
+	{
+		"id": 1365,
+		"title": "–ett möte. Samtal med Krista Fleischmann",
+		"translators": [
+			385
+		],
+		"work": 117,
+		"work_display_title": null
+	},
+	{
+		"id": 1366,
+		"title": "Innsbrucklu Bir Bakkal Oğlunun Suçu",
+		"translators": [
+			391
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 1367,
+		"title": "Marangoz",
+		"translators": [
+			391
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 1368,
+		"title": "Jauregg",
+		"translators": [
+			391
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 1369,
+		"title": "İki Eğitmen",
+		"translators": [
+			391
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 1370,
+		"title": "Kasket",
+		"translators": [
+			391
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 1371,
+		"title": "Komedi mi? Trajedi mi?",
+		"translators": [
+			391
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 1372,
+		"title": "Viktor Yarıkaçık",
+		"translators": [
+			391
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 1373,
+		"title": "Fransız Büyükelçiliği’nde Ataşe",
+		"translators": [
+			391
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 1374,
+		"title": "Orman Sınırında",
+		"translators": [
+			391
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1375,
+		"title": "Midland Stilfs’te",
+		"translators": [
+			391
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1376,
+		"title": "Pelerin",
+		"translators": [
+			391
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1377,
+		"title": "Ortler’in Eteğinde",
+		"translators": [
+			391
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1378,
+		"title": "Verstoring",
+		"translators": [
+			269
+		],
+		"work": 9,
+		"work_display_title": null
+	},
+	{
+		"id": 1380,
+		"title": "De neef van Wittgenstein. Een vriendschap",
+		"translators": [
+			273
+		],
+		"work": 38,
+		"work_display_title": null
+	},
+	{
+		"id": 1381,
+		"title": "À la suite d’un orage",
+		"translators": [
+			101
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 1383,
+		"title": "Un inconnu",
+		"translators": [
+			101
+		],
+		"work": 52,
+		"work_display_title": null
+	},
+	{
+		"id": 1384,
+		"title": "沉落者",
+		"translators": [
+			22
+		],
+		"work": 42,
+		"work_display_title": null
+	},
+	{
+		"id": 1385,
+		"title": "伐木: 一场情感波澜",
+		"translators": [
+			22
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1386,
+		"title": "Ο Γκαίτε πεθένει",
+		"translators": [
+			410
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1387,
+		"title": "Μοντέν. Μια αφήγηση",
+		"translators": [
+			410
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1388,
+		"title": "Αντάμωμα",
+		"translators": [
+			410
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1389,
+		"title": "Τυλίχτηκε στις φλόγες. Ταξιδιωτικές εντυπώσεις προς κάποιον παλιό φίλο",
+		"translators": [
+			410
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1390,
+		"title": "Ο Πρόεδρος",
+		"translators": [
+			412
+		],
+		"work": 24,
+		"work_display_title": null
+	},
+	{
+		"id": 1391,
+		"title": "Μινέττι. Πορτρέτο του καλλιτέχνη σε γεροντική ηλικία",
+		"translators": [
+			412
+		],
+		"work": 28,
+		"work_display_title": null
+	},
+	{
+		"id": 1392,
+		"title": "Skógarhögg. Geðshræring",
+		"translators": [
+			184
+		],
+		"work": 44,
+		"work_display_title": null
+	},
+	{
+		"id": 1393,
+		"title": "کتاب میدان دلاوران",
+		"translators": [
+			414
+		],
+		"work": 49,
+		"work_display_title": null
+	},
+	{
+		"id": 1394,
+		"title": "Na pista da verdade. Discursos, cartas, entrevistas e artigos",
+		"translators": [
+			5
+		],
+		"work": 54,
+		"work_display_title": null
+	},
+	{
+		"id": 1395,
+		"title": "Immanuel Kant",
+		"translators": [
+			415,
+			417
+		],
+		"work": 31,
+		"work_display_title": null
+	},
+	{
+		"id": 1396,
+		"title": "Uma festa para Boris",
+		"translators": [
+			418,
+			419
+		],
+		"work": 16,
+		"work_display_title": null
+	},
+	{
+		"id": 1397,
+		"title": "یخبندان",
+		"translators": [
+			296
+		],
+		"work": 5,
+		"work_display_title": null
+	},
+	{
+		"id": 1398,
+		"title": "الیزابت دوم",
+		"translators": [
+			414
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 1399,
+		"title": "Elisabeth II",
+		"translators": [
+			385
+		],
+		"work": 48,
+		"work_display_title": null
+	},
+	{
+		"id": 1400,
+		"title": "石灰工場",
+		"translators": [
+			216
+		],
+		"work": 17,
+		"work_display_title": null
+	},
+	{
+		"id": 1401,
+		"title": "Dwaj wychowawcy",
+		"translators": [
+			420
+		],
+		"work": 82,
+		"work_display_title": null
+	},
+	{
+		"id": 1402,
+		"title": "Czapka",
+		"translators": [
+			299
+		],
+		"work": 10,
+		"work_display_title": null
+	},
+	{
+		"id": 1403,
+		"title": "Czy to komedia? Czy to tragedia?",
+		"translators": [
+			423
+		],
+		"work": 11,
+		"work_display_title": null
+	},
+	{
+		"id": 1404,
+		"title": "Jauregg",
+		"translators": [
+			424
+		],
+		"work": 7,
+		"work_display_title": null
+	},
+	{
+		"id": 1405,
+		"title": "Attaché przy ambasadzie Francji",
+		"translators": [
+			425
+		],
+		"work": 83,
+		"work_display_title": null
+	},
+	{
+		"id": 1406,
+		"title": "Zbrodnia syna pewnego kupca z Innsbrucku",
+		"translators": [
+			426
+		],
+		"work": 80,
+		"work_display_title": null
+	},
+	{
+		"id": 1407,
+		"title": "Cieśla",
+		"translators": [
+			427
+		],
+		"work": 81,
+		"work_display_title": null
+	},
+	{
+		"id": 1408,
+		"title": "Na granicy drzew",
+		"translators": [
+			298
+		],
+		"work": 12,
+		"work_display_title": null
+	},
+	{
+		"id": 1409,
+		"title": "Midland w Stilfs",
+		"translators": [
+			428
+		],
+		"work": 84,
+		"work_display_title": null
+	},
+	{
+		"id": 1410,
+		"title": "Peleryna",
+		"translators": [
+			429
+		],
+		"work": 14,
+		"work_display_title": null
+	},
+	{
+		"id": 1411,
+		"title": "U stóp Ortlera",
+		"translators": [
+			430
+		],
+		"work": 85,
+		"work_display_title": null
+	},
+	{
+		"id": 1412,
+		"title": "Wiosna",
+		"translators": [
+			431
+		],
+		"work": 104,
+		"work_display_title": null
+	},
+	{
+		"id": 1413,
+		"title": "Zeznanie świadka",
+		"translators": [
+			432
+		],
+		"work": 101,
+		"work_display_title": null
+	},
+	{
+		"id": 1414,
+		"title": "Młody pisarz",
+		"translators": [
+			433
+		],
+		"work": 120,
+		"work_display_title": null
+	},
+	{
+		"id": 1415,
+		"title": "Wiktor Niespełna",
+		"translators": [
+			312
+		],
+		"work": 8,
+		"work_display_title": null
+	},
+	{
+		"id": 1416,
+		"title": "Uspokojenie",
+		"translators": [
+			434
+		],
+		"work": 162,
+		"work_display_title": null
+	},
+	{
+		"id": 1417,
+		"title": "Wiejski oszust",
+		"translators": [
+			435
+		],
+		"work": 143,
+		"work_display_title": null
+	},
+	{
+		"id": 1418,
+		"title": "Administrator zakładu opiekuńczego",
+		"translators": [
+			436
+		],
+		"work": 144,
+		"work_display_title": null
+	},
+	{
+		"id": 1419,
+		"title": "Kobieta z odlewni i mężczyzna z plecakiem",
+		"translators": [
+			437
+		],
+		"work": 163,
+		"work_display_title": null
+	},
+	{
+		"id": 1420,
+		"title": "Na równi",
+		"translators": [
+			438
+		],
+		"work": 164,
+		"work_display_title": null
+	},
+	{
+		"id": 1421,
+		"title": "Goethe umira",
+		"translators": [
+			439
+		],
+		"work": 73,
+		"work_display_title": null
+	},
+	{
+		"id": 1422,
+		"title": "Montaigne",
+		"translators": [
+			440
+		],
+		"work": 74,
+		"work_display_title": null
+	},
+	{
+		"id": 1423,
+		"title": "Spotkanie",
+		"translators": [
+			441
+		],
+		"work": 75,
+		"work_display_title": null
+	},
+	{
+		"id": 1424,
+		"title": "W płomieniach",
+		"translators": [
+			433
+		],
+		"work": 76,
+		"work_display_title": null
+	},
+	{
+		"id": 1425,
+		"title": "Czerwone światło",
+		"translators": [
+			435
+		],
+		"work": 87,
+		"work_display_title": null
+	},
+	{
+		"id": 1426,
+		"title": "Osadnicy",
+		"translators": [
+			431
+		],
+		"work": 88,
+		"work_display_title": null
+	},
+	{
+		"id": 1427,
+		"title": "Popołudnie w wielkim mieście",
+		"translators": [
+			440
+		],
+		"work": 89,
+		"work_display_title": null
+	},
+	{
+		"id": 1428,
+		"title": "O siedem jodłach i śniegu",
+		"translators": [
+			442
+		],
+		"work": 90,
+		"work_display_title": null
+	},
+	{
+		"id": 1429,
+		"title": "Szalona Magdalena",
+		"translators": [
+			443
+		],
+		"work": 91,
+		"work_display_title": null
+	},
+	{
+		"id": 1430,
+		"title": "Ostatnia wola",
+		"translators": [
+			443
+		],
+		"work": 165,
+		"work_display_title": null
+	},
+	{
+		"id": 1431,
+		"title": "Przytułek St. Laurin",
+		"translators": [
+			444
+		],
+		"work": 93,
+		"work_display_title": null
+	},
+	{
+		"id": 1432,
+		"title": "Wielki, niepojęty głód",
+		"translators": [
+			442
+		],
+		"work": 94,
+		"work_display_title": null
+	},
+	{
+		"id": 1433,
+		"title": "Zimowy dzień w Alpach",
+		"translators": [
+			445
+		],
+		"work": 95,
+		"work_display_title": null
+	},
+	{
+		"id": 1434,
+		"title": "Zmierzch Zachodu",
+		"translators": [
+			444
+		],
+		"work": 96,
+		"work_display_title": null
+	},
+	{
+		"id": 1435,
+		"title": "Matczyny krajobraz",
+		"translators": [
+			446
+		],
+		"work": 97,
+		"work_display_title": null
+	},
+	{
+		"id": 1436,
+		"title": "Starszy mężczyzna o imieniem August",
+		"translators": [
+			447
+		],
+		"work": 98,
+		"work_display_title": null
+	},
+	{
+		"id": 1437,
+		"title": "O jednym takim, co wyruszył poznawać świat",
+		"translators": [
+			448
+		],
+		"work": 99,
+		"work_display_title": null
+	},
+	{
+		"id": 1438,
+		"title": "Świniopas",
+		"translators": [
+			306
+		],
+		"work": 100,
+		"work_display_title": null
+	},
+	{
+		"id": 1441,
+		"title": "Andar",
+		"translators": [
+			450
+		],
+		"work": 18,
+		"work_display_title": null
+	}
+]
