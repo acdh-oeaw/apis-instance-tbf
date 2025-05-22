@@ -59,21 +59,21 @@ whitenoise = ">=5.2,<7.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.45.1"
+version = "0.47.1"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_core_rdf-0.45.1-py3-none-any.whl", hash = "sha256:dd5ca6d921dbb4630cf7cf35770c5398065e854f3b2207807be2e280ff304c5b"},
-    {file = "apis_core_rdf-0.45.1.tar.gz", hash = "sha256:21f41829e239db5b92a9887e76a68833f2d1314d591bebc69cfae2aca0ad091b"},
+    {file = "apis_core_rdf-0.47.1-py3-none-any.whl", hash = "sha256:cf6ad3c90c6a02bd8289a7dfcfc561d0d00af1d2196be9367e052635e76f07e5"},
+    {file = "apis_core_rdf-0.47.1.tar.gz", hash = "sha256:4ae9ad4b218942fed6ccb2c75dc084de180d9f7b7c890182213d7e4d4200254c"},
 ]
 
 [package.dependencies]
 acdh-arche-assets = ">=3.21.1,<=4.0"
 crispy-bootstrap4 = ">=2023.1,<2025.0"
 crispy-bootstrap5 = ">=2024.10"
-django = ">=5.1,<5.2"
+django = ">=5.1,<5.3"
 django-autocomplete-light = ">=3.9.4,<3.12.0"
 django-crispy-forms = ">=2,<3.0"
 django-crum = ">=0.7.9,<8.0"
@@ -83,7 +83,7 @@ django-simple-history = ">=3.6"
 django-tables2 = ">=2.3.3,<3.0"
 djangorestframework = ">=3.14.0,<4.0"
 drf-spectacular = ">=0.26.1,<0.29.0"
-pydot = ">=3.0.2,<4.0"
+pydot = ">=3.0.2,<5.0"
 rdflib = ">=6.0.2,<8.0.0"
 requests = ">=2.25.0,<3.0"
 tablib = ">=3.8.0,<=4.0"
@@ -2570,4 +2570,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "47f14504d9c31df776e38a8ba8544edaeae8dd4ba4cf0819311112b53e4f209f"
+content-hash = "252eef2aec791762223d6afedd60cce8b6755d2b9c32c9b0f222d2c02f77d23e"
