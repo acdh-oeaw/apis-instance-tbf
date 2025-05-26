@@ -12,6 +12,7 @@
 # Python-specific
 .*.pyc
 __pycache__/
+*.mo
 
 # publishing
 dist
