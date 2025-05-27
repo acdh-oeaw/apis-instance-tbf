@@ -73,3 +73,7 @@ DJANGO_TABLES2_TABLE_ATTRS = {
 
 # APIS-specific settings
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
+
+
+# Custom project variables
+RDF_CONFIGS_DIR = "triple_configs"
