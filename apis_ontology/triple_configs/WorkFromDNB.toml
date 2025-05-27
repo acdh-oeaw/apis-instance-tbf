@@ -1,22 +1,9 @@
-#####################################################
-# Create Work from a d-nb.info RDF endpoint         #
-#####################################################
-superclass = "apis_ontology.models.Work"
-[[attributes]]
-# title
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?title
-WHERE {
-  ?subject gndo:preferredNameForTheWork ?title
-}
-"""
-[[attributes]]
-# author
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT DISTINCT ?author
-WHERE {
-  ?subject gndo:firstAuthor ?author
-}
-"""
+# create Work object from GND endpoint
+[[filters]]
+"rdf:type" = "gndo:Work"
+
+[attributes]
+title = ["gndo:preferredNameForTheWork"]
+
+[relations]
+"apis_ontology.personisauthorofwork" = { curies = "gndo:firstAuthor", subj = "apis_ontology.person" }
