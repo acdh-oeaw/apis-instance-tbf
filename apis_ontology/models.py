@@ -209,9 +209,6 @@ class Place(BaseEntity, E53_Place):
     class Meta(E53_Place.Meta):
         pass
 
-    def __str__(self):
-        return self.label
-
 
 class Group(BaseEntity, E74_Group):
     """
@@ -228,9 +225,6 @@ class Group(BaseEntity, E74_Group):
 
     class Meta(E74_Group.Meta):
         pass
-
-    def __str__(self):
-        return self.label
 
 
 class Event(BaseEntity):
