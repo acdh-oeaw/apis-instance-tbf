@@ -1,55 +1,10 @@
-#################################################
-# Create an Event from GND                      #
-#################################################
-superclass = "apis_ontology.models.Event"
-regex = "https://d-nb.info.*"
-[[attributes]]
-# name
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?name
-WHERE {
-  ?subject a gndo:HistoricSingleEventOrEra ;
-           gndo:preferredNameForTheSubjectHeading ?name .
-}
-"""
-[[attributes]]
-# name
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?name
-WHERE {
-  ?subject a gndo:ConferenceOrEvent ;
-           gndo:preferredNameForTheConferenceOrEvent ?name .
-}
-"""
-[[attributes]]
-# start_date_written
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?start_date_written
-WHERE {
-  ?subject a gndo:HistoricSingleEventOrEra ;
-           gndo:dateOfProduction ?start_date_written .
-}
-"""
-[[attributes]]
-# start_date_written
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?start_date_written
-WHERE {
-  ?subject a gndo:ConferenceOrEvent ;
-           gndo:dateOfConferenceOrEvent ?start_date_written .
-}
-"""
-[[attributes]]
-# related_place
-sparql = """
-PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
-SELECT ?relatedPlace__Place__FandStattIn
-WHERE {
-  ?subject a gndo:HistoricSingleEventOrEra ;
-           gndo:place ?relatedPlace__Place__FandStattIn .
-}
-"""
+# create Event object from GND endpoint
+[[filters]]
+"rdf:type" = "gndo:HistoricSingleEventOrEra"
+
+[[filters]]
+"rdf:type" = "gndo:ConferenceOrEvent"
+
+[attributes]
+label = ["gndo:preferredNameForTheSubjectHeading", "gndo:preferredNameForTheConferenceOrEvent", "gndo:dateOfEstablishment"]
+date_range = ["gndo:dateOfProduction", "gndo:dateOfConferenceOrEvent"]
