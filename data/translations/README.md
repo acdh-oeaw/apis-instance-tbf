@@ -88,4 +88,3 @@ interface Asset {
 	metadata?: string;
 }
 ```
-
