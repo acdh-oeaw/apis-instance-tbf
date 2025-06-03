@@ -284,6 +284,12 @@ class Event(BaseEntity):
     def __str__(self):
         return self.label
 
+    @classmethod
+    def rdf_configs(cls):
+        return [
+            Path(__file__).parent / tomls / "EventFromDNB.toml",
+        ]
+
 
 class Performance(BaseEntity):
     """
