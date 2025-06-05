@@ -1,16 +1,11 @@
-from pathlib import Path
-
 from apis_core.apis_entities.abc import E21_Person, E53_Place, E74_Group
 from apis_core.apis_entities.models import AbstractEntity
 from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
-from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.utils.translation import pgettext_lazy
 from django_interval.fields import FuzzyDateParserField
-
-tomls = getattr(settings, "RDF_CONFIGS_DIR", "")
 
 
 class BaseEntity(VersionMixin, AbstractEntity):
@@ -85,9 +80,9 @@ class Work(TitlesMixin, BaseEntity):
 
     @classmethod
     def rdf_configs(cls):
-        return [
-            Path(__file__).parent / tomls / "WorkFromDNB.toml",
-        ]
+        return {
+            "https://d-nb.info/*|/.*.rdf": "WorkFromDNB.toml",
+        }
 
 
 class Expression(TitlesMixin, BaseEntity):
@@ -286,9 +281,9 @@ class Event(BaseEntity):
 
     @classmethod
     def rdf_configs(cls):
-        return [
-            Path(__file__).parent / tomls / "EventFromDNB.toml",
-        ]
+        return {
+            "https://d-nb.info/*|/.*.rdf": "EventFromDNB.toml",
+        }
 
 
 class Performance(BaseEntity):
