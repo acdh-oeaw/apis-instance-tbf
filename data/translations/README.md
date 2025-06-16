@@ -2,9 +2,13 @@
 
 Data dump of [Thomas Bernhard in Translation](https://thomas-bernhard-translation.acdh.oeaw.ac.at/en/search) as of 2025-05-20, currently served from a Typesense database.
 
-Original data ingest from OpenRefine, with some further additions and changes entered through Baserow (however this dataset is *not* just a dump of the Baserow data, since Baserow does not preserve the ordering of 1:n relationships, e.g. it cannot represent variable orderings of translations between different works, see the data processing scripts [here](https://github.com/acdh-oeaw/thomas-bernhard-in-translation/tree/develop/scripts)).
+Original data ingest from OpenRefine, with some further additions and changes entered through Baserow.
 
-The numeric `id`s of publications, translations and underlying Thomas Bernhard works are newly created primary keys for the Thomas Bernhard in Translation website and are used in the website urls, so they should be preserved. Translator `id`s are not currently exposed to the public.
+Note that the dataset is *not* just a dump of the Baserow data, since Baserow does not preserve the ordering of 1:n relationships, e.g. it cannot represent variable orderings of translations between different works. See [data processing scripts](https://github.com/acdh-oeaw/thomas-bernhard-in-translation/tree/develop/scripts) in [thomas-bernhard-in-translation](https://github.com/acdh-oeaw/thomas-bernhard-in-translation/tree/develop/scripts).
+
+The numeric `ids` of publications, translations and underlying Thomas Bernhard works are newly created primary keys for the Thomas Bernhard in Translation website and are used in the website urls, so they should be preserved. Translator `ids` are not currently exposed to the public.
+
+The following is a copy of [`models.ts`](https://github.com/acdh-oeaw/thomas-bernhard-in-translation/blob/8a15432789cf3f800caff644dc324cb02687d40a/lib/model.ts#L9), which has inline comments which document the individual variables (partially adapted here for readability):
 
 ```typescript
 export const otherCategories = ["drama", "poetry", "other", "adaptations"] as const;
