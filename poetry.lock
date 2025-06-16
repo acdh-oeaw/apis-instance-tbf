@@ -51,19 +51,19 @@ trio = ["trio (>=0.26.1)"]
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.9.0"
+version = "2.10.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_acdhch_default_settings-2.9.0-py3-none-any.whl", hash = "sha256:ad7c660f9abb084421292f86aa7934ad6ad014644120bed9e0238789a29a4856"},
-    {file = "apis_acdhch_default_settings-2.9.0.tar.gz", hash = "sha256:a93122dd4225c0bc511e366067aec3eb61859b8008ea1cc1d9ced11f7ee6a224"},
+    {file = "apis_acdhch_default_settings-2.10.0-py3-none-any.whl", hash = "sha256:8204d6b5c5ec8b3c3bcd47dc524ebf280f8954ce0e0e882b558ef46f8214c9c6"},
+    {file = "apis_acdhch_default_settings-2.10.0.tar.gz", hash = "sha256:e904a54471c166441d1e8d09b4bfb52fd204fb46534ce61a210bc7f1da21f4f0"},
 ]
 
 [package.dependencies]
 apis-core-rdf = ">=0.40.0"
-dj-database-url = ">=2.0.0,<3.0"
+dj-database-url = ">=2.0.0,<4.0"
 django = ">=5"
 django-allow-cidr = ">=0.6,<0.8"
 django-auth-ldap = ">=4.6.0,<6.0"
@@ -2663,4 +2663,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "2a161671a18cc1fd64b764ec965220a6141947ba3b42400a84121c7a57a81eac"
+content-hash = "424bb6f9e8ed1ed67185478cd05565af94e032bb0fda783c72af469facfe5d15"
