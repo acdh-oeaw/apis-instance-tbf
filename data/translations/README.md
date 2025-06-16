@@ -68,7 +68,7 @@ export interface Translation {
 export interface BernhardWork {
 	id: number;
 
-	// canonical title of the german/french original
+	// canonical title of the German/French original
 	title: string;
 
 	// abbreviated title, commonly used for letters/speeches
