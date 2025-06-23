@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-13 10:13+0200\n"
+"POT-Creation-Date: 2025-06-23 10:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language: German \n"
@@ -172,6 +172,10 @@ msgstr "Plakat"
 #: apis_ontology/models.py
 msgid "posters"
 msgstr "Plakate"
+
+#: apis_ontology/settings.py
+msgid "German"
+msgstr "Deutsch"
 
 #: apis_ontology/tables.py
 msgid "forename"
