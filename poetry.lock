@@ -51,21 +51,23 @@ trio = ["trio (>=0.26.1)"]
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.10.0"
+version = "2.11.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_acdhch_default_settings-2.10.0-py3-none-any.whl", hash = "sha256:8204d6b5c5ec8b3c3bcd47dc524ebf280f8954ce0e0e882b558ef46f8214c9c6"},
-    {file = "apis_acdhch_default_settings-2.10.0.tar.gz", hash = "sha256:e904a54471c166441d1e8d09b4bfb52fd204fb46534ce61a210bc7f1da21f4f0"},
+    {file = "apis_acdhch_default_settings-2.11.0-py3-none-any.whl", hash = "sha256:921adc977879ad82a95055fed261f015c256c3cde3a4fee44336cd825f080e3f"},
+    {file = "apis_acdhch_default_settings-2.11.0.tar.gz", hash = "sha256:617f4c44b8427022e674b4dea5d8e6b5742a97847f1d2c38157b239182a406a9"},
 ]
 
 [package.dependencies]
+apis-acdhch-django-auditlog = ">=0.2.1"
 apis-core-rdf = ">=0.40.0"
 dj-database-url = ">=2.0.0,<4.0"
 django = ">=5"
 django-allow-cidr = ">=0.6,<0.8"
+django-auditlog = ">=3.1.2"
 django-auth-ldap = ">=4.6.0,<6.0"
 django-csp = ">=3.7,<4.0"
 django-removals = ">=1.0.5,<=2.0"
@@ -78,6 +80,22 @@ opentelemetry-instrumentation-psycopg2 = "*"
 opentelemetry-instrumentation-wsgi = "*"
 requests = ">=2"
 whitenoise = ">=5.2,<7.0"
+
+[[package]]
+name = "apis-acdhch-django-auditlog"
+version = "0.2.1"
+description = "Django auditlog integration for ACDHCH APIS instances"
+optional = false
+python-versions = ">=3.11"
+groups = ["main"]
+files = [
+    {file = "apis_acdhch_django_auditlog-0.2.1-py3-none-any.whl", hash = "sha256:73b09c53c61474285182de62667b6d28f6f4ea6356d36e8782c4af0a65fa8552"},
+    {file = "apis_acdhch_django_auditlog-0.2.1.tar.gz", hash = "sha256:513f2a54dee0fbd8bf09ae0a66652a6e2749dfced9c32a109946325a96f4f21a"},
+]
+
+[package.dependencies]
+django = ">=5"
+django-auditlog = ">=3.0.0"
 
 [[package]]
 name = "apis-core-rdf"
@@ -466,6 +484,22 @@ files = [
 [package.dependencies]
 Django = ">=2.2"
 packaging = "*"
+
+[[package]]
+name = "django-auditlog"
+version = "3.2.0"
+description = "Audit log app for Django"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "django_auditlog-3.2.0-py3-none-any.whl", hash = "sha256:63d02326c5b069cd5ae390c4729076f1d935c3a9cefc27893e79a01c42cd1a78"},
+    {file = "django_auditlog-3.2.0.tar.gz", hash = "sha256:66cf3945977ba60e0687fc264ac178f0c7b0eee013f25e1c63561d8ceb6a5c41"},
+]
+
+[package.dependencies]
+Django = ">=4.2"
+python-dateutil = ">=2.7.0"
 
 [[package]]
 name = "django-auth-ldap"
@@ -1767,6 +1801,21 @@ files = [
 diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+description = "Extensions to the standard Python datetime module"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+groups = ["main"]
+files = [
+    {file = "python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"},
+    {file = "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"},
+]
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
 name = "python-ldap"
 version = "3.4.4"
 description = "Python modules for implementing LDAP clients"
@@ -2201,7 +2250,7 @@ version = "1.17.0"
 description = "Python 2 and 3 compatibility utilities"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
-groups = ["dev"]
+groups = ["main", "dev"]
 files = [
     {file = "six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"},
     {file = "six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"},
@@ -2655,4 +2704,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "5cd838aa735aaf9f550c9721fbfb8175b0d385b3da9bdfa86c43ac22273c9007"
+content-hash = "ae9fbb2416f94270293eccb0af41b3a32974d2ce6c9e71212ac02c0ba6bb8083"
