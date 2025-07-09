@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-09 18:22+0200\n"
+"POT-Creation-Date: 2025-07-09 20:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language: German \n"
@@ -43,6 +43,48 @@ msgstr "Expression"
 #: apis_ontology/models.py
 msgid "expressions"
 msgstr "Expressionen"
+
+#: apis_ontology/models.py
+msgid ""
+"Use hyphens or spaces to separate the individual parts of the ISBN or enter "
+"it as one continuous sequence. Ex. 978-3-518-06505-1"
+msgstr ""
+"Die einzelnen Zahlengruppen der ISBN können mittels Bindestrichen oder "
+"Leerzeichen voneinnander getrennt werden. Eine Eingabe der ISBN als "
+"durchgängige Nummer ist ebenso zulässig. Bsp. 978-3-518-06505-1"
+
+#: apis_ontology/models.py
+msgid "relevant pages"
+msgstr "relevante Seitenzahlen"
+
+#: apis_ontology/models.py
+msgid ""
+"Use semicolons to separate multiple pages or page ranges from one another. "
+"Ex. 7; 31-42; 185-210"
+msgstr ""
+"Im Falle mehrerer separater Seitenangaben sind diese durch Semikolons "
+"voneinander zu trennen. Bsp.: 7; 31-42; 185-210"
+
+#: apis_ontology/models.py
+msgid "publication date"
+msgstr "Erscheinungsdatum"
+
+#: apis_ontology/models.py
+msgid ""
+"Can be a full or partial date and also accepts (partial) date ranges to "
+"cover uncertain or unclear dates. A full date may be entered in DD.MM.YYYY "
+"or YYYY-MM-DD format, a partial date can be a full year YYYY or may "
+"otherwise be formatted MM.YYYY or YYYY-MM. Date ranges need to entered with "
+"keywords 'ab' ('from') and 'bis' ('to') to mark their (exact or approximate) "
+"start and end dates. Ex. 1989. Ex. 1971-05. Ex. ab 1990-03-26 bis 1990-03-27."
+msgstr ""
+"Kann ein auf den Tag genaues oder unvollständiges Datum sein und erlaubt "
+"auch die Angabe von (partiellen) Zeiträumen. Ein vollständiges Kalenderdatum "
+"ist entweder in der Form DD.MM.YYYY oder YYYY-MM-DD einzugeben, ein "
+"fragmentarisches Datum kann eine vierstellige Jahreszahl YYYY sein oder ist "
+"ansonsten im Format MM.YYYY oder YYYY-MM anzugeben. Zeiträume müssen mit "
+"'ab' bzw. 'bis' gekennzeichnet werden. Bsp. 1989. Bsp. 1971-05. Bsp. ab "
+"26.03.1990 bis 27.03.1990."
 
 #: apis_ontology/models.py
 msgid "manifestation"
