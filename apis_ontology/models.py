@@ -50,6 +50,15 @@ class TitlesMixin(models.Model):
         verbose_name=_("subtitle"),
     )
 
+    # for additional/supplemental information provided in/with titles, e.g.
+    # data stored in rdau:P60493 elements, issue/volume identifiers etc.
+    other_title_information = models.CharField(
+        max_length=255,
+        blank=True,
+        default="",
+        verbose_name=_("other title information"),
+    )
+
     class Meta:
         abstract = True
         ordering = ["title"]
