@@ -57,7 +57,7 @@ class TitleFieldsMixin(tables.Table):
     title = SortableLinkifyColumn()
 
     class Meta:
-        fields = ["title", "subtitle"]
+        fields = ["title", "subtitle", "other_title_information"]
         order_by = "title"
 
 
