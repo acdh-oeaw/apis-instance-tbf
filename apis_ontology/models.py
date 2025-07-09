@@ -131,6 +131,44 @@ class Manifestation(TitlesMixin, BaseEntity):
     https://cidoc-crm.org//extensions/lrmoo/html/LRMoo_v1.0.html#F3
     """
 
+    isbn = models.CharField(
+        blank=True,
+        default="",
+        max_length=17,
+        verbose_name="ISBN",
+        help_text=_(
+            "Use hyphens or spaces to separate the individual parts of the "
+            "ISBN or enter it as one continuous sequence. Ex. 978-3-518-06505-1"
+        ),
+    )
+
+    relevant_pages = models.CharField(
+        blank=True,
+        default="",
+        max_length=255,
+        verbose_name=_("relevant pages"),
+        help_text=_(
+            "Use semicolons to separate multiple pages or page ranges "
+            "from one another. Ex. 7; 31-42; 185-210"
+        ),
+    )
+
+    publication_date = FuzzyDateParserField(
+        null=True,
+        blank=True,
+        verbose_name=_("publication date"),
+        help_text=_(
+            "Can be a full or partial date and also accepts (partial) date "
+            "ranges to cover uncertain or unclear dates. A full date may be "
+            "entered in DD.MM.YYYY or YYYY-MM-DD format, a partial date can "
+            "be a full year YYYY or may otherwise be formatted MM.YYYY or "
+            "YYYY-MM. "
+            "Date ranges need to entered with keywords 'ab' ('from') and 'bis' "
+            "('to') to mark their (exact or approximate) start and end dates. "
+            "Ex. 1989. Ex. 1971-05. Ex. ab 1990-03-26 bis 1990-03-27."
+        ),
+    )
+
     class Meta(TitlesMixin.Meta):
         verbose_name = _("manifestation")
         verbose_name_plural = _("manifestations")
