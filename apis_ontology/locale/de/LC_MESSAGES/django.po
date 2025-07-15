@@ -1,12 +1,13 @@
-# Forschungsplattform Thomas Bernhard – Übersetzungen.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Thomas Bernhard online – Deutsche Übersetzung von Django translation strings
+# Copyright (C) 2025 Forschungsstelle Thomas Bernhard
+# This file is distributed under the same license as the apis-instance-tbf package.
 # K Kollmann <dev-kk@oeaw.ac.at>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: https://github.com/acdh-oeaw/apis-instance-tbf/issues\n"
 "POT-Creation-Date: 2025-07-09 20:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
