@@ -39,7 +39,7 @@ class BaseEntityTable(AbstractEntityTable):
     Base class for entity tables.
     """
 
-    id = SortableLinkifyColumn()
+    id = SortableLinkifyColumn(verbose_name="ID")
 
     class Meta(AbstractEntityTable.Meta):
         exclude = ["desc"]
