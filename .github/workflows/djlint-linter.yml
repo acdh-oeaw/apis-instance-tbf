@@ -12,7 +12,7 @@ on:
 
 jobs:
   djlint-formatter:
-    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.4.7
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.5.0
     with:
       src: "."
       options: "--lint"
