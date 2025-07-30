@@ -99,14 +99,14 @@ django-auditlog = ">=3.0.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.49.1"
+version = "0.50.0"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_core_rdf-0.49.1-py3-none-any.whl", hash = "sha256:7c966547a7e3d8c0992f7fe33275221bc97dffa817b00ecf4e54ff05a93fbd6a"},
-    {file = "apis_core_rdf-0.49.1.tar.gz", hash = "sha256:86029e79e6b2a978501a51faa0ab574e9ae8eba52a9fa60cce25876b4a4f7e5e"},
+    {file = "apis_core_rdf-0.50.0-py3-none-any.whl", hash = "sha256:4364d1934fba05b6c24011a2351355f51737baa7d5a17a802eb6634c1efdf2bd"},
+    {file = "apis_core_rdf-0.50.0.tar.gz", hash = "sha256:0e542e785df226f24ec6e160390a30c7a376cf03ab34e73c49d0e4f5311edcc3"},
 ]
 
 [package.dependencies]
@@ -2704,4 +2704,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "67bdad4dc5f6ed680ae51f5378ee85c856a0229a72197bd7cc799998d56fcb7a"
+content-hash = "02e684147d7e34e93edd78e7fc70c01406fa1f4ea8233bd89556c44536829218"
