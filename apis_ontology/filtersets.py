@@ -8,6 +8,12 @@ logger = logging.getLogger(__name__)
 
 
 class BaseEntityFilterSet(AbstractEntityFilterSet):
+    """
+    Parent FilterSet class for all entity classes.
+
+    Applies settings to all entity list views (filter sidebars).
+    """
+
     pass
 
 
