@@ -51,14 +51,14 @@ trio = ["trio (>=0.26.1)"]
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.11.0"
+version = "2.12.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_acdhch_default_settings-2.11.0-py3-none-any.whl", hash = "sha256:921adc977879ad82a95055fed261f015c256c3cde3a4fee44336cd825f080e3f"},
-    {file = "apis_acdhch_default_settings-2.11.0.tar.gz", hash = "sha256:617f4c44b8427022e674b4dea5d8e6b5742a97847f1d2c38157b239182a406a9"},
+    {file = "apis_acdhch_default_settings-2.12.0-py3-none-any.whl", hash = "sha256:ec78f7f4f2272bba5b09e27ab3d56cd3d4d62d5efd937b3ac67136a5886a8cab"},
+    {file = "apis_acdhch_default_settings-2.12.0.tar.gz", hash = "sha256:687e3db5cfdbda9b4a2b29460b02fc2cbfe5cd3ba17b188d364f8c59ac122c25"},
 ]
 
 [package.dependencies]
@@ -66,7 +66,7 @@ apis-acdhch-django-auditlog = ">=0.2.1"
 apis-core-rdf = ">=0.40.0"
 dj-database-url = ">=2.0.0,<4.0"
 django = ">=5"
-django-allow-cidr = ">=0.6,<0.8"
+django-allow-cidr = ">=0.6,<0.9"
 django-auditlog = ">=3.1.2"
 django-auth-ldap = ">=4.6.0,<6.0"
 django-csp = ">=3.7,<4.0"
@@ -2704,4 +2704,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "c45344329229c0ed2bc047997c19d95fbbbae6c0a9f54806e1b69eb2fad647ac"
+content-hash = "50d106d0f287232ffaa631af348f34bd8f7d93d33ba8bc389cc694f02e94203a"
