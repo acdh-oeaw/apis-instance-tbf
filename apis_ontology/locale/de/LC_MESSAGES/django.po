@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 10:54+0200\n"
+"POT-Creation-Date: 2025-08-19 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apis_ontology/filtersets.py
+msgid "Search across text fields"
+msgstr "Textsuche felderübergreifend"
+
+#: apis_ontology/filtersets.py
+msgid "Searches in:"
+msgstr "Sucht in:"
 
 #: apis_ontology/models.py
 msgid "title"
