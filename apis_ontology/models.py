@@ -602,6 +602,30 @@ class ItemExemplifiesManifestation(BaseRelation):
         return "is exemplified by"
 
 
+class ItemHasKeeperGroup(BaseRelation):
+    """
+    Item "has keeper" Group relation.
+
+    Property which associates an Item with a Group which acts as the item's
+    custodian. E.g. a physical copy of a book which is stored at a particular
+    library.
+
+    Based on CIDOC CRM property P50 has current keeper (is current keeper of):
+    https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#P50
+    """
+
+    subj_model = Item
+    obj_model = Group
+
+    @classmethod
+    def name(cls) -> str:
+        return "has keeper"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "is keeper of"
+
+
 class PersonIsAuthorOfWork(BaseRelation):
     """
     Person is author of Work relation.
