@@ -232,6 +232,14 @@ class Manifestation(TitlesMixin, BaseEntity):
         ),
     )
 
+    tbit_shelfmark = models.CharField(
+        blank=True,
+        default="",
+        max_length=50,
+        verbose_name=_("TBit shelfmark"),
+        help_text=_('Shelfmark of "Thomas Bernhard in translation" publications'),
+    )
+
     class Meta(TitlesMixin.Meta):
         verbose_name = _("manifestation")
         verbose_name_plural = _("manifestations")

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 12:13+0200\n"
+"POT-Creation-Date: 2025-08-19 12:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -154,6 +154,14 @@ msgstr ""
 msgid "Identifier used for \"Thomas Bernhard in translation\" publications"
 msgstr ""
 "Von \"Thomas Bernhard in translation\" verwendete Kennung für Publikationen"
+
+#: apis_ontology/models.py
+msgid "TBit shelfmark"
+msgstr "TBit-Signatur"
+
+#: apis_ontology/models.py
+msgid "Shelfmark of \"Thomas Bernhard in translation\" publications"
+msgstr "Signatur von \"Thomas Bernhard in translation\"-Publikationen"
 
 #: apis_ontology/models.py
 msgid "manifestation"
