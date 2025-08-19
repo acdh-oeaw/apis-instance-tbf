@@ -226,8 +226,10 @@ class Manifestation(TitlesMixin, BaseEntity):
         blank=True,
         default="",
         max_length=50,
-        verbose_name=_('TBit "signatur"'),
-        help_text=_('Identifier for "Thomas Bernhard in translation" publications'),
+        verbose_name="TBit ID",
+        help_text=_(
+            'Identifier used for "Thomas Bernhard in translation" publications'
+        ),
     )
 
     class Meta(TitlesMixin.Meta):
