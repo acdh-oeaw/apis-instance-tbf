@@ -99,20 +99,20 @@ django-auditlog = ">=3.0.0"
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.51.1"
+version = "0.52.2"
 description = "Base package for the APIS framework"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "apis_core_rdf-0.51.1-py3-none-any.whl", hash = "sha256:43856e392f4650bc61583479048bee416fc005434e265cfd53a3904950fe7b0e"},
-    {file = "apis_core_rdf-0.51.1.tar.gz", hash = "sha256:ef47ad84c1d318775c460170407bf3fed8d374963697a330441ae6012918b86f"},
+    {file = "apis_core_rdf-0.52.2-py3-none-any.whl", hash = "sha256:8cbd936585545c59ee991386d51d820050cb4750c65595676b64d1df440f7225"},
+    {file = "apis_core_rdf-0.52.2.tar.gz", hash = "sha256:bd34524f1bdd088566dfaf430e3d662e7405cb681b041d26295eec5d2218fc9a"},
 ]
 
 [package.dependencies]
 acdh-arche-assets = ">=3.21.1,<=4.0"
 crispy-bootstrap5 = ">=2024.10"
-django = ">=5.1,<5.3"
+django = ">=5.2"
 django-autocomplete-light = ">=3.9.4,<3.12.0"
 django-crispy-forms = ">=2,<3.0"
 django-crum = ">=0.7.9,<8.0"
@@ -2763,4 +2763,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "d85b6db777d306a797ac649a00b650268d06eefc1bc952d1e7849eece9232be8"
+content-hash = "921327c7654dd4d2912af2b3d3f15ffc2d59e0a2794ed5446eef4caa1e5bee2b"
