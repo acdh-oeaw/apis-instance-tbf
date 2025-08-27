@@ -1,35 +1,36 @@
-[tool.poetry]
+[project]
 name = "apis-instance-tbf"
 version = "0.1.0"
 description = "Thomas Bernhard online"
-authors = ["K Kollmann <dev-kk@oeaw.ac.at>"]
-packages = [{include = "apis_ontology"}]
+authors = [
+    { name = "K Kollmann", email = "dev-kk@oeaw.ac.at" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apis-acdhch-default-settings>=2.12.1,<2.13",
+    "apis-core-rdf>=0.51.1,<0.52",
+    "django-interval>=0.5.1,<0.6",
+    "psycopg-binary>=3.2.9,<3.3",
+    "psycopg>=3.2.9,<3.3",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-apis-acdhch-default-settings = "^2.12.1"
-apis-core-rdf = "^0.51.1"
-django-interval = "^0.5.1"
-psycopg-binary = "^3.2.9"
-psycopg = "^3.2.9"
+[dependency-groups]
+dev = [
+    "deptry>=0.23.1,<0.24",
+    "django-debug-toolbar>=6.0.0,<6.1",
+    "djlint>=1.36.4,<1.37",
+    "pylint>=3.3.8,<3.4",
+    "ruff>=0.12.10,<0.13",
+]
+docs = [
+    "myst-parser>=4.0.1,<4.1",
+    "sphinx>=8.2.3,<8.3",
+    "sphinx-rtd-theme>=3.0.2,<3.1",
+]
 
-[tool.poetry.group.dev]
-optional = true
-
-[tool.poetry.group.dev.dependencies]
-deptry = "^0.23.1"
-django-debug-toolbar = "^6.0.0"
-djlint = "^1.36.4"
-pylint = "^3.3.8"
-ruff = "^0.12.10"
-
-[tool.poetry.group.docs]
-optional = true
-
-[tool.poetry.group.docs.dependencies]
-myst-parser = "^4.0.1"
-sphinx = "^8.2.3"
-sphinx-rtd-theme = "^3.0.2"
+[tool.uv]
+add-bounds = "minor"
 
 [tool.djlint]
 # djLint config options: https://www.djlint.com/docs/configuration/#options
@@ -66,7 +67,26 @@ known-first-party = ["apis_ontology"]
 "**/settings.py" = ["F405"]
 "**/migrations/*" = ["I001"]
 
+[tool.hatch.build.targets.sdist]
+include = [
+    "/apis_ontology",
+    "/data",
+    ".gitignore",
+    "manage.py",
+    "pyproject.toml",
+    "uv.lock"
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "/apis_ontology",
+    "/data",
+    ".gitignore",
+    "manage.py",
+    "pyproject.toml",
+    "uv.lock"
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
