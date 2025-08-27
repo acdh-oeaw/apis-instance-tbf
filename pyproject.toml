@@ -1,35 +1,46 @@
-[tool.poetry]
+[project]
 name = "apis-instance-tbf"
 version = "0.1.0"
 description = "Thomas Bernhard online"
-authors = ["K Kollmann <dev-kk@oeaw.ac.at>"]
-packages = [{include = "apis_ontology"}]
+authors = [{ name = "K Kollmann", email = "dev-kk@oeaw.ac.at" }]
+requires-python = ">=3.11"
+dependencies = [
+    "apis-acdhch-default-settings>=2.12.1,<3",
+    "apis-core-rdf>=0.51.1,<0.52",
+    "django-interval>=0.5.1,<0.6",
+    "psycopg-binary>=3.2.9,<4",
+    "psycopg>=3.2.9,<4",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-apis-acdhch-default-settings = "^2.12.1"
-apis-core-rdf = "^0.51.1"
-django-interval = "^0.5.1"
-psycopg-binary = "^3.2.9"
-psycopg = "^3.2.9"
+[dependency-groups]
+dev = [
+    "deptry>=0.23.1,<0.24",
+    "django-debug-toolbar>=6.0.0,<7",
+    "djlint>=1.36.4,<2",
+    "pylint>=3.3.8,<4",
+    "ruff>=0.12.10,<0.13",
+]
+docs = [
+    "myst-parser>=4.0.1,<5",
+    "sphinx>=8.2.3,<9",
+    "sphinx-rtd-theme>=3.0.2,<4",
+]
 
-[tool.poetry.group.dev]
-optional = true
+[tool.uv]
+default-groups = [
+    "dev",
+    "docs",
+]
 
-[tool.poetry.group.dev.dependencies]
-deptry = "^0.23.1"
-django-debug-toolbar = "^6.0.0"
-djlint = "^1.36.4"
-pylint = "^3.3.8"
-ruff = "^0.12.10"
+[tool.hatch.build.targets.sdist]
+include = ["apis_ontology"]
 
-[tool.poetry.group.docs]
-optional = true
+[tool.hatch.build.targets.wheel]
+include = ["apis_ontology"]
 
-[tool.poetry.group.docs.dependencies]
-myst-parser = "^4.0.1"
-sphinx = "^8.2.3"
-sphinx-rtd-theme = "^3.0.2"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.djlint]
 # djLint config options: https://www.djlint.com/docs/configuration/#options
@@ -65,8 +76,3 @@ known-first-party = ["apis_ontology"]
 [tool.ruff.lint.per-file-ignores]
 "**/settings.py" = ["F405"]
 "**/migrations/*" = ["I001"]
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
