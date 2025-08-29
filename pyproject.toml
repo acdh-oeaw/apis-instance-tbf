@@ -21,7 +21,7 @@ deptry = "^0.23.1"
 django-debug-toolbar = "^6.0.0"
 djlint = "^1.36.4"
 pylint = "^3.3.8"
-ruff = "^0.12.10"
+ruff = "^0.12.11"
 
 [tool.poetry.group.docs]
 optional = true
