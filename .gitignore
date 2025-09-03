@@ -1,7 +1,6 @@
 # OS, IDEs, tooling
 .DS_Store
 .idea/
-.python-version
 
 # settings files / local development
 .env*
