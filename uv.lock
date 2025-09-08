@@ -143,7 +143,7 @@ requires-dist = [
     { name = "apis-core-rdf", specifier = ">=0.51.1,<0.52" },
     { name = "django-interval", specifier = ">=0.5.1,<0.6" },
     { name = "psycopg", specifier = ">=3.2.10,<3.3" },
-    { name = "psycopg-binary", specifier = ">=3.2.9,<3.3" },
+    { name = "psycopg-binary", specifier = ">=3.2.10,<3.3" },
 ]
 
 [package.metadata.requires-dev]
@@ -152,7 +152,7 @@ dev = [
     { name = "django-debug-toolbar", specifier = ">=6.0.0,<6.1" },
     { name = "djlint", specifier = ">=1.36.4,<1.37" },
     { name = "pylint", specifier = ">=3.3.8,<3.4" },
-    { name = "ruff", specifier = ">=0.12.10,<0.13" },
+    { name = "ruff", specifier = ">=0.12.12,<0.13" },
 ]
 docs = [
     { name = "myst-parser", specifier = ">=4.0.1,<4.1" },
