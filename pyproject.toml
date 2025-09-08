@@ -11,7 +11,7 @@ dependencies = [
     "apis-acdhch-default-settings>=2.12.1,<2.13",
     "apis-core-rdf>=0.51.1,<0.52",
     "django-interval>=0.5.1,<0.6",
-    "psycopg-binary>=3.2.9,<3.3",
+    "psycopg-binary>=3.2.10,<3.3",
     "psycopg>=3.2.10,<3.3",
 ]
 
