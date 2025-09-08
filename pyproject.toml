@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "apis-acdhch-default-settings>=2.12.1,<2.13",
+    "apis-acdhch-default-settings>=2.12.1,<2.14",
     "apis-core-rdf>=0.51.1,<0.52",
     "django-interval>=0.5.1,<0.6",
     "psycopg-binary>=3.2.10,<3.3",
