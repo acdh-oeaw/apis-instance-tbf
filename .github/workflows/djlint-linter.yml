@@ -11,8 +11,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  djlint-formatter:
-    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-djlint.yml@v0.5.0
-    with:
-      src: "."
-      options: "--lint"
+  djlint-linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install default dependencies
+        run: uv sync
+
+      - name: Run djlint with --lint
+        run: uv run djlint . --lint
