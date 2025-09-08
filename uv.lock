@@ -136,6 +136,15 @@ docs = [
     { name = "sphinx" },
     { name = "sphinx-rtd-theme" },
 ]
+helpers = [
+    { name = "deptry" },
+    { name = "django-debug-toolbar" },
+]
+lint = [
+    { name = "djlint" },
+    { name = "pylint" },
+    { name = "ruff" },
+]
 
 [package.metadata]
 requires-dist = [
@@ -158,6 +167,15 @@ docs = [
     { name = "myst-parser", specifier = ">=4.0.1,<4.1" },
     { name = "sphinx", specifier = ">=8.2.3,<8.3" },
     { name = "sphinx-rtd-theme", specifier = ">=3.0.2,<3.1" },
+]
+helpers = [
+    { name = "deptry", specifier = ">=0.23.1,<0.24" },
+    { name = "django-debug-toolbar", specifier = ">=6.0.0,<6.1" },
+]
+lint = [
+    { name = "djlint", specifier = ">=1.36.4,<1.37" },
+    { name = "pylint", specifier = ">=3.3.8,<3.4" },
+    { name = "ruff", specifier = ">=0.12.12,<0.13" },
 ]
 
 [[package]]

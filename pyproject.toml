@@ -17,16 +17,21 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "deptry>=0.23.1,<0.24",
-    "django-debug-toolbar>=6.0.0,<6.1",
-    "djlint>=1.36.4,<1.37",
-    "pylint>=3.3.8,<3.4",
-    "ruff>=0.12.12,<0.13",
+  {include-group = "helpers"},
+  {include-group = "lint"},
 ]
 docs = [
     "myst-parser>=4.0.1,<4.1",
     "sphinx>=8.2.3,<8.3",
     "sphinx-rtd-theme>=3.0.2,<3.1",
+]
+helpers = [
+    "deptry>=0.23.1,<0.24",
+    "django-debug-toolbar>=6.0.0,<6.1",]
+lint = [
+    "djlint>=1.36.4,<1.37",
+    "pylint>=3.3.8,<3.4",
+    "ruff>=0.12.12,<0.13",
 ]
 
 [tool.uv]
