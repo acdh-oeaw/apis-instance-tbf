@@ -7,6 +7,9 @@ resolution-markers = [
     "python_full_version < '3.12'",
 ]
 
+[options]
+resolution-mode = "lowest-direct"
+
 [[package]]
 name = "acdh-arche-assets"
 version = "3.25.0"
