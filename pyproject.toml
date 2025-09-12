@@ -36,6 +36,7 @@ lint = [
 
 [tool.uv]
 add-bounds = "minor"
+resolution = "lowest-direct"
 
 [tool.djlint]
 # djLint config options: https://www.djlint.com/docs/configuration/#options
