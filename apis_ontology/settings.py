@@ -23,6 +23,7 @@ APIS_APPS_PREPEND = []
 APIS_APPS_APPEND = [
     "apis_core.documentation",
     "django_interval",
+    "apis_core.uris",
 ]
 
 for a in APIS_APPS_PREPEND:
