@@ -89,7 +89,7 @@ wheels = [
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.51.1"
+version = "0.52.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acdh-arche-assets" },
@@ -109,9 +109,9 @@ dependencies = [
     { name = "rdflib" },
     { name = "tablib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/17/b9/fde1b75ed87748abd83b86f6890717581e205d8760a142ee332d2e4633c9/apis_core_rdf-0.51.1.tar.gz", hash = "sha256:ef47ad84c1d318775c460170407bf3fed8d374963697a330441ae6012918b86f", size = 3360705, upload-time = "2025-08-14T07:49:16.84Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/75/35f2eacee2ae2f36f99702b249c3a90ef770429d7ff6eb15030abd76ccb8/apis_core_rdf-0.52.0.tar.gz", hash = "sha256:d6b8f7690f6e4ad10c88e5dba873d7ed118b7454e4cab8866cb99786f69a1185", size = 3365422, upload-time = "2025-08-20T11:06:43.193Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/34/c0/44038b6dd085f5af13946315a4a72b7efb007f818ae829056f653423d0d2/apis_core_rdf-0.51.1-py3-none-any.whl", hash = "sha256:43856e392f4650bc61583479048bee416fc005434e265cfd53a3904950fe7b0e", size = 3331749, upload-time = "2025-08-14T07:49:15.286Z" },
+    { url = "https://files.pythonhosted.org/packages/ac/99/e715a3abd55310005b426c5a1ec25be46e4717d291cc838b67f027a0ae42/apis_core_rdf-0.52.0-py3-none-any.whl", hash = "sha256:87674f64849a8d3610c9f02fd9c136fbc87afc11f1a377a70a067851efd84591", size = 3336106, upload-time = "2025-08-20T11:06:39.828Z" },
 ]
 
 [[package]]
@@ -152,7 +152,7 @@ lint = [
 [package.metadata]
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.13.0,<2.14" },
-    { name = "apis-core-rdf", specifier = ">=0.51.1,<0.52" },
+    { name = "apis-core-rdf", specifier = ">=0.52.0,<0.53" },
     { name = "django-interval", specifier = ">=0.5.1,<0.6" },
     { name = "psycopg", specifier = ">=3.2.10,<3.3" },
     { name = "psycopg-binary", specifier = ">=3.2.10,<3.3" },
@@ -1342,11 +1342,11 @@ wheels = [
 
 [[package]]
 name = "pyparsing"
-version = "3.2.3"
+version = "3.2.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/bb/22/f1129e69d94ffff626bdb5c835506b3a5b4f3d070f17ea295e12c2c6f60f/pyparsing-3.2.3.tar.gz", hash = "sha256:b9c13f1ab8b3b542f72e28f634bad4de758ab3ce4546e4301970ad6fa77c38be", size = 1088608, upload-time = "2025-03-25T05:01:28.114Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/98/c9/b4594e6a81371dfa9eb7a2c110ad682acf985d96115ae8b25a1d63b4bf3b/pyparsing-3.2.4.tar.gz", hash = "sha256:fff89494f45559d0f2ce46613b419f632bbb6afbdaed49696d322bcf98a58e99", size = 1098809, upload-time = "2025-09-13T05:47:19.732Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/05/e7/df2285f3d08fee213f2d041540fa4fc9ca6c2d44cf36d3a035bf2a8d2bcc/pyparsing-3.2.3-py3-none-any.whl", hash = "sha256:a749938e02d6fd0b59b356ca504a24982314bb090c383e3cf201c95ef7e2bfcf", size = 111120, upload-time = "2025-03-25T05:01:24.908Z" },
+    { url = "https://files.pythonhosted.org/packages/53/b8/fbab973592e23ae313042d450fc26fa24282ebffba21ba373786e1ce63b4/pyparsing-3.2.4-py3-none-any.whl", hash = "sha256:91d0fcde680d42cd031daf3a6ba20da3107e08a75de50da58360e7d94ab24d36", size = 113869, upload-time = "2025-09-13T05:47:17.863Z" },
 ]
 
 [[package]]
