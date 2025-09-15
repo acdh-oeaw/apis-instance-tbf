@@ -20,8 +20,8 @@ jobs:
       - name: Install the latest version of uv
         uses: astral-sh/setup-uv@v6
 
-      - name: Install default dependencies
-        run: uv sync
+      - name: Install only dependencies for formatting/linting
+        run: uv sync --only-group lint
 
       - name: Run ruff check
-        run: uv run ruff check
+        run: uv run --no-sync ruff check
