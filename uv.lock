@@ -151,7 +151,7 @@ lint = [
 
 [package.metadata]
 requires-dist = [
-    { name = "apis-acdhch-default-settings", specifier = ">=2.13.0,<2.14" },
+    { name = "apis-acdhch-default-settings", specifier = ">=2.13.0,<2.15" },
     { name = "apis-core-rdf", specifier = ">=0.54.2,<0.55" },
     { name = "django-interval", specifier = ">=0.5.1,<0.6" },
     { name = "psycopg", specifier = ">=3.2.10,<3.3" },
