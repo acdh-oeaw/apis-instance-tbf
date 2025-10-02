@@ -78,10 +78,11 @@ def delete_objects(models=None, keep_history=False):
     same but prefixed with "Version" – unless keep_history
     is set to True.
 
-    :param models: a list of model classes and/or class name strings
+    :param models: a list of model classes and/or class names (strings)
     :type models: list
-    :param keep_history: whether to preserve object history or delete history
-                         objects as well; defaults to deleting history
+    :param keep_history: whether to preserve object histories or to delete them
+                         alongside the objects themselves; defaults to False,
+                         i.e. deletes historical data as well
     :type keep_history: bool
     :return: a list of tuples whose first item is the total of deleted objects
              and whose second item is a dictionary with key-value pairs for
