@@ -9148,7 +9148,14 @@
       "group":
       {
         "value": "Salzburger Landestheater",
-        "match": null,
+        "match": {
+          "id": "121748-3",
+          "name": "Salzburger Landestheater",
+          "types": [
+            "AuthorityResource",
+            "CorporateBody"
+          ]
+        },
         "candidates": []
       },
       "country": "AT",
