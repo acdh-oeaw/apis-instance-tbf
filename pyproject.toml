@@ -39,7 +39,7 @@ add-bounds = "minor"
 resolution = "lowest-direct"
 
 [tool.djlint]
-# djLint config options: https://www.djlint.com/docs/configuration/#options
+# djLint config options: https://djlint.com/docs/configuration/#options
 indent=2
 profile="django"
 extension="html"
