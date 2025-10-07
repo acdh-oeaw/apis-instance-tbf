@@ -30,6 +30,44 @@ def get_relation_classes():
     return list(filter(lambda x: issubclass(x, BaseRelation), apps.get_models()))
 
 
+def get_history_model(model_name, name_prefix="Version"):
+    """
+    Look up the history model (class) for an existing model based on
+    that model's name.
+
+    :param model_name: name of a model for which to check if a history model
+                       exists
+    :type model_name: str
+    :param name_prefix: can be used to provide a different name (prefix) for
+                        model classes to be looked up; defaults to "Version"
+    :type name_prefix: str
+    :return: the history model class for the given model (if it exists)
+    :rtype: class
+    """
+    history_model_class = None
+
+    if not isinstance(model_name, str) or not isinstance(name_prefix, str):
+        return None
+
+    # do not look up history models for models which appear to be history models themselves
+    if model_name.startswith(name_prefix):
+        logger.warning(
+            f"Aborting lookup of history model class for {model_name} "
+            f"as it appears to be a history model itself."
+        )
+        return None
+
+    if historic_model_name := f"{name_prefix}{model_name}":
+        try:
+            history_model_class = apps.get_model(
+                "apis_ontology", model_name=historic_model_name
+            )
+        except LookupError as e:
+            logger.warning(e)
+
+    return history_model_class
+
+
 def delete_objects(models=None, keep_history=False):
     """
     Delete model instance objects based on model classes and/or class names
