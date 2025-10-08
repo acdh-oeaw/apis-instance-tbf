@@ -5,6 +5,8 @@ Utility/helper functions.
 import inspect
 import logging
 
+from apis_core.apis_entities.utils import get_entity_classes
+from apis_core.apis_metainfo.models import RootObject
 from django.apps import apps
 from django.contrib.contenttypes.models import ContentType
 
@@ -112,37 +114,165 @@ def delete_objects(
              'apis_ontology.VersionPersonIsAuthorOfWork': 3})
     :rtype: list
     """
+    history_model_class = None
+    valid_model_classes = []
+
+    objects = RootObject.objects.none()
     deleted_objects = []
-    for m in models:
-        model_class = None
 
-        if inspect.isclass(m):
-            model_class = m
-            model_name = m.__name__
-        else:
-            model_name = m
-            try:
-                model_class = apps.get_model("apis_ontology", model_name=model_name)
-            except LookupError:
-                pass
+    if with_values and not operators:
+        operators = ["="]
 
-        if model_class:
-            delete = model_class.objects.all().delete()
-            if delete[0]:
-                deleted_objects.append(delete)
+    def construct_where_clause(fields, values, comp):
+        where_clause = []
+        params = []
 
-        if not keep_history:
-            historic_model_name = f"Version{model_name}"
-            try:
-                history_model_class = apps.get_model(
-                    "apis_ontology", model_name=historic_model_name
-                )
-                delete = history_model_class.objects.all().delete()
-                if delete[0]:
-                    deleted_objects.append(delete)
-            except LookupError:
-                pass
+        if not values:
+            values = []
 
-    logger.debug("\n".join([str(d) for d in deleted_objects]))
+        # values need to be paired/pairable with fields
+        if values:
+            while len(comp) < len(values):
+                comp.append(comp[-1])
+
+            for f, c, v in zip(fields, comp, values):
+                where_clause.append(f"{f} {c} %s")
+                params.append(v)
+
+        if (remaining_comp := comp[len(values) :]) and (
+            remaining_fields := fields[len(values) :]
+        ):
+            for f, c in zip(remaining_fields, remaining_comp):
+                where_clause.append(f"{f} {c}")
+
+        return where_clause, params
+
+    def delete_queryset(queryset, dry_run=False):
+        deleted = queryset
+
+        if not dry_run:
+            if deleted_data := queryset.delete():
+                if deleted_data[0]:
+                    deleted = deleted_data
+
+        return deleted
+
+    if models:
+        for m in models:
+            class_name = None
+            if inspect.isclass(m):
+                class_name = m.__name__
+            elif isinstance(m, str):
+                class_name = m
+            else:
+                logger.debug(f"'Model' {m} is neither a class nor a string.")
+
+            if class_name:
+                try:
+                    model_class = apps.get_model("apis_ontology", model_name=class_name)
+                    valid_model_classes.append(model_class)
+                except LookupError as e:
+                    logger.warning(e)
+
+        for model_class in valid_model_classes:
+            model_name = model_class.__name__
+
+            # only look up history models for models which aren't history models themselves
+            if keep_history is False and not model_name.startswith("Version"):
+                history_model_class = get_history_model(model_name)
+
+            if with_fields:
+                model_fields = [field.name for field in model_class._meta.get_fields()]
+
+                if set(with_fields).issubset(set(model_fields)):
+                    if not with_values and not operators:
+                        objects = model_class.objects.all()
+                        logger.debug(f"Deleting ALL {model_name} objects.")
+                    else:
+                        where_clause, params = construct_where_clause(
+                            with_fields, with_values, operators
+                        )
+                        objects = model_class.objects.extra(
+                            where=where_clause, params=params
+                        )
+                else:
+                    logger.warning(
+                        f"Unknown model field{'s' if len(with_fields) > 1 else ''} for "
+                        f"{model_name} class: {', '.join(with_fields)}"
+                    )
+
+            else:
+                objects = model_class.objects.all()
+
+            if deleted := delete_queryset(objects, dry_run=dry_run):
+                deleted_objects.append(deleted)
+                if history_model_class:
+                    object_ids = [o.pk for o in objects]
+                    history_field_names = [
+                        field.name for field in history_model_class._meta.get_fields()
+                    ]
+                    deleted_history = []
+
+                    # history class for entity model
+                    if "rootobject_ptr" in history_field_names:
+                        deleted_history = delete_queryset(
+                            history_model_class.objects.filter(
+                                rootobject_ptr__in=object_ids
+                            ),
+                            dry_run=dry_run,
+                        )
+                    # history class for relation model
+                    elif "relation_ptr" in history_field_names:
+                        deleted_history = delete_queryset(
+                            history_model_class.objects.filter(
+                                relation_ptr__in=object_ids
+                            ),
+                            dry_run=dry_run,
+                        )
+                    if deleted_history:
+                        deleted_objects.append(deleted_history)
+
+    # if no models are provided but fields are, look through all (non-history) (entity) models for
+    # ANY of the fields
+    elif with_fields:
+        for model_class in get_entity_classes():
+            model_name = model_class.__name__
+
+            if not model_name.startswith("Version"):
+                if valid_fields := list(
+                    set(with_fields).intersection(
+                        [field.name for field in model_class._meta.get_fields()]
+                    )
+                ):
+                    if keep_history is False:
+                        history_model_class = get_history_model(model_name)
+
+                    if not with_values and not operators:
+                        logger.debug(f"Deleting ALL {model_name} objects.")
+                        objects = model_class.objects.all()
+                    else:
+                        where_clause, params = construct_where_clause(
+                            valid_fields, with_values, operators
+                        )
+
+                        where_clause = [" OR ".join(where_clause)]
+                        objects = model_class.objects.extra(
+                            where=where_clause, params=params
+                        )
+
+                    if deleted := delete_queryset(objects, dry_run=dry_run):
+                        deleted_objects.append(deleted)
+                        if history_model_class:
+                            object_ids = [o.pk for o in objects]
+                            if deleted_history := delete_queryset(
+                                history_model_class.objects.filter(
+                                    rootobject_ptr__in=object_ids
+                                ),
+                                dry_run=dry_run,
+                            ):
+                                deleted_objects.append(deleted_history)
+
+    else:
+        logger.warning("Nothing to delete – no models or fields provided.")
 
     return deleted_objects
