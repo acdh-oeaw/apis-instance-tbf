@@ -68,7 +68,14 @@ def get_history_model(model_name, name_prefix="Version"):
     return history_model_class
 
 
-def delete_objects(models=None, keep_history=False):
+def delete_objects(
+    models=None,
+    with_fields=None,
+    with_values=None,
+    operators=None,
+    keep_history=False,
+    dry_run=False,
+):
     """
     Delete model instance objects based on model classes and/or class names
     (i.e. string representations of the same).
@@ -80,6 +87,19 @@ def delete_objects(models=None, keep_history=False):
 
     :param models: a list of model classes and/or class names (strings)
     :type models: list
+    :param with_fields: a list of model field names (strings)
+    :type with_fields: list
+    :param with_values: a list of values to look up for the given fields;
+                        only works in conjunction with "with_fields" argument,
+                        used for "params" argument with fields used in "where"
+                        clause argument
+    :type with_values: list
+    :param operators: a list of comparison operators (strings) to use with
+                       field names in "where" argument when lookup values are
+                       provided via "params"; only works in conjunction with
+                       "with_values", overrides "=" (equal) comparison as the
+                       default comparison in "where" argument
+    :type operators: list
     :param keep_history: whether to preserve object histories or to delete them
                          alongside the objects themselves; defaults to False,
                          i.e. deletes historical data as well
