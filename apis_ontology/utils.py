@@ -104,6 +104,10 @@ def delete_objects(
                          alongside the objects themselves; defaults to False,
                          i.e. deletes historical data as well
     :type keep_history: bool
+    :param dry_run: use to simulate object deletion; allows to check which
+                    objects will be deleted with the given arguments before
+                    actually deleting them
+    :type dry_run: bool
     :return: a list of tuples whose first item is the total of deleted objects
              and whose second item is a dictionary with key-value pairs for
              every model class and deleted objects per class for every
