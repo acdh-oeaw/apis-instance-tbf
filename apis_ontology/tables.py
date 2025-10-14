@@ -1,7 +1,12 @@
 import logging
 
 import django_tables2 as tables
-from apis_core.apis_entities.tables import AbstractEntityTable
+from apis_core.generic.tables import (
+    DeleteColumn,
+    DuplicateColumn,
+    EditColumn,
+    ViewColumn,
+)
 from django.utils.translation import gettext_lazy as _
 
 from .models import (
@@ -34,22 +39,27 @@ class SortableLinkifyColumn(tables.Column):
         )
 
 
-class BaseEntityTable(AbstractEntityTable):
+class BaseEntityTable(tables.Table):
     """
-    Base class for entity tables.
+    Base table for entity list views.
+
+    Consists of a sortable ID column and action columns provided by Core.
     """
 
     id = SortableLinkifyColumn(verbose_name="ID")
+    view = ViewColumn()
+    edit = EditColumn()
+    delete = DeleteColumn()
+    duplicate = DuplicateColumn()
 
-    class Meta(AbstractEntityTable.Meta):
-        exclude = ["desc"]
+    class Meta:
         sequence = (
             "...",
             "id",
             "view",
             "edit",
             "delete",
-            "noduplicate",
+            "duplicate",
         )
 
 
