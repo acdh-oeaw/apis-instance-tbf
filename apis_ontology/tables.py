@@ -1,9 +1,11 @@
 import logging
 
 import django_tables2 as tables
+from apis_core.apis_entities.tables import (
+    DuplicateColumn,
+)
 from apis_core.generic.tables import (
     DeleteColumn,
-    DuplicateColumn,
     EditColumn,
     ViewColumn,
 )
