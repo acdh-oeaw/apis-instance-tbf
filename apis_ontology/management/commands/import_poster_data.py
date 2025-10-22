@@ -4,6 +4,7 @@ import logging
 from apis_core.apis_entities.utils import get_entity_classes
 from apis_core.uris.models import Uri
 from django.core.exceptions import ObjectDoesNotExist
+from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
 from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter
@@ -26,11 +27,11 @@ from apis_ontology.models import (
 )
 from apis_ontology.utils import delete_objects, get_ct, get_relation_classes
 
+from . import GND_URL
+
 logger = logging.getLogger(__name__)
 
 OPENREFINE_EXPORT = "data/posters/FTB_posters_initial_catalogue_refined.json"
-GND_URL = "https://d-nb.info/gnd/"
-GND_ID_TB = "118509861"  # GND ID for Thomas Bernhard
 
 
 def add_text(text_value, new_text):
@@ -199,11 +200,11 @@ class Command(BaseCommand):
 
             exit(0)
 
+        # run mgmt command which ensures Thomas Bernhard instance exists
+        call_command("create_tb")
+
         with open(OPENREFINE_EXPORT) as f:
             posters_raw_data = json.load(f)
-
-            # create Thomas Bernhard as first Person from GND ID
-            PersonImporter(GND_URL + GND_ID_TB, Person).create_instance()
 
             for row in posters_raw_data["rows"]:
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
