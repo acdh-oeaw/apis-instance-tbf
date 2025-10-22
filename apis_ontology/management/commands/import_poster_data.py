@@ -374,12 +374,17 @@ class Command(BaseCommand):
                                     surname = person[0]
                                     forename = person[1]
 
-                                    participant, created = Person.objects.get_or_create(
+                                    participant = Person.objects.filter(
                                         surname=surname,
                                         forename=forename,
-                                    )
-                                    if participant:
-                                        participating_persons.append(participant)
+                                    ).first()
+                                    if not participant:
+                                        participant = Person.objects.create(
+                                            surname=surname,
+                                            forename=forename,
+                                        )
+
+                                    participating_persons.append(participant)
 
                     # data was linked to GND data
                     if group_data["match"]:
@@ -402,15 +407,16 @@ class Command(BaseCommand):
 
                     else:
                         # create group(s) from value; ATTN. may be multiple
-                        if group_name := group_data["value"]:
-                            group_labels = group_name.split(";")
+                        if group_data["value"]:
+                            group_labels = group_data["value"].split(";")
 
                             for label in group_labels:
                                 label = label.strip()
 
-                                group, created = Group.objects.get_or_create(
-                                    label=label,
-                                )
+                                group = Group.objects.filter(label=label).first()
+                                if not group:
+                                    group = Group.objects.create(label=label)
+
                                 participating_groups.append(group)
 
                     if event_type == "Theater":
@@ -459,9 +465,9 @@ class Command(BaseCommand):
                         else:
                             # create work from value
                             if work_title := work_data["value"]:
-                                work, created = Work.objects.get_or_create(
-                                    title=work_title,
-                                )
+                                work = Work.objects.filter(title=work_title).first()
+                                if not work:
+                                    work = Work.objects.create(title=work_title)
 
                         PerformancePerformedWork.objects.get_or_create(
                             subj_object_id=performance.pk,
@@ -502,10 +508,16 @@ class Command(BaseCommand):
                                     surname = person[0]
                                     forename = person[1]
 
-                                    director, created = Person.objects.get_or_create(
+                                    director = Person.objects.filter(
                                         surname=surname,
                                         forename=forename,
-                                    )
+                                    ).first()
+                                    if not director:
+                                        director = Person.objects.create(
+                                            surname=surname,
+                                            forename=forename,
+                                        )
+
                                     directors_persons.append(director)
 
                         for director in directors_persons:
@@ -559,9 +571,9 @@ class Command(BaseCommand):
                         else:
                             # create work from value
                             if work_title := work_data["value"]:
-                                work, created = Work.objects.get_or_create(
-                                    title=work_title,
-                                )
+                                work = Work.objects.filter(title=work_title).first()
+                                if not work:
+                                    work = Work.objects.create(title=work_title)
 
                         try:
                             # a Poster may only be linked to one Event
