@@ -37,14 +37,14 @@ class TitlesMixin(models.Model):
     """
 
     title = models.CharField(
-        max_length=255,
+        max_length=1024,
         blank=True,
         default="",
         verbose_name=_("title"),
     )
 
     subtitle = models.CharField(
-        max_length=255,
+        max_length=1024,
         blank=True,
         default="",
         verbose_name=_("subtitle"),
@@ -53,7 +53,7 @@ class TitlesMixin(models.Model):
     # for additional/supplemental information provided in/with titles, e.g.
     # data stored in rdau:P60493 elements, issue/volume identifiers etc.
     other_title_information = models.CharField(
-        max_length=255,
+        max_length=1024,
         blank=True,
         default="",
         verbose_name=_("other title information"),
