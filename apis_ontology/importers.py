@@ -104,10 +104,10 @@ class PersonImporter(BaseEntityImporter):
         # sometimes, GND dates are incomplete, e.g. only the year is given
         # but our date fields expect YYYY-MM-DD formatted strings
         if dob := data.get("date_of_birth", []):
-            if len(dob[0]) < 10:
+            if len(dob[0]) < 10 or len(dob[0]) > 10:
                 del data["date_of_birth"]
         if dod := data.get("date_of_death", []):
-            if len(dod[0]) < 10:
+            if len(dod[0]) < 10 or len(dod[0]) > 10:
                 del data["date_of_death"]
         return data
 
