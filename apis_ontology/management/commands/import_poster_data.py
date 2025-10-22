@@ -368,13 +368,16 @@ class Command(BaseCommand):
                         else:
                             # create participants from value;
                             # ATTN. may be multiple
-                            if participant_data["value"]:
-                                people = split_people(participant_data["value"])
+                            if person_names := participant_data["value"]:
+                                people = split_people(person_names)
 
                                 for person in people:
+                                    surname = person[0]
+                                    forename = person[1]
+
                                     participant, created = Person.objects.get_or_create(
-                                        surname=person[0],
-                                        forename=person[1],
+                                        surname=surname,
+                                        forename=forename,
                                     )
                                     if participant:
                                         participating_persons.append(participant)
@@ -400,12 +403,14 @@ class Command(BaseCommand):
 
                     else:
                         # create group(s) from value; ATTN. may be multiple
-                        if group_data["value"]:
-                            group_values = group_data["value"].split(";")
+                        if group_name := group_data["value"]:
+                            group_labels = group_name.split(";")
 
-                            for val in group_values:
+                            for label in group_labels:
+                                label = label.strip()
+
                                 group, created = Group.objects.get_or_create(
-                                    label=val,
+                                    label=label,
                                 )
                                 participating_groups.append(group)
 
@@ -467,9 +472,9 @@ class Command(BaseCommand):
                                     )
                         else:
                             # create work from value
-                            if work_data["value"]:
+                            if work_title := work_data["value"]:
                                 work, created = Work.objects.get_or_create(
-                                    title=work_data["value"],
+                                    title=work_title,
                                 )
 
                         PerformancePerformedWork.objects.get_or_create(
@@ -504,13 +509,16 @@ class Command(BaseCommand):
                             # create director(s) from value;
                             # may be multiple people or groups, but we default
                             # to Person for manually catalogued data
-                            if director_data["value"]:
-                                people = split_people(director_data["value"])
+                            if person_names := director_data["value"]:
+                                people = split_people(person_names)
 
                                 for person in people:
+                                    surname = person[0]
+                                    forename = person[1]
+
                                     director, created = Person.objects.get_or_create(
-                                        surname=person[0],
-                                        forename=person[1],
+                                        surname=surname,
+                                        forename=forename,
                                     )
                                     directors_persons.append(director)
 
@@ -564,9 +572,9 @@ class Command(BaseCommand):
 
                         else:
                             # create work from value
-                            if work_data["value"]:
+                            if work_title := work_data["value"]:
                                 work, created = Work.objects.get_or_create(
-                                    title=work_data["value"],
+                                    title=work_title,
                                 )
 
                         try:
