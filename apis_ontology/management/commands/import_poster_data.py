@@ -2,7 +2,7 @@ import json
 import logging
 
 from apis_core.apis_entities.utils import get_entity_classes
-from apis_core.apis_metainfo.models import Uri
+from apis_core.uris.models import Uri
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
 
