@@ -98,12 +98,17 @@ def extract_gnd_refs(data_object, exclude_types=None):
 
 def split_people(raw_data):
     """
-    Split raw data for multiple people.
+    Convert strings which may contain the names of multiple people
+    into a list of strings.
 
-    :param people:
-    :type people:
-    :return:
-    :rtype:
+    Split raw data by semicolons to separate multiple people from one another,
+    then further separate resulting substrings into forenames and surnames
+    (where applicable).
+
+    :param people: an input string
+    :type people: str
+    :return: a list of names formatted SURNAME, FORENAME
+    :rtype: list
     """
     names = []
 
