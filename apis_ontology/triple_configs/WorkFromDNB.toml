@@ -4,6 +4,7 @@
 
 [attributes]
 title = ["gndo:preferredNameForTheWork"]
+sameas = "owl:sameAs"
 
 [relations]
 "apis_ontology.personisauthorofwork" = { curies = "gndo:firstAuthor", subj = "apis_ontology.person" }

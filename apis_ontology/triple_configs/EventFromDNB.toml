@@ -8,3 +8,4 @@
 [attributes]
 label = ["gndo:preferredNameForTheSubjectHeading", "gndo:preferredNameForTheConferenceOrEvent", "gndo:dateOfEstablishment"]
 date_range = ["gndo:dateOfProduction", "gndo:dateOfConferenceOrEvent"]
+sameas = "owl:sameAs"
