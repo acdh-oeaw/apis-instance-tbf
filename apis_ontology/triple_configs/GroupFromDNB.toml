@@ -1,0 +1,17 @@
+[[filters]]
+"rdf:type" = "gndo:CorporateBody"
+
+[[filters]]
+"rdf:type" = "gndo:Company"
+
+[[filters]]
+"rdf:type" = "gndo:MusicalCorporateBody"
+
+[[filters]]
+"rdf:type" = "gndo:OrganOfCorporateBody"
+
+[attributes]
+label = ["gndo:preferredNameForTheCorporateBody", "gndo:variantNameForTheCorporateBody"]
+start_date = "gndo:dateOfEstablishment"
+end_date = "gndo:dateOfTermination"
+sameas = "owl:sameAs"

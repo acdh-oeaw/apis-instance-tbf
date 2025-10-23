@@ -339,6 +339,13 @@ class Group(BaseEntity, E74_Group):
     class Meta(E74_Group.Meta):
         pass
 
+    @classmethod
+    def rdf_configs(cls):
+        return {
+            "https://d-nb.info/*|/.*.rdf": "GroupFromDNB.toml",
+            "http://www.wikidata.org/*|/.*.rdf": "E74_GroupFromWikidata.toml",
+        }
+
 
 class Event(BaseEntity):
     """
