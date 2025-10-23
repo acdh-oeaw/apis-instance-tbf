@@ -557,6 +557,7 @@ class Command(BaseCommand):
                             )
 
                     elif event_type in Event.EventTypes.values:
+                        event = None
                         # Events can be about multiple works;
                         # data was linked to GND data
                         if work_data["match"]:
@@ -575,29 +576,41 @@ class Command(BaseCommand):
                                 if not work:
                                     work = Work.objects.create(title=work_title)
 
-                        try:
-                            # a Poster may only be linked to one Event
-                            # TODO remove this check once dates (and countries?)
-                            #  are saved for events
-                            related_event = PosterPromotedEvent.objects.get(
-                                subj_object_id=poster.pk,
-                                subj_content_type=get_ct(Poster),
-                                obj_content_type=get_ct(Event),
+                        # a Poster may only be linked to a single Event, so check
+                        # if there already is an Event linked to this Poster
+                        # TODO remove this check once dates (and countries?)
+                        #  are saved for Events
+                        if poster_promos_event := PosterPromotedEvent.objects.filter(
+                            subj_object_id=poster.pk,
+                            subj_content_type=get_ct(Poster),
+                            obj_content_type=get_ct(Event),
+                        ).first():
+                            event = Event.objects.get(
+                                id=poster_promos_event.obj_object_id
                             )
-                            event = Event.objects.get(id=related_event.obj_object_id)
-                        except ObjectDoesNotExist:
-                            event, created = Event.objects.get_or_create(
+                        if not event:
+                            # check if there is an Event that matches without
+                            # being connected to the Poster
+                            if event := Event.objects.filter(
+                                label=title,
+                                event_type=event_type,
+                                date_range__isnull=True,
+                            ).first():
+                                pass
+                            # otherwise create a new Event
+                            elif event := Event.objects.create(
                                 label=title,
                                 event_type=event_type,
                                 date_range=date_range,
-                            )
+                            ):
+                                pass
 
-                        PosterPromotedEvent.objects.get_or_create(
-                            subj_object_id=poster.pk,
-                            obj_object_id=event.pk,
-                            subj_content_type=get_ct(Poster),
-                            obj_content_type=get_ct(Event),
-                        )
+                            PosterPromotedEvent.objects.get_or_create(
+                                subj_object_id=poster.pk,
+                                obj_object_id=event.pk,
+                                subj_content_type=get_ct(Poster),
+                                obj_content_type=get_ct(Event),
+                            )
 
                         # create relationships between Event and
                         # participating Persons and Groups
