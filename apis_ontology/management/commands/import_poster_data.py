@@ -19,7 +19,6 @@ from apis_ontology.models import (
     PerformanceHadParticipantPerson,
     PerformancePerformedWork,
     Person,
-    PersonIsAuthorOfWork,
     Poster,
     PosterPromotedEvent,
     PosterPromotedPerformance,
@@ -454,22 +453,9 @@ class Command(BaseCommand):
                             )
 
                             for obj in gnd_refs_objects:
-                                work_import = WorkImporter(GND_URL + obj["id"], Work)
-                                work = work_import.create_instance()
-
-                                work_import_data = work_import.get_data(
-                                    drop_unknown_fields=False
-                                )
-                                if "author" in work_import_data:
-                                    author = PersonImporter(
-                                        work_import_data["author"], Person
-                                    ).create_instance()
-                                    PersonIsAuthorOfWork.objects.get_or_create(
-                                        subj_object_id=author.pk,
-                                        obj_object_id=work.pk,
-                                        subj_content_type=get_ct(Person),
-                                        obj_content_type=get_ct(Work),
-                                    )
+                                work = WorkImporter(
+                                    GND_URL + obj["id"], Work
+                                ).create_instance()
                         else:
                             # create work from value
                             if work_title := work_data["value"]:
