@@ -440,7 +440,7 @@ class Command(BaseCommand):
                             obj_content_type=get_ct(Performance),
                         )
 
-                        # Performance can only be linked to one Work
+                        # Performance can only be linked to one Work;
                         # data was linked to GND data
                         if work_data["match"]:
                             gnd_refs_objects = extract_gnd_refs(  # noqa
@@ -551,7 +551,7 @@ class Command(BaseCommand):
                             )
 
                     elif event_type in Event.EventTypes.values:
-                        # Events can be about multiple works
+                        # Events can be about multiple works;
                         # data was linked to GND data
                         if work_data["match"]:
                             gnd_refs_objects = extract_gnd_refs(  # noqa
