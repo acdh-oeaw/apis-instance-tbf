@@ -222,16 +222,6 @@ class Manifestation(TitlesMixin, BaseEntity):
         ),
     )
 
-    tbit_id = models.CharField(
-        blank=True,
-        default="",
-        max_length=50,
-        verbose_name="TBit ID",
-        help_text=_(
-            'Identifier used for "Thomas Bernhard in translation" publications'
-        ),
-    )
-
     tbit_shelfmark = models.CharField(
         blank=True,
         default="",
