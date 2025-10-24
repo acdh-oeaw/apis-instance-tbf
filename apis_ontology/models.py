@@ -657,6 +657,23 @@ class PersonIsAuthorOfWork(BaseRelation):
         return "has author"
 
 
+class PersonIsTranslatorOfExpression(BaseRelation):
+    """
+    Person is translator of Expression relation.
+    """
+
+    subj_model = Person
+    obj_model = Expression
+
+    @classmethod
+    def name(cls) -> str:
+        return "is translator of"
+
+    @classmethod
+    def reverse_name(cls) -> str:
+        return "has translator"
+
+
 class GroupIsPublisherOfManifestation(BaseRelation):
     """
     Group is publisher of Manifestation relation.
