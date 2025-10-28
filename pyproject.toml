@@ -6,7 +6,7 @@ authors = [
     { name = "K Kollmann", email = "dev-kk@oeaw.ac.at" }
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "apis-acdhch-default-settings>=2.14.0,<2.15",
     "apis-core-rdf>=0.54.2,<0.55",
