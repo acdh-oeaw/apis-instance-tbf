@@ -71,5 +71,10 @@ DJANGO_TABLES2_TABLE_ATTRS = {
     },
 }
 
+# Django REST framework settings
+REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
+    "rest_framework.permissions.IsAuthenticatedOrReadOnly",
+)
+
 # APIS-specific settings
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
