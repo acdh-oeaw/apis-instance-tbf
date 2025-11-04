@@ -12,15 +12,14 @@ from apis_ontology.models import (
 
 
 class WorkSerializer(GenericHyperlinkedModelSerializer, ModelSerializer):
-    category = SerializerMethodField()
     short_title = SerializerMethodField()
 
     class Meta:
         model = Work
         fields = ["id", "title", "short_title", "category", "url"]
-
-    def get_category(self, obj):
-        return obj.tbit_category
+        extra_kwargs = {
+            "category": {"source": "tbit_category"},
+        }
 
     def get_short_title(self, obj):
         if (
