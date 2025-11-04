@@ -11,7 +11,5 @@ router = routers.DefaultRouter()
 router.register(r"works", WorkViewSet, basename="work")
 
 urlpatterns += [
-    path(
-        "api/tbit/", include((router.urls, "apis_ontology.api.tbit"), namespace="tbit")
-    ),
+    path("api/tbit/", include((router.urls, "apis_ontology"))),
 ]
