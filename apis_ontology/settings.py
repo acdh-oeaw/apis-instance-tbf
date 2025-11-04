@@ -33,6 +33,7 @@ for a in APIS_APPS_APPEND:
     if a not in INSTALLED_APPS:
         INSTALLED_APPS.append(a)
 
+ROOT_URLCONF = "apis_ontology.urls"
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
 
