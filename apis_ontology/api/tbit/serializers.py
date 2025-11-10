@@ -3,7 +3,7 @@ import re
 from apis_core.generic.serializers import (
     GenericHyperlinkedModelSerializer,
 )
-from rest_framework.fields import SerializerMethodField
+from rest_framework.fields import IntegerField, SerializerMethodField
 from rest_framework.serializers import ModelSerializer
 
 from apis_ontology.models import (
@@ -12,7 +12,18 @@ from apis_ontology.models import (
 )
 
 
-class WorkSerializer(GenericHyperlinkedModelSerializer, ModelSerializer):
+class BaseEntitySerializer(GenericHyperlinkedModelSerializer):
+    """
+    Base serializer class for entities.
+
+    Adds a field for the object ID (i.e. pk) and the URL to an entity object's
+    detail view.
+    """
+
+    id = IntegerField(source="pk")
+
+
+class WorkSerializer(BaseEntitySerializer, ModelSerializer):
     short_title = SerializerMethodField()
 
     class Meta:
@@ -30,7 +41,7 @@ class WorkSerializer(GenericHyperlinkedModelSerializer, ModelSerializer):
                 return short_title.group(1)
 
 
-class ManifestationSerializer(GenericHyperlinkedModelSerializer, ModelSerializer):
+class ManifestationSerializer(BaseEntitySerializer, ModelSerializer):
     short_title = SerializerMethodField()
     publication_details = SerializerMethodField()
     other_title_information = SerializerMethodField()  # overrides model field raw value
