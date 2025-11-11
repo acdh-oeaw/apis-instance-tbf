@@ -2,12 +2,19 @@ import re
 
 from apis_core.generic.serializers import (
     GenericHyperlinkedModelSerializer,
+    serializer_factory,
 )
-from rest_framework.fields import IntegerField, SerializerMethodField
+from drf_spectacular.utils import extend_schema_field
+from rest_framework.fields import (
+    IntegerField,
+    SerializerMethodField,
+)
 from rest_framework.serializers import ModelSerializer, Serializer
 
 from apis_ontology.models import (
     Manifestation,
+    Person,
+    PersonIsTranslatorOfExpression,
     Work,
 )
 
@@ -128,3 +135,62 @@ class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerial
 
         if publication_details:
             return ", ".join(publication_details)
+
+
+class PersonSerializer(BaseEntitySerializer, ModelSerializer):
+    name = SerializerMethodField()  # name field used by TBit
+
+    class Meta:
+        model = Person
+        fields = "__all__"
+
+    def get_name(self, obj):
+        """
+        Recreate TBit's "name" value by concatenating a Person's forename and
+        surname to their full name in the form "SURNAME, FORENAME".
+        """
+        tbit_name = ""
+        surname = obj.surname
+        forename = obj.forename
+
+        if forename != "" and surname != "":
+            tbit_name = f"{surname}, {forename}"
+        elif surname != "":
+            tbit_name = surname
+        elif forename != "":
+            tbit_name = forename
+        else:
+            pass
+
+        return tbit_name
+
+
+class PersonIsTranslatorSerializer(ModelSerializer):
+    person = SerializerMethodField(allow_null=False)
+
+    class Meta:
+        model = PersonIsTranslatorOfExpression
+        exclude = (
+            # relation ID is excluded for clarity, but actually gets overwritten
+            # by Person ID in to_representation anyway
+            "id",
+            "subj_object_id",
+            "obj_object_id",
+            "subj_content_type",
+            "obj_content_type",
+        )
+
+    @extend_schema_field(PersonSerializer())
+    def get_person(self, obj):
+        if obj.subj:
+            serializer = serializer_factory(type(obj.subj), PersonSerializer)
+            return serializer(
+                obj.subj, context={"request": self.context["request"]}
+            ).data
+
+    def to_representation(self, obj):
+        representation = super().to_representation(obj)
+        person = representation.pop("person")
+        for key in person:
+            representation[key] = person[key]
+        return representation
