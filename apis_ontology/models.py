@@ -2,6 +2,8 @@ from apis_core.apis_entities.abc import E21_Person, E53_Place, E74_Group
 from apis_core.apis_entities.models import AbstractEntity
 from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
+from apis_core.utils.rdf import load_uri_using_path
+from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.utils.translation import pgettext_lazy
@@ -133,11 +135,11 @@ class Work(TitlesMixin, BaseEntity):
         verbose_name = _("work")
         verbose_name_plural = _("works")
 
-    @classmethod
-    def rdf_configs(cls):
-        return {
-            "https://d-nb.info/*|/.*.rdf": "WorkFromDNB.toml",
-        }
+    import_definitions = {
+        "https://d-nb.info/*|/.*.rdf": lambda x: load_uri_using_path(
+            x, settings.RDF_CONFIG_ROOT / "WorkFromDNB.toml"
+        ),
+    }
 
 
 class Expression(TitlesMixin, BaseEntity):
@@ -329,12 +331,10 @@ class Group(BaseEntity, E74_Group):
     class Meta(E74_Group.Meta):
         pass
 
-    @classmethod
-    def rdf_configs(cls):
-        return {
-            "https://d-nb.info/*|/.*.rdf": "GroupFromDNB.toml",
-            "http://www.wikidata.org/*|/.*.rdf": "E74_GroupFromWikidata.toml",
-        }
+    import_definitions = E74_Group.import_definitions
+    import_definitions["https://d-nb.info/*|/.*.rdf"] = lambda x: load_uri_using_path(
+        x, settings.RDF_CONFIG_ROOT / "GroupFromDNB.toml"
+    )
 
 
 class Event(BaseEntity):
@@ -394,11 +394,11 @@ class Event(BaseEntity):
     def __str__(self):
         return self.label
 
-    @classmethod
-    def rdf_configs(cls):
-        return {
-            "https://d-nb.info/*|/.*.rdf": "EventFromDNB.toml",
-        }
+    import_definitions = {
+        "https://d-nb.info/*|/.*.rdf": lambda x: load_uri_using_path(
+            x, settings.RDF_CONFIG_ROOT / "EventFromDNB.toml"
+        ),
+    }
 
 
 class Performance(BaseEntity):
