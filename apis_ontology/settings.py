@@ -13,39 +13,31 @@ from django.utils.translation import gettext_lazy as _
 
 # Django general settings
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# Core settings
+# https://docs.djangoproject.com/en/stable/ref/settings/#core-settings
+
 DEBUG = False
 
-
-# Application definition
-
-APIS_APPS_PREPEND = []
-APIS_APPS_APPEND = [
-    "apis_core.documentation",
-    "django_interval",
+INSTALLED_APPS += [
+    app
+    for app in [
+        "apis_core.documentation",
+        "django_interval",
+    ]
+    if app not in INSTALLED_APPS
 ]
 
-for a in APIS_APPS_PREPEND:
-    if a not in INSTALLED_APPS:
-        INSTALLED_APPS.insert(0, a)
-
-for a in APIS_APPS_APPEND:
-    if a not in INSTALLED_APPS:
-        INSTALLED_APPS.append(a)
-
-ROOT_URLCONF = "apis_ontology.urls"
-
-WSGI_APPLICATION = "apis_ontology.wsgi.application"
-
-
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 DATABASES = {
     "default": dj_database_url.config(conn_max_age=600),
 }
 
-# Internationalization
+ROOT_URLCONF = "apis_ontology.urls"
+
+WSGI_APPLICATION = "apis_ontology.wsgi.application"
+
+# Internationalization-specific settings
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 LANGUAGE_CODE = "de-at"
@@ -56,15 +48,9 @@ LANGUAGES = [
 
 TIME_ZONE = "CET"
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
+# Django plugins / third-party dependencies settings
 
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-
-# Third-party dependencies
-
-# django-tables2 settings
+# django-tables2 config
 DJANGO_TABLES2_TABLE_ATTRS = {
     "class": "table table-hover table-striped",
     "thead": {
@@ -72,10 +58,11 @@ DJANGO_TABLES2_TABLE_ATTRS = {
     },
 }
 
-# Django REST framework settings
+# Django REST framework config
 REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
     "rest_framework.permissions.IsAuthenticatedOrReadOnly",
 )
 
-# APIS-specific settings
+# APIS framework-specific variables
+
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
