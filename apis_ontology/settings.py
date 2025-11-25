@@ -12,6 +12,8 @@ Variables are grouped by:
 from apis_acdhch_default_settings.settings import *
 from django.utils.translation import gettext_lazy as _
 
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
+
 # Django general settings
 
 # Core settings
@@ -38,6 +40,9 @@ ROOT_URLCONF = "apis_ontology.urls"
 
 WSGI_APPLICATION = "apis_ontology.wsgi.application"
 
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "media/"
+
 # Internationalization-specific settings
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
@@ -48,6 +53,13 @@ LANGUAGES = [
 ]
 
 TIME_ZONE = "CET"
+
+# Static file settings
+# https://docs.djangoproject.com/en/stable/ref/settings/#static-files
+
+STATIC_ROOT = BASE_DIR / "static_files"
+STATIC_URL = "static/"
+
 
 # Django plugins / third-party dependencies settings
 
