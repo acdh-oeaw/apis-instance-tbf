@@ -1,11 +1,12 @@
 """
-Settings for apis_ontology Django project.
+Settings for "Thomas Bernhard online" Django project.
 
 Variables are grouped by:
-- Django general settings/built-ins
-- configs for third-party dependencies
-- APIS-specific variables
-- custom project settings
+- Django general settings, i.e. overrides of django/conf/global_settings
+  and django/contrib apps,
+- third-party dependencies/Django plugins configs,
+- APIS app-specific variables (i.e. apis_core & related),
+- custom project variables.
 """
 
 from apis_acdhch_default_settings.settings import *
