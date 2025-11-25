@@ -79,3 +79,8 @@ REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
 # APIS framework-specific variables
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
+
+# Custom project variables
+
+# path to directory holding RDF import configs
+RDF_CONFIG_ROOT = BASE_DIR / "apis_ontology" / "triple_configs"
