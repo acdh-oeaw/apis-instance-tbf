@@ -27,7 +27,7 @@ docs = [
 ]
 helpers = [
     "deptry>=0.23.1,<0.24",
-    "django-debug-toolbar>=6.0.0,<6.1",]
+    "django-debug-toolbar>=6.0.0,<6.2",]
 lint = [
     "djlint>=1.36.4,<1.37",
     "pylint>=4.0.2,<4.1",
