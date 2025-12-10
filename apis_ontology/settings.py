@@ -76,6 +76,11 @@ REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
     "rest_framework.permissions.IsAuthenticatedOrReadOnly",
 )
 
+# temp. fix for missing django-auditlog AUDITLOG_LOGENTRY_MODEL setting
+# see https://github.com/jazzband/django-auditlog/issues/788
+# TODO revisit/remove at a later point
+AUDITLOG_LOGENTRY_MODEL = os.environ.get("AUDITLOG_LOGENTRY_MODEL", "auditlog.LogEntry")
+
 # APIS framework-specific variables
 
 GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
