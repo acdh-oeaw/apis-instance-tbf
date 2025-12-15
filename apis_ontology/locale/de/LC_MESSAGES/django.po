@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 12:23+0200\n"
+"POT-Creation-Date: 2025-12-15 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -149,11 +149,6 @@ msgstr ""
 "ansonsten im Format MM.YYYY oder YYYY-MM anzugeben. Zeiträume müssen mit "
 "'ab' bzw. 'bis' gekennzeichnet werden. Bsp. 1989. Bsp. 1971-05. Bsp. ab "
 "26.03.1990 bis 27.03.1990."
-
-#: apis_ontology/models.py
-msgid "Identifier used for \"Thomas Bernhard in translation\" publications"
-msgstr ""
-"Von \"Thomas Bernhard in translation\" verwendete Kennung für Publikationen"
 
 #: apis_ontology/models.py
 msgid "TBit shelfmark"
