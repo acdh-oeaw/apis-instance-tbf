@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 15:20+0100\n"
+"POT-Creation-Date: 2025-12-15 15:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -272,8 +272,8 @@ msgid "notes"
 msgstr "Anmerkungen"
 
 #: apis_ontology/models.py
-msgid "length"
-msgstr "Länge"
+msgid "height"
+msgstr "Höhe"
 
 #: apis_ontology/models.py
 msgid "width"

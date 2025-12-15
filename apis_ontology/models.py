@@ -514,7 +514,7 @@ class Poster(BaseEntity):
     height = models.FloatField(
         blank=True,
         null=True,
-        verbose_name=_("length"),
+        verbose_name=_("height"),
     )
 
     width = models.FloatField(
