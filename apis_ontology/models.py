@@ -515,12 +515,14 @@ class Poster(BaseEntity):
         blank=True,
         null=True,
         verbose_name=_("height"),
+        help_text=_("unit: mm"),
     )
 
     width = models.FloatField(
         blank=True,
         null=True,
         verbose_name=_("width"),
+        help_text=_("unit: mm"),
     )
 
     quantity = models.PositiveSmallIntegerField(
