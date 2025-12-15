@@ -115,6 +115,7 @@ source = { editable = "." }
 dependencies = [
     { name = "apis-acdhch-default-settings" },
     { name = "apis-core-rdf" },
+    { name = "django" },
     { name = "django-interval" },
     { name = "psycopg" },
     { name = "psycopg-binary" },
@@ -147,6 +148,7 @@ lint = [
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.15.0,<2.16" },
     { name = "apis-core-rdf", specifier = ">=0.56.4,<0.57" },
+    { name = "django", specifier = "~=5.2" },
     { name = "django-interval", specifier = ">=0.5.1,<0.6" },
     { name = "psycopg", specifier = ">=3.3.2,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.2,<3.4" },
