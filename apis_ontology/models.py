@@ -511,14 +511,14 @@ class Poster(BaseEntity):
         verbose_name=_("notes"),
     )
 
-    height = models.FloatField(
+    height = models.IntegerField(
         blank=True,
         null=True,
         verbose_name=_("height"),
         help_text=_("unit: mm"),
     )
 
-    width = models.FloatField(
+    width = models.IntegerField(
         blank=True,
         null=True,
         verbose_name=_("width"),
