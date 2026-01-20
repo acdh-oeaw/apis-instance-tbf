@@ -274,6 +274,17 @@ class Person(BaseEntity, E21_Person):
     def __str__(self):
         return self.full_name()
 
+    def import_data(self, data):
+        super().import_data(data)
+        # sometimes, GND dates are incomplete, e.g. only the year is given
+        # but our date fields expect YYYY-MM-DD formatted strings
+        if dob := data.get("date_of_birth", []):
+            if len(dob[0]) < 10 or len(dob[0]) > 10:
+                del data["date_of_birth"]
+        if dod := data.get("date_of_death", []):
+            if len(dod[0]) < 10 or len(dod[0]) > 10:
+                del data["date_of_death"]
+
     def full_name(self):
         """
         Combine a Person's forename and surname (where available) into
