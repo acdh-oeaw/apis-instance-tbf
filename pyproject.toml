@@ -22,9 +22,9 @@ dev = [
   {include-group = "lint"},
 ]
 docs = [
-    "myst-parser>=4.0.1,<4.1",
-    "sphinx>=8.2.3,<8.3",
-    "sphinx-rtd-theme>=3.0.2,<3.1",
+    "myst-parser>=5.0.0,<5.1",
+    "sphinx>=9.1.0,<9.2",
+    "sphinx-rtd-theme>=3.1.0,<3.2",
 ]
 helpers = [
     "deptry>=0.24.0,<0.25",
