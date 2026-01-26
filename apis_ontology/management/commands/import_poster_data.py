@@ -7,7 +7,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
-from apis_ontology.importers import GroupImporter, PersonImporter, WorkImporter
 from apis_ontology.models import (
     Event,
     EventHadParticipantGroup,
@@ -353,15 +352,11 @@ class Command(BaseCommand):
                             )
                             for obj in gnd_refs_objects:
                                 if "DifferentiatedPerson" in obj["types"]:
-                                    person = PersonImporter(
-                                        GND_URL + obj["id"], Person
-                                    ).create_instance()
+                                    person = Person.import_from(GND_URL + obj["id"])
                                     if person:
                                         participating_persons.append(person)
                                 if "CorporateBody" in obj["types"]:
-                                    group = GroupImporter(
-                                        GND_URL + obj["id"], Group
-                                    ).create_instance()
+                                    group = Group.import_from(GND_URL + obj["id"])
                                     if group:
                                         participating_groups.append(group)
                         else:
@@ -393,15 +388,11 @@ class Command(BaseCommand):
                         )
                         for obj in gnd_refs_objects:
                             if "DifferentiatedPerson" in obj["types"]:
-                                person = PersonImporter(
-                                    GND_URL + obj["id"], Person
-                                ).create_instance()
+                                person = Person.import_from(GND_URL + obj["id"])
                                 if person:
                                     participating_persons.append(person)
                             if "CorporateBody" in obj["types"]:
-                                group = GroupImporter(
-                                    GND_URL + obj["id"], Group
-                                ).create_instance()
+                                group = Group.import_from(GND_URL + obj["id"])
                                 if group:
                                     participating_groups.append(group)
 
@@ -459,9 +450,7 @@ class Command(BaseCommand):
                             )
 
                             for obj in gnd_refs_objects:
-                                work = WorkImporter(
-                                    GND_URL + obj["id"], Work
-                                ).create_instance()
+                                work = Work.import_from(GND_URL + obj["id"])
                         else:
                             # create work from value
                             if work_title := work_data["value"]:
@@ -486,15 +475,11 @@ class Command(BaseCommand):
                             )
                             for obj in gnd_refs_objects:
                                 if "DifferentiatedPerson" in obj["types"]:
-                                    person = PersonImporter(
-                                        GND_URL + obj["id"], Person
-                                    ).create_instance()
+                                    person = Person.import_from(GND_URL + obj["id"])
                                     if person:
                                         directors_persons.append(person)
                                 if "CorporateBody" in obj["types"]:
-                                    group = GroupImporter(
-                                        GND_URL + obj["id"], Group
-                                    ).create_instance()
+                                    group = Group.import_from(GND_URL + obj["id"])
                                     if group:
                                         directors_groups.append(group)
                         else:
@@ -565,9 +550,7 @@ class Command(BaseCommand):
                                 work_data,
                                 exclude_types=["DifferentiatedPerson", "CorporateBody"],
                             )
-                            work = WorkImporter(
-                                GND_URL + gnd_refs_objects[0]["id"], Work
-                            ).create_instance()
+                            work = Work.import_from(GND_URL + gnd_refs_objects[0]["id"])
 
                         else:
                             # create work from value
