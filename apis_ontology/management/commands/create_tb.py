@@ -12,7 +12,6 @@ import logging
 from apis_core.uris.models import Uri
 from django.core.management.base import BaseCommand, CommandError
 
-from apis_ontology.importers import PersonImporter
 from apis_ontology.models import Person
 
 from . import GND_URL, TB_GND_ID, TB_WD_ID, WIKIDATA_URL
@@ -35,7 +34,7 @@ class Command(BaseCommand):
         else:
             try:
                 # sometimes connection to GND fails...
-                tb = PersonImporter(tb_gnd_uri, Person).create_instance()
+                tb = Person.import_from(tb_gnd_uri)
                 logger.debug(f'Imported Person instance "{tb}" (ID {tb.pk}).')
             except Exception as e:
                 logger.error(e)
@@ -52,7 +51,7 @@ class Command(BaseCommand):
 
                 # try to enrich with data from Wikidata as fallback
                 try:
-                    tb = PersonImporter(tb_wikidata_uri, Person).create_instance()
+                    tb = Person.import_from(tb_wikidata_uri)
                 except Exception as e:
                     logger.error(e)
                     logger.warning(f"Could not fetch data from ({tb_wikidata_uri}).")

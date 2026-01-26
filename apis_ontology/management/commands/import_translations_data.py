@@ -6,7 +6,6 @@ from django.core.exceptions import ImproperlyConfigured
 from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
-from apis_ontology.importers import PersonImporter, WorkImporter
 from apis_ontology.models import (
     Expression,
     Group,
@@ -247,7 +246,7 @@ class Command(BaseCommand):
 
             if not person:
                 try:
-                    person = PersonImporter(data_source, Person).create_instance()
+                    person = Person.import_from(data_source)
                 except ImproperlyConfigured as e:
                     # sometimes connection to GND fails...
                     logger.error(f"{forename} {surname}: {e}")
@@ -313,7 +312,7 @@ class Command(BaseCommand):
 
             if not work:
                 try:
-                    work = WorkImporter(data_source, Work).create_instance()
+                    work = Work.import_from(data_source)
                 except ImproperlyConfigured as e:
                     # sometimes connection to GND fails...
                     logger.error(f"{title}: {e}")
