@@ -28,12 +28,12 @@ docs = [
 ]
 helpers = [
     "deptry>=0.24.0,<0.25",
-    "django-debug-toolbar>=6.1.0,<6.2.0",
+    "django-debug-toolbar>=6.2.0,<6.3.0",
 ]
 lint = [
     "djlint>=1.36.4,<1.37",
-    "pylint>=4.0.2,<4.1",
-    "ruff>=0.14.2,<0.15",
+    "pylint>=4.0.4,<4.1",
+    "ruff>=0.14.14,<0.15",
 ]
 
 [tool.uv]
