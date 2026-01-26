@@ -149,7 +149,7 @@ requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.15.0,<2.16" },
     { name = "apis-core-rdf", specifier = ">=0.56.4,<0.57" },
     { name = "django", specifier = "~=5.2" },
-    { name = "django-interval", specifier = ">=0.5.1,<0.6" },
+    { name = "django-interval", specifier = ">=0.5.3,<0.5.4" },
     { name = "psycopg", specifier = ">=3.3.2,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.2,<3.4" },
 ]
@@ -468,14 +468,14 @@ wheels = [
 
 [[package]]
 name = "django-interval"
-version = "0.5.1"
+version = "0.5.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3c/52/c41baa5edfc0179ca9309846f018ff38b79af2781d2015980a5dc9309781/django_interval-0.5.1.tar.gz", hash = "sha256:8fcba0f178270a7f09a37c665728f53e8d865945bc73440a68a8e624502e9887", size = 9393, upload-time = "2025-04-01T09:09:49.279Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/21/a5/463685b9c1c231e8e026a50c11e80caf7e7fbf6cb68ad1b1a229c773f382/django_interval-0.5.3.tar.gz", hash = "sha256:f7c4f438b524d6247c53d11fe638d9a64b891d9263f850f8be364d711d9d2af3", size = 13050, upload-time = "2026-01-21T09:55:36.908Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/dc/6a/ea7b83ce41df92c8c5018fc080532dd8f8c225ed56247cbfac3578d76015/django_interval-0.5.1-py3-none-any.whl", hash = "sha256:df532b92c381e79d89dde49023f978f10e6d2f5ff56a91cc5d10abdc2f3fe062", size = 9840, upload-time = "2025-04-01T09:09:47.841Z" },
+    { url = "https://files.pythonhosted.org/packages/d0/b1/ea522e4169279c86e810ce61b3e9e46eb61196e454ac7294eebe82d5af9e/django_interval-0.5.3-py3-none-any.whl", hash = "sha256:64380355af34bbfbd801f5775c8fe664c15562c02f5c5cec8d458afd1b78372f", size = 11731, upload-time = "2026-01-21T09:55:34.618Z" },
 ]
 
 [[package]]
