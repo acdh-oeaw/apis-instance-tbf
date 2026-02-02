@@ -59,10 +59,17 @@ class Command(BaseCommand):
             action="store_true",
             help="Do not modify the database; show candidate count and sample replacements.",
         )
+        parser.add_argument(
+            "--show-current",
+            dest="show_current",
+            action="store_true",
+            help="Display the current value of APIS_BASE_URI and exit.",
+        )
 
     def handle(self, *args, **options):
         old_base_uri_raw = options["old_base_uri"]
         dry_run = bool(options.get("dry_run"))
+        show_current = bool(options.get("show_current"))
 
         # verify APIS_BASE_URI is actually set and not empty
         base_uri_setting = getattr(settings, "APIS_BASE_URI", None)
@@ -72,6 +79,12 @@ class Command(BaseCommand):
                 "Please set it to a valid URL."
             )
         current_base_uri = "https://" + normalise_input(base_uri_setting)
+
+        # when --show-current argument is provided, display the actual current
+        # value of the setting (i.e. don't normalise the URL/protocol) and exit
+        if show_current:
+            self.stdout.write(f"Current APIS_BASE_URI: {base_uri_setting}")
+            return
 
         old_base_uri_domain = normalise_input(old_base_uri_raw)
         # create lookup pattern (string) to fetch Uris with matching
