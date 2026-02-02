@@ -45,6 +45,7 @@ class Command(BaseCommand):
         parser.add_argument(
             "old_base_uri",
             type=str,
+            nargs="?",
             metavar="OLD_BASE_URI",
             help=(
                 "Old domain name/URI to be replaced by APIS_BASE_URI in object "
@@ -85,6 +86,11 @@ class Command(BaseCommand):
         if show_current:
             self.stdout.write(f"Current APIS_BASE_URI: {base_uri_setting}")
             return
+
+        if not old_base_uri_raw:
+            raise CommandError(
+                "OLD_BASE_URI argument is required when not using --show-current."
+            )
 
         old_base_uri_domain = normalise_input(old_base_uri_raw)
         # create lookup pattern (string) to fetch Uris with matching
