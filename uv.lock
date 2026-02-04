@@ -41,7 +41,7 @@ wheels = [
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.16.0"
+version = "2.17.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "apis-acdhch-django-auditlog" },
@@ -53,6 +53,7 @@ dependencies = [
     { name = "django-auth-ldap" },
     { name = "django-csp" },
     { name = "django-removals" },
+    { name = "gunicorn" },
     { name = "opentelemetry-distro" },
     { name = "opentelemetry-exporter-otlp" },
     { name = "opentelemetry-instrumentation-asgi" },
@@ -63,9 +64,9 @@ dependencies = [
     { name = "requests" },
     { name = "whitenoise" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/86/70/e4f0e2d6889829d4b31b21138276fa93ac507004d121c18c6e944d383c4c/apis_acdhch_default_settings-2.16.0.tar.gz", hash = "sha256:f67a8fd5d755a74e42432973530bab40c2c2daa9f0af68d493194e9861a05a1d", size = 15571, upload-time = "2025-12-05T06:26:04.257Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/91/4ff3fdf8b08550db411ca504ef8d547a46f870d1ab3273673592ee0e8333/apis_acdhch_default_settings-2.17.0.tar.gz", hash = "sha256:9f9ffd9370343b789f3c36d3344f9028c5d482c207728991a2b99f759ad26626", size = 15903, upload-time = "2026-02-04T12:21:30.409Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/08/6e/9920f75104a27aa48650fdd4cdc9133b0b8caf5aee383b4c3699eb5626cc/apis_acdhch_default_settings-2.16.0-py3-none-any.whl", hash = "sha256:80ab579c32f966b0d669fc82fc7df6e4415058525e92cee1a2f50ae38d1bae0b", size = 11640, upload-time = "2025-12-05T06:26:02.926Z" },
+    { url = "https://files.pythonhosted.org/packages/d7/ff/94895e6caca8b684ced6a36468104de463026ae029206dfd53e57fd29c85/apis_acdhch_default_settings-2.17.0-py3-none-any.whl", hash = "sha256:5740817ed807311f753786d07c0af46dd82028e31deffa3ddbabf16ad8ac80f2", size = 11842, upload-time = "2026-02-04T12:21:28.612Z" },
 ]
 
 [[package]]
@@ -145,7 +146,7 @@ lint = [
 
 [package.metadata]
 requires-dist = [
-    { name = "apis-acdhch-default-settings", specifier = ">=2.16.0,<2.17" },
+    { name = "apis-acdhch-default-settings", specifier = ">=2.17.0,<2.18" },
     { name = "apis-core-rdf", specifier = ">=0.59.0,<0.60" },
     { name = "django-interval", specifier = ">=0.5.3,<0.5.4" },
     { name = "psycopg", specifier = ">=3.3.2,<3.4" },
@@ -623,6 +624,18 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/84/35/9f6b2503c1fd86d068b46818bbd7329db26a87cdd8c01e0d1a9abea1104c/grpcio-1.74.0-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:3b03d8f2a07f0fea8c8f74deb59f8352b770e3900d143b3d1475effcb08eec20", size = 6491489, upload-time = "2025-07-24T18:53:55.06Z" },
     { url = "https://files.pythonhosted.org/packages/75/33/a04e99be2a82c4cbc4039eb3a76f6c3632932b9d5d295221389d10ac9ca7/grpcio-1.74.0-cp313-cp313-win32.whl", hash = "sha256:b6a73b2ba83e663b2480a90b82fdae6a7aa6427f62bf43b29912c0cfd1aa2bfa", size = 3805811, upload-time = "2025-07-24T18:53:56.798Z" },
     { url = "https://files.pythonhosted.org/packages/34/80/de3eb55eb581815342d097214bed4c59e806b05f1b3110df03b2280d6dfd/grpcio-1.74.0-cp313-cp313-win_amd64.whl", hash = "sha256:fd3c71aeee838299c5887230b8a1822795325ddfea635edd82954c1eaa831e24", size = 4489214, upload-time = "2025-07-24T18:53:59.771Z" },
+]
+
+[[package]]
+name = "gunicorn"
+version = "24.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/78/0a/10739c03537ec5b131a867bf94df2e412b437696c7e5d26970e2198a80d2/gunicorn-24.1.1.tar.gz", hash = "sha256:f006d110e5cb3102859b4f5cd48335dbd9cc28d0d27cd24ddbdafa6c60929408", size = 287567, upload-time = "2026-01-24T01:15:31.359Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/96/90/cfe637677916fc6f53cd2b05d5746e249f683e1fa14c9e745a88c66f7290/gunicorn-24.1.1-py3-none-any.whl", hash = "sha256:757f6b621fc4f7581a90600b2cd9df593461f06a41d7259cb9b94499dc4095a8", size = 114920, upload-time = "2026-01-24T01:15:29.656Z" },
 ]
 
 [[package]]
