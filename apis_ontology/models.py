@@ -69,6 +69,41 @@ class TitlesMixin(models.Model):
         return self.title
 
 
+class TBitCategories(models.TextChoices):
+    """
+    Categorisation of Works by Thomas Bernhard in translation website.
+
+    TextChoices values are set to German short names since the working
+    language is assumed to be German. Full names used by TBit are
+    stored in (translatable) labels (partially modified to include
+    super categories/labels as quasi prefix).
+    """
+
+    NOVELS = ("Romane", pgettext_lazy("TBit category", "prose: novels"))
+    NOVELLAS = (
+        "Novellen",
+        pgettext_lazy("TBit category", "prose: novellas & short prose"),
+    )
+    AUTOBIOGRAPHY = (
+        "Autobiografie",
+        pgettext_lazy("TBit category", "prose: autobiography"),
+    )
+    DRAMA = "Drama", pgettext_lazy("TBit category", "drama & libretti")
+    POETRY = "Lyrik", pgettext_lazy("TBit category", "poetry")
+    OTHER = (
+        "Sonstiges",
+        pgettext_lazy(
+            "TBit category",
+            "other: letters, speeches, interviews & other writings",
+        ),
+    )
+    ADAPTATIONS = (
+        "Adaptionen",
+        pgettext_lazy("TBit category", "adaptations"),
+    )
+    FRAGMENTS = "Fragmente", pgettext_lazy("TBit category", "fragments")
+
+
 class Work(TitlesMixin, BaseEntity):
     """
     Distinct intellectual ideas conveyed in artistic and intellectual
@@ -84,40 +119,6 @@ class Work(TitlesMixin, BaseEntity):
     Based on LRMoo class F1 Work:
     https://www.cidoc-crm.org/extensions/lrmoo/html/LRMoo_v1.0.html#F1
     """
-
-    class TBitCategories(models.TextChoices):
-        """
-        Categorisation of Works by Thomas Bernhard in translation website.
-
-        TextChoices values are set to German short names since the working
-        language is assumed to be German. Full names used by TBit are
-        stored in (translatable) labels (partially modified to include
-        super categories/labels as quasi prefix).
-        """
-
-        NOVELS = ("Romane", pgettext_lazy("TBit category", "prose: novels"))
-        NOVELLAS = (
-            "Novellen",
-            pgettext_lazy("TBit category", "prose: novellas & short prose"),
-        )
-        AUTOBIOGRAPHY = (
-            "Autobiografie",
-            pgettext_lazy("TBit category", "prose: autobiography"),
-        )
-        DRAMA = "Drama", pgettext_lazy("TBit category", "drama & libretti")
-        POETRY = "Lyrik", pgettext_lazy("TBit category", "poetry")
-        OTHER = (
-            "Sonstiges",
-            pgettext_lazy(
-                "TBit category",
-                "other: letters, speeches, interviews & other writings",
-            ),
-        )
-        ADAPTATIONS = (
-            "Adaptionen",
-            pgettext_lazy("TBit category", "adaptations"),
-        )
-        FRAGMENTS = "Fragmente", pgettext_lazy("TBit category", "fragments")
 
     tbit_category = models.CharField(
         max_length=1024,
