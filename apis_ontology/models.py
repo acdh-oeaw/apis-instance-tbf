@@ -348,6 +348,15 @@ class Group(BaseEntity, E74_Group):
     )
 
 
+class EventTypes(models.TextChoices):
+    EXHIBITION = "Ausstellung", _("exhibition")
+    BOOK_PRESENTATION = "Buchpräsentation", _("book presentation")
+    CONFERENCE = "Konferenz", _("conference")
+    BOOK_READING = "Lesung", _("book reading")
+    SCREENING = "Videovorführung", _("screening")
+    LECTURE = "Vortrag", _("lecture")
+
+
 class Event(BaseEntity):
     """
     Processes and interactions of a material nature, in cultural, social or
@@ -360,14 +369,6 @@ class Event(BaseEntity):
     Based on CIDOC CRM class E5 Event:
     https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E5
     """
-
-    class EventTypes(models.TextChoices):
-        EXHIBITION = "Ausstellung", _("exhibition")
-        BOOK_PRESENTATION = "Buchpräsentation", _("book presentation")
-        CONFERENCE = "Konferenz", _("conference")
-        BOOK_READING = "Lesung", _("book reading")
-        SCREENING = "Videovorführung", _("screening")
-        LECTURE = "Vortrag", _("lecture")
 
     label = models.CharField(
         blank=True,
