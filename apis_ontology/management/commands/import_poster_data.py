@@ -11,6 +11,7 @@ from apis_ontology.models import (
     Event,
     EventHadParticipantGroup,
     EventHadParticipantPerson,
+    EventTypes,
     Group,
     Performance,
     PerformanceHadDirectorPerson,
@@ -268,9 +269,7 @@ class Command(BaseCommand):
                 if measurements:
                     notes = add_text(notes, f"Maße: {measurements}")
 
-                if not event_type or event_type not in Event.EventTypes.values + [
-                    "Theater"
-                ]:
+                if not event_type or event_type not in EventTypes.values + ["Theater"]:
                     # record any data which would normally be linked with a
                     # Performance or Event object to Poster notes in case
                     # no such relation can be created
@@ -541,7 +540,7 @@ class Command(BaseCommand):
                                 obj_content_type=get_ct(Group),
                             )
 
-                    elif event_type in Event.EventTypes.values:
+                    elif event_type in EventTypes.values:
                         event = None
                         # Events can be about multiple works;
                         # data was linked to GND data
