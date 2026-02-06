@@ -5,7 +5,15 @@ from apis_core.generic.forms import GenericFilterSetForm, GenericModelForm
 logger = logging.getLogger(__name__)
 
 
-class WorkFilterSetForm(GenericFilterSetForm):
+class BaseFilterSetForm(GenericFilterSetForm):
+    """
+    Base form for FilterSets. Used in filter sidebars.
+    """
+
+    pass
+
+
+class WorkFilterSetForm(BaseFilterSetForm):
     columns_exclude = ["tbit_category"]
 
 
