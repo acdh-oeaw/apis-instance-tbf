@@ -54,3 +54,7 @@ class WorkFilterSet(BaseEntityFilterSet):
     class Meta(BaseEntityFilterSet.Meta):
         exclude = ["tbit_category"]
         form = WorkFilterSetForm
+
+
+class EventFilterSet(BaseEntityFilterSet):
+    pass
