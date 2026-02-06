@@ -4,7 +4,7 @@ from apis_core.apis_entities.filtersets import AbstractEntityFilterSet
 from django.utils.text import format_lazy
 from django.utils.translation import gettext_lazy as _
 
-from apis_ontology.forms import WorkFilterSetForm
+from apis_ontology.forms import BaseFilterSetForm, WorkFilterSetForm
 
 logger = logging.getLogger(__name__)
 
@@ -15,6 +15,9 @@ class BaseEntityFilterSet(AbstractEntityFilterSet):
 
     Applies settings to all entity list views (filter sidebars).
     """
+
+    class Meta(AbstractEntityFilterSet.Meta):
+        form = BaseFilterSetForm
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
