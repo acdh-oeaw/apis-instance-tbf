@@ -122,7 +122,7 @@ class Work(TitlesMixin, BaseEntity):
 
     tbit_category = models.CharField(
         max_length=1024,
-        choices=TBitCategories.choices,
+        choices=TBitCategories,
         blank=True,
         default="",
         verbose_name=_('"TB in translation" category'),
@@ -382,7 +382,7 @@ class Event(BaseEntity):
 
     event_type = models.CharField(
         max_length=1024,
-        choices=EventTypes.choices,
+        choices=EventTypes,
         blank=True,
         default="",
         verbose_name=_("event type"),
