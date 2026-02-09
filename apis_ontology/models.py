@@ -10,6 +10,50 @@ from django.utils.translation import pgettext_lazy
 from django_interval.fields import FuzzyDateParserField
 
 
+class EventTypes(models.TextChoices):
+    EXHIBITION = "Ausstellung", _("exhibition")
+    BOOK_PRESENTATION = "Buchpräsentation", _("book presentation")
+    CONFERENCE = "Konferenz", _("conference")
+    BOOK_READING = "Lesung", _("book reading")
+    SCREENING = "Videovorführung", _("screening")
+    LECTURE = "Vortrag", _("lecture")
+
+
+class TBitCategories(models.TextChoices):
+    """
+    Categorisation of Works by Thomas Bernhard in translation website.
+
+    TextChoices values are set to German short names since the working
+    language is assumed to be German. Full names used by TBit are
+    stored in (translatable) labels (partially modified to include
+    super categories/labels as quasi prefix).
+    """
+
+    NOVELS = ("Romane", pgettext_lazy("TBit category", "prose: novels"))
+    NOVELLAS = (
+        "Novellen",
+        pgettext_lazy("TBit category", "prose: novellas & short prose"),
+    )
+    AUTOBIOGRAPHY = (
+        "Autobiografie",
+        pgettext_lazy("TBit category", "prose: autobiography"),
+    )
+    DRAMA = "Drama", pgettext_lazy("TBit category", "drama & libretti")
+    POETRY = "Lyrik", pgettext_lazy("TBit category", "poetry")
+    OTHER = (
+        "Sonstiges",
+        pgettext_lazy(
+            "TBit category",
+            "other: letters, speeches, interviews & other writings",
+        ),
+    )
+    ADAPTATIONS = (
+        "Adaptionen",
+        pgettext_lazy("TBit category", "adaptations"),
+    )
+    FRAGMENTS = "Fragmente", pgettext_lazy("TBit category", "fragments")
+
+
 class BaseEntity(VersionMixin, AbstractEntity):
     """
     Base class for all entities.
@@ -67,41 +111,6 @@ class TitlesMixin(models.Model):
 
     def __str__(self):
         return self.title
-
-
-class TBitCategories(models.TextChoices):
-    """
-    Categorisation of Works by Thomas Bernhard in translation website.
-
-    TextChoices values are set to German short names since the working
-    language is assumed to be German. Full names used by TBit are
-    stored in (translatable) labels (partially modified to include
-    super categories/labels as quasi prefix).
-    """
-
-    NOVELS = ("Romane", pgettext_lazy("TBit category", "prose: novels"))
-    NOVELLAS = (
-        "Novellen",
-        pgettext_lazy("TBit category", "prose: novellas & short prose"),
-    )
-    AUTOBIOGRAPHY = (
-        "Autobiografie",
-        pgettext_lazy("TBit category", "prose: autobiography"),
-    )
-    DRAMA = "Drama", pgettext_lazy("TBit category", "drama & libretti")
-    POETRY = "Lyrik", pgettext_lazy("TBit category", "poetry")
-    OTHER = (
-        "Sonstiges",
-        pgettext_lazy(
-            "TBit category",
-            "other: letters, speeches, interviews & other writings",
-        ),
-    )
-    ADAPTATIONS = (
-        "Adaptionen",
-        pgettext_lazy("TBit category", "adaptations"),
-    )
-    FRAGMENTS = "Fragmente", pgettext_lazy("TBit category", "fragments")
 
 
 class Work(TitlesMixin, BaseEntity):
@@ -347,15 +356,6 @@ class Group(BaseEntity, E74_Group):
     import_definitions["https://d-nb.info/*|/.*.rdf"] = lambda x: load_uri_using_path(
         x, settings.RDF_CONFIG_ROOT / "GroupFromDNB.toml"
     )
-
-
-class EventTypes(models.TextChoices):
-    EXHIBITION = "Ausstellung", _("exhibition")
-    BOOK_PRESENTATION = "Buchpräsentation", _("book presentation")
-    CONFERENCE = "Konferenz", _("conference")
-    BOOK_READING = "Lesung", _("book reading")
-    SCREENING = "Videovorführung", _("screening")
-    LECTURE = "Vortrag", _("lecture")
 
 
 class Event(BaseEntity):
