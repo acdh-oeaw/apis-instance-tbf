@@ -94,3 +94,8 @@ class WorkFilterSet(BaseEntityFilterSet):
 
 class EventFilterSet(BaseEntityFilterSet):
     pass
+
+
+class ManifestationFilterSet(BaseEntityFilterSet):
+    class Meta(BaseEntityFilterSet.Meta):
+        exclude = ["variety"]
