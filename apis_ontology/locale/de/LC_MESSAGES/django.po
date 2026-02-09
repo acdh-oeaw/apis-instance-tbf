@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 15:49+0100\n"
+"POT-Creation-Date: 2026-02-09 12:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -25,16 +25,28 @@ msgid "Searches in:"
 msgstr "Sucht in:"
 
 #: apis_ontology/models.py
-msgid "title"
-msgstr "Titel"
+msgid "exhibition"
+msgstr "Ausstellung"
 
 #: apis_ontology/models.py
-msgid "subtitle"
-msgstr "Untertitel"
+msgid "book presentation"
+msgstr "Buchpräsentation"
 
 #: apis_ontology/models.py
-msgid "other title information"
-msgstr "Titelzusatz"
+msgid "conference"
+msgstr "Konferenz"
+
+#: apis_ontology/models.py
+msgid "book reading"
+msgstr "Lesung"
+
+#: apis_ontology/models.py
+msgid "screening"
+msgstr "Videovorführung"
+
+#: apis_ontology/models.py
+msgid "lecture"
+msgstr "Vortrag"
 
 #: apis_ontology/models.py
 msgctxt "TBit category"
@@ -75,6 +87,18 @@ msgstr "Adaptionen"
 msgctxt "TBit category"
 msgid "fragments"
 msgstr "Fragmente"
+
+#: apis_ontology/models.py
+msgid "title"
+msgstr "Titel"
+
+#: apis_ontology/models.py
+msgid "subtitle"
+msgstr "Untertitel"
+
+#: apis_ontology/models.py
+msgid "other title information"
+msgstr "Titelzusatz"
 
 #: apis_ontology/models.py
 msgid "\"TB in translation\" category"
@@ -173,30 +197,6 @@ msgstr "Exemplar"
 #: apis_ontology/models.py
 msgid "items"
 msgstr "Exemplare"
-
-#: apis_ontology/models.py
-msgid "exhibition"
-msgstr "Ausstellung"
-
-#: apis_ontology/models.py
-msgid "book presentation"
-msgstr "Buchpräsentation"
-
-#: apis_ontology/models.py
-msgid "conference"
-msgstr "Konferenz"
-
-#: apis_ontology/models.py
-msgid "book reading"
-msgstr "Lesung"
-
-#: apis_ontology/models.py
-msgid "screening"
-msgstr "Videovorführung"
-
-#: apis_ontology/models.py
-msgid "lecture"
-msgstr "Vortrag"
 
 #: apis_ontology/models.py
 msgctxt "verbose_name for Event class field 'label'"
