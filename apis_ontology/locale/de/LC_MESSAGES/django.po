@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 12:10+0100\n"
+"POT-Creation-Date: 2026-02-10 12:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -287,6 +287,22 @@ msgid "other title information"
 msgstr "Titelzusatz"
 
 #: apis_ontology/models.py
+msgid "language"
+msgstr "Sprache"
+
+#: apis_ontology/models.py
+msgid "variety"
+msgstr "Varietät"
+
+#: apis_ontology/models.py
+msgid ""
+"Regional variant, dialect or script type. Available options depend on the "
+"language selected."
+msgstr ""
+"Regionalsprache, Dialekt oder Schriftsystem. Hängt von der gewählten "
+"Hauptsprache ab"
+
+#: apis_ontology/models.py
 msgid "\"TB in translation\" category"
 msgstr "\"TB in translation\"-Kategorie"
 
@@ -305,10 +321,6 @@ msgstr "Werk"
 #: apis_ontology/models.py
 msgid "works"
 msgstr "Werke"
-
-#: apis_ontology/models.py
-msgid "language"
-msgstr "Sprache"
 
 #: apis_ontology/models.py
 msgid "expression"
