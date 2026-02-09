@@ -20,3 +20,12 @@ class WorkFilterSetForm(BaseFilterSetForm):
 class WorkForm(GenericModelForm):
     class Meta(GenericModelForm.Meta):
         exclude = ["tbit_category"]
+
+
+class ManifestationForm(GenericModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        if self.instance and self.instance.pk:
+            self.fields["primary_language"].disabled = True
+            self.fields["variety"].disabled = True
