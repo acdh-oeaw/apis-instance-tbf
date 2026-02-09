@@ -54,6 +54,78 @@ class TBitCategories(models.TextChoices):
     FRAGMENTS = "Fragmente", pgettext_lazy("TBit category", "fragments")
 
 
+class LanguageCodes(models.TextChoices):
+    """
+    ISO 639 codes for languages.
+
+    Covers all languages found in TBit data (see publications.json),
+    which use ISO 639-1 codes, but may in future be extended to
+    other languages, including ones which use 3-letter codes (in lieu
+    of 2-letter codes).
+    """
+
+    ARABIC = "ar", _("Arabic")
+    AZERBAIJANI = "az", _("Azerbaijani")
+    BULGARIAN = "bg", _("Bulgarian")
+    CATALAN = "ca", _("Catalan")
+    CZECH = "cs", _("Czech")
+    DANISH = "da", _("Danish")
+    GERMAN = "de", _("German")
+    GREEK = "el", _("Greek")
+    ENGLISH = "en", _("English")
+    SPANISH = "es", _("Spanish")
+    ESTONIAN = "et", _("Estonian")
+    BASQUE = "eu", _("Basque")
+    PERSIAN = "fa", _("Persian")
+    FINNISH = "fi", _("Finnish")
+    FRENCH = "fr", _("French")
+    GALICIAN = "gl", _("Galician")
+    HEBREW = "he", _("Hebrew")
+    CROATIAN = "hr", _("Croatian")
+    HUNGARIAN = "hu", _("Hungarian")
+    ICELANDIC = "is", _("Icelandic")
+    ITALIAN = "it", _("Italian")
+    JAPANESE = "ja", _("Japanese")
+    GEORGIAN = "ka", _("Georgian")
+    KOREAN = "ko", _("Korean")
+    LITHUANIAN = "lt", _("Lithuanian")
+    MACEDONIAN = "mk", _("Macedonian")
+    DUTCH = "nl", _("Dutch")
+    NORWEGIAN = "no", _("Norwegian")
+    POLISH = "pl", _("Polish")
+    PORTUGUESE = "pt", _("Portuguese")
+    ROMANIAN = "ro", _("Romanian")
+    RUSSIAN = "ru", _("Russian")
+    SLOVAK = "sk", _("Slovak")
+    SLOVENIAN = "sl", _("Slovenian")
+    ALBANIAN = "sq", _("Albanian")
+    SERBIAN = "sr", _("Serbian")
+    SWEDISH = "sv", _("Swedish")
+    TURKISH = "tr", _("Turkish")
+    UKRAINIAN = "uk", _("Ukrainian")
+    URDU = "ur", _("Urdu")
+    VIETNAMESE = "vi", _("Vietnamese")
+    CHINESE = "zh", _("Chinese")
+
+
+class PortugueseVariantCodes(models.TextChoices):
+    """
+    ISO 3166-1 alpha-2 codes for Portuguese language variants.
+    """
+
+    BRAZIL = "BR", _("Brazil")
+    PORTUGAL = "PT", _("Portugal")
+
+
+class ChineseVariantCodes(models.TextChoices):
+    """
+    ISO 15924 codes for Chinese script variants.
+    """
+
+    SIMPLIFIED = "Hans", pgettext_lazy("Chinese script variants", "Han simplified")
+    TRADITIONAL = "Hant", pgettext_lazy("Chinese script variants", "Han traditional")
+
+
 class BaseEntity(VersionMixin, AbstractEntity):
     """
     Base class for all entities.

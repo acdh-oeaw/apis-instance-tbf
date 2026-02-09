@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-09 12:42+0100\n"
+"POT-Creation-Date: 2026-02-09 13:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -87,6 +87,192 @@ msgstr "Adaptionen"
 msgctxt "TBit category"
 msgid "fragments"
 msgstr "Fragmente"
+
+#: apis_ontology/models.py
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: apis_ontology/models.py
+msgid "Azerbaijani"
+msgstr "Aserbaidschanisch"
+
+#: apis_ontology/models.py
+msgid "Bulgarian"
+msgstr "Bulgarisch"
+
+#: apis_ontology/models.py
+msgid "Catalan"
+msgstr "Katalanisch"
+
+#: apis_ontology/models.py
+msgid "Czech"
+msgstr "Tschechisch"
+
+#: apis_ontology/models.py
+msgid "Danish"
+msgstr "Dänisch"
+
+#: apis_ontology/models.py apis_ontology/settings.py
+msgid "German"
+msgstr "Deutsch"
+
+#: apis_ontology/models.py
+msgid "Greek"
+msgstr "Griechisch"
+
+#: apis_ontology/models.py
+msgid "English"
+msgstr "Englisch"
+
+#: apis_ontology/models.py
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: apis_ontology/models.py
+msgid "Estonian"
+msgstr "Estnisch"
+
+#: apis_ontology/models.py
+msgid "Basque"
+msgstr "Baskisch"
+
+#: apis_ontology/models.py
+msgid "Persian"
+msgstr "Persisch"
+
+#: apis_ontology/models.py
+msgid "Finnish"
+msgstr "Finnisch"
+
+#: apis_ontology/models.py
+msgid "French"
+msgstr "Französisch"
+
+#: apis_ontology/models.py
+msgid "Galician"
+msgstr "Galicisch"
+
+#: apis_ontology/models.py
+msgid "Hebrew"
+msgstr "Hebräisch"
+
+#: apis_ontology/models.py
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: apis_ontology/models.py
+msgid "Hungarian"
+msgstr "Ungarisch"
+
+#: apis_ontology/models.py
+msgid "Icelandic"
+msgstr "Isländisch"
+
+#: apis_ontology/models.py
+msgid "Italian"
+msgstr "Italienisch"
+
+#: apis_ontology/models.py
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: apis_ontology/models.py
+msgid "Georgian"
+msgstr "Georgisch"
+
+#: apis_ontology/models.py
+msgid "Korean"
+msgstr "Koreanisch"
+
+#: apis_ontology/models.py
+msgid "Lithuanian"
+msgstr "Litauisch"
+
+#: apis_ontology/models.py
+msgid "Macedonian"
+msgstr "Mazedonisch"
+
+#: apis_ontology/models.py
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: apis_ontology/models.py
+msgid "Norwegian"
+msgstr "Norwegisch"
+
+#: apis_ontology/models.py
+msgid "Polish"
+msgstr "Polnisch"
+
+#: apis_ontology/models.py
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: apis_ontology/models.py
+msgid "Romanian"
+msgstr "Rumänisch"
+
+#: apis_ontology/models.py
+msgid "Russian"
+msgstr "Russisch"
+
+#: apis_ontology/models.py
+msgid "Slovak"
+msgstr "Slowakisch"
+
+#: apis_ontology/models.py
+msgid "Slovenian"
+msgstr "Slowenisch"
+
+#: apis_ontology/models.py
+msgid "Albanian"
+msgstr "Albanisch"
+
+#: apis_ontology/models.py
+msgid "Serbian"
+msgstr "Serbisch"
+
+#: apis_ontology/models.py
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: apis_ontology/models.py
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: apis_ontology/models.py
+msgid "Ukrainian"
+msgstr "Ukrainisch"
+
+#: apis_ontology/models.py
+msgid "Urdu"
+msgstr "Urdu"
+
+#: apis_ontology/models.py
+msgid "Vietnamese"
+msgstr "Vietnamesisch"
+
+#: apis_ontology/models.py
+msgid "Chinese"
+msgstr "Chinesisch"
+
+#: apis_ontology/models.py
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: apis_ontology/models.py
+msgid "Portugal"
+msgstr "Portugal"
+
+#: apis_ontology/models.py
+msgctxt "Chinese script variants"
+msgid "Han simplified"
+msgstr "Kurzzeichen"
+
+#: apis_ontology/models.py
+msgctxt "Chinese script variants"
+msgid "Han traditional"
+msgstr "Langzeichen"
 
 #: apis_ontology/models.py
 msgid "title"
@@ -294,10 +480,6 @@ msgstr "Plakat"
 #: apis_ontology/models.py
 msgid "posters"
 msgstr "Plakate"
-
-#: apis_ontology/settings.py
-msgid "German"
-msgstr "Deutsch"
 
 #: apis_ontology/tables.py
 msgid "full name"
