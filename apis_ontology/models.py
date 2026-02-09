@@ -307,7 +307,7 @@ class Expression(TitlesMixin, BaseEntity):
         verbose_name_plural = _("expressions")
 
 
-class Manifestation(TitlesMixin, BaseEntity):
+class Manifestation(LanguageMixin, TitlesMixin, BaseEntity):
     """
     Products rendering one or more Expressions.
 
