@@ -84,6 +84,7 @@ class WorkSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerializer):
 
 
 class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerializer):
+    language = SerializerMethodField()
     publication_details = SerializerMethodField()
 
     class Meta:
@@ -94,6 +95,9 @@ class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerial
             "relevant_pages",  # included so it can be used over publication_details
             "other_title_information",  # included so it can be used over publication_details
             "short_title",
+            "primary_language",  # included for use for publication "language"
+            "variety",  # included for use for publication "language"
+            "language",
             "publication_details",
             "signatur",
             "url",
@@ -135,6 +139,34 @@ class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerial
 
         if publication_details:
             return ", ".join(publication_details)
+
+    def get_language(self, obj):
+        """
+        Variation of IETF BCP 47 full language tag formatted for
+        Thomas Bernhard in translation.
+
+        TBit uses all-lowercase characters for language information as well as
+        underscores instead of hyphens to separate subtags for primary language
+        and varieties. This method combines any subtags into a full language
+        tag using this format.
+
+        Examples: "en" for English,
+                  "pt_br" (instead of pt-BR) for Brazilian Portuguese.
+
+        :return: lowercased full language tag, separating base language
+                 from varieties with underscores, e.g. "en", "pt_br"
+        :rtype: str
+        """
+        primary_language = obj.primary_language.lower() or ""
+        variety = obj.variety.lower() or ""
+
+        if not primary_language:
+            return ""
+
+        if not variety:
+            return primary_language
+
+        return f"{primary_language}_{variety}"
 
 
 class PersonSerializer(BaseEntitySerializer, ModelSerializer):
