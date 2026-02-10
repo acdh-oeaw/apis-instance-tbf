@@ -84,6 +84,10 @@ class ExpressionTable(TitleFieldsMixin, BaseEntityTable):
 class ManifestationTable(TitleFieldsMixin, BaseEntityTable):
     class Meta(TitleFieldsMixin.Meta, BaseEntityTable.Meta):
         model = Manifestation
+        fields = [
+            *TitleFieldsMixin.Meta.fields,
+            "primary_language",
+        ]
 
 
 class ItemTable(TitleFieldsMixin, BaseEntityTable):
