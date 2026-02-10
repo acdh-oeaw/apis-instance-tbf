@@ -23,7 +23,8 @@ class BaseModelSerializer(GenericHyperlinkedModelSerializer):
     """
     Base serializer class for model classes.
 
-    Adds a field for the object ID (i.e. pk) and the URL to an entity object's
+    Adds an "id" field, which aliases an object's "pk".
+    Also implicitly includes a "url" field, which points to the object's
     detail view.
     """
 
