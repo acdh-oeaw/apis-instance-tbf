@@ -108,22 +108,22 @@ class LanguageCodes(models.TextChoices):
     CHINESE = "zh", _("Chinese")
 
 
-class PortugueseVariantCodes(models.TextChoices):
+class PortugueseVarietyCodes(models.TextChoices):
     """
-    ISO 3166-1 alpha-2 codes for Portuguese language variants.
+    ISO 3166-1 alpha-2 codes for Portuguese language varieties.
     """
 
     BRAZIL = "BR", _("Brazil")
     PORTUGAL = "PT", _("Portugal")
 
 
-class ChineseVariantCodes(models.TextChoices):
+class ChineseVarietyCodes(models.TextChoices):
     """
-    ISO 15924 codes for Chinese script variants.
+    ISO 15924 codes for Chinese script varieties.
     """
 
-    SIMPLIFIED = "Hans", pgettext_lazy("Chinese script variants", "Han simplified")
-    TRADITIONAL = "Hant", pgettext_lazy("Chinese script variants", "Han traditional")
+    SIMPLIFIED = "Hans", pgettext_lazy("Chinese script varieties", "Han simplified")
+    TRADITIONAL = "Hant", pgettext_lazy("Chinese script varieties", "Han traditional")
 
 
 class BaseEntity(VersionMixin, AbstractEntity):
