@@ -171,7 +171,13 @@ class PersonSerializer(BaseModelSerializer, ModelSerializer):
 
     class Meta:
         model = Person
-        fields = "__all__"
+        fields = [
+            "id",
+            "url",
+            "name",
+            "forename",  # needed for TBit name
+            "surname",  # needed for TBit name
+        ]
 
     def get_name(self, obj):
         """
