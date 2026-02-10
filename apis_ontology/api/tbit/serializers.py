@@ -92,11 +92,11 @@ class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerial
         fields = [
             "id",
             "title",
-            "relevant_pages",  # included so it can be used over publication_details
-            "other_title_information",  # included so it can be used over publication_details
+            "relevant_pages",  # needed for TBit publication_details
+            "other_title_information",  # needed for TBit publication_details
             "short_title",
-            "primary_language",  # included for use for publication "language"
-            "variety",  # included for use for publication "language"
+            "primary_language",  # needed for TBit language
+            "variety",  # needed for TBit language
             "language",
             "publication_details",
             "signatur",
@@ -107,13 +107,9 @@ class ManifestationSerializer(BaseEntitySerializer, ShortTitleMixin, ModelSerial
         }
 
     def to_representation(self, instance):
-        """
-        Remove "publication_details" key if it contains no data.
-
-        Replicates data representation in TBit publications.json.
-        """
         ret = super().to_representation(instance)
 
+        # remove key used by, but not required by TBit if empty
         if ret["publication_details"] is None:
             ret.pop("publication_details")
 
