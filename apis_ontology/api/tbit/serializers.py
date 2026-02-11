@@ -101,11 +101,7 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
         fields = [
             "id",
             "title",
-            "relevant_pages",  # needed for TBit publication_details
-            "other_title_information",  # needed for TBit publication_details
             "short_title",
-            "primary_language",  # needed for TBit language
-            "variety",  # needed for TBit language
             "language",
             "publication_details",
             "signatur",
@@ -187,8 +183,6 @@ class PersonSerializer(BaseModelSerializer, ModelSerializer):
             "id",
             "url",
             "name",
-            "forename",  # needed for TBit name
-            "surname",  # needed for TBit name
         ]
 
     def get_name(self, obj):
