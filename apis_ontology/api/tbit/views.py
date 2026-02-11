@@ -25,13 +25,13 @@ class TbitPagination(LimitOffsetPagination):
 class WorkViewSet(viewsets.ReadOnlyModelViewSet):
     pagination_class = TbitPagination
     serializer_class = WorkSerializer
-    queryset = Work.objects.all().exclude(tbit_category__exact="")
+    queryset = Work.objects.exclude(tbit_category__exact="")
 
 
 class PublicationViewSet(viewsets.ReadOnlyModelViewSet):
     pagination_class = TbitPagination
     serializer_class = ManifestationSerializer
-    queryset = Manifestation.objects.all().exclude(tbit_shelfmark__exact="")
+    queryset = Manifestation.objects.exclude(tbit_shelfmark__exact="")
 
 
 class TranslatorViewSet(viewsets.ReadOnlyModelViewSet):
