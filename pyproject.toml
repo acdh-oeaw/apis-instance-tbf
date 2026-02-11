@@ -65,7 +65,14 @@ select = [
 ]
 # Rules conflicting with formatter:
 # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
-ignore = ["E111", "E114", "E117", "E501", "F403", "W191"]
+ignore = [
+    "E111",
+    "E114",
+    "E117",
+    "E501",
+    "F403",
+    "W191",
+]
 
 [tool.ruff.lint.isort]
 known-first-party = ["apis_ontology"]
