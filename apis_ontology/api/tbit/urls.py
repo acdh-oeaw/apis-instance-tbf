@@ -18,5 +18,5 @@ router.register(r"publications", PublicationViewSet, basename="publication")
 router.register(r"translators", TranslatorViewSet, basename="translator")
 
 urlpatterns = [
-    path("api/tbit/", include((router.urls, "apis_ontology"))),
+    path("", include(router.urls)),
 ]
