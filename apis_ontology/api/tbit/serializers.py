@@ -206,7 +206,7 @@ class PersonSerializer(BaseModelSerializer, ModelSerializer):
         return tbit_name
 
 
-class PersonIsTranslatorSerializer(ModelSerializer):
+class PersonIsTranslatorSerializer(BaseModelSerializer, ModelSerializer):
     """
     Serialize PersonIsTranslatorOfExpression relation model to use as basis
     for replicating objects in translators.json.
@@ -216,15 +216,11 @@ class PersonIsTranslatorSerializer(ModelSerializer):
 
     class Meta:
         model = PersonIsTranslatorOfExpression
-        exclude = (
-            # relation ID is excluded for clarity, but actually gets overwritten
-            # by Person ID in to_representation anyway
+        fields = [
             "id",
-            "subj_object_id",
-            "obj_object_id",
-            "subj_content_type",
-            "obj_content_type",
-        )
+            "url",
+            "person",
+        ]
 
     @extend_schema_field(PersonSerializer())
     def get_person(self, obj):
