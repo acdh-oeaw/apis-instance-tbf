@@ -2,9 +2,7 @@ import re
 
 from apis_core.generic.serializers import (
     GenericHyperlinkedModelSerializer,
-    serializer_factory,
 )
-from drf_spectacular.utils import extend_schema_field
 from rest_framework.fields import (
     IntegerField,
     SerializerMethodField,
@@ -212,23 +210,13 @@ class PersonIsTranslatorSerializer(BaseModelSerializer, ModelSerializer):
     for replicating objects in translators.json.
     """
 
-    person = SerializerMethodField(allow_null=False)
+    person = PersonSerializer(source="subj", read_only=True)
 
     class Meta:
         model = PersonIsTranslatorOfExpression
-        fields = [
-            "id",
-            "url",
+        fields = [  # person is converted to (Person) id, url, name in to_representation
             "person",
         ]
-
-    @extend_schema_field(PersonSerializer())
-    def get_person(self, obj):
-        if obj.subj:
-            serializer = serializer_factory(type(obj.subj), PersonSerializer)
-            return serializer(
-                obj.subj, context={"request": self.context["request"]}
-            ).data
 
     def to_representation(self, obj):
         representation = super().to_representation(obj)
