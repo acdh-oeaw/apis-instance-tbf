@@ -244,9 +244,9 @@ def delete_objects(
 
             if not model_name.startswith("Version"):
                 if valid_fields := list(
-                    set(with_fields).intersection(
-                        [field.name for field in model_class._meta.get_fields()]
-                    )
+                    set(with_fields).intersection([
+                        field.name for field in model_class._meta.get_fields()
+                    ])
                 ):
                     if keep_history is False:
                         history_model_class = get_history_model(model_name)

@@ -40,13 +40,11 @@ class BaseEntityFilterSet(AbstractEntityFilterSet):
 
                     # exclude Thomas Bernhard in translation-specific fields
                     # from combined search field
-                    fields_list_filtered = ", ".join(
-                        [
-                            f
-                            for f in fields_list
-                            if ("in translation" not in f and "TBit" not in f)
-                        ]
-                    )
+                    fields_list_filtered = ", ".join([
+                        f
+                        for f in fields_list
+                        if ("in translation" not in f and "TBit" not in f)
+                    ])
 
                     prefix = _("Searches in:")
 
