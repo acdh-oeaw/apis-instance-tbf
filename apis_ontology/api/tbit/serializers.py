@@ -21,7 +21,7 @@ from apis_ontology.models import (
 
 class BaseModelSerializer(GenericHyperlinkedModelSerializer):
     """
-    Base serializer class for model classes.
+    Base serializer for model classes.
 
     Adds an "id" field, which aliases an object's "pk".
     Also implicitly includes a "url" field, which points to the object's
@@ -76,6 +76,10 @@ class ShortTitleMixin(Serializer):
 
 
 class WorkSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
+    """
+    Serialize Work entity model to replicate objects in works.json.
+    """
+
     class Meta:
         model = Work
         fields = ["id", "title", "short_title", "category", "url"]
@@ -85,6 +89,10 @@ class WorkSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
 
 
 class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
+    """
+    Serialize Manifestation entity model to replicate objects in publications.json.
+    """
+
     language = SerializerMethodField()
     publication_details = SerializerMethodField()
 
@@ -167,6 +175,10 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
 
 
 class PersonSerializer(BaseModelSerializer, ModelSerializer):
+    """
+    Serialize Person entity model for use in PersonIsTranslatorSerializer.
+    """
+
     name = SerializerMethodField()  # name field used by TBit
 
     class Meta:
@@ -201,6 +213,11 @@ class PersonSerializer(BaseModelSerializer, ModelSerializer):
 
 
 class PersonIsTranslatorSerializer(ModelSerializer):
+    """
+    Serialize PersonIsTranslatorOfExpression relation model to use as basis
+    for replicating objects in translators.json.
+    """
+
     person = SerializerMethodField(allow_null=False)
 
     class Meta:
