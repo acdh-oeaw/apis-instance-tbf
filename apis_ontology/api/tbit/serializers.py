@@ -115,15 +115,6 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
             "signatur": {"source": "tbit_shelfmark"},
         }
 
-    def to_representation(self, instance):
-        ret = super().to_representation(instance)
-
-        # remove key used by, but not required by TBit if empty
-        if ret["publication_details"] is None:
-            ret.pop("publication_details")
-
-        return ret
-
     def get_publication_details(self, obj):
         """
         Combine values stored in Manifestation fields "other_title_information"
@@ -172,6 +163,15 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
             return primary_language
 
         return f"{primary_language}_{variety}"
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+
+        # remove key used by, but not required by TBit if empty
+        if ret["publication_details"] is None:
+            ret.pop("publication_details")
+
+        return ret
 
 
 class PersonSerializer(BaseModelSerializer, ModelSerializer):
