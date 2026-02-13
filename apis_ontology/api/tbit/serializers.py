@@ -10,6 +10,7 @@ from rest_framework.fields import (
 from rest_framework.serializers import ModelSerializer, Serializer
 
 from apis_ontology.models import (
+    Expression,
     Manifestation,
     Person,
     PersonIsTranslatorOfExpression,
@@ -90,6 +91,16 @@ class WorkSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
         extra_kwargs = {
             "category": {"source": "tbit_category"},
         }
+
+
+class ExpressionSerializer(BaseModelSerializer, ModelSerializer):
+    class Meta:
+        model = Expression
+        fields = [
+            "id",
+            "url",
+            "title",
+        ]
 
 
 class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
