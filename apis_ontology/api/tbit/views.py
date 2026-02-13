@@ -37,6 +37,9 @@ class PublicationViewSet(viewsets.ReadOnlyModelViewSet):
 class TranslatorViewSet(viewsets.ReadOnlyModelViewSet):
     pagination_class = TbitPagination
     serializer_class = PersonIsTranslatorSerializer
-    queryset = PersonIsTranslatorOfExpression.objects.order_by(
-        "subj_object_id"
-    ).distinct("subj_object_id")
+    queryset = (
+        PersonIsTranslatorOfExpression.objects.select_related("subj_content_type")
+        .prefetch_related("subj")
+        .order_by("subj_object_id")
+        .distinct("subj_object_id")
+    )
