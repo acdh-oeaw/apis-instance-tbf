@@ -80,7 +80,13 @@ class WorkSerializer(BaseModelSerializer, ShortTitleMixin, ModelSerializer):
 
     class Meta:
         model = Work
-        fields = ["id", "title", "short_title", "category", "url"]
+        fields = [
+            "id",
+            "title",
+            "short_title",
+            "category",
+            "url",
+        ]
         extra_kwargs = {
             "category": {"source": "tbit_category"},
         }
