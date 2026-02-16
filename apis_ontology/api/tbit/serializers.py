@@ -241,3 +241,34 @@ class PersonIsTranslatorSerializer(BaseModelSerializer, ModelSerializer):
         for key in person:
             representation[key] = person[key]
         return representation
+
+
+class ExpressionIsTranslationSerializer(BaseModelSerializer, ModelSerializer):
+    """
+    Serialize PersonIsTranslatorOfExpression relation model to use as basis
+    for replicating objects in translations.json.
+    """
+
+    expression = ExpressionSerializer(source="obj", read_only=True)
+
+    class Meta:
+        model = PersonIsTranslatorOfExpression
+        fields = [
+            "expression",
+            "translators",
+        ]
+        extra_kwargs = {
+            "translators": {"source": "subj_object_id"},
+        }
+
+    def to_representation(self, obj):
+        representation = super().to_representation(obj)
+
+        expression = representation.pop("expression")
+        for key in expression:
+            representation[key] = expression[key]
+
+        translators = representation.pop("translators")
+        representation["translators"] = [translators]
+
+        return representation

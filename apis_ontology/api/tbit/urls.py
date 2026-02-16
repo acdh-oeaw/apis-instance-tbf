@@ -7,6 +7,7 @@ from rest_framework import routers
 
 from apis_ontology.api.tbit.views import (
     PublicationViewSet,
+    TranslationViewSet,
     TranslatorViewSet,
     WorkViewSet,
 )
@@ -15,6 +16,7 @@ router = routers.DefaultRouter()
 
 router.register(r"works", WorkViewSet, basename="work")
 router.register(r"publications", PublicationViewSet, basename="publication")
+router.register(r"translations", TranslationViewSet, basename="translation")
 router.register(r"translators", TranslatorViewSet, basename="translator")
 
 urlpatterns = [
