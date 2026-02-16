@@ -8,6 +8,7 @@ from apis_ontology.models import (
 )
 
 from .serializers import (
+    ExpressionIsTranslationSerializer,
     ManifestationSerializer,
     PersonIsTranslatorSerializer,
     WorkSerializer,
@@ -42,4 +43,15 @@ class TranslatorViewSet(viewsets.ReadOnlyModelViewSet):
         .prefetch_related("subj")
         .order_by("subj_object_id")
         .distinct("subj_object_id")
+    )
+
+
+class TranslationViewSet(viewsets.ReadOnlyModelViewSet):
+    pagination_class = TbitPagination
+    serializer_class = ExpressionIsTranslationSerializer
+    queryset = (
+        PersonIsTranslatorOfExpression.objects.select_related("obj_content_type")
+        .prefetch_related("obj")
+        .distinct()
+        .order_by("obj_object_id")
     )
