@@ -11,17 +11,17 @@ Note: the no. of records for a given data type should be assumed to be approxima
 
 | Key | Value Type(s) | Notes |
 |-----|---------------|-------|
-| `contains` | array | - |
+| `contains` | array | array of integers (work IDs) |
 | `erstpublikation` | boolean | - |
 | `exemplar_oeaw` | string | - |
 | `exemplar_suhrkamp_berlin` | string | - |
 | `id` | integer | - |
-| `images` | array | 21 empty arrays |
+| `images` | array | array of objects with `id` property (string); 21 empty arrays |
 | `isbn` | string | optional (973 records missing) |
 | `language` | string | - |
-| `later` | array | optional (876 records missing) |
+| `later` | array | array of integers (IDs of later editions); optional (876 records missing) |
 | `original_publication` | string | optional (1,056 records missing) |
-| `parents` | array | optional (808 records missing) |
+| `parents` | array | array of integers (parent publication IDs); optional (808 records missing) |
 | `publication_details` | string | optional (983 records missing) |
 | `publisher` | string, null | 1 null value |
 | `short_title` | string, null | 1,067 null values (mostly nulls) |
@@ -39,7 +39,7 @@ Note: the no. of records for a given data type should be assumed to be approxima
 |-----|---------------|-------|
 | `id` | integer | - |
 | `title` | string | 10 empty strings at records: 506, 1113-1121 |
-| `translators` | array | 4 empty arrays at records: 682, 1305, 1338, 1339 |
+| `translators` | array | array of integers (translator IDs); 4 empty arrays at records: 682, 1305, 1338, 1339 |
 | `work` | integer | - |
 | `work_display_title` | string, null | 1,349 null values (mostly nulls) |
 
