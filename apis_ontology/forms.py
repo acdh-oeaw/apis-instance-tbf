@@ -36,5 +36,9 @@ class ManifestationForm(BaseModelForm):
 
         if self.instance and self.instance.pk:
             self.fields["tbit_shelfmark"].disabled = True
-            self.fields["primary_language"].disabled = True
-            self.fields["variety"].disabled = True
+
+            if self.instance.tbit_shelfmark != "":
+                # disable language fields only for Manifestations imported from
+                # TBit publications, to prevent (accidental) data manipulation
+                self.fields["primary_language"].disabled = True
+                self.fields["variety"].disabled = True
