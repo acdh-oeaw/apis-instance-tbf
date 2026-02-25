@@ -485,7 +485,7 @@ class Command(BaseCommand):
                         pass
                     else:
                         expression = Expression.objects.create(
-                            title=exp_title, language=language
+                            title=exp_title, language=exp_language
                         )
 
                     manif_embodies_expr, created = (
