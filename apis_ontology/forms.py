@@ -13,16 +13,24 @@ class BaseFilterSetForm(GenericFilterSetForm):
     pass
 
 
+class BaseModelForm(GenericModelForm):
+    """
+    Base form for models. Used in create/edit views.
+    """
+
+    pass
+
+
 class WorkFilterSetForm(BaseFilterSetForm):
     columns_exclude = ["tbit_category"]
 
 
-class WorkForm(GenericModelForm):
+class WorkForm(BaseModelForm):
     class Meta(GenericModelForm.Meta):
         exclude = ["tbit_category"]
 
 
-class ManifestationForm(GenericModelForm):
+class ManifestationForm(BaseModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
