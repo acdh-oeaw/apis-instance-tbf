@@ -472,6 +472,7 @@ class Command(BaseCommand):
 
                 for exp in matching_exp:
                     exp_title = exp["title"]
+                    exp_language = exp["language"] or ""
                     translator_ids = exp["translators"] or []
                     work_id = exp["work"] or ""
 
