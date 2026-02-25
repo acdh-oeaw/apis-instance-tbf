@@ -41,7 +41,7 @@ wheels = [
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.17.0"
+version = "2.18.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "apis-acdhch-django-auditlog" },
@@ -64,9 +64,9 @@ dependencies = [
     { name = "requests" },
     { name = "whitenoise" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/58/91/4ff3fdf8b08550db411ca504ef8d547a46f870d1ab3273673592ee0e8333/apis_acdhch_default_settings-2.17.0.tar.gz", hash = "sha256:9f9ffd9370343b789f3c36d3344f9028c5d482c207728991a2b99f759ad26626", size = 15903, upload-time = "2026-02-04T12:21:30.409Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e9/75/06fdfabdf534cc8230704dc7276d0c07ab1eb480c4b8c88b25b908c4e711/apis_acdhch_default_settings-2.18.0.tar.gz", hash = "sha256:d23d00d2ec113b71deb76722fece113a2dd53ded5cbc095883cac9f0d2d68f51", size = 16098, upload-time = "2026-02-23T12:18:49.81Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d7/ff/94895e6caca8b684ced6a36468104de463026ae029206dfd53e57fd29c85/apis_acdhch_default_settings-2.17.0-py3-none-any.whl", hash = "sha256:5740817ed807311f753786d07c0af46dd82028e31deffa3ddbabf16ad8ac80f2", size = 11842, upload-time = "2026-02-04T12:21:28.612Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/a1/281b77d4e68302eda36fed6d63c191d05be0c4626f4219298f40dcee03c4/apis_acdhch_default_settings-2.18.0-py3-none-any.whl", hash = "sha256:f0834907e4a49877007b6e89275a7b537397f213d9a116bebe42c119f94f56c2", size = 11997, upload-time = "2026-02-23T12:18:48.626Z" },
 ]
 
 [[package]]
@@ -146,8 +146,8 @@ lint = [
 
 [package.metadata]
 requires-dist = [
-    { name = "apis-acdhch-default-settings", specifier = ">=2.17.0,<2.18" },
-    { name = "apis-core-rdf", specifier = ">=0.60,<0.61" },
+    { name = "apis-acdhch-default-settings", specifier = ">=2.18.0,<2.19" },
+    { name = "apis-core-rdf", specifier = ">=0.60.0,<0.61" },
     { name = "django-interval", specifier = ">=0.5.3,<0.5.4" },
     { name = "psycopg", specifier = ">=3.3.2,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.2,<3.4" },
