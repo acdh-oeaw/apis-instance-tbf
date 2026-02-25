@@ -27,5 +27,6 @@ class ManifestationForm(GenericModelForm):
         super().__init__(*args, **kwargs)
 
         if self.instance and self.instance.pk:
+            self.fields["tbit_shelfmark"].disabled = True
             self.fields["primary_language"].disabled = True
             self.fields["variety"].disabled = True
