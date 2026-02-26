@@ -29,8 +29,8 @@ class BaseModelForm(GenericModelForm):
 
         if choice_fields := self.get_choice_fields():
             for field_name in choice_fields:
-                self.fields[field_name] = ChoiceField(
-                    choices=sorted(self.fields[field_name].choices, key=lambda x: x[1]),
+                self.fields[field_name].choices = sorted(
+                    self.fields[field_name].choices, key=lambda x: x[1]
                 )
 
     def get_choice_fields(self):
