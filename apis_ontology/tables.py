@@ -2,10 +2,7 @@ import logging
 
 import django_tables2 as tables
 from apis_core.generic.tables import (
-    DeleteColumn,
-    DuplicateColumn,
-    EditColumn,
-    ViewColumn,
+    ActionsColumn,
 )
 from django.utils.translation import gettext_lazy as _
 
@@ -47,19 +44,13 @@ class BaseEntityTable(tables.Table):
     """
 
     id = SortableLinkifyColumn(verbose_name="ID")
-    view = ViewColumn()
-    edit = EditColumn()
-    delete = DeleteColumn()
-    duplicate = DuplicateColumn()
+    actions = ActionsColumn()
 
     class Meta:
         sequence = (
             "...",
             "id",
-            "view",
-            "edit",
-            "delete",
-            "duplicate",
+            "actions",
         )
 
 
