@@ -22,6 +22,7 @@ class EventFromGND:
             "gndo:dateOfEstablishment",
             "gndo:dateOfTermination",
             "gndo:dateOfProduction",
+            "gndo:associatedDate",
         ]
     )
 
