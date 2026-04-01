@@ -9,6 +9,8 @@ from django.utils.translation import gettext_lazy as _
 from django.utils.translation import pgettext_lazy
 from django_interval.fields import FuzzyDateParserField
 
+from .rdf_configs import work
+
 
 class EventTypes(models.TextChoices):
     EXHIBITION = "Ausstellung", _("exhibition")
@@ -274,7 +276,7 @@ class Work(TitlesMixin, BaseEntity):
 
     import_definitions = {
         "https://d-nb.info/*|/.*.rdf": lambda x: load_uri_using_path(
-            x, settings.RDF_CONFIG_ROOT / "WorkFromDNB.toml"
+            x, work.WorkFromGND
         ),
     }
 
