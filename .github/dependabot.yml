@@ -20,10 +20,3 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
