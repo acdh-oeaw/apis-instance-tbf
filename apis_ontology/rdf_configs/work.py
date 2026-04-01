@@ -11,7 +11,7 @@ class WorkFromGND:
     title = Attribute(["gndo:preferredNameForTheWork"])
     sameas = Attribute("owl:sameAs")
 
-    person_is_author_of_work_relation = Relation(
+    relation_person_is_author_of_work = Relation(
         "apis_ontology.personisauthorofwork",
         {
             "curies": "gndo:firstAuthor",
