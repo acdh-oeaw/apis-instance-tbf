@@ -2,6 +2,10 @@ from apis_core.utils.rdf import Attribute, Filter, Relation
 
 
 class WorkFromGND:
+    """
+    Create Work object from GND endpoint.
+    """
+
     filter_for_type = Filter([("rdf:type", "gndo:Work")])
 
     title = Attribute(["gndo:preferredNameForTheWork"])
