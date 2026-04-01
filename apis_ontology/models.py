@@ -479,11 +479,6 @@ class Group(BaseEntity, E74_Group):
     class Meta(E74_Group.Meta):
         pass
 
-    import_definitions = E74_Group.import_definitions
-    import_definitions["https://d-nb.info/*|/.*.rdf"] = lambda x: load_uri_using_path(
-        x, settings.RDF_CONFIG_ROOT / "GroupFromDNB.toml"
-    )
-
 
 class Event(BaseEntity):
     """
