@@ -3,13 +3,12 @@ from apis_core.apis_entities.models import AbstractEntity
 from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
 from apis_core.utils.rdf import load_uri_using_path
-from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.utils.translation import pgettext_lazy
 from django_interval.fields import FuzzyDateParserField
 
-from .rdf_configs import work
+from .rdf_configs import event, work
 
 
 class EventTypes(models.TextChoices):
@@ -533,7 +532,7 @@ class Event(BaseEntity):
 
     import_definitions = {
         "https://d-nb.info/*|/.*.rdf": lambda x: load_uri_using_path(
-            x, settings.RDF_CONFIG_ROOT / "EventFromDNB.toml"
+            x, event.EventFromGND
         ),
     }
 
