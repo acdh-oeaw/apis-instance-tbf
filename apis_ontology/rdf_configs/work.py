@@ -9,6 +9,7 @@ class WorkFromGND:
     filter_work = Filter([("rdf:type", "gndo:Work")])
 
     title = Attribute(["gndo:preferredNameForTheWork"])
+
     sameas = Attribute("owl:sameAs")
 
     relation_person_is_author_of_work = Relation(
