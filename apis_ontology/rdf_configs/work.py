@@ -6,7 +6,7 @@ class WorkFromGND:
     Create Work object from GND endpoint.
     """
 
-    filter_for_type = Filter([("rdf:type", "gndo:Work")])
+    filter_work = Filter([("rdf:type", "gndo:Work")])
 
     title = Attribute(["gndo:preferredNameForTheWork"])
     sameas = Attribute("owl:sameAs")
