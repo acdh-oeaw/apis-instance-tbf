@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "apis-acdhch-default-settings>=2.18.0,<2.19",
-    "apis-core-rdf>=0.62.0,<0.63",
+    "apis-core-rdf>=0.62.1,<0.63",
     "django-interval>=0.5.4,<0.5.5",
     "psycopg-binary>=3.3.3,<3.4",
     "psycopg>=3.3.3,<3.4",
