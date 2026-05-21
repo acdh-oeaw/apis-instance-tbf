@@ -21,7 +21,7 @@ dev = [
   {include-group = "lint"},
 ]
 docs = [
-    "myst-parser>=5.0.0,<5.1",
+    "myst-parser>=5.1.0,<5.2",
     "sphinx>=9.1.0,<9.2",
     "sphinx-rtd-theme>=3.1.0,<3.2",
 ]
