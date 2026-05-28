@@ -87,7 +87,7 @@ wheels = [
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.62.1"
+version = "0.64.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acdh-arche-assets" },
@@ -107,9 +107,9 @@ dependencies = [
     { name = "rdflib" },
     { name = "tablib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/53/623fb41cb99f3cd9468ac8a58d2091ab3766286121f9397742603887f1cf/apis_core_rdf-0.62.1.tar.gz", hash = "sha256:bd620c1f275f057cd98d8006542257996ba8fbe887f7446e3247eecfea5e98ac", size = 315944, upload-time = "2026-04-27T12:16:58.296Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/16/3e/3b9ba566e28e2ebec8b5678bb36c389e591042e1160c27209bcfab5c4bd1/apis_core_rdf-0.64.1.tar.gz", hash = "sha256:0f29e092093500119021fe705467e086813852fbbd09ac888590cc6104191245", size = 324214, upload-time = "2026-05-27T05:16:24.124Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/52/d7a5a74b9b9785a71851aad335286c1eec014c7a2e944d5b7d0f3ae0ca85/apis_core_rdf-0.62.1-py3-none-any.whl", hash = "sha256:bd01515809a7779f0c73f3d3d121d6fc7db6183c40b9967014e5761e9d283080", size = 289589, upload-time = "2026-04-27T12:16:56.611Z" },
+    { url = "https://files.pythonhosted.org/packages/11/26/2a268225a8b651bc8c4e2bf9cb9fcfdd3037c04d1e65cc54342a8c3d78f3/apis_core_rdf-0.64.1-py3-none-any.whl", hash = "sha256:7f63fc4016c2a5a40dd85d519eb4a92ad242b4025a361227499ea98645859ded", size = 296344, upload-time = "2026-05-27T05:16:22.23Z" },
 ]
 
 [[package]]
@@ -150,7 +150,7 @@ lint = [
 [package.metadata]
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.18.0,<2.19" },
-    { name = "apis-core-rdf", specifier = ">=0.62.1,<0.63" },
+    { name = "apis-core-rdf", specifier = ">=0.64.1,<0.65" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
     { name = "psycopg", specifier = ">=3.3.4,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.4,<3.4" },
