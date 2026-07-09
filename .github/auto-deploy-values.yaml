@@ -1,0 +1,57 @@
+replicaCount: 1
+
+image:
+  repository: $repository
+  tag: "$tag"
+  pullPolicy: Always
+
+extraLabels:
+  "ID": "$service_id"
+
+gitlab:
+  app: "$app_name"
+  envURL: "$repo_url"
+
+service:
+  enabled: true
+  name: "web"
+  url: "$public_url"
+  additionalHosts:
+    - ${app_name_in_url}-${ref_name}.${kube_ingress_base_domain}
+  type: ClusterIP
+  externalPort: 5000 #${{ inputs.default_port }}
+  internalPort: 5000 #${{ inputs.default_port }}
+
+ingress:
+  enabled: true
+  path: "/"
+  annotations:
+    kubernetes.io/ingressClassName: "nginx"
+
+livenessProbe:
+  path: "/" #"${{ inputs.APP_ROOT }}"
+  initialDelaySeconds: 300
+  timeoutSeconds: 15
+  scheme: "HTTP"
+  probeType: "httpGet"
+
+readinessProbe:
+  path: "/" #"${{ inputs.APP_ROOT }}"
+  initialDelaySeconds: 5
+  timeoutSeconds: 3
+  scheme: "HTTP"
+  probeType: "httpGet"
+
+persistence:
+  enabled: true
+  volumes:
+    images:
+      name: "data"
+      mount:
+        path: "/data"
+      claim:
+        size: "1Gi"
+        accessMode: "ReadWriteMany"
+
+securityContext:
+  fsGroup: 1000

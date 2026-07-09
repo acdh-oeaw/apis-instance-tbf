@@ -23,10 +23,7 @@ DEBUG = False
 
 INSTALLED_APPS += [
     app
-    for app in [
-        "apis_core.documentation",
-        "django_interval",
-    ]
+    for app in ["apis_core.documentation", "django_interval", "apis_typesense"]
     if app not in INSTALLED_APPS
 ]
 
@@ -89,3 +86,27 @@ GIT_REPOSITORY_URL = "https://github.com/acdh-oeaw/apis-instance-tbf"
 
 # path to directory holding RDF import configs
 RDF_CONFIG_ROOT = BASE_DIR / "apis_ontology" / "rdf_configs"
+
+APIS_TYPESENSE = {
+    # --- Typesense server connection ---
+    "api_key": os.environ.get("TYPESENSE_API_KEY"),  # required
+    "host": "typesense.acdh-dev.oeaw.ac.at",
+    "port": 443,
+    "protocol": "https",
+    "connection_timeout_seconds": 2,
+    # --- Indexing ---
+    "collection_prefix": "tbo_",  # prepended to every collection name
+    "checkpoints_dir": "/data/typesense_checkpoints",
+    "batch_size": 500,  # upload batch size
+    "document_batch_size": 100,  # queryset iterator chunk size
+    # --- Collection metadata (see below) ---
+    "metadata": {
+        "owners": ["matthias.schloegl@oeaw.ac.at", "k.kollmann@oeaw.ac.at"],
+        "description": "Testindex for Thomas Bernhard Online",
+        "service_ids": [23795],
+    },
+    # --- Collection registry for `--all-collections` ---
+    "collections": [
+        "apis_ontology.typesense_collections.WorkCollection",
+    ],
+}
