@@ -49,7 +49,7 @@ LANGUAGES = [
     ("de", _("German")),
 ]
 
-TIME_ZONE = "CET"
+TIME_ZONE = "Europe/Vienna"
 
 # Static file settings
 # https://docs.djangoproject.com/en/stable/ref/settings/#static-files
