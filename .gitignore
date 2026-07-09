@@ -26,18 +26,3 @@ build
 
 # exceptions from above ignore rules
 !/apis_ontology/**/locale/
-
-# Devenv
-.devenv*
-devenv.local.nix
-devenv.local.yaml
-devenv.*
-
-# direnv
-.direnv
-
-# pre-commit
-.pre-commit-config.yaml
-
-# local dev
-settings_*
