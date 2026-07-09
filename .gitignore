@@ -1,6 +1,7 @@
 # OS, IDEs, tooling
 .DS_Store
 .idea/
+.run/
 .python-version
 
 # settings files / local development
