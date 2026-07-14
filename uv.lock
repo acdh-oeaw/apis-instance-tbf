@@ -96,7 +96,7 @@ wheels = [
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.62.1"
+version = "0.66.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acdh-arche-assets" },
@@ -116,9 +116,9 @@ dependencies = [
     { name = "rdflib" },
     { name = "tablib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/53/623fb41cb99f3cd9468ac8a58d2091ab3766286121f9397742603887f1cf/apis_core_rdf-0.62.1.tar.gz", hash = "sha256:bd620c1f275f057cd98d8006542257996ba8fbe887f7446e3247eecfea5e98ac", size = 315944, upload-time = "2026-04-27T12:16:58.296Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/a0/144cc6711ede782e7f041e0180c539b814766eb62d37b289ae02f15dff43/apis_core_rdf-0.66.0.tar.gz", hash = "sha256:a7e9d5c646c2c05bc79ac5eac399b310897f8116175373cd727220446815acb2", size = 328542, upload-time = "2026-07-06T07:21:25.853Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/52/d7a5a74b9b9785a71851aad335286c1eec014c7a2e944d5b7d0f3ae0ca85/apis_core_rdf-0.62.1-py3-none-any.whl", hash = "sha256:bd01515809a7779f0c73f3d3d121d6fc7db6183c40b9967014e5761e9d283080", size = 289589, upload-time = "2026-04-27T12:16:56.611Z" },
+    { url = "https://files.pythonhosted.org/packages/10/8c/0e7b0bed9d21027ec555e4e301a1a66620ca691aa0f9fb5830cc9a584a1f/apis_core_rdf-0.66.0-py3-none-any.whl", hash = "sha256:6f60db0aa16398bf6ce1ed4785f0c3fddc212b4916463c108dcccb48d0dfcf90", size = 297156, upload-time = "2026-07-06T07:21:24.097Z" },
 ]
 
 [[package]]
@@ -160,7 +160,7 @@ lint = [
 [package.metadata]
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.18.0,<2.19" },
-    { name = "apis-core-rdf", specifier = ">=0.62.1,<0.63" },
+    { name = "apis-core-rdf", specifier = ">=0.66.0,<0.67" },
     { name = "apis-typesense", specifier = ">=0.1.0", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
     { name = "psycopg", specifier = ">=3.3.4,<3.4" },
