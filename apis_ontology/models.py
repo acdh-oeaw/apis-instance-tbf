@@ -297,9 +297,10 @@ class Expression(TitlesMixin, BaseEntity):
     """
 
     language = models.CharField(
+        max_length=3,
+        choices=LanguageCodes,
         blank=True,
         default="",
-        max_length=12,
         verbose_name=_("language"),
     )
 
