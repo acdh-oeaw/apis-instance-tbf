@@ -587,7 +587,7 @@ class Performance(BaseEntity):
         return self.label
 
 
-class Poster(BaseEntity):
+class Poster(LanguageMixin, BaseEntity):
     """
     A physical object conveying information about an Event.
 
