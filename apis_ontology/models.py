@@ -280,7 +280,7 @@ class Work(TitlesMixin, BaseEntity):
     }
 
 
-class Expression(TitlesMixin, BaseEntity):
+class Expression(LanguageMixin, TitlesMixin, BaseEntity):
     """
     Intellectual or artistic realisations of Works in the form of identifiable
     immaterial objects.
