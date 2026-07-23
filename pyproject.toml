@@ -31,7 +31,7 @@ helpers = [
     "django-debug-toolbar>=7.0.0,<7.1.0",
 ]
 lint = [
-    "djlint>=1.40.6,<1.41",
+    "djlint>=1.42.2,<1.43",
     "pylint>=4.0.6,<4.1",
     "ruff>=0.15.21,<0.16",
 ]
