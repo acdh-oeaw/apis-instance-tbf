@@ -1,5 +1,5 @@
-from apis_core.apis_entities.abc import E21_Person, E53_Place, E74_Group
 from apis_core.apis_entities.models import AbstractEntity
+from apis_core.entities.abc import E21_Person, E53_Place, E74_Group, Entity
 from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
 from apis_core.utils.rdf import load_uri_using_path
@@ -127,7 +127,7 @@ class ChineseVarietyCodes(models.TextChoices):
     TRADITIONAL = "Hant", pgettext_lazy("Chinese script varieties", "Han traditional")
 
 
-class BaseEntity(VersionMixin, AbstractEntity):
+class BaseEntity(VersionMixin, Entity, AbstractEntity):
     """
     Base class for all entities.
     """
