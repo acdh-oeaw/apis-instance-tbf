@@ -60,6 +60,7 @@ ignore="H006"
 
 [tool.ruff]
 src = ["apis_ontology"]
+exclude = ["data/posters/README.md"]
 
 [tool.ruff.format]
 line-ending = "lf"
