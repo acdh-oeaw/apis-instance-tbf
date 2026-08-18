@@ -24,50 +24,50 @@ For reproducability, the following is how OpenRefine's row template was customis
 
 ```python
 {
-  "signature": {{jsonize(cells["Signatur"].value)}},
-  "storage_location": {{jsonize(cells["Archivierung"].value)}},
-  "status": {{jsonize(cells["Status"].value)}},
-  "year": {{jsonize(cells["Jahr"].value)}},
-  "title": {{jsonize(cells["Titel"].value)}},
-  "work": {
-     "value": {{jsonize(cells["Werkbezug"].value)}},
-     "match": {{jsonize(cells["Werkbezug"].recon.match)}},
-     "candidates": {{jsonize(cells["Werkbezug"].recon.candidates)}}
-   },
-  "notes": {{jsonize(cells["Anmerkungen"].value)}},
-  "event_type": {{jsonize(cells["Veranstaltungstyp"].value)}},
-  "director": {
-     "value": {{jsonize(cells["Regie"].value)}},
-     "match": {{jsonize(cells["Regie"].recon.match)}},
-     "candidates": {{jsonize(cells["Regie"].recon.candidates)}}
-   },
-  "participants": [
-    {
-      "value": {{jsonize(cells["Beteiligte Person 1"].value)}},
-      "match": {{jsonize(cells["Beteiligte Person 1"].recon.match)}},
-      "candidates": {{jsonize(cells["Beteiligte Person 1"].recon.candidates)}}
+    "signature": {{jsonize(cells["Signatur"].value)}},
+    "storage_location": {{jsonize(cells["Archivierung"].value)}},
+    "status": {{jsonize(cells["Status"].value)}},
+    "year": {{jsonize(cells["Jahr"].value)}},
+    "title": {{jsonize(cells["Titel"].value)}},
+    "work": {
+        "value": {{jsonize(cells["Werkbezug"].value)}},
+        "match": {{jsonize(cells["Werkbezug"].recon.match)}},
+        "candidates": {{jsonize(cells["Werkbezug"].recon.candidates)}},
     },
-    {
-      "value": {{jsonize(cells["Beteiligte Person 2"].value)}},
-      "match": {{jsonize(cells["Beteiligte Person 2"].recon.match)}},
-      "candidates": {{jsonize(cells["Beteiligte Person 2"].recon.candidates)}}
+    "notes": {{jsonize(cells["Anmerkungen"].value)}},
+    "event_type": {{jsonize(cells["Veranstaltungstyp"].value)}},
+    "director": {
+        "value": {{jsonize(cells["Regie"].value)}},
+        "match": {{jsonize(cells["Regie"].recon.match)}},
+        "candidates": {{jsonize(cells["Regie"].recon.candidates)}},
     },
-    {
-      "value": {{jsonize(cells["Beteiligte Person 3"].value)}},
-      "match": {{jsonize(cells["Beteiligte Person 3"].recon.match)}},
-      "candidates": {{jsonize(cells["Beteiligte Person 3"].recon.candidates)}}
-    }
-   ],
-  "group": {
-     "value": {{jsonize(cells["Institution"].value)}},
-     "match": {{jsonize(cells["Institution"].recon.match)}},
-     "candidates": {{jsonize(cells["Institution"].recon.candidates)}}
-   },
-  "country": {{jsonize(cells["Land"].value)}},
-  "start_date_written": {{jsonize(cells["Datum Anfang"].value)}},
-  "end_date_written": {{jsonize(cells["Datum Ende"].value)}},
-  "measurements": {{jsonize(cells["Maße"].value)}},
-  "quantity": {{jsonize(cells["Anzahl"].value)}}
+    "participants": [
+        {
+            "value": {{jsonize(cells["Beteiligte Person 1"].value)}},
+            "match": {{jsonize(cells["Beteiligte Person 1"].recon.match)}},
+            "candidates": {{jsonize(cells["Beteiligte Person 1"].recon.candidates)}},
+        },
+        {
+            "value": {{jsonize(cells["Beteiligte Person 2"].value)}},
+            "match": {{jsonize(cells["Beteiligte Person 2"].recon.match)}},
+            "candidates": {{jsonize(cells["Beteiligte Person 2"].recon.candidates)}},
+        },
+        {
+            "value": {{jsonize(cells["Beteiligte Person 3"].value)}},
+            "match": {{jsonize(cells["Beteiligte Person 3"].recon.match)}},
+            "candidates": {{jsonize(cells["Beteiligte Person 3"].recon.candidates)}},
+        },
+    ],
+    "group": {
+        "value": {{jsonize(cells["Institution"].value)}},
+        "match": {{jsonize(cells["Institution"].recon.match)}},
+        "candidates": {{jsonize(cells["Institution"].recon.candidates)}},
+    },
+    "country": {{jsonize(cells["Land"].value)}},
+    "start_date_written": {{jsonize(cells["Datum Anfang"].value)}},
+    "end_date_written": {{jsonize(cells["Datum Ende"].value)}},
+    "measurements": {{jsonize(cells["Maße"].value)}},
+    "quantity": {{jsonize(cells["Anzahl"].value)}},
 }
 ```
 
