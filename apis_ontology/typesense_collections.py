@@ -1,78 +1,79 @@
 from apis_typesense.collections import BaseCollection
-from apis_typesense.fields import EnumField, SameAsField, TypesenseField
-from apis_typesense.models import ModelField, ModelSerializer
-from django.contrib.postgres.expressions import ArraySubquery, Subquery
-from django.db.models import OuterRef, Value
-from django.db.models.functions import Concat, JSONObject
+from apis_typesense.fields import (
+    EnumField,
+    FixedStringField,
+    FuzzyDateField,
+    SameAsField,
+    TypesenseField,
+)
+from django.contrib.postgres.expressions import ArraySubquery
+from django.db.models import OuterRef, Subquery, Value
+from django.db.models.functions import Concat
 
 from apis_ontology.models import (
     Expression,
+    Group,
+    Manifestation,
+    ManifestationEmbodiesExpression,
     Performance,
+    PerformanceHadDirectorPerson,
+    PerformanceHadParticipantGroup,
+    PerformanceHadParticipantPerson,
     PerformancePerformedWork,
     Person,
     PersonIsAuthorOfWork,
+    PersonIsTranslatorOfExpression,
+    Poster,
+    PosterPromotedEvent,
     Work,
     WorkIsRealisedInExpression,
 )
 
-expression = Expression.objects.filter(pk=OuterRef("obj_object_id"))
-persons = Person.objects.filter(pk=OuterRef("subj_object_id")).annotate(
-    label=Concat("forename", Value(" "), "surname")
-)
-performance = Performance.objects.filter(pk=OuterRef("subj_object_id"))
-expr_realised_in = (
-    WorkIsRealisedInExpression.objects.filter(subj_object_id=OuterRef("pk"))
-    .annotate(
-        exp_id=Subquery(expression[:1].values("id")),
-        exp_title=Subquery(expression[:1].values("title")),
-        exp_lang=Subquery(expression[:1].values("language")),
-    )
-    .values(json=JSONObject(id="exp_id", title="exp_title", language="exp_lang"))
-)
-author_of = (
-    PersonIsAuthorOfWork.objects.filter(obj_object_id=OuterRef("pk"))
-    .annotate(
-        aut_id=Subquery(persons[:1].values("id")),
-        aut_label=Subquery(persons[:1].values("label")),
-    )
-    .values(json=JSONObject(id="aut_id", label="aut_label"))
-)
-performed = (
-    PerformancePerformedWork.objects.filter(obj_object_id=OuterRef("pk"))
-    .annotate(
-        pf_id=Subquery(performance[:1].values("id")),
-        pf_label=Subquery(performance[:1].values("label")),
-        pf_date=Subquery(performance[:1].values("date_range")),
-    )
-    .values(json=JSONObject(id="pf_id", label="pf_label", date="pf_date"))
-)
+author_of = PersonIsAuthorOfWork.objects.filter(
+    obj_object_id=OuterRef("pk")
+).values_list("subj_object_id", flat=True)
+
+transl_of = PersonIsTranslatorOfExpression.objects.filter(
+    obj_object_id=OuterRef("pk")
+).values_list("subj_object_id", flat=True)
 
 works = Work.objects.all().annotate(
-    realised_in=ArraySubquery(expr_realised_in),
     author=ArraySubquery(author_of),
-    performances=ArraySubquery(performed),
+)
+manifest = Manifestation.objects.filter(id=OuterRef("subj_object_id"))[:1]
+exp_man = ManifestationEmbodiesExpression.objects.filter(
+    obj_object_id=OuterRef("id")
+).annotate(
+    language=Subquery(manifest.values("primary_language")),
+    year=Subquery(manifest.values("publication_date")),
+)[:1]
+work_expr = WorkIsRealisedInExpression.objects.filter(obj_object_id=OuterRef("id"))[:1]
+
+expressions = Expression.objects.all().annotate(
+    work_id=Subquery(work_expr.values("subj_object_id")),
+    transl=ArraySubquery(transl_of),
+    language_man=Subquery(exp_man.values("language")),
+    year=Subquery(exp_man.values("year")),
 )
 
+persons = Person.objects.all().annotate(label=Concat("forename", Value(" "), "surname"))
 
-class ExpressionModel(ModelSerializer):
-    id: TypesenseField = TypesenseField(type="string", field_name="id")
-    title: TypesenseField = TypesenseField(type="string", field_name="title")
-    language: EnumField = EnumField(
-        source="index",
-        type="string",
-        field_name="language",
-    )
-
-
-class PersonModel(ModelSerializer):
-    id: TypesenseField = TypesenseField(type="string", field_name="id")
-    name: TypesenseField = TypesenseField(type="string", field_name="label")
-
-
-class PerformanceModel(ModelSerializer):
-    id: TypesenseField = TypesenseField(type="string", field_name="id")
-    label: TypesenseField = TypesenseField(type="string", field_name="label")
-    date: TypesenseField = TypesenseField(type="string", field_name="date_range")
+perf_work = PerformancePerformedWork.objects.filter(subj_object_id=OuterRef("id"))[:1]
+perf_direct = PerformanceHadDirectorPerson.objects.filter(subj_object_id=OuterRef("id"))
+perf_actor = PerformanceHadParticipantPerson.objects.filter(
+    subj_object_id=OuterRef("id")
+)
+poster_perf = PosterPromotedEvent.objects.filter(obj_object_id=OuterRef("id"))
+perf_group = PerformanceHadParticipantGroup.objects.filter(
+    subj_object_id=OuterRef("id")
+)
+performance = Performance.objects.all().annotate(
+    work_id=Subquery(perf_work.values("obj_object_id")),
+    directors=ArraySubquery(perf_direct.values_list("obj_object_id", flat=True)),
+    actors=ArraySubquery(perf_actor.values_list("obj_object_id", flat=True)),
+    posters=ArraySubquery(poster_perf.values_list("subj_object_id", flat=True)),
+    theaters=ArraySubquery(perf_group.values_list("obj_object_id", flat=True)),
+)
 
 
 class WorkCollection(BaseCollection):
@@ -81,25 +82,127 @@ class WorkCollection(BaseCollection):
     category: TypesenseField = TypesenseField(
         type="string", field_name="tbit_category", optional=True
     )
-    expressions: ModelField = ModelField(
-        type="object[]",
+    author_ids: TypesenseField = TypesenseField(
+        type="string[]",
         optional=True,
-        model=ExpressionModel(),
-        accessor="realised_in",
-    )
-    authors: ModelField = ModelField(
-        type="object[]",
-        optional=True,
-        model=PersonModel(),
-        accessor="author",
-    )
-    performances: ModelField = ModelField(
-        type="object[]",
-        optional=True,
-        model=PerformanceModel(),
-        accessor="performances",
+        field_name="author",
+        reference="tbo_person.id",
+        async_reference=True,
+        cascade_delete=False,
     )
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
 
     default_models = [(works, {"filter": {}, "exclude": {}})]
     collection_name = "work"
+
+
+class ExpressionCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    work_id: TypesenseField = TypesenseField(
+        type="string",
+        field_name="work_id",
+        reference="tbo_work.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    title: TypesenseField = TypesenseField(type="string", sort=True, field_name="title")
+    language: EnumField = EnumField(
+        source="index",
+        type="string",
+        field_name="language_man",
+    )
+    type: FixedStringField = FixedStringField(value="expression", type="string")
+    translator_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="transl",
+        reference="tbo_person.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    year: TypesenseField = TypesenseField(
+        type="int32", optional=True, field_name="year"
+    )
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(expressions, {"filter": {}, "exclude": {}})]
+    collection_name = "expression"
+
+
+class PerformanceCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    work_id: TypesenseField = TypesenseField(
+        type="string",
+        field_name="work_id",
+        reference="tbo_work.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    title: TypesenseField = TypesenseField(type="string", sort=True, field_name="label")
+    type: FixedStringField = FixedStringField(value="performance", type="string")
+    director_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="directors",
+        reference="tbo_person.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    actor_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="actors",
+        reference="tbo_person.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    poster_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="posters",
+        reference="tbo_poster.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+    theater_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="theaters",
+        reference="tbo_group.id",
+        async_reference=True,
+        cascade_delete=False,
+    )
+
+    dates: FuzzyDateField = FuzzyDateField(field_name="date_range", optional=True)
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(performance, {"filter": {}, "exclude": {}})]
+    collection_name = "performance"
+
+
+class PersonCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    name: TypesenseField = TypesenseField(type="string", field_name="label")
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(persons, {"filter": {}, "exclude": {}})]
+    collection_name = "person"
+
+
+class GroupCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    name: TypesenseField = TypesenseField(type="string", field_name="label")
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(Group.objects.all(), {"filter": {}, "exclude": {}})]
+    collection_name = "group"
+
+
+class PosterCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    name: TypesenseField = TypesenseField(type="string", field_name="label")
+    year: TypesenseField = TypesenseField(
+        type="int32", field_name="year", optional=True
+    )
+    country: EnumField = EnumField(
+        type="string", field_name="country", source="index", optional=True
+    )
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(Poster.objects.all(), {"filter": {}, "exclude": {}})]
+    collection_name = "poster"

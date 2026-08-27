@@ -108,5 +108,10 @@ APIS_TYPESENSE = {
     # --- Collection registry for `--all-collections` ---
     "collections": [
         "apis_ontology.typesense_collections.WorkCollection",
+        "apis_ontology.typesense_collections.ExpressionCollection",
+        "apis_ontology.typesense_collections.PersonCollection",
+        "apis_ontology.typesense_collections.PerformanceCollection",
+        "apis_ontology.typesense_collections.PosterCollection",
+        "apis_ontology.typesense_collections.GroupCollection",
     ],
 }
