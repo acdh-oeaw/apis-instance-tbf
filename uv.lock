@@ -161,7 +161,7 @@ lint = [
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.18.0,<2.19" },
     { name = "apis-core-rdf", specifier = ">=0.62.1,<0.63" },
-    { name = "apis-typesense", specifier = ">=0.1.0", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
+    { name = "apis-typesense", specifier = ">=0.2.2", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
     { name = "psycopg", specifier = ">=3.3.4,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.4,<3.4" },
@@ -192,16 +192,16 @@ lint = [
 
 [[package]]
 name = "apis-typesense"
-version = "0.1.0"
+version = "0.2.2"
 source = { registry = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" }
 dependencies = [
     { name = "django" },
     { name = "pydantic" },
     { name = "typesense" },
 ]
-sdist = { url = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/files/ecd05cdea16569aef44b8a6f36f7381fe08e598e1dbd75c16670b6049b4d4051/apis_typesense-0.1.0.tar.gz", hash = "sha256:ecd05cdea16569aef44b8a6f36f7381fe08e598e1dbd75c16670b6049b4d4051" }
+sdist = { url = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/files/9954327b9978d1ce607bfc0d1426d0724880258fcb1c6d174fb2dd3adddf836b/apis_typesense-0.2.2.tar.gz", hash = "sha256:9954327b9978d1ce607bfc0d1426d0724880258fcb1c6d174fb2dd3adddf836b" }
 wheels = [
-    { url = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/files/098517da662325868e047581bb716cb7e0837be65bd21603ad112cd708b2f6e0/apis_typesense-0.1.0-py3-none-any.whl", hash = "sha256:098517da662325868e047581bb716cb7e0837be65bd21603ad112cd708b2f6e0" },
+    { url = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/files/39c241f1149183535481e43c4355d664951b8cca7ea270e184484eb8616d8114/apis_typesense-0.2.2-py3-none-any.whl", hash = "sha256:39c241f1149183535481e43c4355d664951b8cca7ea270e184484eb8616d8114" },
 ]
 
 [[package]]
