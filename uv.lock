@@ -172,8 +172,8 @@ dev = [
     { name = "deptry", specifier = ">=0.25.1,<0.26" },
     { name = "django-debug-toolbar", specifier = ">=7.1.1,<7.2.0" },
     { name = "djlint", specifier = ">=1.44.2,<1.45" },
-    { name = "pylint", specifier = ">=4.0.7,<4.1" },
-    { name = "ruff", specifier = ">=0.16.3,<0.17" },
+    { name = "pylint", specifier = ">=4.0.8,<4.1" },
+    { name = "ruff", specifier = ">=0.16.5,<0.17" },
 ]
 docs = [
     { name = "myst-parser", specifier = ">=5.1.0,<5.2" },
@@ -186,8 +186,8 @@ helpers = [
 ]
 lint = [
     { name = "djlint", specifier = ">=1.44.2,<1.45" },
-    { name = "pylint", specifier = ">=4.0.7,<4.1" },
-    { name = "ruff", specifier = ">=0.16.3,<0.17" },
+    { name = "pylint", specifier = ">=4.0.8,<4.1" },
+    { name = "ruff", specifier = ">=0.16.5,<0.17" },
 ]
 
 [[package]]
