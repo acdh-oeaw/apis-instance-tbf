@@ -165,15 +165,15 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
         :rtype: str
         """
         primary_language = obj.primary_language.lower() or ""
-        variety = obj.variety.lower() or ""
+        language_variety = obj.language_variety.lower() or ""
 
         if not primary_language:
             return ""
 
-        if not variety:
+        if not language_variety:
             return primary_language
 
-        return f"{primary_language}_{variety}"
+        return f"{primary_language}_{language_variety}"
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)

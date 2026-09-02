@@ -3,8 +3,8 @@ Add TBit language data to existing Manifestation objects previously imported
 from publications.json.
 
 Identifies relevant Manifestation object instances by their "tbit_shelfmark"
-field value, then sets the "primary_language" and "variant" fields based on
-the "language" value in the TBit JSON.
+field value, then sets the "primary_language" and "language_variety" fields
+based on the "language" value in the TBit JSON.
 """
 
 import json
@@ -94,7 +94,7 @@ class Command(BaseCommand):
                 continue
 
             # parse language value, e.g. "fr" or "pt_br" or "zh_hans"
-            primary_language_raw, *variety_raw = language.lower().split("_")
+            primary_language_raw, *language_variety_raw = language.lower().split("_")
 
             if not primary_language_raw:
                 self.stdout.write(
@@ -105,25 +105,27 @@ class Command(BaseCommand):
                 error_count += 1
                 continue
 
-            # update Manifestation object primary_language and variety value
+            # update Manifestation object primary_language and language_variety value
             try:
                 primary_language = self._match_primary_language_code(
                     primary_language_raw
                 )
-                variety = (
-                    self._match_variety_code(variety_raw[0]) if variety_raw else ""
+                language_variety = (
+                    self._match_language_variety_code(language_variety_raw[0])
+                    if language_variety_raw
+                    else ""
                 )
 
                 if not dry_run:
                     m.primary_language = primary_language
-                    m.variety = variety
-                    m.save(update_fields=["primary_language", "variety"])
+                    m.language_variety = language_variety
+                    m.save(update_fields=["primary_language", "language_variety"])
 
                 updated_count += 1
                 self.stdout.write(
                     f"{'[DRY RUN] Would update' if dry_run else 'Updated'} "
                     f"Manifestation ID {m_id} ('{title}') with primary_language: {primary_language}"
-                    f"{', variety: ' + variety if variety else ''}"
+                    f"{', language variety: ' + language_variety if language_variety else ''}"
                 )
 
             except Exception as e:
@@ -163,21 +165,22 @@ class Command(BaseCommand):
 
         return ""
 
-    def _match_variety_code(self, variety):
+    def _match_language_variety_code(self, language_variety):
         """
-        Compare a language variety code string to the values in any *VarietyCodes
-        TextChoices class and return the value that matches.
+        Compare a language variety code string to the values in any
+        *VarietyCodes TextChoices class and return the value that matches.
 
-        :param variety: an input language variety or script code, e.g. "Br" or
-                        "hans"
-        :type variety: str
-        :return: the correctly formatted variety, otherwise an empty string
+        :param language_variety: an input language variety or script code,
+                                 e.g. "Br" or "hans"
+        :type language_variety: str
+        :return: the correctly formatted language variety, otherwise an empty
+                 string
         :rtype: str
         """
         if match := [
             v
             for v in PortugueseVarietyCodes.values + ChineseVarietyCodes.values
-            if v.lower() == variety
+            if v.lower() == language_variety
         ]:
             return match[0]
 
