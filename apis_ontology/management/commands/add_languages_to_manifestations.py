@@ -105,25 +105,25 @@ class Command(BaseCommand):
                 error_count += 1
                 continue
 
-            # update Manifestation object primary_language and variety value
+            # update Manifestation object primary_language and language_variety value
             try:
                 primary_language = self._match_primary_language_code(
                     primary_language_raw
                 )
-                variety = (
+                language_variety = (
                     self._match_variety_code(variety_raw[0]) if variety_raw else ""
                 )
 
                 if not dry_run:
                     m.primary_language = primary_language
-                    m.variety = variety
-                    m.save(update_fields=["primary_language", "variety"])
+                    m.language_variety = language_variety
+                    m.save(update_fields=["primary_language", "language_variety"])
 
                 updated_count += 1
                 self.stdout.write(
                     f"{'[DRY RUN] Would update' if dry_run else 'Updated'} "
                     f"Manifestation ID {m_id} ('{title}') with primary_language: {primary_language}"
-                    f"{', variety: ' + variety if variety else ''}"
+                    f"{', language variety: ' + language_variety if language_variety else ''}"
                 )
 
             except Exception as e:
