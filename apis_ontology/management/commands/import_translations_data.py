@@ -402,7 +402,7 @@ class Command(BaseCommand):
             other_title_info = pub["other_title_information"]
             pages = pub["relevant_pages"]
 
-            exp_language = pub["language"]
+            language = pub["language"]
             contained_trans = pub["contains"]  # lists of integers
 
             if manifestation := Manifestation.objects.filter(
