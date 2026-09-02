@@ -120,8 +120,8 @@ group_man = Group.objects.filter(id=OuterRef("subj_object_id"))[:1]
 
 manifestations = Manifestation.objects.all().annotate(
     language=Case(
-        When(variety="", then=F("primary_language")),
-        default=Concat("primary_language", Value("_"), "variety"),
+        When(language_variety="", then=F("primary_language")),
+        default=Concat("primary_language", Value("_"), "language_variety"),
     ),
     publishers_id=ArraySubquery(
         manifest_publishers.values_list("subj_object_id", flat=True)
