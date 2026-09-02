@@ -296,13 +296,6 @@ class Expression(LanguageMixin, TitlesMixin, BaseEntity):
     https://www.cidoc-crm.org/extensions/lrmoo/html/LRMoo_v1.0.html#F2
     """
 
-    language = models.CharField(
-        blank=True,
-        default="",
-        max_length=12,
-        verbose_name=_("language"),
-    )
-
     class Meta(TitlesMixin.Meta):
         verbose_name = _("expression")
         verbose_name_plural = _("expressions")
