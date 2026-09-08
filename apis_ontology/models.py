@@ -137,7 +137,7 @@ class BaseEntity(VersionMixin, AbstractEntity):
         ordering = ["id"]
 
 
-def _get_combined_variety_choices():
+def _get_combined_language_variety_choices():
     """
     Helper function to combine choices from classes for language variety codes.
     """
@@ -205,13 +205,13 @@ class LanguageMixin(models.Model):
     Allows to define language varieties.
     Available fields include "primary_language" for the IETF BCP 47
     primary language subtag (mandatory), based on ISO 639-1/3) and
-    "variety", which combines (optional) region and script subtags
+    "language_variety", which combines (optional) region and script subtags
     which are based on ISO 3166-1 alpha-2 and ISO 15924, respectively.
 
     See: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
     """
 
-    # mapping of primary language codes to relevant variety code choices
+    # mapping of primary language codes to relevant language variety code choices
     LANGUAGE_VARIETIES_MAPPING = {
         "pt": PortugueseVarietyCodes,
         "zh": ChineseVarietyCodes,
@@ -225,12 +225,12 @@ class LanguageMixin(models.Model):
         verbose_name=_("language"),
     )
 
-    variety = models.CharField(
+    language_variety = models.CharField(
         blank=True,
         default="",
         max_length=4,
-        choices=_get_combined_variety_choices(),
-        verbose_name=_("variety"),
+        choices=_get_combined_language_variety_choices(),
+        verbose_name=_("language variety"),
         help_text=_(
             "Regional variant, dialect or script type. "
             "Available options depend on the language selected."

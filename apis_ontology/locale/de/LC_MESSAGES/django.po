@@ -291,8 +291,8 @@ msgid "language"
 msgstr "Sprache"
 
 #: apis_ontology/models.py
-msgid "variety"
-msgstr "Varietät"
+msgid "language variety"
+msgstr "Sprachvarietät"
 
 #: apis_ontology/models.py
 msgid ""

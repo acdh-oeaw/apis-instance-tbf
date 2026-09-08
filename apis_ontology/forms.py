@@ -74,4 +74,4 @@ class ManifestationForm(BaseModelForm):
                 # disable language fields only for Manifestations imported from
                 # TBit publications, to prevent (accidental) data manipulation
                 self.fields["primary_language"].disabled = True
-                self.fields["variety"].disabled = True
+                self.fields["language_variety"].disabled = True

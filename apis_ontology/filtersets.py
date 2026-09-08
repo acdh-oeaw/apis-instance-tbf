@@ -98,4 +98,4 @@ class EventFilterSet(BaseEntityFilterSet):
 
 class ManifestationFilterSet(BaseEntityFilterSet):
     class Meta(BaseEntityFilterSet.Meta):
-        exclude = ["variety"]
+        exclude = ["language_variety"]
