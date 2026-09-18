@@ -8,12 +8,13 @@ from apis_typesense.fields import (
 )
 from apis_typesense.models import ModelField, ModelSerializer
 from django.contrib.postgres.expressions import ArraySubquery
-from django.db.models import OuterRef, Subquery, Value
+from django.db.models import Case, F, OuterRef, Subquery, Value, When
 from django.db.models.functions import Concat, JSONObject
 
 from apis_ontology.models import (
     Expression,
     Group,
+    GroupIsPublisherOfManifestation,
     Manifestation,
     ManifestationEmbodiesExpression,
     Performance,
@@ -48,12 +49,16 @@ exp_man = ManifestationEmbodiesExpression.objects.filter(
     year=Subquery(manifest.values("publication_date")),
 )[:1]
 work_expr = WorkIsRealisedInExpression.objects.filter(obj_object_id=OuterRef("id"))[:1]
+exp_man_2 = ManifestationEmbodiesExpression.objects.filter(
+    obj_object_id=OuterRef("id")
+).values_list("subj_object_id", flat=True)
 
 expressions = Expression.objects.all().annotate(
     work_id=Subquery(work_expr.values("subj_object_id")),
     transl=ArraySubquery(transl_of),
     language_man=Subquery(exp_man.values("language")),
     year=Subquery(exp_man.values("year")),
+    manifestations=ArraySubquery(exp_man_2),
 )
 
 persons = Person.objects.all().annotate(label=Concat("forename", Value(" "), "surname"))
@@ -107,8 +112,30 @@ works = Work.objects.all().annotate(
     author=ArraySubquery(author_of), year=Subquery(man_work_year.values("year")[:1])
 )
 
+manifest_publishers = GroupIsPublisherOfManifestation.objects.filter(
+    obj_object_id=OuterRef("pk")
+)
 
-class PersonModel(ModelSerializer):
+group_man = Group.objects.filter(id=OuterRef("subj_object_id"))[:1]
+
+manifestations = Manifestation.objects.all().annotate(
+    language=Case(
+        When(variety="", then=F("primary_language")),
+        default=Concat("primary_language", Value("_"), "variety"),
+    ),
+    publishers_id=ArraySubquery(
+        manifest_publishers.values_list("subj_object_id", flat=True)
+    ),
+    publishers=ArraySubquery(
+        manifest_publishers.annotate(
+            id_group=Subquery(group_man.values("id")),
+            name_group=Subquery(group_man.values("label")),
+        ).values(json=JSONObject(id="id_group", label="name_group"))
+    ),
+)
+
+
+class EntityModel(ModelSerializer):
     id: TypesenseField = TypesenseField(type="string", field_name="id")
     name: TypesenseField = TypesenseField(type="string", field_name="label")
 
@@ -161,6 +188,15 @@ class ExpressionCollection(BaseCollection):
         cascade_delete=False,
         facet=True,
     )
+    manifestation_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="manifestations",
+        reference="tbo_manifestation.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
     year: TypesenseField = TypesenseField(
         type="int32", optional=True, field_name="year", sort=True, facet=True
     )
@@ -185,14 +221,14 @@ class PerformanceCollection(BaseCollection):
     directors: ModelField = ModelField(
         type="object[]",
         optional=True,
-        model=PersonModel(),
+        model=EntityModel(),
         accessor="directors",
         facet=True,
     )
     actors: ModelField = ModelField(
         type="object[]",
         optional=True,
-        model=PersonModel(),
+        model=EntityModel(),
         accessor="actors",
         facet=True,
     )
@@ -258,3 +294,49 @@ class PosterCollection(BaseCollection):
     default_models = [(Poster.objects.all(), {"filter": {}, "exclude": {}})]
     collection_name = "poster"
     default_sorting_field = "name"
+
+
+class ManifestationCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    title: TypesenseField = TypesenseField(type="string", field_name="title", sort=True)
+    subtitle: TypesenseField = TypesenseField(
+        type="string", field_name="subtitle", sort=True, optional=True
+    )
+    other_title_information: TypesenseField = TypesenseField(
+        type="string", field_name="other_title_information", sort=True, optional=True
+    )
+    isbn: TypesenseField = TypesenseField(
+        type="int32", field_name="isbn", sort=True, optional=True
+    )
+    relevant_pages: TypesenseField = TypesenseField(
+        type="string", field_name="relevant_pages", sort=True, optional=True
+    )
+    tbit_shelfmark: TypesenseField = TypesenseField(
+        type="string", field_name="relevant_pages", sort=True, optional=True
+    )
+    language: EnumField = EnumField(
+        type="string", field_name="language", source="index", facet=True
+    )
+    publication_date: FuzzyDateField = FuzzyDateField(
+        field_name="publication_date", optional=True
+    )
+    publisher_ids: TypesenseField = TypesenseField(
+        type="string[]",
+        optional=True,
+        field_name="publishers_id",
+        reference="tbo_group.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
+    publisher: ModelField = ModelField(
+        type="object[]",
+        optional=True,
+        model=EntityModel(),
+        accessor="publishers",
+        facet=True,
+    )
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(manifestations, {"filter": {}, "exclude": {}})]
+    collection_name = "manifestation"
+    default_sorting_field = "title"
