@@ -12,6 +12,8 @@ from django.contrib.contenttypes.models import ContentType
 
 from apis_ontology.models import BaseRelation
 
+from .models import ChineseVarietyCodes, LanguageCodes, PortugueseVarietyCodes
+
 logger = logging.getLogger(__name__)
 
 
@@ -68,6 +70,43 @@ def get_history_model(model_name, name_prefix="Version"):
             logger.warning(e)
 
     return history_model_class
+
+
+def get_matching_primary_language_code(language):
+    """
+    Compare a language code string to the values in LanguageCodes
+    and return the value that matches.
+
+    :param language: an input language code, e.g. "EN" or "fr"
+    :type language: str
+    :return: the correctly formatted language code, otherwise an empty string
+    :rtype: str
+    """
+    if match := [v for v in LanguageCodes.values if v.lower() == language]:
+        return match[0]
+
+    return ""
+
+
+def get_matching_language_variety_code(variety):
+    """
+    Compare a language variety code string to the values in any *VarietyCodes
+    TextChoices class and return the value that matches.
+
+    :param variety: an input language variety or script code, e.g. "Br" or
+                    "hans"
+    :type variety: str
+    :return: the correctly formatted variety, otherwise an empty string
+    :rtype: str
+    """
+    if match := [
+        v
+        for v in PortugueseVarietyCodes.values + ChineseVarietyCodes.values
+        if v.lower() == variety
+    ]:
+        return match[0]
+
+    return ""
 
 
 def delete_objects(
