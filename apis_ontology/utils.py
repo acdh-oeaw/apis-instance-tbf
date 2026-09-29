@@ -12,7 +12,7 @@ from django.contrib.contenttypes.models import ContentType
 
 from apis_ontology.models import BaseRelation
 
-from .models import ChineseVarietyCodes, LanguageCodes, PortugueseVarietyCodes
+from .models import LanguageCodes, _get_combined_language_variety_choices
 
 logger = logging.getLogger(__name__)
 
@@ -100,9 +100,9 @@ def get_matching_language_variety_code(variety):
     :rtype: str
     """
     if match := [
-        v
-        for v in PortugueseVarietyCodes.values + ChineseVarietyCodes.values
-        if v.lower() == variety
+        v[0]
+        for v in _get_combined_language_variety_choices()
+        if v[0].lower() == variety
     ]:
         return match[0]
 
