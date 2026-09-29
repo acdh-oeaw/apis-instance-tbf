@@ -96,7 +96,7 @@ wheels = [
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.62.1"
+version = "0.67.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acdh-arche-assets" },
@@ -112,13 +112,14 @@ dependencies = [
     { name = "djangorestframework" },
     { name = "drf-spectacular" },
     { name = "httpx" },
+    { name = "pydantic" },
     { name = "pydot" },
     { name = "rdflib" },
     { name = "tablib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/53/623fb41cb99f3cd9468ac8a58d2091ab3766286121f9397742603887f1cf/apis_core_rdf-0.62.1.tar.gz", hash = "sha256:bd620c1f275f057cd98d8006542257996ba8fbe887f7446e3247eecfea5e98ac", size = 315944, upload-time = "2026-04-27T12:16:58.296Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/5c/847bca744477b8f8807c9cf1b23dba890c45fc8c067f5253caa0f7680ea2/apis_core_rdf-0.67.4.tar.gz", hash = "sha256:a24804bcfe6317231e130860ac4377a44e2f59e8db54a6fdc6a06162c1b8792d", size = 335754, upload-time = "2026-08-21T08:54:36.621Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/52/d7a5a74b9b9785a71851aad335286c1eec014c7a2e944d5b7d0f3ae0ca85/apis_core_rdf-0.62.1-py3-none-any.whl", hash = "sha256:bd01515809a7779f0c73f3d3d121d6fc7db6183c40b9967014e5761e9d283080", size = 289589, upload-time = "2026-04-27T12:16:56.611Z" },
+    { url = "https://files.pythonhosted.org/packages/93/7d/99cc7a4a8f3b254a8a5ba7da9774f407cc472040cfcc15c6bd555638da08/apis_core_rdf-0.67.4-py3-none-any.whl", hash = "sha256:c33b11c01c0e08886acbc6058b4b4b6f6512f3bea59a771b400097920375c262", size = 301816, upload-time = "2026-08-21T08:54:35.122Z" },
 ]
 
 [[package]]
@@ -160,7 +161,7 @@ lint = [
 [package.metadata]
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.18.0,<2.19" },
-    { name = "apis-core-rdf", specifier = ">=0.62.1,<0.63" },
+    { name = "apis-core-rdf", specifier = ">=0.62.1,<0.68" },
     { name = "apis-typesense", specifier = ">=0.2.2", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
     { name = "psycopg", specifier = ">=3.3.4,<3.4" },
