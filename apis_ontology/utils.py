@@ -83,7 +83,7 @@ def get_matching_primary_language_code(language):
     :return: the correctly formatted language code, otherwise an empty string
     :rtype: str
     """
-    if match := [v for v in LanguageCodes.values if v.lower() == language]:
+    if match := [v for v in LanguageCodes.values if v.lower() == language.lower()]:
         return match[0]
 
     return ""
@@ -105,7 +105,7 @@ def get_matching_language_variety_code(variety):
     if match := [
         v
         for v in PortugueseVarietyCodes.values + ChineseVarietyCodes.values
-        if v.lower() == variety
+        if v.lower() == variety.lower()
     ]:
         return match[0]
 
