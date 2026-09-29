@@ -74,8 +74,9 @@ def get_history_model(model_name, name_prefix="Version"):
 
 def get_matching_primary_language_code(language):
     """
-    Compare a language code string to the values in LanguageCodes
-    and return the value that matches.
+    Compare a language code string to the "primary_language" codes
+    currently available/allowed for languages for entity objects
+    and return the value that matches, formatted according to ISO 639-1.
 
     :param language: an input language code, e.g. "EN" or "fr"
     :type language: str
@@ -90,8 +91,10 @@ def get_matching_primary_language_code(language):
 
 def get_matching_language_variety_code(variety):
     """
-    Compare a language variety code string to the values in any *VarietyCodes
-    TextChoices class and return the value that matches.
+    Compare a language variant or script type code string to the
+    "language_variety" codes currently available for primary languages
+    for entity objects and return the value that matches, formatted
+    according to ISO 3166-1 alpha-2 or ISO 15924.
 
     :param variety: an input language variety or script code, e.g. "Br" or
                     "hans"
