@@ -13,11 +13,10 @@ from pathlib import Path
 
 from django.core.management.base import BaseCommand
 
-from apis_ontology.models import (
-    ChineseVarietyCodes,
-    LanguageCodes,
-    Manifestation,
-    PortugueseVarietyCodes,
+from apis_ontology.models import Manifestation
+from apis_ontology.utils import (
+    get_matching_language_variety_code,
+    get_matching_primary_language_code,
 )
 
 logger = logging.getLogger(__name__)
@@ -107,11 +106,11 @@ class Command(BaseCommand):
 
             # update Manifestation object primary_language and language_variety value
             try:
-                primary_language = self._match_primary_language_code(
+                primary_language = get_matching_primary_language_code(
                     primary_language_raw
                 )
                 language_variety = (
-                    self._match_language_variety_code(language_variety_raw[0])
+                    get_matching_language_variety_code(language_variety_raw[0])
                     if language_variety_raw
                     else ""
                 )
@@ -149,39 +148,3 @@ class Command(BaseCommand):
         if error_count > 0:
             self.stdout.write(self.style.ERROR(f"  Errors: {error_count}"))
         self.stdout.write(self.style.SUCCESS("=" * 60))
-
-    def _match_primary_language_code(self, language):
-        """
-        Compare a language code string to the values in LanguageCodes
-        and return the value that matches.
-
-        :param language: an input language code, e.g. "EN" or "fr"
-        :type language: str
-        :return: the correctly formatted language code, otherwise an empty string
-        :rtype: str
-        """
-        if match := [v for v in LanguageCodes.values if v.lower() == language]:
-            return match[0]
-
-        return ""
-
-    def _match_language_variety_code(self, language_variety):
-        """
-        Compare a language variety code string to the values in any
-        *VarietyCodes TextChoices class and return the value that matches.
-
-        :param language_variety: an input language variety or script code,
-                                 e.g. "Br" or "hans"
-        :type language_variety: str
-        :return: the correctly formatted language variety, otherwise an empty
-                 string
-        :rtype: str
-        """
-        if match := [
-            v
-            for v in PortugueseVarietyCodes.values + ChineseVarietyCodes.values
-            if v.lower() == language_variety
-        ]:
-            return match[0]
-
-        return ""
