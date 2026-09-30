@@ -208,7 +208,8 @@ class LanguageMixin(models.Model):
     "language_variety", which combines (optional) region and script subtags
     which are based on ISO 3166-1 alpha-2 and ISO 15924, respectively.
 
-    See: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
+    See: https://www.rfc-editor.org/info/bcp47/
+         https://en.wikipedia.org/wiki/IETF_language_tag
     """
 
     # mapping of primary language codes to relevant language variety code choices
