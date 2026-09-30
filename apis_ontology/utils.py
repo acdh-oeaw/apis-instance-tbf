@@ -72,6 +72,64 @@ def get_history_model(model_name, name_prefix="Version"):
     return history_model_class
 
 
+def split_tbit_language_tag(full_language_tag):
+    """
+    Split TBit language information into a primary language and its variety
+    where applicable.
+
+    Primary languages are represented by ISO 639-1 two-letter codes.
+    Varieties can be either region subtags using ISO 3166-1 alpha-2 codes,
+    or script subtags using ISO 15924 codes.
+
+    In TBit, primary languages and varieties are typically separated by an
+    underscore instead of a hyphen, and all characters are lowercased.
+
+    :param tbit_language_tag: a TBit language tag, e.g. "fr" or "pt_br" or "zh_hans"
+    :type tbit_language_tag: str
+    :return: a tuple containing strings for the primary language and variety,
+             or empty strings if the input is empty or invalid
+    :rtype: tuple
+    """
+    if not full_language_tag:
+        return "", ""
+
+    parts = full_language_tag.lower().split("_")
+
+    primary_language = parts[0] if len(parts) > 0 else ""
+    variety = parts[1] if len(parts) > 1 else ""
+
+    return primary_language, variety
+
+
+def combine_language_subtags_for_tbit(primary_language, variety):
+    """
+    Variation of IETF BCP 47 full language tag formatted for
+    Thomas Bernhard in translation.
+
+    TBit uses all-lowercase characters for language information as well as
+    underscores instead of hyphens to separate subtags for primary language
+    and varieties. This method combines any subtags into a full language
+    tag following this format.
+
+    Examples: "en" for English,
+              "pt_br" (instead of pt-BR) for Brazilian Portuguese.
+
+    :return: lowercased full language tag, separating base language
+             from varieties with underscores, e.g. "en", "pt_br"
+    :rtype: str
+    """
+    primary_language = primary_language.lower() or ""
+    variety = variety.lower() or ""
+
+    if not primary_language:
+        return ""
+
+    if not variety:
+        return primary_language
+
+    return f"{primary_language}_{variety}"
+
+
 def get_matching_primary_language_code(language):
     """
     Compare a language code string to the "primary_language" codes
