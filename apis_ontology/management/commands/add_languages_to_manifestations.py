@@ -77,6 +77,7 @@ class Command(BaseCommand):
         updated_count = 0
         skipped_count = 0
         error_count = 0
+        warning_count = 0
 
         for m in manifestations:
             m_id = m.id
@@ -118,6 +119,15 @@ class Command(BaseCommand):
                     else ""
                 )
 
+                if language_variety_raw and not language_variety:
+                    self.stdout.write(
+                        self.style.WARNING(
+                            f"Could not find matching language variety for '{language_variety_raw}'"
+                        )
+                    )
+                    warning_count += 1
+                    continue
+
                 if not dry_run:
                     m.primary_language = primary_language
                     m.language_variety = language_variety
@@ -148,6 +158,8 @@ class Command(BaseCommand):
         self.stdout.write(
             self.style.WARNING(f"  Skipped (no language data): {skipped_count}")
         )
-        if error_count > 0:
+        if error_count > 0 or warning_count > 0:
             self.stdout.write(self.style.ERROR(f"  Errors: {error_count}"))
+        if warning_count > 0:
+            self.stdout.write(self.style.ERROR(f"  Warnings: {warning_count}"))
         self.stdout.write(self.style.SUCCESS("=" * 60))
