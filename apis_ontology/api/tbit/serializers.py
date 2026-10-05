@@ -16,6 +16,7 @@ from apis_ontology.models import (
     PersonIsTranslatorOfExpression,
     Work,
 )
+from apis_ontology.utils import combine_language_subtags_for_tbit
 
 
 class BaseModelSerializer(GenericHyperlinkedModelSerializer):
@@ -149,31 +150,13 @@ class ManifestationSerializer(BaseModelSerializer, ShortTitleMixin, ModelSeriali
 
     def get_language(self, obj):
         """
-        Variation of IETF BCP 47 full language tag formatted for
-        Thomas Bernhard in translation.
-
-        TBit uses all-lowercase characters for language information as well as
-        underscores instead of hyphens to separate subtags for primary language
-        and varieties. This method combines any subtags into a full language
-        tag using this format.
-
-        Examples: "en" for English,
-                  "pt_br" (instead of pt-BR) for Brazilian Portuguese.
-
-        :return: lowercased full language tag, separating base language
-                 from varieties with underscores, e.g. "en", "pt_br"
-        :rtype: str
+        Combine values stored in Manifestation fields "primary_language" and
+        "language_variety" to replicate TBit's "language" value.
         """
-        primary_language = obj.primary_language.lower() or ""
-        language_variety = obj.language_variety.lower() or ""
-
-        if not primary_language:
-            return ""
-
-        if not language_variety:
-            return primary_language
-
-        return f"{primary_language}_{language_variety}"
+        return combine_language_subtags_for_tbit(
+            obj.primary_language.lower() or "",
+            obj.language_variety.lower() or "",
+        )
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)
