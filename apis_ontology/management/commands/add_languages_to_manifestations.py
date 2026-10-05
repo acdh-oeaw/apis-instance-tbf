@@ -17,6 +17,7 @@ from apis_ontology.models import Manifestation
 from apis_ontology.utils import (
     get_matching_language_variety_code,
     get_matching_primary_language_code,
+    split_tbit_language_tag,
 )
 
 logger = logging.getLogger(__name__)
@@ -93,7 +94,9 @@ class Command(BaseCommand):
                 continue
 
             # parse language value, e.g. "fr" or "pt_br" or "zh_hans"
-            primary_language_raw, *language_variety_raw = language.lower().split("_")
+            primary_language_raw, language_variety_raw = split_tbit_language_tag(
+                language
+            )
 
             if not primary_language_raw:
                 self.stdout.write(
@@ -110,7 +113,7 @@ class Command(BaseCommand):
                     primary_language_raw
                 )
                 language_variety = (
-                    get_matching_language_variety_code(language_variety_raw[0])
+                    get_matching_language_variety_code(language_variety_raw)
                     if language_variety_raw
                     else ""
                 )
