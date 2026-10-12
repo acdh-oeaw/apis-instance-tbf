@@ -92,6 +92,20 @@ known-first-party = ["apis_ontology"]
 "**/settings.py" = ["F405"]
 "**/migrations/*" = ["I001"]
 
+[tool.pylint]
+output-format = "no-header"
+disable = ["all"]
+enable = [
+    "E0401", # import-error
+    "E0402", # relative-import
+    "E0602", # undefined-variable
+    "E0611", # no-name-in-module
+    "E1101", # no-member
+]
+ignore-paths = [
+    ".venv",
+]
+
 [tool.hatch.build.targets.sdist]
 include = [
     "/apis_ontology",
