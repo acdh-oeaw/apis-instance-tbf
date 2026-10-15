@@ -14,7 +14,7 @@ from django.core.management.base import BaseCommand, CommandError
 
 from apis_ontology.models import Person
 
-from . import GND_URL, TB_GND_ID, TB_WD_ID, WIKIDATA_URL
+from .utils import GND_URL, TB_GND_ID, TB_WD_ID, WIKIDATA_URL
 
 logger = logging.getLogger(__name__)
 
