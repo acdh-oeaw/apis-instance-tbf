@@ -1,4 +1,3 @@
-import json
 import logging
 
 from apis_core.uris.models import Uri
@@ -18,7 +17,7 @@ from apis_ontology.models import (
     Work,
     WorkIsRealisedInExpression,
 )
-from apis_ontology.utils import delete_objects, get_ct
+from apis_ontology.utils import delete_objects, get_ct, load_json_file
 
 from . import GND_URL, WIKIDATA_URL
 
@@ -115,14 +114,18 @@ class Command(BaseCommand):
         # run mgmt command which ensures Thomas Bernhard instance exists
         call_command("create_tb")
 
-        with open(PUBLICATIONS) as f:
-            publications = json.load(f)
-        with open(TRANSLATIONS) as f:
-            translations = json.load(f)
-        with open(TRANSLATORS) as f:
-            translators = json.load(f)
-        with open(WORKS) as f:
-            t_works = json.load(f)
+        publications = load_json_file(PUBLICATIONS)
+        translations = load_json_file(TRANSLATIONS)
+        translators = load_json_file(TRANSLATORS)
+        t_works = load_json_file(WORKS)
+
+        if not publications or not translations or not translators or not t_works:
+            self.stdout.write(
+                self.style.ERROR(
+                    f"One or more required TBit JSON files not found: {PUBLICATIONS}, {TRANSLATIONS}, {TRANSLATORS}, {WORKS}"
+                )
+            )
+            return
 
         # clean up base data for Persons / TBit translators
         for obj in translators:

@@ -7,9 +7,7 @@ field value, then sets the "primary_language" and "language_variety" fields
 based on the "language" value in the TBit JSON.
 """
 
-import json
 import logging
-from pathlib import Path
 
 from django.core.management.base import BaseCommand
 
@@ -17,6 +15,7 @@ from apis_ontology.models import Manifestation
 from apis_ontology.utils import (
     get_matching_language_variety_code,
     get_matching_primary_language_code,
+    load_json_file,
     split_tbit_language_tag,
 )
 
@@ -44,14 +43,11 @@ class Command(BaseCommand):
                 self.style.WARNING("DRY RUN MODE - No changes will be saved")
             )
 
-        publications_path = Path(PUBLICATIONS_FILE)
-        if not publications_path.exists():
+        publications = load_json_file(PUBLICATIONS_FILE)
+
+        if not publications:
             self.stdout.write(self.style.ERROR(f"File not found: {PUBLICATIONS_FILE}"))
             return
-
-        self.stdout.write(f"Loading data from {PUBLICATIONS_FILE}...")
-        with open(publications_path, "r", encoding="utf-8") as f:
-            publications = json.load(f)
 
         self.stdout.write(f"Found {len(publications)} publications in JSON.")
 

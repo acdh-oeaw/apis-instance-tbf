@@ -1,4 +1,3 @@
-import json
 import logging
 
 from apis_core.apis_entities.utils import get_entity_classes
@@ -24,7 +23,12 @@ from apis_ontology.models import (
     PosterPromotedPerformance,
     Work,
 )
-from apis_ontology.utils import delete_objects, get_ct, get_relation_classes
+from apis_ontology.utils import (
+    delete_objects,
+    get_ct,
+    get_relation_classes,
+    load_json_file,
+)
 
 from . import GND_URL
 
@@ -207,10 +211,14 @@ class Command(BaseCommand):
         # run mgmt command which ensures Thomas Bernhard instance exists
         call_command("create_tb")
 
-        with open(OPENREFINE_EXPORT) as f:
-            posters_raw_data = json.load(f)
+        posters_raw_data = load_json_file(OPENREFINE_EXPORT)
 
-            for row in posters_raw_data["rows"]:
+        if not posters_raw_data:
+            self.stdout.write(self.style.ERROR(f"File not found: {OPENREFINE_EXPORT}"))
+            return
+
+        if rows := posters_raw_data.get("rows", []):
+            for row in rows:
                 title = row["title"] or ""  # Poster, Event/Performance field "label"
                 notes = row["notes"] or ""  # Poster field
                 signature = row["signature"] or ""  # Poster field
