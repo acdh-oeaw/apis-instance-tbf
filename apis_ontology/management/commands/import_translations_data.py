@@ -19,14 +19,16 @@ from apis_ontology.models import (
 )
 from apis_ontology.utils import delete_objects, get_ct, load_json_file
 
-from .utils import GND_URL, WIKIDATA_URL
+from .utils import (
+    GND_URL,
+    TBIT_PUBLICATIONS,
+    TBIT_TRANSLATIONS,
+    TBIT_TRANSLATORS,
+    TBIT_WORKS,
+    WIKIDATA_URL,
+)
 
 logger = logging.getLogger(__name__)
-
-PUBLICATIONS = "data/translations/publications.json"
-WORKS = "data/translations/works.json"
-TRANSLATIONS = "data/translations/translations.json"
-TRANSLATORS = "data/translations/translators.json"
 
 
 def split_publication_details(input_string: str):
@@ -114,15 +116,15 @@ class Command(BaseCommand):
         # run mgmt command which ensures Thomas Bernhard instance exists
         call_command("create_tb")
 
-        publications = load_json_file(PUBLICATIONS)
-        translations = load_json_file(TRANSLATIONS)
-        translators = load_json_file(TRANSLATORS)
-        t_works = load_json_file(WORKS)
+        publications = load_json_file(TBIT_PUBLICATIONS)
+        translations = load_json_file(TBIT_TRANSLATIONS)
+        translators = load_json_file(TBIT_TRANSLATORS)
+        t_works = load_json_file(TBIT_WORKS)
 
         if not publications or not translations or not translators or not t_works:
             self.stdout.write(
                 self.style.ERROR(
-                    f"One or more required TBit JSON files not found: {PUBLICATIONS}, {TRANSLATIONS}, {TRANSLATORS}, {WORKS}"
+                    f"One or more required TBit JSON files not found: {TBIT_PUBLICATIONS}, {TBIT_TRANSLATIONS}, {TBIT_TRANSLATORS}, {TBIT_WORKS}"
                 )
             )
             return

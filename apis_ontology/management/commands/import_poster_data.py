@@ -30,11 +30,9 @@ from apis_ontology.utils import (
     load_json_file,
 )
 
-from .utils import GND_URL
+from .utils import GND_URL, OPENREFINE_POSTERS_EXPORT
 
 logger = logging.getLogger(__name__)
-
-OPENREFINE_EXPORT = "data/posters/FTB_posters_initial_catalogue_refined.json"
 
 
 def add_text(text_value, new_text):
@@ -211,10 +209,12 @@ class Command(BaseCommand):
         # run mgmt command which ensures Thomas Bernhard instance exists
         call_command("create_tb")
 
-        posters_raw_data = load_json_file(OPENREFINE_EXPORT)
+        posters_raw_data = load_json_file(OPENREFINE_POSTERS_EXPORT)
 
         if not posters_raw_data:
-            self.stdout.write(self.style.ERROR(f"File not found: {OPENREFINE_EXPORT}"))
+            self.stdout.write(
+                self.style.ERROR(f"File not found: {OPENREFINE_POSTERS_EXPORT}")
+            )
             return
 
         if rows := posters_raw_data.get("rows", []):
