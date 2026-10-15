@@ -4,6 +4,7 @@ Utility/helper functions.
 
 import inspect
 import logging
+from pathlib import Path
 
 from apis_core.apis_entities.utils import get_entity_classes
 from apis_core.apis_metainfo.models import RootObject
@@ -168,6 +169,32 @@ def get_matching_language_variety_code(variety):
         return match[0]
 
     return ""
+
+
+def load_json_file(file_path):
+    """
+    Load a JSON file and return its contents as a Python object.
+
+    :param file_path: path to the JSON file
+    :type file_path: str or Path
+    :return: the contents of the JSON file as a Python object
+    :rtype: dict or list
+    """
+    import json
+
+    if isinstance(file_path, str):
+        file_path = Path(file_path)
+
+    if not file_path.exists():
+        logger.error(f"File not found: {file_path}")
+        return None
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        logger.error(f"Error decoding JSON from {file_path}: {e}")
+        return None
 
 
 def delete_objects(
