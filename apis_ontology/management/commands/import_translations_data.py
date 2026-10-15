@@ -19,7 +19,7 @@ from apis_ontology.models import (
 )
 from apis_ontology.utils import delete_objects, get_ct, load_json_file
 
-from . import GND_URL, WIKIDATA_URL
+from .utils import GND_URL, WIKIDATA_URL
 
 logger = logging.getLogger(__name__)
 

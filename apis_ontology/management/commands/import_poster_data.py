@@ -30,7 +30,7 @@ from apis_ontology.utils import (
     load_json_file,
 )
 
-from . import GND_URL
+from .utils import GND_URL
 
 logger = logging.getLogger(__name__)
 
