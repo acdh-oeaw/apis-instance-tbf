@@ -19,9 +19,9 @@ from apis_ontology.utils import (
     split_tbit_language_tag,
 )
 
-logger = logging.getLogger(__name__)
+from .utils import TBIT_PUBLICATIONS
 
-PUBLICATIONS_FILE = "data/translations/publications.json"
+logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
@@ -43,10 +43,10 @@ class Command(BaseCommand):
                 self.style.WARNING("DRY RUN MODE - No changes will be saved")
             )
 
-        publications = load_json_file(PUBLICATIONS_FILE)
+        publications = load_json_file(TBIT_PUBLICATIONS)
 
         if not publications:
-            self.stdout.write(self.style.ERROR(f"File not found: {PUBLICATIONS_FILE}"))
+            self.stdout.write(self.style.ERROR(f"File not found: {TBIT_PUBLICATIONS}"))
             return
 
         self.stdout.write(f"Found {len(publications)} publications in JSON.")
