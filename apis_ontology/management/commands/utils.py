@@ -1,3 +1,7 @@
+"""
+Utility/helper functions specific to management commands.
+"""
+
 GND_URL = "https://d-nb.info/gnd/"
 WIKIDATA_URL = "http://www.wikidata.org/entity/"
 
