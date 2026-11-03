@@ -101,7 +101,7 @@ APIS_TYPESENSE = {
     "document_batch_size": 100,  # queryset iterator chunk size
     # --- Collection metadata (see below) ---
     "metadata": {
-        "owners": ["matthias.schloegl@oeaw.ac.at", "k.kollmann@oeaw.ac.at"],
+        "owners": ["matthias.schloegl@oeaw.ac.at", "dev-kk@oeaw.ac.at"],
         "description": "Testindex for Thomas Bernhard Online",
         "service_ids": [23795],
     },
