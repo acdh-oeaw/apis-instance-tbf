@@ -8,10 +8,23 @@ from apis_typesense.fields import (
 )
 from apis_typesense.models import ModelField, ModelSerializer
 from django.contrib.postgres.expressions import ArraySubquery
-from django.db.models import Case, F, OuterRef, Subquery, Value, When
-from django.db.models.functions import Concat, JSONObject
+from django.db.models import (
+    Case,
+    CharField,
+    Exists,
+    F,
+    OuterRef,
+    Subquery,
+    Value,
+    When,
+)
+from django.db.models.functions import Cast, Concat, ExtractYear, JSONObject
 
 from apis_ontology.models import (
+    Event,
+    EventHadParticipantGroup,
+    EventHadParticipantPerson,
+    EventWasMotivatedByWork,
     Expression,
     Group,
     GroupIsPublisherOfManifestation,
@@ -27,6 +40,7 @@ from apis_ontology.models import (
     PersonIsTranslatorOfExpression,
     Poster,
     PosterPromotedEvent,
+    PosterPromotedPerformance,
     Work,
     WorkIsRealisedInExpression,
 )
@@ -58,8 +72,8 @@ expressions = Expression.objects.all().annotate(
     transl=ArraySubquery(transl_of),
     language_man=Subquery(exp_man.values("language")),
     year=Subquery(exp_man.values("year")),
-    manifestations=ArraySubquery(exp_man_2),
 )
+transl = expressions.exclude(transl__len=0)
 
 persons = Person.objects.all().annotate(label=Concat("forename", Value(" "), "surname"))
 persons_rel = Person.objects.filter(pk=OuterRef("obj_object_id")).annotate(
@@ -111,6 +125,7 @@ man_work_year = WorkIsRealisedInExpression.objects.filter(
 works = Work.objects.all().annotate(
     author=ArraySubquery(author_of), year=Subquery(man_work_year.values("year")[:1])
 )
+works_bernhard = works.filter(author__contains=[1])
 
 manifest_publishers = GroupIsPublisherOfManifestation.objects.filter(
     obj_object_id=OuterRef("pk")
@@ -118,20 +133,62 @@ manifest_publishers = GroupIsPublisherOfManifestation.objects.filter(
 
 group_man = Group.objects.filter(id=OuterRef("subj_object_id"))[:1]
 
-manifestations = Manifestation.objects.all().annotate(
+publications = Manifestation.objects.all().annotate(
+    year=ExtractYear("publication_date_date_sort"),
+    # only expressions with a translator are indexed in TranslationCollection
+    translations=ArraySubquery(
+        ManifestationEmbodiesExpression.objects.filter(
+            Exists(
+                PersonIsTranslatorOfExpression.objects.filter(
+                    obj_object_id=OuterRef("obj_object_id")
+                )
+            ),
+            subj_object_id=OuterRef("pk"),
+        ).values_list("obj_object_id", flat=True)
+    ),
     language=Case(
         When(language_variety="", then=F("primary_language")),
         default=Concat("primary_language", Value("_"), "language_variety"),
     ),
-    publishers_id=ArraySubquery(
-        manifest_publishers.values_list("subj_object_id", flat=True)
-    ),
-    publishers=ArraySubquery(
+    publisher=Subquery(
         manifest_publishers.annotate(
-            id_group=Subquery(group_man.values("id")),
+            id_group=Cast("subj_object_id", CharField()),
             name_group=Subquery(group_man.values("label")),
-        ).values(json=JSONObject(id="id_group", label="name_group"))
+        ).values(json=JSONObject(id="id_group", label="name_group"))[:1]
     ),
+)
+
+ev_group = EventHadParticipantGroup.objects.filter(subj_object_id=OuterRef("pk"))[:1]
+ev_participant = (
+    EventHadParticipantPerson.objects.filter(subj_object_id=OuterRef("pk"))
+    .annotate(
+        part_id=Subquery(persons_rel[:1].values("id")),
+        part_label=Subquery(persons_rel[:1].values("label")),
+    )
+    .values(json=JSONObject(id="part_id", label="part_label"))
+)
+ev_work = EventWasMotivatedByWork.objects.filter(subj_object_id=OuterRef("pk"))[:1]
+events = Event.objects.all().annotate(
+    work_id=Subquery(ev_work.values("obj_object_id")),
+    participants=ArraySubquery(ev_participant),
+    location=Subquery(ev_group.values("obj_object_id")),
+)
+poster_work = (
+    PosterPromotedPerformance.objects.filter(subj_object_id=OuterRef("pk"))
+    .annotate(
+        work_id=Subquery(
+            PerformancePerformedWork.objects.filter(
+                subj_object_id=OuterRef("obj_object_id")
+            ).values("obj_object_id")[:1]
+        )
+    )
+    .values("work_id")[:1]
+)
+poster_perf = PosterPromotedPerformance.objects.filter(
+    subj_object_id=OuterRef("pk")
+).values("obj_object_id")[:1]
+posters = Poster.objects.all().annotate(
+    work_id=Subquery(poster_work), performance_id=Subquery(poster_perf)
 )
 
 
@@ -146,25 +203,17 @@ class WorkCollection(BaseCollection):
     category: TypesenseField = TypesenseField(
         type="string", field_name="tbit_category", optional=True, facet=True
     )
-    author_ids: TypesenseField = TypesenseField(
-        type="string[]",
-        optional=True,
-        field_name="author",
-        reference="tbo_person.id",
-        async_reference=True,
-        cascade_delete=False,
-    )
     year: TypesenseField = TypesenseField(
         type="int32", optional=True, field_name="year", sort=True, facet=True
     )
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
 
-    default_models = [(works, {"filter": {}, "exclude": {}})]
+    default_models = [(works_bernhard, {"filter": {}, "exclude": {}})]
     collection_name = "work"
     default_sorting_field = "title"
 
 
-class ExpressionCollection(BaseCollection):
+class TranslationCollection(BaseCollection):
     id: TypesenseField = TypesenseField(type="string", field_name="pk")
     work_id: TypesenseField = TypesenseField(
         type="string",
@@ -178,7 +227,7 @@ class ExpressionCollection(BaseCollection):
     language: EnumField = EnumField(
         source="index", type="string", field_name="language_man", facet=True
     )
-    type: FixedStringField = FixedStringField(value="expression", type="string")
+    type: FixedStringField = FixedStringField(value="translation", type="string")
     translator_ids: TypesenseField = TypesenseField(
         type="string[]",
         optional=True,
@@ -188,21 +237,12 @@ class ExpressionCollection(BaseCollection):
         cascade_delete=False,
         facet=True,
     )
-    manifestation_ids: TypesenseField = TypesenseField(
-        type="string[]",
-        optional=True,
-        field_name="manifestations",
-        reference="tbo_manifestation.id",
-        async_reference=True,
-        cascade_delete=False,
-        facet=True,
-    )
     year: TypesenseField = TypesenseField(
         type="int32", optional=True, field_name="year", sort=True, facet=True
     )
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
-    default_models = [(expressions, {"filter": {}, "exclude": {}})]
-    collection_name = "expression"
+    default_models = [(transl, {"filter": {}, "exclude": {}})]
+    collection_name = "translation"
     default_sorting_field = "title"
 
 
@@ -251,34 +291,74 @@ class PerformanceCollection(BaseCollection):
         facet=True,
     )
 
-    dates: FuzzyDateField = FuzzyDateField(field_name="date_range", optional=True)
+    dates: FuzzyDateField = FuzzyDateField(field_name="date_range")
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
     default_models = [(performance, {"filter": {}, "exclude": {}})]
     collection_name = "performance"
     default_sorting_field = "title"
 
 
-class PersonCollection(BaseCollection):
+class EventCollection(BaseCollection):
     id: TypesenseField = TypesenseField(type="string", field_name="pk")
-    name: TypesenseField = TypesenseField(type="string", field_name="label", sort=True)
-    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
-    default_models = [(persons, {"filter": {}, "exclude": {}})]
-    collection_name = "person"
-    default_sorting_field = "name"
+    work_id: TypesenseField = TypesenseField(
+        type="string",
+        optional=True,
+        field_name="work_id",
+        reference="tbo_work.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
+    title: TypesenseField = TypesenseField(type="string", sort=True, field_name="label")
+    type_of_event: EnumField = EnumField(
+        source="index", type="string", sort=True, facet=True, field_name="event_type"
+    )
+    type: FixedStringField = FixedStringField(value="event", type="string")
+    participant_ids: ModelField = ModelField(
+        type="object[]",
+        optional=True,
+        model=EntityModel(),
+        accessor="participants",
+        facet=True,
+    )
+    location_id: TypesenseField = TypesenseField(
+        type="string",
+        optional=True,
+        field_name="location",
+        reference="tbo_group.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
 
-
-class GroupCollection(BaseCollection):
-    id: TypesenseField = TypesenseField(type="string", field_name="pk")
-    name: TypesenseField = TypesenseField(type="string", field_name="label", sort=True)
+    dates: FuzzyDateField = FuzzyDateField(field_name="date_range")
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
-    default_models = [(Group.objects.all(), {"filter": {}, "exclude": {}})]
-    collection_name = "group"
-    default_sorting_field = "name"
+    default_models = [(events, {"filter": {}, "exclude": {}})]
+    collection_name = "event"
+    default_sorting_field = "title"
 
 
 class PosterCollection(BaseCollection):
     id: TypesenseField = TypesenseField(type="string", field_name="pk")
-    name: TypesenseField = TypesenseField(type="string", field_name="label", sort=True)
+    work_id: TypesenseField = TypesenseField(
+        type="string",
+        field_name="work_id",
+        reference="tbo_work.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
+    title: TypesenseField = TypesenseField(type="string", sort=True, field_name="label")
+    type: FixedStringField = FixedStringField(value="poster", type="string")
+    performance_id: TypesenseField = TypesenseField(
+        type="string",
+        optional=True,
+        field_name="performance_id",
+        reference="tbo_performance.id",
+        async_reference=True,
+        cascade_delete=False,
+        facet=True,
+    )
     year: TypesenseField = TypesenseField(
         type="int32", field_name="year", optional=True, sort=True, facet=True
     )
@@ -290,13 +370,14 @@ class PosterCollection(BaseCollection):
         facet=True,
         sort=True,
     )
+
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
-    default_models = [(Poster.objects.all(), {"filter": {}, "exclude": {}})]
+    default_models = [(posters, {"filter": {}, "exclude": {}})]
     collection_name = "poster"
-    default_sorting_field = "name"
+    default_sorting_field = "title"
 
 
-class ManifestationCollection(BaseCollection):
+class PublicationCollection(BaseCollection):
     id: TypesenseField = TypesenseField(type="string", field_name="pk")
     title: TypesenseField = TypesenseField(type="string", field_name="title", sort=True)
     subtitle: TypesenseField = TypesenseField(
@@ -317,26 +398,62 @@ class ManifestationCollection(BaseCollection):
     language: EnumField = EnumField(
         type="string", field_name="language", source="index", facet=True
     )
-    publication_date: FuzzyDateField = FuzzyDateField(
-        field_name="publication_date", optional=True
+    publication_date: FuzzyDateField = FuzzyDateField(field_name="publication_date")
+    year: TypesenseField = TypesenseField(
+        type="int32", optional=True, field_name="year", sort=True, facet=True
     )
-    publisher_ids: TypesenseField = TypesenseField(
+    translations: TypesenseField = TypesenseField(
         type="string[]",
         optional=True,
-        field_name="publishers_id",
-        reference="tbo_group.id",
+        field_name="translations",
+        reference="tbo_translation.id",
         async_reference=True,
         cascade_delete=False,
         facet=True,
     )
-    publisher: ModelField = ModelField(
-        type="object[]",
-        optional=True,
-        model=EntityModel(),
-        accessor="publishers",
+    source: EnumField = EnumField(
+        type="string",
+        values=["tbit", "privatbibliothek"],
+        extractor=lambda obj: "tbit" if obj.translations else "privatbibliothek",
         facet=True,
     )
+    publisher: ModelField = ModelField(
+        type="object", optional=True, model=EntityModel(), accessor="publisher"
+    )
     sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
-    default_models = [(manifestations, {"filter": {}, "exclude": {}})]
-    collection_name = "manifestation"
+    default_models = [(publications, {"filter": {}, "exclude": {}})]
+    collection_name = "publication"
     default_sorting_field = "title"
+
+    def get_schema(self):
+        # apis_typesense does not emit nested sub-fields, so declare them here
+        schema = super().get_schema()
+        schema["fields"] += [
+            TypesenseField(
+                type="string",
+                optional=True,
+                reference="tbo_group.id",
+                async_reference=True,
+                cascade_delete=False,
+            ).to_schema("publisher.id"),
+            TypesenseField(type="string", optional=True).to_schema("publisher.name"),
+        ]
+        return schema
+
+
+class PersonCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    name: TypesenseField = TypesenseField(type="string", field_name="label", sort=True)
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(persons, {"filter": {}, "exclude": {}})]
+    collection_name = "person"
+    default_sorting_field = "name"
+
+
+class GroupCollection(BaseCollection):
+    id: TypesenseField = TypesenseField(type="string", field_name="pk")
+    name: TypesenseField = TypesenseField(type="string", field_name="label", sort=True)
+    sameas: SameAsField = SameAsField(domain="tb-online.acdh-dev.oeaw.ac.at")
+    default_models = [(Group.objects.all(), {"filter": {}, "exclude": {}})]
+    collection_name = "group"
+    default_sorting_field = "name"
