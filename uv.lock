@@ -99,7 +99,7 @@ wheels = [
 
 [[package]]
 name = "apis-core-rdf"
-version = "0.67.5"
+version = "0.68.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acdh-arche-assets" },
@@ -115,14 +115,15 @@ dependencies = [
     { name = "djangorestframework" },
     { name = "drf-spectacular" },
     { name = "httpx" },
+    { name = "psycopg", extra = ["binary"] },
     { name = "pydantic" },
     { name = "pydot" },
     { name = "rdflib" },
     { name = "tablib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/85/c2/bab36d9866552f4f72bcc64d58fd2efb270974bc24953f9d4c9fa99aa124/apis_core_rdf-0.67.5.tar.gz", hash = "sha256:cea672b5b1540e05e34fbf8769c548b441b70a9b382f4cb7245baa67b0618133", size = 335840, upload-time = "2026-09-07T10:18:07.521Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/c8/3d257eaa3e7f9c701335719039fb975c7b1cf8ff0d973967d260b6dec3ca/apis_core_rdf-0.68.1.tar.gz", hash = "sha256:62f8b42d7e7023e6e25f2e780608b69c02fc1260364a8bc0547bcc2c62e63f92", size = 347220, upload-time = "2026-09-09T07:22:44.663Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f1/0f/de5035954d0a3eba547efa128d873a29ed48fe5e81ea6f10747f2562bd1e/apis_core_rdf-0.67.5-py3-none-any.whl", hash = "sha256:dfc5f42b488aa1056dcb219e6e6563b18a7354e8bc19c173ab1f95b4582fd832", size = 301828, upload-time = "2026-09-07T10:18:05.925Z" },
+    { url = "https://files.pythonhosted.org/packages/88/e8/5c20095ab9472a4f999583169715917bad0f440797bb5971c6e0913e9195/apis_core_rdf-0.68.1-py3-none-any.whl", hash = "sha256:9b3591bd902360181c326c6ec3972db254da895e3095468040203deb125d912b", size = 314897, upload-time = "2026-09-09T07:22:42.99Z" },
 ]
 
 [[package]]
@@ -164,7 +165,7 @@ lint = [
 [package.metadata]
 requires-dist = [
     { name = "apis-acdhch-default-settings", specifier = ">=2.23.0,<2.24" },
-    { name = "apis-core-rdf", specifier = ">=0.67.5,<0.68" },
+    { name = "apis-core-rdf", specifier = ">=0.68.1,<0.69" },
     { name = "apis-typesense", specifier = ">=0.2.2", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
     { name = "psycopg", specifier = ">=3.3.6,<3.4" },
@@ -1485,6 +1486,11 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/76/26/3ea4ca5eaea1c0debcdf7ee7c1613fbe721dc27a03c461c0817ffd8a0601/psycopg-3.3.6.tar.gz", hash = "sha256:c081f2250df751a943036e42db6df4571c66cd0aabe8291a7a506512b12007d2", size = 168171, upload-time = "2026-09-18T13:22:55.152Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/4e/de/748bd7609c71cae5d737f0ba9192f19329f70180ecda8fff3cac02c5abe3/psycopg-3.3.6-py3-none-any.whl", hash = "sha256:a1db9f7148b06a28606767efaca51fa6f9398c5c0a3810519be69d7000bdb631", size = 215490, upload-time = "2026-09-18T13:15:29.374Z" },
+]
+
+[package.optional-dependencies]
+binary = [
+    { name = "psycopg-binary", marker = "implementation_name != 'pypy'" },
 ]
 
 [[package]]
