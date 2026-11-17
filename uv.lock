@@ -54,7 +54,7 @@ wheels = [
 
 [[package]]
 name = "apis-acdhch-default-settings"
-version = "2.23.0"
+version = "2.24.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "apis-acdhch-django-auditlog" },
@@ -79,9 +79,9 @@ dependencies = [
     { name = "requests" },
     { name = "whitenoise" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/18/ba/ab5d32f1050bca395ca273060751b646dd5be7cfdcb6d103257e8c7c7376/apis_acdhch_default_settings-2.23.0.tar.gz", hash = "sha256:f2322f31d0978cf16e58cefbdad57bf18be4f068799d704488ec94cf021597db", size = 16840, upload-time = "2026-09-08T08:20:32.846Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8c/9a/d472caf595655ecb8a20d7245fb1a6b218c82146326199d8e5b7d5ab7c47/apis_acdhch_default_settings-2.24.2.tar.gz", hash = "sha256:8bc6d8836c568d56091be4ddb79b42560290454791c4d38c967611af2212dd73", size = 17217, upload-time = "2026-11-09T09:57:21.351Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/03/5b/2d1a25fc85eae3ea426c1299088f3209890e6706a5b90c19c97f0f2a2f55/apis_acdhch_default_settings-2.23.0-py3-none-any.whl", hash = "sha256:8356f4680e2cf4cafe525d5d9df0f3074bcbe2d24f1587229a2c4031fe62b040", size = 12307, upload-time = "2026-09-08T08:20:31.733Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/9a/26050403b8e6d3cc03d38b1ab4775fce5fce417d8a6b93d9fc617de27fee/apis_acdhch_default_settings-2.24.2-py3-none-any.whl", hash = "sha256:f02635440659c340c9046bc00a00f51e27dc18b9d1530dd2b1968143e769d76f", size = 12322, upload-time = "2026-11-09T09:57:20.054Z" },
 ]
 
 [[package]]
@@ -164,7 +164,7 @@ lint = [
 
 [package.metadata]
 requires-dist = [
-    { name = "apis-acdhch-default-settings", specifier = ">=2.23.0,<2.24" },
+    { name = "apis-acdhch-default-settings", specifier = ">=2.24.2,<2.25" },
     { name = "apis-core-rdf", specifier = ">=0.68.1,<0.69" },
     { name = "apis-typesense", specifier = ">=0.2.2", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
