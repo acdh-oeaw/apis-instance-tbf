@@ -5,6 +5,7 @@
 .python-version
 
 # settings files / local development
+.venv*
 .env*
 **local**
 /apis_core
@@ -15,6 +16,7 @@
 __pycache__/
 *.mo
 *.pot
+*.egg
 
 # publishing
 dist
