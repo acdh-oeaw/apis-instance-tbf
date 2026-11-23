@@ -297,6 +297,14 @@ class Expression(LanguageMixin, TitlesMixin, BaseEntity):
     https://www.cidoc-crm.org/extensions/lrmoo/html/LRMoo_v1.0.html#F2
     """
 
+    tbit_id = models.CharField(
+        blank=True,
+        default="",
+        max_length=5,
+        verbose_name=_("TBit ID"),
+        help_text=_('ID of "Thomas Bernhard in translation" translations'),
+    )
+
     class Meta(TitlesMixin.Meta):
         verbose_name = _("expression")
         verbose_name_plural = _("expressions")
