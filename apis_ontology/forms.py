@@ -63,6 +63,14 @@ class WorkForm(BaseModelForm):
         exclude = ["tbit_category"]
 
 
+class ExpressionForm(BaseModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        if self.instance and self.instance.pk:
+            self.fields["tbit_id"].disabled = True
+
+
 class ManifestationForm(BaseModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
