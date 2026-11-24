@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 12:18+0100\n"
+"POT-Creation-Date: 2026-11-24 10:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -321,6 +321,14 @@ msgstr "Werk"
 #: apis_ontology/models.py
 msgid "works"
 msgstr "Werke"
+
+#: apis_ontology/models.py
+msgid "TBit ID"
+msgstr "TBit ID"
+
+#: apis_ontology/models.py
+msgid "ID of \"Thomas Bernhard in translation\" translations"
+msgstr "ID von \"Thomas Bernhard in translation\"-Translationen"
 
 #: apis_ontology/models.py
 msgid "expression"
