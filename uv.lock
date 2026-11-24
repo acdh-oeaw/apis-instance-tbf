@@ -135,6 +135,7 @@ dependencies = [
     { name = "apis-core-rdf" },
     { name = "apis-typesense" },
     { name = "django-interval" },
+    { name = "imgproxy" },
     { name = "psycopg" },
     { name = "psycopg-binary" },
 ]
@@ -168,6 +169,7 @@ requires-dist = [
     { name = "apis-core-rdf", specifier = ">=0.68.1,<0.69" },
     { name = "apis-typesense", specifier = ">=0.2.2", index = "https://gitlab.oeaw.ac.at/api/v4/projects/681/packages/pypi/simple" },
     { name = "django-interval", specifier = ">=0.5.4,<0.5.5" },
+    { name = "imgproxy", specifier = "~=1.0.0" },
     { name = "psycopg", specifier = ">=3.3.6,<3.4" },
     { name = "psycopg-binary", specifier = ">=3.3.6,<3.4" },
 ]
@@ -887,6 +889,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/fb/5e/513ff06670c84e7b9887c1fdf61b2d42b4f574a831f2f1d2222023049d8a/imagesize-2.0.1.tar.gz", hash = "sha256:b2ba6a4dea487a7ebcd53248d3476aca449d30db12a2dde5e0c5ca9624fd77e5", size = 1883774, upload-time = "2026-08-24T12:35:19.13Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/01/f9/575c8d760eae1fc99651b7cc5efd96ad5379ca4d6b53750b0fb4fe983f34/imagesize-2.0.1-py3-none-any.whl", hash = "sha256:ea0c9a0384df69ed86a943a15cde37d0360b82491b3910dc2215e202e62b5b02", size = 14794, upload-time = "2026-08-24T12:35:12.548Z" },
+]
+
+[[package]]
+name = "imgproxy"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cd/5b/1a12a2c5af1f1c42133b126811cf2f382ac21ed46cd86ca9c5fca338840e/imgproxy-1.0.0.tar.gz", hash = "sha256:f2e34b0da688284ad3a1e7ccd907b1038285001832362fb64cd2bd39c6c952e3", size = 4593, upload-time = "2021-11-08T12:59:45.372Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e3/17/7188d1a8030966ab01c817e7dffe8dd745098e9ce2998cc966616479179b/imgproxy-1.0.0-py3-none-any.whl", hash = "sha256:18d3686c1b8f976906192e7bbdcd44dca305600e3e338fab68c30ee9a4102ded", size = 4465, upload-time = "2021-11-08T12:59:44.041Z" },
 ]
 
 [[package]]

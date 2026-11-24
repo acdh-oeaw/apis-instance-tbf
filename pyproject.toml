@@ -12,6 +12,7 @@ dependencies = [
     "apis-core-rdf>=0.68.1,<0.69",
     "apis-typesense>=0.2.2",
     "django-interval>=0.5.4,<0.5.5",
+    "imgproxy~=1.0.0",
     "psycopg-binary>=3.3.6,<3.4",
     "psycopg>=3.3.6,<3.4",
 ]
