@@ -302,7 +302,7 @@ class Expression(LanguageMixin, TitlesMixin, BaseEntity):
         default="",
         max_length=5,
         verbose_name=_("TBit ID"),
-        help_text=_('ID of "Thomas Bernhard in translation" translations'),
+        help_text=_('ID of "Thomas Bernhard in translation" translation'),
     )
 
     class Meta(TitlesMixin.Meta):
@@ -369,7 +369,7 @@ class Manifestation(LanguageMixin, TitlesMixin, BaseEntity):
         default="",
         max_length=50,
         verbose_name=_("TBit shelfmark"),
-        help_text=_('Shelfmark of "Thomas Bernhard in translation" publications'),
+        help_text=_('Shelfmark of "Thomas Bernhard in translation" publication'),
     )
 
     class Meta(TitlesMixin.Meta):
