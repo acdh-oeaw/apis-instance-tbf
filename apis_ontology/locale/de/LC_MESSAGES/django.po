@@ -324,7 +324,7 @@ msgstr "Werke"
 
 #: apis_ontology/models.py
 msgid "TBit ID"
-msgstr "TBit ID"
+msgstr "TBit-ID"
 
 #: apis_ontology/models.py
 msgid "ID of \"Thomas Bernhard in translation\" translations"
