@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-24 10:37+0100\n"
+"POT-Creation-Date: 2026-11-26 11:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: K Kollmann <dev-kk@oeaw.ac.at>\n"
 "Language-Team: \n"
@@ -273,6 +273,18 @@ msgstr "Kurzzeichen"
 msgctxt "Chinese script varieties"
 msgid "Han traditional"
 msgstr "Langzeichen"
+
+#: apis_ontology/models.py
+msgid "path"
+msgstr "Pfad"
+
+#: apis_ontology/models.py
+msgid "image path"
+msgstr "Bild Pfad"
+
+#: apis_ontology/models.py
+msgid "images paths"
+msgstr "Bilder Pfade"
 
 #: apis_ontology/models.py
 msgid "title"
