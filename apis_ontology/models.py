@@ -1,8 +1,11 @@
 from apis_core.apis_entities.models import AbstractEntity
 from apis_core.entities.abc import E21_Person, E53_Place, E74_Group, Entity
+from apis_core.generic.abc import GenericModel
 from apis_core.history.models import VersionMixin
 from apis_core.relations.models import Relation
 from apis_core.utils.rdf import load_uri_using_path
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.utils.translation import pgettext_lazy
@@ -125,6 +128,26 @@ class ChineseVarietyCodes(models.TextChoices):
 
     SIMPLIFIED = "Hans", pgettext_lazy("Chinese script varieties", "Han simplified")
     TRADITIONAL = "Hant", pgettext_lazy("Chinese script varieties", "Han traditional")
+
+
+class ImagePath(GenericModel):
+    """
+    Container for a path to an image on the imageproxy server.
+    The image is connected to exactly one other model instance via a GenericForeignKey
+    """
+
+    path = models.CharField(
+        max_length=4096, blank=True, default="", verbose_name=_("path")
+    )
+    content_type = models.ForeignKey(
+        ContentType, null=True, blank=True, on_delete=models.SET_NULL
+    )
+    object_id = models.PositiveBigIntegerField(null=True, blank=True)
+    content_object = GenericForeignKey("content_type", "object_id")
+
+    class Meta:
+        verbose_name = _("image path")
+        verbose_name_plural = _("images paths")
 
 
 class BaseEntity(VersionMixin, Entity, AbstractEntity):
