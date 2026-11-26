@@ -1,0 +1,6 @@
+{% load apis_ontology %}
+{{ object.path }}
+<p>
+  <img src="{% resized_image object.path 150 150 %}"
+       alt="{{ object.path }} on imageproxy server">
+</p>
